@@ -1,0 +1,15 @@
+
+-------------------
+ALICE TOF firmware:
+-------------------
+
+- the firmware manages HBr
+
+- the firmware manages both triggered and continuous runs (SOT-EOT, SOC-EOC)
+	- SOT-EOT: only physics triggers are accepted
+	- SOC-EOC: only special TOF-triggers are accepted
+	
+- the firmware manages RT_TT (run_type) and RS_TT (running_state) bits:
+	- if the board wakes up in the middle of a run, but RS_TT = 1, then:
+		- if RT_TT = 0, the board begins working in triggered mode
+		- if RT_TT = 1, the board begins working in continuous mode

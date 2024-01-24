@@ -1,0 +1,17 @@
+#Build: Synplify 8.2B, Build 009R, Aug 26 2005
+#install: C:\Programmi\Libero63\Synplify\Synplify_82B
+#OS: Windows XP 5.1
+#Hostname: DEVELOPER
+
+$ Start of Compile
+#Mon Dec 05 12:50:15 2005
+
+Synplicity VHDL Compiler, version 3.2.0, Build 069R, built Aug 26 2005
+Copyright (C) 1994-2005, Synplicity Inc.  All Rights Reserved
+
+@N:"C:\FrontEnd\Annalisa\work\vx1392\hdl\v1392ltm.vhd":19:7:19:14|Top entity is set to v1392ltm.
+VHDL syntax check successful!
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Dec 05 12:50:15 2005
+

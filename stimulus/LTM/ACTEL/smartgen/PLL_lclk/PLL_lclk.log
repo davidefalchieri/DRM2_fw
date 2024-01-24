@@ -1,0 +1,58 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Tue Dec 06 17:59:01 2005
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : PLL_lclk
+Family                          : PA
+Output Format                   : VHDL
+Type                            : PLL_NEW
+CLOCKS                          : PRIMARY
+Input Freq(Mhz)                 : 40.000000
+Primary Freq(Mhz)               : 40.000000
+Primary Delay Value(ns)         : 0
+PrimaryDelay Sign               : +VE
+Primary PhaseShift              : 0
+Primary Bypass                  : NO
+Secondary Input Freq(Mhz)       : 0.000000
+Secondary Freq(Mhz)             : 0.000000
+Secondary Delay Value(ns)       : 0
+SecondaryDelay Sign             : +VE
+Secondary Bypass                : NO
+FeedBack                        : Internal
+Configuration                   : Static
+
+
+
+Configuration Bits:
+FINDIV   00000
+FBDIV    000000
+OBDIV    00
+OADIV    00
+OAMUX    00
+OBMUX    100
+FBSEL    01
+FBDLY    0000
+DLYA     00
+DLYB     00
+STATASEL 0
+STATBSEL 0
+XDLYSEL  0
+
+
+input clock divider = 1.
+feedback divider = 1.
+feedback select = internal
+primary clock divider = 1.
+primary clock select = 4.
+primary clock delay line = 0.
+
+
+Written VHDL netlist to C:\FrontEnd\Annalisa\work\vx1392\actgen\PLL_lclk.vhd.
+
+ ** Log Ended:   Tue Dec 06 17:59:02 2005
+

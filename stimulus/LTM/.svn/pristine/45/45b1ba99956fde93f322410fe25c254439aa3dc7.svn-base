@@ -1,0 +1,497 @@
+TimeQuest Timing Analyzer report for VX1392_TEST
+Wed Jan 30 10:37:31 2008
+Quartus II Version 7.0 Build 33 02/05/2007 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. SDC File List
+  4. Clocks
+  5. Fmax Summary
+  6. Setup Summary
+  7. Hold Summary
+  8. Recovery Summary
+  9. Removal Summary
+ 10. Minimum Pulse Width
+ 11. Setup Transfers
+ 12. Hold Transfers
+ 13. Recovery Transfers
+ 14. Removal Transfers
+ 15. Unconstrained Paths
+ 16. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2007 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                    ;
++--------------------+-------------------------------------------------+
+; Quartus II Version ; Version 7.0 Build 33 02/05/2007 SJ Full Version ;
+; Revision Name      ; VX1392_TEST                                     ;
+; Device Family      ; Cyclone                                         ;
+; Device Name        ; EP1C20F400C6                                    ;
+; Timing Models      ; Final                                           ;
+; Delay Model        ; Slow Model                                      ;
+; Rise/Fall Delays   ; Unavailable                                     ;
++--------------------+-------------------------------------------------+
+
+
++-----------------------------------------------------+
+; SDC File List                                       ;
++-----------------+--------+--------------------------+
+; SDC File Path   ; Status ; Read at                  ;
++-----------------+--------+--------------------------+
+; VX1392_TEST.sdc ; OK     ; Wed Jan 30 10:37:29 2008 ;
++-----------------+--------+--------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clocks                                                                                                                                                                                                                                                             ;
++----------------------------------------------+-----------+--------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+----------------------------------+---------------------------------------+
+; Clock Name                                   ; Type      ; Period ; Rise  ; Fall   ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master ; Source                           ; Targets                               ;
++----------------------------------------------+-----------+--------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+----------------------------------+---------------------------------------+
+; cttm_pll:I1|altpll:altpll_component|_clk0    ; Generated ; 3.332  ; 0.000 ; 1.666  ;            ; 2         ; 15          ;       ;        ;           ;            ; false    ; SCLK   ; I1|altpll_component|pll|inclk[0] ; { I1|altpll_component|pll|clk[0] }    ;
+; cttm_pll:I1|altpll:altpll_component|_extclk0 ; Generated ; 25.000 ; 0.000 ; 12.500 ;            ; 1         ; 1           ;       ;        ;           ;            ; false    ; SCLK   ; I1|altpll_component|pll|inclk[0] ; { I1|altpll_component|pll|extclk[0] } ;
+; DPCLK[0]                                     ; Base      ; 25.000 ; 0.000 ; 12.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;                                  ; { DPCLK[0] }                          ;
+; DPCLK[1]                                     ; Base      ; 25.000 ; 0.000 ; 12.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;                                  ; { DPCLK[1] }                          ;
+; DPCLK[2]                                     ; Base      ; 25.000 ; 0.000 ; 12.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;                                  ; { DPCLK[2] }                          ;
+; DPCLK[3]                                     ; Base      ; 25.000 ; 0.000 ; 12.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;                                  ; { DPCLK[3] }                          ;
+; DPCLK[4]                                     ; Base      ; 25.000 ; 0.000 ; 12.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;                                  ; { DPCLK[4] }                          ;
+; DPCLK[5]                                     ; Base      ; 25.000 ; 0.000 ; 12.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;                                  ; { DPCLK[5] }                          ;
+; DPCLK[6]                                     ; Base      ; 25.000 ; 0.000 ; 12.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;                                  ; { DPCLK[6] }                          ;
+; DPCLK[7]                                     ; Base      ; 25.000 ; 0.000 ; 12.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;                                  ; { DPCLK[7] }                          ;
+; SCLK                                         ; Base      ; 25.000 ; 0.000 ; 12.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;                                  ; { SCLK }                              ;
++----------------------------------------------+-----------+--------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+----------------------------------+---------------------------------------+
+
+
++--------------------------------------------------------+
+; Fmax Summary                                           ;
++------------+-------------------------------------------+
+; Fmax (MHz) ; Clock Name                                ;
++------------+-------------------------------------------+
+; 317.26     ; cttm_pll:I1|altpll:altpll_component|_clk0 ;
+; 322.89     ; DPCLK[2]                                  ;
+; 320.82     ; DPCLK[7]                                  ;
+; 313.68     ; DPCLK[3]                                  ;
+; 278.4      ; DPCLK[5]                                  ;
+; 290.02     ; DPCLK[4]                                  ;
+; 31.12      ; DPCLK[0]                                  ;
+; 311.62     ; DPCLK[1]                                  ;
+; 319.08     ; DPCLK[6]                                  ;
++------------+-------------------------------------------+
+This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
+
+
++--------------------------------------------------------------------+
+; Setup Summary                                                      ;
++-------------------------------------------+--------+---------------+
+; Clock                                     ; Slack  ; End Point TNS ;
++-------------------------------------------+--------+---------------+
+; DPCLK[0]                                  ; -7.132 ; -851.837      ;
+; cttm_pll:I1|altpll:altpll_component|_clk0 ; 0.180  ; 0.000         ;
+; DPCLK[1]                                  ; 19.357 ; 0.000         ;
+; DPCLK[2]                                  ; 19.752 ; 0.000         ;
+; DPCLK[3]                                  ; 20.974 ; 0.000         ;
+; DPCLK[4]                                  ; 21.278 ; 0.000         ;
+; DPCLK[5]                                  ; 21.386 ; 0.000         ;
+; DPCLK[6]                                  ; 21.708 ; 0.000         ;
+; DPCLK[7]                                  ; 21.883 ; 0.000         ;
+; SCLK                                      ; 22.722 ; 0.000         ;
++-------------------------------------------+--------+---------------+
+
+
++-------------------------------------------------------------------+
+; Hold Summary                                                      ;
++-------------------------------------------+-------+---------------+
+; Clock                                     ; Slack ; End Point TNS ;
++-------------------------------------------+-------+---------------+
+; DPCLK[0]                                  ; 0.633 ; 0.000         ;
+; cttm_pll:I1|altpll:altpll_component|_clk0 ; 0.801 ; 0.000         ;
+; DPCLK[2]                                  ; 0.804 ; 0.000         ;
+; DPCLK[5]                                  ; 0.804 ; 0.000         ;
+; DPCLK[1]                                  ; 0.804 ; 0.000         ;
+; DPCLK[6]                                  ; 0.804 ; 0.000         ;
+; DPCLK[7]                                  ; 0.804 ; 0.000         ;
+; DPCLK[3]                                  ; 0.804 ; 0.000         ;
+; DPCLK[4]                                  ; 0.804 ; 0.000         ;
+; SCLK                                      ; 1.675 ; 0.000         ;
++-------------------------------------------+-------+---------------+
+
+
++----------------------------------+
+; Recovery Summary                 ;
++----------+-------+---------------+
+; Clock    ; Slack ; End Point TNS ;
++----------+-------+---------------+
+; DPCLK[0] ; 0.727 ; 0.000         ;
+; DPCLK[1] ; 1.326 ; 0.000         ;
+; DPCLK[3] ; 1.558 ; 0.000         ;
+; DPCLK[5] ; 1.846 ; 0.000         ;
+; DPCLK[2] ; 1.971 ; 0.000         ;
+; SCLK     ; 2.134 ; 0.000         ;
+; DPCLK[7] ; 2.210 ; 0.000         ;
+; DPCLK[4] ; 2.265 ; 0.000         ;
+; DPCLK[6] ; 2.545 ; 0.000         ;
++----------+-------+---------------+
+
+
++-----------------------------------+
+; Removal Summary                   ;
++----------+--------+---------------+
+; Clock    ; Slack  ; End Point TNS ;
++----------+--------+---------------+
+; DPCLK[0] ; 21.484 ; 0.000         ;
+; DPCLK[6] ; 22.048 ; 0.000         ;
+; DPCLK[4] ; 22.332 ; 0.000         ;
+; DPCLK[7] ; 22.384 ; 0.000         ;
+; SCLK     ; 22.420 ; 0.000         ;
+; DPCLK[2] ; 22.692 ; 0.000         ;
+; DPCLK[5] ; 22.962 ; 0.000         ;
+; DPCLK[3] ; 23.043 ; 0.000         ;
+; DPCLK[1] ; 23.059 ; 0.000         ;
++----------+--------+---------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Minimum Pulse Width                                                                                                                    ;
++--------+--------------+----------------+-------+-------------------------------------------+------------+------------------------------+
+; Slack  ; Actual Width ; Required Width ; Pulse ; Clock                                     ; Clock Edge ; Target                       ;
++--------+--------------+----------------+-------+-------------------------------------------+------------+------------------------------+
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|CTTM_TEST_DATA[0]    ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|CTTM_TEST_DATA[0]    ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|PDL_TEST_START_S1    ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|PDL_TEST_START_S1    ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|STATE1.s1pdl         ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|STATE1.s1pdl         ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|STATE1.s2pdl         ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|STATE1.s2pdl         ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|OR_UNDER_TEST_S      ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|OR_UNDER_TEST_S      ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|STATE1.s0pdl         ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|STATE1.s0pdl         ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|PDL_DELAY_REG[5]     ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|PDL_DELAY_REG[5]     ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|DELAY_CNT[5]         ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|DELAY_CNT[5]         ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|DELAY_CNT[0]         ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|DELAY_CNT[0]         ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|PDL_DELAY_REG[0]     ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|PDL_DELAY_REG[0]     ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|PDL_DELAY_REG[2]     ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|PDL_DELAY_REG[2]     ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|DELAY_CNT[2]         ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|DELAY_CNT[2]         ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|TEST_STAT_REG[0]     ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|TEST_STAT_REG[0]     ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|PDL_DELAY_REG[1]     ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|PDL_DELAY_REG[1]     ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|DELAY_CNT[1]         ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|DELAY_CNT[1]         ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|PDL_DELAY_REG[3]     ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|PDL_DELAY_REG[3]     ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|DELAY_CNT[3]         ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|DELAY_CNT[3]         ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|PDL_DELAY_REG[4]     ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|PDL_DELAY_REG[4]     ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|DELAY_CNT[4]         ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|DELAY_CNT[4]         ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|PDL_DELAY_REG[6]     ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|PDL_DELAY_REG[6]     ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|DELAY_CNT[6]         ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|DELAY_CNT[6]         ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|PDL_DELAY_REG[7]     ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|PDL_DELAY_REG[7]     ;
+; 0.432  ; 1.666        ; 1.234          ; High  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|DELAY_CNT[7]         ;
+; 0.432  ; 1.666        ; 1.234          ; Low   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; Rise       ; test:I0|DELAY_CNT[7]         ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r~_Duplicate_4  ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r~_Duplicate_4  ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|CTTM_DATA_REG[0]     ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|CTTM_DATA_REG[0]     ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|DATAOUT[0]           ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|DATAOUT[0]           ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|MODE_REG[0]          ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|MODE_REG[0]          ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r               ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r               ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|CTTM_DATA_REG[4]     ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|CTTM_DATA_REG[4]     ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|DATAOUT[1]           ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|DATAOUT[1]           ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r~_Duplicate_32 ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r~_Duplicate_32 ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|DATAOUT[2]           ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|DATAOUT[2]           ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r~_Duplicate_1  ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r~_Duplicate_1  ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|LBSTATE.s_lbidle     ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|LBSTATE.s_lbidle     ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|CTTM_DATA_REG[1]     ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|CTTM_DATA_REG[1]     ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r~_Duplicate_10 ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r~_Duplicate_10 ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|CTTM_DATA_REG[10]    ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|CTTM_DATA_REG[10]    ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|SPARE_CTTM_REG[3]    ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|SPARE_CTTM_REG[3]    ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r~_Duplicate_2  ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r~_Duplicate_2  ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|CTTM_DATA_REG[2]     ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|CTTM_DATA_REG[2]     ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|DATAOUT[3]           ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|DATAOUT[3]           ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r~_Duplicate_3  ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r~_Duplicate_3  ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|CTTM_DATA_REG[3]     ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|CTTM_DATA_REG[3]     ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|DATAOUT[4]           ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|DATAOUT[4]           ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|DATAOUT[8]           ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|DATAOUT[8]           ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r~_Duplicate_8  ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r~_Duplicate_8  ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r~_Duplicate_7  ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r~_Duplicate_7  ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|DATAOUT[5]           ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|DATAOUT[5]           ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r~_Duplicate_5  ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|RDEN_r~_Duplicate_5  ;
+; 11.266 ; 12.500       ; 1.234          ; High  ; DPCLK[0]                                  ; Rise       ; test:I0|CTTM_DATA_REG[5]     ;
+; 11.266 ; 12.500       ; 1.234          ; Low   ; DPCLK[0]                                  ; Rise       ; test:I0|CTTM_DATA_REG[5]     ;
++--------+--------------+----------------+-------+-------------------------------------------+------------+------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Setup Transfers                                                                                                                     ;
++-------------------------------------------+-------------------------------------------+------------+----------+----------+----------+
+; From Clock                                ; To Clock                                  ; RR Paths   ; FR Paths ; RF Paths ; FF Paths ;
++-------------------------------------------+-------------------------------------------+------------+----------+----------+----------+
+; cttm_pll:I1|altpll:altpll_component|_clk0 ; cttm_pll:I1|altpll:altpll_component|_clk0 ; 154        ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; false path ; 0        ; 0        ; 0        ;
+; cttm_pll:I1|altpll:altpll_component|_clk0 ; DPCLK[0]                                  ; false path ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; DPCLK[0]                                  ; 31790      ; 0        ; 0        ; 0        ;
+; DPCLK[1]                                  ; DPCLK[0]                                  ; 32         ; 0        ; 0        ; 0        ;
+; DPCLK[2]                                  ; DPCLK[0]                                  ; 32         ; 0        ; 0        ; 0        ;
+; DPCLK[3]                                  ; DPCLK[0]                                  ; 32         ; 0        ; 0        ; 0        ;
+; DPCLK[4]                                  ; DPCLK[0]                                  ; 32         ; 0        ; 0        ; 0        ;
+; DPCLK[5]                                  ; DPCLK[0]                                  ; 32         ; 0        ; 0        ; 0        ;
+; DPCLK[6]                                  ; DPCLK[0]                                  ; 32         ; 0        ; 0        ; 0        ;
+; DPCLK[7]                                  ; DPCLK[0]                                  ; 32         ; 0        ; 0        ; 0        ;
+; SCLK                                      ; DPCLK[0]                                  ; false path ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; DPCLK[1]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[1]                                  ; DPCLK[1]                                  ; 944        ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; DPCLK[2]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[2]                                  ; DPCLK[2]                                  ; 944        ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; DPCLK[3]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[3]                                  ; DPCLK[3]                                  ; 944        ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; DPCLK[4]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[4]                                  ; DPCLK[4]                                  ; 944        ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; DPCLK[5]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[5]                                  ; DPCLK[5]                                  ; 944        ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; DPCLK[6]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[6]                                  ; DPCLK[6]                                  ; 944        ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; DPCLK[7]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[7]                                  ; DPCLK[7]                                  ; 944        ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; SCLK                                      ; 33         ; 0        ; 0        ; 0        ;
+; SCLK                                      ; SCLK                                      ; false path ; 0        ; 0        ; 0        ;
++-------------------------------------------+-------------------------------------------+------------+----------+----------+----------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Hold Transfers                                                                                                                      ;
++-------------------------------------------+-------------------------------------------+------------+----------+----------+----------+
+; From Clock                                ; To Clock                                  ; RR Paths   ; FR Paths ; RF Paths ; FF Paths ;
++-------------------------------------------+-------------------------------------------+------------+----------+----------+----------+
+; cttm_pll:I1|altpll:altpll_component|_clk0 ; cttm_pll:I1|altpll:altpll_component|_clk0 ; 154        ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; cttm_pll:I1|altpll:altpll_component|_clk0 ; false path ; 0        ; 0        ; 0        ;
+; cttm_pll:I1|altpll:altpll_component|_clk0 ; DPCLK[0]                                  ; false path ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; DPCLK[0]                                  ; 31790      ; 0        ; 0        ; 0        ;
+; DPCLK[1]                                  ; DPCLK[0]                                  ; 32         ; 0        ; 0        ; 0        ;
+; DPCLK[2]                                  ; DPCLK[0]                                  ; 32         ; 0        ; 0        ; 0        ;
+; DPCLK[3]                                  ; DPCLK[0]                                  ; 32         ; 0        ; 0        ; 0        ;
+; DPCLK[4]                                  ; DPCLK[0]                                  ; 32         ; 0        ; 0        ; 0        ;
+; DPCLK[5]                                  ; DPCLK[0]                                  ; 32         ; 0        ; 0        ; 0        ;
+; DPCLK[6]                                  ; DPCLK[0]                                  ; 32         ; 0        ; 0        ; 0        ;
+; DPCLK[7]                                  ; DPCLK[0]                                  ; 32         ; 0        ; 0        ; 0        ;
+; SCLK                                      ; DPCLK[0]                                  ; false path ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; DPCLK[1]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[1]                                  ; DPCLK[1]                                  ; 944        ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; DPCLK[2]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[2]                                  ; DPCLK[2]                                  ; 944        ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; DPCLK[3]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[3]                                  ; DPCLK[3]                                  ; 944        ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; DPCLK[4]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[4]                                  ; DPCLK[4]                                  ; 944        ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; DPCLK[5]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[5]                                  ; DPCLK[5]                                  ; 944        ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; DPCLK[6]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[6]                                  ; DPCLK[6]                                  ; 944        ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; DPCLK[7]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[7]                                  ; DPCLK[7]                                  ; 944        ; 0        ; 0        ; 0        ;
+; DPCLK[0]                                  ; SCLK                                      ; 33         ; 0        ; 0        ; 0        ;
+; SCLK                                      ; SCLK                                      ; false path ; 0        ; 0        ; 0        ;
++-------------------------------------------+-------------------------------------------+------------+----------+----------+----------+
+
+
++------------------------------------------------------------------------------------------------------+
+; Recovery Transfers                                                                                   ;
++------------+-------------------------------------------+------------+----------+----------+----------+
+; From Clock ; To Clock                                  ; RR Paths   ; FR Paths ; RF Paths ; FF Paths ;
++------------+-------------------------------------------+------------+----------+----------+----------+
+; DPCLK[0]   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; false path ; 0        ; 0        ; 0        ;
+; DPCLK[0]   ; DPCLK[0]                                  ; 373        ; 0        ; 0        ; 0        ;
+; DPCLK[0]   ; DPCLK[1]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[0]   ; DPCLK[2]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[0]   ; DPCLK[3]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[0]   ; DPCLK[4]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[0]   ; DPCLK[5]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[0]   ; DPCLK[6]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[0]   ; DPCLK[7]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[0]   ; SCLK                                      ; 33         ; 0        ; 0        ; 0        ;
++------------+-------------------------------------------+------------+----------+----------+----------+
+
+
++------------------------------------------------------------------------------------------------------+
+; Removal Transfers                                                                                    ;
++------------+-------------------------------------------+------------+----------+----------+----------+
+; From Clock ; To Clock                                  ; RR Paths   ; FR Paths ; RF Paths ; FF Paths ;
++------------+-------------------------------------------+------------+----------+----------+----------+
+; DPCLK[0]   ; cttm_pll:I1|altpll:altpll_component|_clk0 ; false path ; 0        ; 0        ; 0        ;
+; DPCLK[0]   ; DPCLK[0]                                  ; 373        ; 0        ; 0        ; 0        ;
+; DPCLK[0]   ; DPCLK[1]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[0]   ; DPCLK[2]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[0]   ; DPCLK[3]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[0]   ; DPCLK[4]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[0]   ; DPCLK[5]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[0]   ; DPCLK[6]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[0]   ; DPCLK[7]                                  ; 33         ; 0        ; 0        ; 0        ;
+; DPCLK[0]   ; SCLK                                      ; 33         ; 0        ; 0        ; 0        ;
++------------+-------------------------------------------+------------+----------+----------+----------+
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 0     ; 0    ;
+; Unconstrained Input Port Paths  ; 0     ; 0    ;
+; Unconstrained Output Ports      ; 0     ; 0    ;
+; Unconstrained Output Port Paths ; 0     ; 0    ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II TimeQuest Timing Analyzer
+    Info: Version 7.0 Build 33 02/05/2007 SJ Full Version
+    Info: Processing started: Wed Jan 30 10:37:26 2008
+Info: Command: quartus_sta TRIGGER -c VX1392_TEST
+Info: qsta_default_script.tcl version: 23.0.1.4
+Info: Reading SDC File: 'VX1392_TEST.sdc'
+Warning: Assignment set_input_delay had some problems but was accepted
+    Warning: Positional argument <targets> with value [get_ports {nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBPCKE is not an input port.
+    Warning: Positional argument <targets> with value [get_ports {nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBPCKR is not an input port.
+    Warning: Positional argument <targets> with value [get_ports {nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBRDY is not an input port.
+Warning: Assignment set_input_delay had some problems but was accepted
+    Warning: Positional argument <targets> with value [get_ports {LB[0] LB[1] LB[2] LB[3] LB[4] LB[5] LB[6] LB[7] LB[8] LB[9] LB[10] LB[11] LB[12] LB[13] LB[14] LB[15] LB[16] LB[17] LB[18] LB[19] LB[20] LB[21] LB[22] LB[23] LB[24] LB[25] LB[26] LB[27] LB[28] LB[29] LB[30] LB[31] nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBPCKE is not an input port.
+    Warning: Positional argument <targets> with value [get_ports {LB[0] LB[1] LB[2] LB[3] LB[4] LB[5] LB[6] LB[7] LB[8] LB[9] LB[10] LB[11] LB[12] LB[13] LB[14] LB[15] LB[16] LB[17] LB[18] LB[19] LB[20] LB[21] LB[22] LB[23] LB[24] LB[25] LB[26] LB[27] LB[28] LB[29] LB[30] LB[31] nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBPCKR is not an input port.
+    Warning: Positional argument <targets> with value [get_ports {LB[0] LB[1] LB[2] LB[3] LB[4] LB[5] LB[6] LB[7] LB[8] LB[9] LB[10] LB[11] LB[12] LB[13] LB[14] LB[15] LB[16] LB[17] LB[18] LB[19] LB[20] LB[21] LB[22] LB[23] LB[24] LB[25] LB[26] LB[27] LB[28] LB[29] LB[30] LB[31] nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBRDY is not an input port.
+Warning: Assignment set_output_delay had some problems but was accepted
+    Warning: Positional argument <targets> with value [get_ports {LB[0] LB[1] LB[2] LB[3] LB[4] LB[5] LB[6] LB[7] LB[8] LB[9] LB[10] LB[11] LB[12] LB[13] LB[14] LB[15] LB[16] LB[17] LB[18] LB[19] LB[20] LB[21] LB[22] LB[23] LB[24] LB[25] LB[26] LB[27] LB[28] LB[29] LB[30] LB[31] nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBRES is not an output port.
+    Warning: Positional argument <targets> with value [get_ports {LB[0] LB[1] LB[2] LB[3] LB[4] LB[5] LB[6] LB[7] LB[8] LB[9] LB[10] LB[11] LB[12] LB[13] LB[14] LB[15] LB[16] LB[17] LB[18] LB[19] LB[20] LB[21] LB[22] LB[23] LB[24] LB[25] LB[26] LB[27] LB[28] LB[29] LB[30] LB[31] nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBCLR is not an output port.
+    Warning: Positional argument <targets> with value [get_ports {LB[0] LB[1] LB[2] LB[3] LB[4] LB[5] LB[6] LB[7] LB[8] LB[9] LB[10] LB[11] LB[12] LB[13] LB[14] LB[15] LB[16] LB[17] LB[18] LB[19] LB[20] LB[21] LB[22] LB[23] LB[24] LB[25] LB[26] LB[27] LB[28] LB[29] LB[30] LB[31] nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBWAIT is not an output port.
+    Warning: Positional argument <targets> with value [get_ports {LB[0] LB[1] LB[2] LB[3] LB[4] LB[5] LB[6] LB[7] LB[8] LB[9] LB[10] LB[11] LB[12] LB[13] LB[14] LB[15] LB[16] LB[17] LB[18] LB[19] LB[20] LB[21] LB[22] LB[23] LB[24] LB[25] LB[26] LB[27] LB[28] LB[29] LB[30] LB[31] nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBRD is not an output port.
+    Warning: Positional argument <targets> with value [get_ports {LB[0] LB[1] LB[2] LB[3] LB[4] LB[5] LB[6] LB[7] LB[8] LB[9] LB[10] LB[11] LB[12] LB[13] LB[14] LB[15] LB[16] LB[17] LB[18] LB[19] LB[20] LB[21] LB[22] LB[23] LB[24] LB[25] LB[26] LB[27] LB[28] LB[29] LB[30] LB[31] nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBAS is not an output port.
+    Warning: Positional argument <targets> with value [get_ports {LB[0] LB[1] LB[2] LB[3] LB[4] LB[5] LB[6] LB[7] LB[8] LB[9] LB[10] LB[11] LB[12] LB[13] LB[14] LB[15] LB[16] LB[17] LB[18] LB[19] LB[20] LB[21] LB[22] LB[23] LB[24] LB[25] LB[26] LB[27] LB[28] LB[29] LB[30] LB[31] nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBCS is not an output port.
+    Warning: Positional argument <targets> with value [get_ports {LB[0] LB[1] LB[2] LB[3] LB[4] LB[5] LB[6] LB[7] LB[8] LB[9] LB[10] LB[11] LB[12] LB[13] LB[14] LB[15] LB[16] LB[17] LB[18] LB[19] LB[20] LB[21] LB[22] LB[23] LB[24] LB[25] LB[26] LB[27] LB[28] LB[29] LB[30] LB[31] nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBLAST is not an output port.
+Warning: Assignment set_output_delay had some problems but was accepted
+    Warning: Positional argument <targets> with value [get_ports {LBSP[0] LBSP[1] LBSP[2] LBSP[3] LBSP[4] LBSP[5] LBSP[6] LBSP[7] LBSP[8] LBSP[9] LBSP[10] LBSP[11] LBSP[12] LBSP[13] LBSP[14] LBSP[15] LBSP[16] LBSP[17] LBSP[18] LBSP[19] LBSP[20] LBSP[21] LBSP[22] LBSP[23] LBSP[24] LBSP[25] LBSP[26] LBSP[27] LBSP[28] LBSP[29] LBSP[30] LBSP[31] LB[0] LB[1] LB[2] LB[3] LB[4] LB[5] LB[6] LB[7] LB[8] LB[9] LB[10] LB[11] LB[12] LB[13] LB[14] LB[15] LB[16] LB[17] LB[18] LB[19] LB[20] LB[21] LB[22] LB[23] LB[24] LB[25] LB[26] LB[27] LB[28] LB[29] LB[30] LB[31] nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBRES is not an output port.
+    Warning: Positional argument <targets> with value [get_ports {LBSP[0] LBSP[1] LBSP[2] LBSP[3] LBSP[4] LBSP[5] LBSP[6] LBSP[7] LBSP[8] LBSP[9] LBSP[10] LBSP[11] LBSP[12] LBSP[13] LBSP[14] LBSP[15] LBSP[16] LBSP[17] LBSP[18] LBSP[19] LBSP[20] LBSP[21] LBSP[22] LBSP[23] LBSP[24] LBSP[25] LBSP[26] LBSP[27] LBSP[28] LBSP[29] LBSP[30] LBSP[31] LB[0] LB[1] LB[2] LB[3] LB[4] LB[5] LB[6] LB[7] LB[8] LB[9] LB[10] LB[11] LB[12] LB[13] LB[14] LB[15] LB[16] LB[17] LB[18] LB[19] LB[20] LB[21] LB[22] LB[23] LB[24] LB[25] LB[26] LB[27] LB[28] LB[29] LB[30] LB[31] nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBCLR is not an output port.
+    Warning: Positional argument <targets> with value [get_ports {LBSP[0] LBSP[1] LBSP[2] LBSP[3] LBSP[4] LBSP[5] LBSP[6] LBSP[7] LBSP[8] LBSP[9] LBSP[10] LBSP[11] LBSP[12] LBSP[13] LBSP[14] LBSP[15] LBSP[16] LBSP[17] LBSP[18] LBSP[19] LBSP[20] LBSP[21] LBSP[22] LBSP[23] LBSP[24] LBSP[25] LBSP[26] LBSP[27] LBSP[28] LBSP[29] LBSP[30] LBSP[31] LB[0] LB[1] LB[2] LB[3] LB[4] LB[5] LB[6] LB[7] LB[8] LB[9] LB[10] LB[11] LB[12] LB[13] LB[14] LB[15] LB[16] LB[17] LB[18] LB[19] LB[20] LB[21] LB[22] LB[23] LB[24] LB[25] LB[26] LB[27] LB[28] LB[29] LB[30] LB[31] nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBWAIT is not an output port.
+    Warning: Positional argument <targets> with value [get_ports {LBSP[0] LBSP[1] LBSP[2] LBSP[3] LBSP[4] LBSP[5] LBSP[6] LBSP[7] LBSP[8] LBSP[9] LBSP[10] LBSP[11] LBSP[12] LBSP[13] LBSP[14] LBSP[15] LBSP[16] LBSP[17] LBSP[18] LBSP[19] LBSP[20] LBSP[21] LBSP[22] LBSP[23] LBSP[24] LBSP[25] LBSP[26] LBSP[27] LBSP[28] LBSP[29] LBSP[30] LBSP[31] LB[0] LB[1] LB[2] LB[3] LB[4] LB[5] LB[6] LB[7] LB[8] LB[9] LB[10] LB[11] LB[12] LB[13] LB[14] LB[15] LB[16] LB[17] LB[18] LB[19] LB[20] LB[21] LB[22] LB[23] LB[24] LB[25] LB[26] LB[27] LB[28] LB[29] LB[30] LB[31] nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBRD is not an output port.
+    Warning: Positional argument <targets> with value [get_ports {LBSP[0] LBSP[1] LBSP[2] LBSP[3] LBSP[4] LBSP[5] LBSP[6] LBSP[7] LBSP[8] LBSP[9] LBSP[10] LBSP[11] LBSP[12] LBSP[13] LBSP[14] LBSP[15] LBSP[16] LBSP[17] LBSP[18] LBSP[19] LBSP[20] LBSP[21] LBSP[22] LBSP[23] LBSP[24] LBSP[25] LBSP[26] LBSP[27] LBSP[28] LBSP[29] LBSP[30] LBSP[31] LB[0] LB[1] LB[2] LB[3] LB[4] LB[5] LB[6] LB[7] LB[8] LB[9] LB[10] LB[11] LB[12] LB[13] LB[14] LB[15] LB[16] LB[17] LB[18] LB[19] LB[20] LB[21] LB[22] LB[23] LB[24] LB[25] LB[26] LB[27] LB[28] LB[29] LB[30] LB[31] nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBAS is not an output port.
+    Warning: Positional argument <targets> with value [get_ports {LBSP[0] LBSP[1] LBSP[2] LBSP[3] LBSP[4] LBSP[5] LBSP[6] LBSP[7] LBSP[8] LBSP[9] LBSP[10] LBSP[11] LBSP[12] LBSP[13] LBSP[14] LBSP[15] LBSP[16] LBSP[17] LBSP[18] LBSP[19] LBSP[20] LBSP[21] LBSP[22] LBSP[23] LBSP[24] LBSP[25] LBSP[26] LBSP[27] LBSP[28] LBSP[29] LBSP[30] LBSP[31] LB[0] LB[1] LB[2] LB[3] LB[4] LB[5] LB[6] LB[7] LB[8] LB[9] LB[10] LB[11] LB[12] LB[13] LB[14] LB[15] LB[16] LB[17] LB[18] LB[19] LB[20] LB[21] LB[22] LB[23] LB[24] LB[25] LB[26] LB[27] LB[28] LB[29] LB[30] LB[31] nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBCS is not an output port.
+    Warning: Positional argument <targets> with value [get_ports {LBSP[0] LBSP[1] LBSP[2] LBSP[3] LBSP[4] LBSP[5] LBSP[6] LBSP[7] LBSP[8] LBSP[9] LBSP[10] LBSP[11] LBSP[12] LBSP[13] LBSP[14] LBSP[15] LBSP[16] LBSP[17] LBSP[18] LBSP[19] LBSP[20] LBSP[21] LBSP[22] LBSP[23] LBSP[24] LBSP[25] LBSP[26] LBSP[27] LBSP[28] LBSP[29] LBSP[30] LBSP[31] LB[0] LB[1] LB[2] LB[3] LB[4] LB[5] LB[6] LB[7] LB[8] LB[9] LB[10] LB[11] LB[12] LB[13] LB[14] LB[15] LB[16] LB[17] LB[18] LB[19] LB[20] LB[21] LB[22] LB[23] LB[24] LB[25] LB[26] LB[27] LB[28] LB[29] LB[30] LB[31] nLBAS nLBCLR nLBCS nLBLAST nLBPCKE nLBPCKR nLBRD nLBRDY nLBRES nLBWAIT}]: Port nLBLAST is not an output port.
+Info: Worst-case setup slack is -7.132
+    Info:     Slack End Point TNS Clock 
+    Info: ========= ============= =====================
+    Info:    -7.132      -851.837 DPCLK[0] 
+    Info:     0.180         0.000 cttm_pll:I1|altpll:altpll_component|_clk0 
+    Info:    19.357         0.000 DPCLK[1] 
+    Info:    19.752         0.000 DPCLK[2] 
+    Info:    20.974         0.000 DPCLK[3] 
+    Info:    21.278         0.000 DPCLK[4] 
+    Info:    21.386         0.000 DPCLK[5] 
+    Info:    21.708         0.000 DPCLK[6] 
+    Info:    21.883         0.000 DPCLK[7] 
+    Info:    22.722         0.000 SCLK 
+Info: Worst-case hold slack is 0.633
+    Info:     Slack End Point TNS Clock 
+    Info: ========= ============= =====================
+    Info:     0.633         0.000 DPCLK[0] 
+    Info:     0.801         0.000 cttm_pll:I1|altpll:altpll_component|_clk0 
+    Info:     0.804         0.000 DPCLK[2] 
+    Info:     0.804         0.000 DPCLK[5] 
+    Info:     0.804         0.000 DPCLK[1] 
+    Info:     0.804         0.000 DPCLK[6] 
+    Info:     0.804         0.000 DPCLK[7] 
+    Info:     0.804         0.000 DPCLK[3] 
+    Info:     0.804         0.000 DPCLK[4] 
+    Info:     1.675         0.000 SCLK 
+Info: Worst-case recovery slack is 0.727
+    Info:     Slack End Point TNS Clock 
+    Info: ========= ============= =====================
+    Info:     0.727         0.000 DPCLK[0] 
+    Info:     1.326         0.000 DPCLK[1] 
+    Info:     1.558         0.000 DPCLK[3] 
+    Info:     1.846         0.000 DPCLK[5] 
+    Info:     1.971         0.000 DPCLK[2] 
+    Info:     2.134         0.000 SCLK 
+    Info:     2.210         0.000 DPCLK[7] 
+    Info:     2.265         0.000 DPCLK[4] 
+    Info:     2.545         0.000 DPCLK[6] 
+Info: Worst-case removal slack is 21.484
+    Info:     Slack End Point TNS Clock 
+    Info: ========= ============= =====================
+    Info:    21.484         0.000 DPCLK[0] 
+    Info:    22.048         0.000 DPCLK[6] 
+    Info:    22.332         0.000 DPCLK[4] 
+    Info:    22.384         0.000 DPCLK[7] 
+    Info:    22.420         0.000 SCLK 
+    Info:    22.692         0.000 DPCLK[2] 
+    Info:    22.962         0.000 DPCLK[5] 
+    Info:    23.043         0.000 DPCLK[3] 
+    Info:    23.059         0.000 DPCLK[1] 
+Info: Design is fully constrained for setup requirements
+Info: Design is fully constrained for hold requirements
+Info: Quartus II TimeQuest Timing Analyzer was successful. 0 errors, 24 warnings
+    Info: Allocated 112 megabytes of memory during processing
+    Info: Processing ended: Wed Jan 30 10:37:31 2008
+    Info: Elapsed time: 00:00:05
+
+

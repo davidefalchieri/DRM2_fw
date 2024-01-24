@@ -1,0 +1,1 @@
+C:\Programmi\libero73\Designer\bin\acttclsh.exe C:\Programmi\libero73\Designer\scripts\extended_run_shell.tcl -adb v1392ltm.adb

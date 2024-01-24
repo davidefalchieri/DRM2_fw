@@ -1,0 +1,177 @@
+-- ****************************************************************************
+-- Company:              CAEN SpA - Viareggio - Italy
+-- Model:                   V1495 -  Multipurpose Programmable Trigger Unit
+-- FPGA Proj. Name: vx1392_trig
+-- Device:                 ALTERA EP1C4F400C6
+-- Author:                  Luca Colombini
+-- Date:                  16:20:35 30/06/2006
+-- ----------------------------------------------------------------------------
+-- Module:         
+-- Description:     
+-- ****************************************************************************
+
+-- ############################################################################
+-- Revision History:
+-- ############################################################################
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+
+ENTITY trigger_top IS
+   PORT( 
+      DPCLK         : IN     std_logic_vector (7 DOWNTO 0);
+      F_SO          : IN     std_logic;
+      OR_DEL        : IN     std_logic_vector (47 DOWNTO 0);
+      PULSE_TOGGLE  : IN     std_logic;
+      SCLK          : IN     std_logic;
+      nLBAS         : IN     std_logic;
+      nLBCLR        : IN     std_logic;
+      nLBCS         : IN     std_logic;
+      nLBLAST       : IN     std_logic;
+      nLBRD         : IN     std_logic;
+      nLBRES        : IN     std_logic;
+      nLBWAIT       : IN     std_logic;
+      CLK_CTTM      : OUT    std_logic;
+      CONFIG        : OUT    std_logic;
+      D_CTTM        : OUT    std_logic_vector (23 DOWNTO 0);
+      FCS           : OUT    std_logic;
+      F_SCK         : OUT    std_logic;
+      F_SI          : OUT    std_logic;
+      LTM_LOCAL_TRG : OUT    std_logic;
+      RAMAD         : OUT    std_logic_vector (17 DOWNTO 0);
+      SP_CTTM       : OUT    std_logic_vector ( 6 DOWNTO 0);
+      TRD           : OUT    std_logic_vector ( 7 DOWNTO 0);
+      TRM           : OUT    std_logic_vector (23 DOWNTO 0);
+      TST           : OUT    std_logic_vector (7 DOWNTO 0);
+      nCSRAM        : OUT    std_logic;
+      nLBPCKE       : OUT    std_logic;
+      nLBPCKR       : OUT    std_logic;
+      nLBRDY        : OUT    std_logic;
+      nOERAM        : OUT    std_logic;
+      nWRRAM        : OUT    std_logic;
+      LB            : INOUT  std_logic_vector (31 DOWNTO 0);
+      LBSP          : INOUT  std_logic_vector (31 DOWNTO 0);
+      RAMDT         : INOUT  std_logic_vector (47 DOWNTO 0)
+   );
+
+-- Declarations
+
+END trigger_top ;
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+LIBRARY altera_mf;
+USE altera_mf.altera_mf_components.all;
+USE ieee.std_logic_unsigned.all;
+
+
+ARCHITECTURE struct OF trigger_top IS
+
+   -- Architecture declarations
+
+   -- Internal signal declarations
+   SIGNAL CLK_TEST : STD_LOGIC;
+   SIGNAL PLL_RES  : std_logic;
+
+
+   -- Component Declarations
+   COMPONENT cttm_pll
+   PORT (
+      areset : IN     STD_LOGIC  := '0';
+      inclk0 : IN     STD_LOGIC  := '0';
+      c0     : OUT    STD_LOGIC;
+      e0     : OUT    STD_LOGIC;
+      locked : OUT    STD_LOGIC
+   );
+   END COMPONENT;
+   COMPONENT test
+   PORT (
+      CLK_TEST      : IN     std_logic;
+      DPCLK         : IN     std_logic_vector (7 DOWNTO 0);
+      F_SO          : IN     std_logic;
+      OR_DEL        : IN     std_logic_vector (47 DOWNTO 0);
+      PULSE_TOGGLE  : IN     std_logic;
+      SCLK          : IN     std_logic;
+      nLBAS         : IN     std_logic;
+      nLBCLR        : IN     std_logic;
+      nLBCS         : IN     std_logic;
+      nLBLAST       : IN     std_logic;
+      nLBRD         : IN     std_logic;
+      nLBRES        : IN     std_logic;
+      nLBWAIT       : IN     std_logic;
+      CONFIG        : OUT    std_logic;
+      D_CTTM        : OUT    std_logic_vector (23 DOWNTO 0);
+      FCS           : OUT    std_logic;
+      F_SCK         : OUT    std_logic;
+      F_SI          : OUT    std_logic;
+      LTM_LOCAL_TRG : OUT    std_logic;
+      RAMAD         : OUT    std_logic_vector (17 DOWNTO 0);
+      SP_CTTM       : OUT    std_logic_vector ( 6 DOWNTO 0);
+      TRD           : OUT    std_logic_vector ( 7 DOWNTO 0);
+      TRM           : OUT    std_logic_vector (23 DOWNTO 0);
+      TST           : OUT    std_logic_vector (7 DOWNTO 0);
+      nCSRAM        : OUT    std_logic;
+      nLBPCKE       : OUT    std_logic;
+      nLBPCKR       : OUT    std_logic;
+      nLBRDY        : OUT    std_logic;
+      nOERAM        : OUT    std_logic;
+      nWRRAM        : OUT    std_logic;
+      LB            : INOUT  std_logic_vector (31 DOWNTO 0);
+      LBSP          : INOUT  std_logic_vector (31 DOWNTO 0);
+      RAMDT         : INOUT  std_logic_vector (47 DOWNTO 0)
+   );
+   END COMPONENT;
+
+
+BEGIN
+
+   -- ModuleWare code(v1.1) for instance 'I2' of 'inv'
+   PLL_RES <= NOT(nLBRES);
+
+   -- Instance port mappings.
+   I1 : cttm_pll
+      PORT MAP (
+         areset => PLL_RES,
+         inclk0 => SCLK,
+         c0     => CLK_TEST,
+         e0     => CLK_CTTM,
+         locked => OPEN
+      );
+   I0 : test
+      PORT MAP (
+         CLK_TEST      => CLK_TEST,
+         CONFIG        => CONFIG,
+         FCS           => F_SCK,
+         F_SCK         => F_SI,
+         F_SI          => FCS,
+         F_SO          => F_SO,
+         DPCLK         => DPCLK,
+         SCLK          => SCLK,
+         OR_DEL        => OR_DEL,
+         TRD           => TRD,
+         TRM           => TRM,
+         D_CTTM        => D_CTTM,
+         SP_CTTM       => SP_CTTM,
+         nCSRAM        => nCSRAM,
+         nOERAM        => nOERAM,
+         nWRRAM        => nWRRAM,
+         RAMDT         => RAMDT,
+         RAMAD         => RAMAD,
+         LTM_LOCAL_TRG => LTM_LOCAL_TRG,
+         PULSE_TOGGLE  => PULSE_TOGGLE,
+         nLBAS         => nLBAS,
+         nLBCLR        => nLBCLR,
+         nLBCS         => nLBCS,
+         nLBLAST       => nLBLAST,
+         nLBRD         => nLBRD,
+         nLBRES        => nLBRES,
+         nLBWAIT       => nLBWAIT,
+         nLBRDY        => nLBRDY,
+         nLBPCKE       => nLBPCKE,
+         nLBPCKR       => nLBPCKR,
+         LB            => LB,
+         LBSP          => LBSP,
+         TST           => TST
+      );
+
+END struct;

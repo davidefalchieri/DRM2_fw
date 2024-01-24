@@ -1,0 +1,107 @@
+INFO: Reading User SDC file E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\constraint\user.sdc.
+INFO: Reading User SDC file E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\constraint\DRM2_top_derived_constraints.sdc.
+INFO: Reading User SDC file E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\constraint\GBTXtest_main_compile.sdc.
+INFO: Reading User SDC file E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\constraint\GBTXtest_main_synthesis.sdc.
+1 error found.
+Check logfile E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\constraint\placer_sdc_errors.log for details.
+
+Error: SDC0001: E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\constraint\user.sdc:5: Invalid clock constraint: clock source "[get_nets { CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_2_RX_CLK }]" is incorrect.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+I/O Register Combining   : ON
+High-effort              : ON
+Repair min-delay         : OFF
+Incremental              : OFF
+Inter-clock optimization : ON
+
+INFO: Reading User PDC file E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\constraint\io\pinout_DRM2.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\constraint\fp\DRM2_top_derived_constraints.pdc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\constraint\fp\GBTXtest_main.fp.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 324 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified bank 'Bank0' as being fixed at VCCI:3.30V VCCR:n/a
+Info:  I/O Bank and Globals Assigner identified bank 'Bank1' as being fixed at VCCI:2.50V VCCR:n/a
+Info:  I/O Bank and Globals Assigner identified bank 'Bank2' as being fixed at VCCI:3.30V VCCR:n/a
+Info:  I/O Bank and Globals Assigner identified bank 'Bank3' as being fixed at VCCI:3.30V VCCR:n/a
+Info:  I/O Bank and Globals Assigner identified bank 'Bank4' as being fixed at VCCI:3.30V VCCR:n/a
+Info:  I/O Bank and Globals Assigner identified bank 'Bank5' as being fixed at VCCI:2.50V VCCR:n/a
+Info:  I/O Bank and Globals Assigner identified bank 'Bank6' as being fixed at VCCI:2.50V VCCR:n/a
+Info:  I/O Bank and Globals Assigner identified bank 'Bank7' as being fixed at VCCI:1.50V VCCR:n/a
+Info:  I/O Bank and Globals Assigner identified bank 'Bank8' as being fixed at VCCI:2.50V VCCR:n/a
+Info:   I/O Bank and Globals Assigner detected (9) out of (9) I/O Bank(s) with locked I/O technologies.
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 1 seconds
+
+Placer V5.0 - 2021.3.0 
+Design: DRM2_top                        Started: Thu Apr 13 16:20:44 2023
+
+Initializing High-Effort Timing-Driven Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+
+CDC Report:
+    Total number of CDC synchronizer driver/sink pairs     : 224
+    Maximum distance between CDC synchronizer driver & sink:   1 cluster(s)
+
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 7 seconds
+Placement                : 37 seconds
+Improvement              : 35 seconds
+
+Placer completed successfully.
+
+Design: DRM2_top                        
+Finished: Thu Apr 13 16:22:41 2023
+Total CPU Time:     00:02:29            Total Elapsed Time: 00:01:57
+Total Memory Usage: 782.7 Mbytes
+                        o - o - o - o - o - o
+
+
+Warning:  The following clocks are routed using regular routing resources instead of dedicated global resources. Clocks using regular routing are more susceptible to noise than those using dedicated global resources. Microchip recommends promoting these signals to dedicated global resources.
+    Driver: CAEN_LINK_instance/I_conet_interf/endpck:Q
+       Net: CAEN_LINK_instance/I_conet_interf/endpck
+Clock pins: 1
+    Driver: vme_int_instance/DS:Q
+       Net: vme_int_instance/DS
+Clock pins: 1
+    Driver: CAEN_LINK_instance/I_conet_interf/token:Q
+       Net: CAEN_LINK_instance/I_conet_interf/token
+Clock pins: 1
+
+Router 
+Design: E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\designer\DRM2_top\DRM2_topStarted: Thu Apr 13 16:23:08 2023
+
+
+Router completed successfully.
+
+Design: E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\designer\DRM2_top\DRM2_top
+Finished: Thu Apr 13 16:24:13 2023
+Total CPU Time:     00:01:03            Total Elapsed Time: 00:01:05
+Total Memory Usage: 2437.1 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+-------+-------+------------+
+| Type          | Used  | Total | Percentage |
++---------------+-------+-------+------------+
+| 4LUT          | 16777 | 86184 | 19.47      |
+| DFF           | 12492 | 86184 | 14.49      |
+| I/O Register  | 194   | 1275  | 15.22      |
+| Logic Element | 18380 | 86184 | 21.33      |
++---------------+-------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  409  | 100.00%    |
+| Placed |  0    | 0.00%      |
++--------+-------+------------+
+

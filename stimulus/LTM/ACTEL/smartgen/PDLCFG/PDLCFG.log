@@ -1,0 +1,26 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Mon Dec 10 14:24:05 2007
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : PDLCFG
+Family                          : PA
+Output Format                   : VHDL
+Type                            : RAM
+Depth                           : 48
+Width                           : 8
+Read Access                     : Sync Transp
+Write Access                    : Sync
+Optimization                    : Speed
+Parity                          : Gen Even
+
+
+Written VHDL netlist to
+C:/FrontEnd/Annalisa/work/vx1392/smartgen\PDLCFG\PDLCFG.vhd.
+
+ ** Log Ended:   Mon Dec 10 14:24:05 2007
+

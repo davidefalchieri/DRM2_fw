@@ -1,0 +1,101 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       45 
+      Globals that cannot be demoted:      6 
+      Globals considered for demotion:     39 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    5515   0      3      'fpgack40_buf/U_GB' 
+    893    0      1      'DCLK00_buf/U_GB' 
+    481    0      0      'EPCS_Demo_instance/CCC_0/GL0_INST' 
+    20     0      0      'EPCS_Demo_instance/CCC_0/GL1_INST' 
+    9      0      1      'CPDMCK40_buf/U_GB' 
+    0      0      1      'FPGACK80_buf/U_GB' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    457    0      0      'ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim' 
+    418    0      0      'CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_0_RX_CLK_keep_RNI7K1B' 
+    295    0      0      'CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_0_TX_CLK_keep_RNI98SD' 
+    110    0      0      'EPCS_Demo_instance/EPCS_Demo_sb_HPMS_0/MSS_ADLIB_INST_RNIJ907' 
+    24     0      0      'EPCS_Demo_instance/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT' 
+    14     0      0      'ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS3' 
+    8      0      0      'ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNIBCIE' 
+    2      0      0      'CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_2_TX_CLK_keep_RNIB01A' 
+    0      1267   0      'rod_sniffer_instance/fifo_clear_RNIT6N3' 
+    0      1236   0      'EPCS_Demo_instance/CORERESETP_0/INIT_DONE_int_keep_RNIHHS2' 
+    0      439    0      'EPCS_Demo_instance/CORERESETP_0/MSS_HPMS_READY_int_rep_RNIOB72' 
+    0      272    0      'CAEN_LINK_instance/EPCS_SERDES_Lane0_RX_RESET_N_keep_RNI1NHA' 
+    0      260    1      'CAEN_LINK_instance/I_CorePCS/Core_PCS_0/rx_rst_n_RNI5R4B' 
+    0      215    0      'GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.w_corefifo_resetSync/shift_reg_RNID1QD[1]' 
+    0      188    0      'GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.r_corefifo_resetSync/shift_reg_RNI815[1]' 
+    0      163    0      'CAEN_LINK_instance/I_conet_interf/I_RX/RL_0/R1.r_corefifo_resetSync/shift_reg_RNINOH5[1]' 
+    0      136    0      'ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb_rep_RNI63PC' 
+    0      118    0      'GBTx_interface_instance/fifo_clear_RNIHQO7' 
+    0      118    0      'I2C_CORE_instance/I2CSFTTEMP_0/AND2_0_RNIQ728' 
+    0      118    0      'I2C_CORE_instance/I2C_GBTX_inst_0/GBTXI2C_CTRL_0/I2CRST_rep_RNILK9D' 
+    0      109    1      'EPCS_Demo_instance/EPCS_Demo_sb_HPMS_0/FIC_2_APB_M_PRESET_N_keep_RNIC9FF' 
+    0      108    0      'vme_int_instance/WPULSE_RNIFHL8_0[2]' 
+    0      87     0      'CAEN_LINK_instance/I_conet_interf/I_TX/TL_0/R1.r_corefifo_resetSync/shift_reg_RNIRUS8[1]' 
+    0      81     0      'CAEN_LINK_instance/I_CorePCS/Core_PCS_0/tx_rst_n_RNI79F2' 
+    0      69     0      'CAEN_LINK_instance/I_conet_interf/un1_tx_res_RNI49G7' 
+    0      69     0      'I2C_CORE_instance/I2CSFTTEMP_0/I2C_masterFIFO_0/I2CStateMachineCTRL/FiRESET_rep_RNIV25B' 
+    0      66     0      'CAEN_LINK_instance/I_conet_interf/I_RX/RL_0/R1.w_corefifo_resetSync/shift_reg_RNISO63[1]' 
+    0      66     0      'vme_int_instance/int_sram_instance/int_sram_0/INVDOUTARSTAP_RNI1UA' 
+    0      61     0      'I2C_CORE_instance/I2CSFTTEMP_0/I2C_masterFIFO_0/I2CStateMachineCTRL/FoRESET_rep_RNI5PU9' 
+    0      49     0      'CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep_RNIFTR3' 
+    0      48     0      'ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs_rep_RNII0K2[1]' 
+    0      42     0      'I2C_CORE_instance/I2C_GBTX_inst_0/I2CStateMachineGBTX_0/FiRESET_RNICFEA' 
+    0      42     0      'I2C_CORE_instance/I2C_GBTX_inst_0/I2CStateMachineGBTX_0/FoRESET_RNIIDB8' 
+    0      40     0      'GBTx_interface_instance/l1msg_gbtck_instance/l1msg_gbtck_0/RW1.UI_ram_wrapper_1/U5_syncnonpipe/INVARSTADDRAP_RNI5E37' 
+    0      40     0      'GBTx_interface_instance/l1msg_gbtck_instance/l1msg_gbtck_0/RW1.UI_ram_wrapper_1/U5_syncnonpipe/INVARSTADDRBP_RNI6F37' 
+    0      30     0      'CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST_RNIKEOF' 
+    0      22     1      'EPCS_Demo_instance/CORERESETP_0/sm0_areset_n_clk_base_RNITM18' 
+    0      20     0      'CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST_RNIKEOF_0' 
+    0      17     0      'EPCS_Demo_instance/CORERESETP_0/sdif0_areset_n_rcosc_RNI9RQ1' 
+
+Info: Demotion information: 
+      Disconnected 1 data pins from global 'CAEN_LINK_instance/I_CorePCS/Core_PCS_0/rx_rst_n_RNI5R4B'. 
+      Disconnected 1 data pins from global 'EPCS_Demo_instance/EPCS_Demo_sb_HPMS_0/FIC_2_APB_M_PRESET_N_keep_RNIC9FF'. 
+      Disconnected 1 data pins from global 'EPCS_Demo_instance/CORERESETP_0/sm0_areset_n_clk_base_RNITM18'. 
+      Deleted global instance 'EPCS_Demo_instance/CORERESETP_0/MSS_HPMS_READY_int_rep_RNIOB72' and replace it with a row global instance.
+      Deleted global instance 'CAEN_LINK_instance/EPCS_SERDES_Lane0_RX_RESET_N_keep_RNI1NHA'.
+      Deleted global instance 'CAEN_LINK_instance/I_CorePCS/Core_PCS_0/rx_rst_n_RNI5R4B'.
+      Deleted global instance 'GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.w_corefifo_resetSync/shift_reg_RNID1QD[1]'.
+      Deleted global instance 'GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.r_corefifo_resetSync/shift_reg_RNI815[1]'.
+      Deleted global instance 'CAEN_LINK_instance/I_conet_interf/I_RX/RL_0/R1.r_corefifo_resetSync/shift_reg_RNINOH5[1]'.
+      Deleted global instance 'ident_coreinst/IICE_INST/b5_nUTGT/b12_voSc3_gmasbb_rep_RNI63PC'.
+      Deleted global instance 'GBTx_interface_instance/fifo_clear_RNIHQO7'.
+      Deleted global instance 'I2C_CORE_instance/I2CSFTTEMP_0/AND2_0_RNIQ728'.
+      Deleted global instance 'I2C_CORE_instance/I2C_GBTX_inst_0/GBTXI2C_CTRL_0/I2CRST_rep_RNILK9D'.
+      Deleted global instance 'EPCS_Demo_instance/EPCS_Demo_sb_HPMS_0/FIC_2_APB_M_PRESET_N_keep_RNIC9FF'.
+      Deleted global instance 'vme_int_instance/WPULSE_RNIFHL8_0[2]'.
+      Deleted global instance 'CAEN_LINK_instance/I_conet_interf/I_TX/TL_0/R1.r_corefifo_resetSync/shift_reg_RNIRUS8[1]'.
+      Deleted global instance 'CAEN_LINK_instance/I_CorePCS/Core_PCS_0/tx_rst_n_RNI79F2'.
+      Deleted global instance 'CAEN_LINK_instance/I_conet_interf/un1_tx_res_RNI49G7'.
+      Deleted global instance 'I2C_CORE_instance/I2CSFTTEMP_0/I2C_masterFIFO_0/I2CStateMachineCTRL/FiRESET_rep_RNIV25B'.
+      Deleted global instance 'CAEN_LINK_instance/I_conet_interf/I_RX/RL_0/R1.w_corefifo_resetSync/shift_reg_RNISO63[1]'.
+      Deleted global instance 'vme_int_instance/int_sram_instance/int_sram_0/INVDOUTARSTAP_RNI1UA'.
+      Deleted global instance 'I2C_CORE_instance/I2CSFTTEMP_0/I2C_masterFIFO_0/I2CStateMachineCTRL/FoRESET_rep_RNI5PU9'.
+      Deleted global instance 'CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep_RNIFTR3'.
+      Deleted global instance 'ident_coreinst/IICE_INST/b5_nUTGT/cntrl_chain/genblk1.b3_nfs_rep_RNII0K2[1]'.
+      Deleted global instance 'I2C_CORE_instance/I2C_GBTX_inst_0/I2CStateMachineGBTX_0/FiRESET_RNICFEA'.
+      Deleted global instance 'I2C_CORE_instance/I2C_GBTX_inst_0/I2CStateMachineGBTX_0/FoRESET_RNIIDB8'.
+      Deleted global instance 'GBTx_interface_instance/l1msg_gbtck_instance/l1msg_gbtck_0/RW1.UI_ram_wrapper_1/U5_syncnonpipe/INVARSTADDRAP_RNI5E37'.
+      Deleted global instance 'GBTx_interface_instance/l1msg_gbtck_instance/l1msg_gbtck_0/RW1.UI_ram_wrapper_1/U5_syncnonpipe/INVARSTADDRBP_RNI6F37'.
+      Deleted global instance 'CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST_RNIKEOF'.
+      Deleted global instance 'EPCS_Demo_instance/CORERESETP_0/sm0_areset_n_clk_base_RNITM18'.
+      Deleted global instance 'CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST_RNIKEOF_0'.
+      Deleted global instance 'EPCS_Demo_instance/CORERESETP_0/sdif0_areset_n_rcosc_RNI9RQ1'.
+Info: CMPG4-302: Added 1 row global instances.
+Info: CMPG4-303: Deleted 29 global instances.
+
+===============================================================================.
+
+INFO: Reading User PDC file E:/alicetof/firmware/DRM2_rev2.0/DRM2_Zvtwelfth_fw/constraint/netlist_attrib.ndc. 0 error(s) and 0 warning(s)

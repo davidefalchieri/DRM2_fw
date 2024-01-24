@@ -1,0 +1,60 @@
+License checkout: synplify_pc
+
+Starting:    C:\Programmi\libero73\Synplify\Synplify_862H\bin\mbin\synplify.exe
+Install:     C:\Programmi\libero73\Synplify\Synplify_862H
+Date:        Fri Apr 24 17:40:41 2009
+Version:     8.6.2H
+
+
+Arguments:   v1392ltm_syn.prj
+ProductType: synplify
+
+License: synplify_pc node-locked 
+
+
+
+Running synthesis on v1392ltm_syn:synthesis
+
+log file: "C:\FrontEnd\Annalisa\work\vx1392\synthesis\v1392ltm.srr"
+
+
+Running Vhdl Compiler...
+
+Vhdl Compiler Completed
+
+
+Total: 0 errors, 1732 warnings, 49 notes
+
+
+Running PA Mapper...
+
+PA Mapper Completed with warnings
+
+
+Total: 0 errors, 1849 warnings, 58 notes
+
+
+Running synthesis on v1392ltm_syn:synthesis
+
+log file: "C:\FrontEnd\Annalisa\work\vx1392\synthesis\v1392ltm.srr"
+
+
+Running Vhdl Compiler...
+
+Vhdl Compiler Completed
+
+
+Total: 0 errors, 1732 warnings, 49 notes
+
+
+Running PA Mapper...
+
+PA Mapper Completed with warnings
+
+
+Total: 0 errors, 1849 warnings, 58 notes
+
+
+exit status=0
+
+

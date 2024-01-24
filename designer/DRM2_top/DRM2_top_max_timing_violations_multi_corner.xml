@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Timing Violation Multi Corner Report Max Delay Analysis
+</title>
+<text>SmartTime Version 2021.2.0.11</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release v2021.2 (Version 2021.2.0.11)</text>
+<text>Date: Wed Feb  9 10:57:50 2022
+</text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>DRM2_top</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>IGLOO2</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>M2GL090T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>676 FBGA</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 85 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>1.14 - 1.26 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Design State</cell>
+ <cell>Post-Layout</cell>
+</row>
+<row>
+ <cell>Data source</cell>
+ <cell>Production</cell>
+</row>
+<row>
+ <cell>Multi Corner Report Operating Conditions</cell>
+ <cell>BEST, TYPICAL, WORST</cell>
+</row>
+</table>
+<text></text>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Operating Conditions</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/pck_pend[3]:ALn</cell>
+ <cell>4.369</cell>
+ <cell>-4.907</cell>
+ <cell>9.819</cell>
+ <cell>4.912</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/pck_pend[1]:ALn</cell>
+ <cell>4.369</cell>
+ <cell>-4.907</cell>
+ <cell>9.819</cell>
+ <cell>4.912</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/scl_pckrdy:ALn</cell>
+ <cell>4.369</cell>
+ <cell>-4.898</cell>
+ <cell>9.819</cell>
+ <cell>4.921</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/pck_pend[0]:ALn</cell>
+ <cell>4.369</cell>
+ <cell>-4.898</cell>
+ <cell>9.819</cell>
+ <cell>4.921</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/pck_pend[2]:ALn</cell>
+ <cell>4.369</cell>
+ <cell>-4.897</cell>
+ <cell>9.819</cell>
+ <cell>4.922</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 6</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/inc_pck:ALn</cell>
+ <cell>4.141</cell>
+ <cell>-4.670</cell>
+ <cell>9.591</cell>
+ <cell>4.921</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 7</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/prcnt[0]:ALn</cell>
+ <cell>4.140</cell>
+ <cell>-4.669</cell>
+ <cell>9.590</cell>
+ <cell>4.921</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 8</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/endpck_s:ALn</cell>
+ <cell>4.140</cell>
+ <cell>-4.669</cell>
+ <cell>9.590</cell>
+ <cell>4.921</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 9</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/prcnt[2]:ALn</cell>
+ <cell>4.141</cell>
+ <cell>-4.661</cell>
+ <cell>9.591</cell>
+ <cell>4.930</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 10</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/prcnt[1]:ALn</cell>
+ <cell>4.140</cell>
+ <cell>-4.660</cell>
+ <cell>9.590</cell>
+ <cell>4.930</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 11</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/rl_empty:ALn</cell>
+ <cell>3.834</cell>
+ <cell>-4.336</cell>
+ <cell>9.284</cell>
+ <cell>4.948</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 12</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/tl_dti_i[7]:ALn</cell>
+ <cell>3.255</cell>
+ <cell>-3.799</cell>
+ <cell>8.705</cell>
+ <cell>4.906</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 13</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/tl_dti_i[16]:ALn</cell>
+ <cell>3.255</cell>
+ <cell>-3.799</cell>
+ <cell>8.705</cell>
+ <cell>4.906</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 14</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/tl_dti_i[15]:ALn</cell>
+ <cell>3.255</cell>
+ <cell>-3.799</cell>
+ <cell>8.705</cell>
+ <cell>4.906</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 15</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/pckw_d:ALn</cell>
+ <cell>3.255</cell>
+ <cell>-3.799</cell>
+ <cell>8.705</cell>
+ <cell>4.906</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 16</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/pckw:ALn</cell>
+ <cell>3.255</cell>
+ <cell>-3.799</cell>
+ <cell>8.705</cell>
+ <cell>4.906</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 17</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/tl_dti_i[8]:ALn</cell>
+ <cell>3.255</cell>
+ <cell>-3.788</cell>
+ <cell>8.705</cell>
+ <cell>4.917</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 18</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/tl_dti_i[6]:ALn</cell>
+ <cell>3.255</cell>
+ <cell>-3.788</cell>
+ <cell>8.705</cell>
+ <cell>4.917</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 19</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/tl_dti_i[17]:ALn</cell>
+ <cell>3.255</cell>
+ <cell>-3.788</cell>
+ <cell>8.705</cell>
+ <cell>4.917</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 20</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/linkres_i_n_rep:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/tl_dti_i[13]:ALn</cell>
+ <cell>3.226</cell>
+ <cell>-3.772</cell>
+ <cell>8.676</cell>
+ <cell>4.904</cell>
+ <cell>WORST</cell>
+</row>
+</table>
+<text></text>
+</doc>

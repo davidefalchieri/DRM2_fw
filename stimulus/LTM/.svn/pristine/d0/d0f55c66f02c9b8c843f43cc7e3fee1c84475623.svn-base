@@ -1,0 +1,12 @@
+Fitter Status : Successful - Wed Jan 30 10:36:45 2008
+Quartus II Version : 7.0 Build 33 02/05/2007 SJ Full Version
+Revision Name : VX1392_TEST
+Top-level Entity Name : trigger_top
+Family : Cyclone
+Device : EP1C20F400C6
+Timing Models : Final
+Total logic elements : 937 / 20,060 ( 5 % )
+Total pins : 279 / 301 ( 93 % )
+Total virtual pins : 0
+Total memory bits : 0 / 294,912 ( 0 % )
+Total PLLs : 1 / 2 ( 50 % )

@@ -1,0 +1,15 @@
+<!DOCTYPE Desktop SYSTEM "hdl-prj.dtd">
+<Desktop>
+  <ProjectWindow X="0" Y="0" W="123" H="34">
+    <Column>78</Column>
+  </ProjectWindow>
+  <WatchDlg WindowTop="-1" WindowLeft="-1" WindowHeight="0" WindowWidth="0" CaptureLBClick="True" CaptureMouseMove="False" CaptureFromSimulator="True" SelectedTabNum="0">
+    <WatchTab InspectedTime="0" ColumnWidth="0">Inspect 1</WatchTab>
+    <WatchTab InspectedTime="0" ColumnWidth="0">Inspect 2</WatchTab>
+    <WatchTab InspectedTime="0" ColumnWidth="0">Inspect 3</WatchTab>
+    <WatchTab InspectedTime="0" ColumnWidth="0">Inspect 4</WatchTab>
+    <WatchTab InspectedTime="0" ColumnWidth="0">Inspect 5</WatchTab>
+    <WatchTab InspectedTime="0" ColumnWidth="0">Inspect 6</WatchTab>
+    <WatchTab InspectedTime="0" ColumnWidth="0">Inspect 7</WatchTab>
+  </WatchDlg>
+</Desktop>

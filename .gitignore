@@ -26,3 +26,5 @@ smartgen/smartgen.aws
 
 #designer files
 designer//
+
+*.qpg

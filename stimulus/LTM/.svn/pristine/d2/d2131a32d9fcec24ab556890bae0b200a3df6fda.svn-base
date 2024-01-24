@@ -1,0 +1,12 @@
+indata[0] = 5'b10000 ; outdata[0] = 4'b0001; 
+indata[1] = 5'b00000 ; outdata[1] = 4'b0001; 
+indata[2] = 5'b10001 ; outdata[2] = 4'b0001; 
+indata[3] = 5'b00001 ; outdata[3] = 4'b0010; 
+indata[4] = 5'b00000 ; outdata[4] = 4'b0100; 
+indata[5] = 5'b00000 ; outdata[5] = 4'b1000; 
+indata[6] = 5'b01110 ; outdata[6] = 4'b0001; 
+indata[7] = 5'b10001 ; outdata[7] = 4'b0001; 
+indata[8] = 5'b00001 ; outdata[8] = 4'b0010; 
+indata[9] = 5'b00000 ; outdata[9] = 4'b0100; 
+indata[10] = 5'b00000 ; outdata[10] = 4'b1000; 
+indata[11] = 5'b00000 ; outdata[11] = 4'b0010; 

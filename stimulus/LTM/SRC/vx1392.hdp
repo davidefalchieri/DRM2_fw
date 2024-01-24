@@ -1,0 +1,24 @@
+[ModelSim]
+[hdl]
+fmf = $HDS_PROJECT_DIR/../lib/src/fmf
+synopsys = $HDS_HOME/hdl_libs/synopsys/hdl
+vx1392_lib = $HDS_PROJECT_DIR/../ACTEL/hdl
+vx1392_sim = $HDS_PROJECT_DIR/vx1392_sim/hdl
+vx1392_trig = $HDS_PROJECT_DIR/../ALTERA/SRC/vx1392_trig/hdl
+[hds]
+vx1392_lib = $HDS_PROJECT_DIR/../ACTEL/hds
+vx1392_sim = $HDS_PROJECT_DIR/vx1392_sim/hds
+vx1392_trig = $HDS_PROJECT_DIR/../ALTERA/SRC/vx1392_trig\hds
+[hds_settings]
+default_library = vx1392_sim
+design_root = vx1392_sim.vx1392sim(struct)vx1392sim/struct.bd
+project_description = ALICE LTM (Local Trigger Module)
+version = 1
+[library_type]
+apa = downstream_only
+fmf = regular
+vx1392_lib = regular
+vx1392_sim = regular
+vx1392_trig = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

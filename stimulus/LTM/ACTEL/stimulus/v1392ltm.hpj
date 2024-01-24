@@ -1,0 +1,17 @@
+<!DOCTYPE SimulationProject SYSTEM "hdl-prj.dtd">
+<SimulationProject ProductVersion="8.6c" Logfile="v1392ltm.log" AutoParseProject="1" NameOfComponentToParse="v1392ltm" Keyfile="vhdl.key" Language="vhdl" DelayType="typical" AddTopLevelSignals="0" FileNamesShown="1" HideEmptyLists="1" ShowWatch="1" DumpWatch="0" InteractiveMode="1" ParametersAreWatchable="0" ClearLogBeforeCompile="1" CreateLogFileDuringSim="1" > 
+  <FileList>
+    <File>C:\FrontEnd\Annalisa\work\vx1392\phy_synthesis\v1392ltm_palace.vhd</File>
+  </FileList>
+  <DirList>
+    <Directory>C:\Programmi\Libero62\WFL\</Directory>
+    <Directory>C:\FrontEnd\Annalisa\work\vx1392\hdl</Directory>
+  </DirList>
+  <LibDirList>
+    <Directory>C:\Programmi\Libero62\WFL\lib\vhd\</Directory>
+    <Directory>C:\Programmi\Libero62\Designer/lib/vtl/95/apa.vhd</Directory>
+  </LibDirList>
+  <LibExtensionList>
+    <Extension>.vhd</Extension>
+  </LibExtensionList>
+</SimulationProject>

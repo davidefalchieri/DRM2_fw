@@ -1,0 +1,996 @@
+m255
+K4
+z2
+!s11e vcom 2019.4 2019.10, Oct 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/simulation
+Ea1500
+Z1 w1453732317
+Z2 DPx4 work 7 drm2pkg 0 22 CTP_`f;m::BzeO`gb0dz<3
+Z3 DPx4 work 11 caenlinkpkg 0 22 O?5?SoYdSNgMaj`kUKeQQ3
+Z4 DPx4 work 8 io_utils 0 22 <`cLVS<if_Ph=P:08UP;m2
+Z5 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z6 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 -1
+R0
+Z9 8E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/a1500.vhd
+Z10 FE:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/a1500.vhd
+l0
+L11
+VMAEO]T>n9YTlEoYj^>55:1
+!s100 0_BaYcJ?3Wmh8KTbTnL7J0
+Z11 OW;C;2019.4;69
+33
+Z12 !s110 1603201755
+!i10b 1
+Z13 !s108 1603201755.000000
+Z14 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/a1500.vhd|
+Z15 !s107 E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/a1500.vhd|
+!i113 1
+Z16 o-2008 -explicit -work postlayout -O0
+Z17 tCvgOpt 0
+Abehav
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 5 a1500 0 22 MAEO]T>n9YTlEoYj^>55:1
+!i122 -1
+l53
+L27
+VaPnMZhhcT@5D`UFVbcSLF2
+!s100 N9BkD7z>Q5HNeJXBQJiaj2
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Pcaenlinkpkg
+R5
+R6
+R7
+R8
+!i122 -1
+Z18 w1475156419
+R0
+Z19 8E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/hdl/caenlinkpkg.vhd
+Z20 FE:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/hdl/caenlinkpkg.vhd
+l0
+L18
+VO?5?SoYdSNgMaj`kUKeQQ3
+!s100 hnIRUIJh7ZUR1OTao]ea51
+R11
+33
+b1
+Z21 !s110 1603201500
+!i10b 1
+Z22 !s108 1603201500.000000
+Z23 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/hdl/caenlinkpkg.vhd|
+Z24 !s107 E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/hdl/caenlinkpkg.vhd|
+!i113 1
+R16
+R17
+Bbody
+R3
+R5
+R6
+R7
+R8
+!i122 -1
+l0
+L114
+Vk1MmL3;_;<^O3Of@2j:E:0
+!s100 V__c[f22HWCIJ5IIiKg<Z2
+R11
+33
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R16
+R17
+Econet_master
+Z25 w1600432243
+Z26 DPx12 modelsim_lib 4 util 0 22 I9VUm]?fD[2nYZzgoDM?l2
+R4
+R2
+R3
+R5
+R6
+R7
+R8
+!i122 -1
+R0
+Z27 8E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/CONET_MASTER.vhd
+Z28 FE:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/CONET_MASTER.vhd
+l0
+L15
+VB9bFacU8So6MSfiM`EGAY0
+!s100 _7H^H:NEC`?^>1Lm6B4_:3
+R11
+33
+Z29 !s110 1603201756
+!i10b 1
+Z30 !s108 1603201756.000000
+Z31 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/CONET_MASTER.vhd|
+Z32 !s107 E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/CONET_MASTER.vhd|
+!i113 1
+R16
+R17
+Asimul
+R26
+R4
+R2
+R3
+R5
+R6
+R7
+R8
+DEx4 work 12 conet_master 0 22 B9bFacU8So6MSfiM`EGAY0
+!i122 -1
+l147
+L24
+V_7HJ`GF4o0D18D=?0Dg6_1
+!s100 b3[aB1ULW4S`T[R09nehD0
+R11
+33
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R16
+R17
+Ecy7c1370
+Z33 w1476087333
+Z34 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z35 DPx4 work 15 package_utility 0 22 5Nd3FAjzGA5K@Ie:W:@>o3
+R6
+R5
+R7
+R8
+!i122 -1
+R0
+Z36 8E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/CY7C1370D.vhd
+Z37 FE:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/CY7C1370D.vhd
+l0
+L44
+VHKZa5fm?n]Na8?bD92SZP0
+!s100 n^EI400nVIDD:JZS:dWPY3
+R11
+33
+Z38 !s110 1603201757
+!i10b 1
+Z39 !s108 1603201757.000000
+Z40 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/CY7C1370D.vhd|
+Z41 !s107 E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/CY7C1370D.vhd|
+!i113 1
+R16
+R17
+Abehave
+R34
+R35
+R6
+R5
+R7
+R8
+DEx4 work 8 cy7c1370 0 22 HKZa5fm?n]Na8?bD92SZP0
+!i122 -1
+l138
+L132
+VC5IzdTPUD2QC;`FdSG`LG0
+!s100 a:X7P5QQ>Go;@l`Z[aOVA3
+R11
+33
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R16
+R17
+Edec8b10b
+Z42 w1453473880
+R5
+R6
+R7
+R8
+!i122 -1
+R0
+Z43 8E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/Dec8B10B.vhd
+Z44 FE:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/Dec8B10B.vhd
+l0
+L21
+V@mog2NR5?_N<VYjnQTNEX1
+!s100 m:2=9NWV;liAfKHK6dOZ93
+R11
+33
+R12
+!i10b 1
+R13
+Z45 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/Dec8B10B.vhd|
+Z46 !s107 E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/Dec8B10B.vhd|
+!i113 1
+R16
+R17
+Artl
+R5
+R6
+R7
+R8
+DEx4 work 8 dec8b10b 0 22 @mog2NR5?_N<VYjnQTNEX1
+!i122 -1
+l1066
+L31
+VY1nVmN11B7WR1:D<c`>J?1
+!s100 _n72^`[BfEM^CTXGfXHQD0
+R11
+33
+R12
+!i10b 1
+R13
+R45
+R46
+!i113 1
+R16
+R17
+Edrm2_top
+Z47 w1603201730
+R7
+R8
+!i122 -1
+R0
+Z48 8E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/designer/DRM2_top/DRM2_top_ba.vhd
+Z49 FE:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/designer/DRM2_top/DRM2_top_ba.vhd
+l0
+L418
+VAi]LRR>?Y:KG]SJ0n31[f1
+!s100 APSi^4=8B`f1<U5nWMW?J0
+R11
+33
+Z50 !s110 1603201746
+!i10b 1
+Z51 !s108 1603201746.000000
+Z52 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/designer/DRM2_top/DRM2_top_ba.vhd|
+Z53 !s107 E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/designer/DRM2_top/DRM2_top_ba.vhd|
+!i113 1
+R16
+R17
+Adef_arch
+Z54 DEx4 work 12 sdf_iopad_in 0 22 :GQOU:on793mLbC:oVlCN3
+Z55 DEx4 work 13 sdf_iopadn_in 0 22 =jSz<iDiW;=1FQDAbG49k2
+Z56 DEx4 work 12 sdf_iopad_bi 0 22 nLgL_ZKjAihifU5_g;;bM1
+Z57 DEx4 work 14 sdf_iopadn_tri 0 22 jVmAKOMQW4;0<_P=;Y0Tb2
+Z58 DEx4 work 14 sdf_iopadp_tri 0 22 ]<FdoHjJQlFTEd>lbBFGF1
+Z59 DEx4 work 13 sdf_iopadp_in 0 22 U4VKQHlOI]Sd@YmTCMVJ_0
+Z60 DEx4 work 13 sdf_iopad_tri 0 22 3M>P7KnoemH@laT^KZNUJ3
+R7
+R8
+DEx4 work 8 drm2_top 0 22 Ai]LRR>?Y:KG]SJ0n31[f1
+!i122 -1
+l39521
+L551
+V9D?8g_JZ>>V:kT2B24NkA3
+!s100 Ged@hb9b[QO_@PBY6ogEg1
+R11
+33
+!s110 1603201750
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R16
+R17
+Pdrm2pkg
+R5
+R6
+R7
+R8
+!i122 -1
+Z61 w1593437201
+R0
+Z62 8E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/hdl/DRM2pkg.vhd
+Z63 FE:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/hdl/DRM2pkg.vhd
+l0
+L15
+VCTP_`f;m::BzeO`gb0dz<3
+!s100 b;=JD?LndU<H?mRDjA]^Q2
+R11
+33
+b1
+Z64 !s110 1603201512
+!i10b 1
+Z65 !s108 1603201512.000000
+Z66 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/hdl/DRM2pkg.vhd|
+Z67 !s107 E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/hdl/DRM2pkg.vhd|
+!i113 1
+R16
+R17
+Bbody
+R2
+R5
+R6
+R7
+R8
+!i122 -1
+l0
+L449
+VMB9=3C0l<YP4<2lGa3QG82
+!s100 QQhem<EL5?]S=^a<[MhP91
+R11
+33
+R64
+!i10b 1
+R65
+R66
+R67
+!i113 1
+R16
+R17
+Eenc8b10b
+R42
+R5
+R6
+R7
+R8
+!i122 -1
+R0
+Z68 8E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/Enc8B10B.vhd
+Z69 FE:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/Enc8B10B.vhd
+l0
+L21
+V8iMg`;Wkmj1eJ3nO[BFPo2
+!s100 gzlG<54YP2aE4@PbJ2hWC0
+R11
+33
+R29
+!i10b 1
+R30
+Z70 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/Enc8B10B.vhd|
+Z71 !s107 E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/Enc8B10B.vhd|
+!i113 1
+R16
+R17
+Artl
+R5
+R6
+R7
+R8
+DEx4 work 8 enc8b10b 0 22 8iMg`;Wkmj1eJ3nO[BFPo2
+!i122 -1
+l1104
+L33
+V>L8MmJ1K:=M?=fSW=QTd>0
+!s100 gY]:CEDT4zGCYKR5I8glh0
+R11
+33
+R29
+!i10b 1
+R30
+R70
+R71
+!i113 1
+R16
+R17
+Efct16543p
+Z72 w1492779688
+R6
+R7
+R8
+!i122 -1
+R0
+Z73 8E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/fct16543p.vhd
+Z74 FE:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/fct16543p.vhd
+l0
+L5
+VjXm6gfZci5MU8:bIcHD_k3
+!s100 jVYo7O0^D;VZ2WDBe:EjJ0
+R11
+33
+R29
+!i10b 1
+R30
+Z75 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/fct16543p.vhd|
+Z76 !s107 E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/fct16543p.vhd|
+!i113 1
+R16
+R17
+Abehav
+R6
+R7
+R8
+DEx4 work 9 fct16543p 0 22 jXm6gfZci5MU8:bIcHD_k3
+!i122 -1
+l30
+L24
+V49c@Gl^7CVESAIVHN6Vn<2
+!s100 D>XS_7d?U:bP?HC6kkXOg3
+R11
+33
+R29
+!i10b 1
+R30
+R75
+R76
+!i113 1
+R16
+R17
+Ei2c_control
+Z77 w1554111466
+R6
+R5
+R7
+R8
+!i122 -1
+R0
+Z78 8E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/Control.vhd
+Z79 FE:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/Control.vhd
+l0
+L24
+V=kkRT]dfb;diN;1V4?lAK3
+!s100 =k11DgFU@Kb>hX7U0[VNi1
+R11
+33
+R29
+!i10b 1
+R30
+Z80 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/Control.vhd|
+Z81 !s107 E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/Control.vhd|
+!i113 1
+R16
+R17
+Ai2c_control_beh
+R6
+R5
+R7
+R8
+DEx4 work 11 i2c_control 0 22 =kkRT]dfb;diN;1V4?lAK3
+!i122 -1
+l367
+L78
+V]:S@liDik^OgF>TL88P]E3
+!s100 bDWhZOOdLV4A>M_9lg[0z2
+R11
+33
+R29
+!i10b 1
+R30
+R80
+R81
+!i113 1
+R16
+R17
+Ei2c_gbtx_tb
+Z82 w1602152230
+R2
+R5
+R6
+R3
+R26
+Z83 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R7
+R8
+!i122 -1
+R0
+Z84 8E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/TB_i2c_gbtx.vhd
+Z85 FE:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/TB_i2c_gbtx.vhd
+l0
+L31
+VYj7VLB`2S`o73F@K3[[LG1
+!s100 KI_@1A9Hj?Q0dh45Lbih=3
+R11
+33
+R38
+!i10b 1
+R39
+Z86 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/TB_i2c_gbtx.vhd|
+Z87 !s107 E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/TB_i2c_gbtx.vhd|
+!i113 1
+R16
+R17
+Artl
+R2
+R5
+R6
+R3
+R26
+R83
+R7
+R8
+Z88 DEx4 work 11 i2c_gbtx_tb 0 22 Yj7VLB`2S`o73F@K3[[LG1
+!i122 -1
+l822
+L80
+Z89 V@jdFzWbi7N>XmcF2<OYJj3
+Z90 !s100 ADIPb6Ohfj=P6i4:^ZSW13
+R11
+33
+R38
+!i10b 1
+R39
+R86
+R87
+!i113 1
+R16
+R17
+Ei2c_ztest
+Z91 w1440169880
+R7
+R8
+!i122 -1
+R0
+Z92 8E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/I2C_ZTEST.vhd
+Z93 FE:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/I2C_ZTEST.vhd
+l0
+L23
+V?9YhnZAJ>f^@ZP?[Z:Rb83
+!s100 J3;K^K3K>LGXW<c=S^n@20
+R11
+33
+R38
+!i10b 1
+R39
+Z94 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/I2C_ZTEST.vhd|
+Z95 !s107 E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/I2C_ZTEST.vhd|
+!i113 1
+R16
+R17
+Ai2c_ztest_arch
+R7
+R8
+DEx4 work 9 i2c_ztest 0 22 ?9YhnZAJ>f^@ZP?[Z:Rb83
+!i122 -1
+l33
+L31
+VhN?WA3N[<E7OM7<[:JT250
+!s100 iHQ<HCKjKTLVl0JeIRPmJ2
+R11
+33
+R38
+!i10b 1
+R39
+R94
+R95
+!i113 1
+R16
+R17
+Pio_utils
+R5
+R6
+R7
+R8
+!i122 -1
+R42
+R0
+Z96 8E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/io_utils.vhd
+Z97 FE:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/io_utils.vhd
+l0
+L7
+V<`cLVS<if_Ph=P:08UP;m2
+!s100 @bXdLfz4fPeAj29GAcZ:P3
+R11
+33
+b1
+R12
+!i10b 1
+R13
+Z98 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/io_utils.vhd|
+Z99 !s107 E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/io_utils.vhd|
+!i113 1
+R16
+R17
+Bbody
+R4
+R5
+R6
+R7
+R8
+!i122 -1
+l0
+L48
+V5We85n[b8;XJhLTe13h<F0
+!s100 ^;k@6o[Hhajo>;TmgBb^n3
+R11
+33
+R12
+!i10b 1
+R13
+R98
+R99
+!i113 1
+R16
+R17
+Ppackage_utility
+R34
+R6
+R7
+R8
+!i122 -1
+Z100 w1384265765
+R0
+Z101 8E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/package_utility.vhd
+Z102 FE:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/package_utility.vhd
+l0
+L16
+V5Nd3FAjzGA5K@Ie:W:@>o3
+!s100 aGN8kS7I>c[NSSXcO4Az`0
+R11
+33
+b1
+R38
+!i10b 1
+R39
+Z103 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/package_utility.vhd|
+Z104 !s107 E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/package_utility.vhd|
+!i113 1
+R16
+R17
+Bbody
+R35
+R34
+R6
+R7
+R8
+!i122 -1
+l0
+L23
+Vi0Liz1Qez:Qn]AD^c12HJ2
+!s100 fSG3k0L=X:JNo]LAkz;Jz2
+R11
+33
+R38
+!i10b 1
+R39
+R103
+R104
+!i113 1
+R16
+R17
+Esdf_iopad_bi
+R47
+R7
+R8
+!i122 -1
+R0
+R48
+R49
+l0
+L226
+VnLgL_ZKjAihifU5_g;;bM1
+!s100 ezE6m[oVn5^0]iU6^1>Di3
+R11
+33
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R16
+R17
+Adef_arch
+R7
+R8
+R56
+!i122 -1
+l265
+L236
+V<YEoF0GlTPlWbP:HaIzik1
+!s100 EX[aWQ<BWkB@naPj?YW^72
+R11
+33
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R16
+R17
+Esdf_iopad_in
+R47
+R7
+R8
+!i122 -1
+R0
+R48
+R49
+l0
+L353
+V:GQOU:on793mLbC:oVlCN3
+!s100 12l4kP[1J@W96RfcLdA^e1
+R11
+33
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R16
+R17
+Adef_arch
+R7
+R8
+R54
+!i122 -1
+l392
+L361
+VLi_MZ3AK_EgJf7S1cTEX?3
+!s100 <?R75ao91G[Vn7C83<ohM0
+R11
+33
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R16
+R17
+Esdf_iopad_tri
+R47
+R7
+R8
+!i122 -1
+R0
+R48
+R49
+l0
+L9
+V3M>P7KnoemH@laT^KZNUJ3
+!s100 Xo]O_zZ8g6l_SlfDNe8W^0
+R11
+33
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R16
+R17
+Adef_arch
+R7
+R8
+R60
+!i122 -1
+l39
+L18
+Ven7II7?VClS5eKZH<W08L1
+!s100 zXb[26LLcb[g<QMOa9b^;1
+R11
+33
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R16
+R17
+Esdf_iopadn_in
+R47
+R7
+R8
+!i122 -1
+R0
+R48
+R49
+l0
+L288
+V=jSz<iDiW;=1FQDAbG49k2
+!s100 kJX80f6FKgZ=<6;meZH0o1
+R11
+33
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R16
+R17
+Adef_arch
+R7
+R8
+R55
+!i122 -1
+l327
+L296
+Vgd2e5KnhaE3S?CC<^oLNB1
+!s100 ;VfG[E6J0`C>LNn]<HXT62
+R11
+33
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R16
+R17
+Esdf_iopadn_tri
+R47
+R7
+R8
+!i122 -1
+R0
+R48
+R49
+l0
+L176
+VjVmAKOMQW4;0<_P=;Y0Tb2
+!s100 S4:kQjG4NF;4DoEmS^SIh0
+R11
+33
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R16
+R17
+Adef_arch
+R7
+R8
+R57
+!i122 -1
+l206
+L185
+VkbcC6OSjQ^KEJ>Xd2FW>z2
+!s100 X37:kO>5VVm`Ngzk=EfH_0
+R11
+33
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R16
+R17
+Esdf_iopadp_in
+R47
+R7
+R8
+!i122 -1
+R0
+R48
+R49
+l0
+L58
+VU4VKQHlOI]Sd@YmTCMVJ_0
+!s100 kJOE>YhQd;fIcCbdi=Clk1
+R11
+33
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R16
+R17
+Adef_arch
+R7
+R8
+R59
+!i122 -1
+l99
+L67
+VM9MRmYdVoEkhf[R_TGVHi0
+!s100 d::GMZlKE6UR5lBgoAAmG0
+R11
+33
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R16
+R17
+Esdf_iopadp_tri
+R47
+R7
+R8
+!i122 -1
+R0
+R48
+R49
+l0
+L126
+V]<FdoHjJQlFTEd>lbBFGF1
+!s100 IB8CVNS[g448^SclKO9T20
+R11
+33
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R16
+R17
+Adef_arch
+R7
+R8
+R58
+!i122 -1
+l156
+L135
+Vc>:<dC02TEYV<DY7[4`bZ3
+!s100 Fc<H;7i`EOH>J32:6ncN?3
+R11
+33
+R50
+!i10b 1
+R51
+R52
+R53
+!i113 1
+R16
+R17
+Eserdes
+R42
+R7
+R8
+!i122 -1
+R0
+Z105 8E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/serdes.vhd
+Z106 FE:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/serdes.vhd
+l0
+L8
+V=kbHjI8Z=65g:^zdh@UX41
+!s100 jFiFX^:@KS>_PiO^;VSi@3
+R11
+33
+R29
+!i10b 1
+R30
+Z107 !s90 -reportprogress|300|-2008|-explicit|-work|postlayout|E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/serdes.vhd|
+Z108 !s107 E:/alicetof/firmware/DRM2_rev2.0/DRM2_Ztenth_fw_trm_12.4/stimulus/serdes.vhd|
+!i113 1
+R16
+R17
+Abehav
+R7
+R8
+DEx4 work 6 serdes 0 22 =kbHjI8Z=65g:^zdh@UX41
+!i122 -1
+l31
+L24
+VV]K]]KU2OD0gAYcXB4g__3
+!s100 `CoP0Bf]MG3VhHaNPbS^11
+R11
+33
+R29
+!i10b 1
+R30
+R107
+R108
+!i113 1
+R16
+R17

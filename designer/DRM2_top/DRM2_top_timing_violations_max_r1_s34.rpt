@@ -1,0 +1,919 @@
+Timing Violation Report Max Delay Analysis
+
+SmartTime Version v2021.2
+Microsemi Corporation - Microsemi Libero Software Release v2021.2 (Version 2021.2.0.11)
+Date: Fri Jan 21 19:58:55 2022
+
+
+Design: DRM2_top
+Family: IGLOO2
+Die: M2GL090T
+Package: 676 FBGA
+Temperature Range: 0 - 85 C
+Voltage Range: 1.14 - 1.26 V
+Speed Grade: -1
+Design State: Post-Layout
+Data source: Production
+Multi Corner Report Operating Conditions: BEST, TYPICAL, WORST
+
+
+Path 1
+  From: CAEN_LINK_instance/I_conet_interf/rl_wr:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/led_opt:ALn
+  Delay (ns):              1.384
+  Slack (ns):             -1.929
+  Arrival (ns):            6.832
+  Required (ns):           4.903
+  Operating Conditions:    WORST
+
+Path 2
+  From: CAEN_LINK_instance/I_conet_interf/rl_wr:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/tmonos:ALn
+  Delay (ns):              1.384
+  Slack (ns):             -1.921
+  Arrival (ns):            6.832
+  Required (ns):           4.911
+  Operating Conditions:    WORST
+
+Path 3
+  From: CAEN_LINK_instance/I_conet_interf/tl_rd:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/led_opt:ALn
+  Delay (ns):              1.053
+  Slack (ns):             -1.641
+  Arrival (ns):            6.544
+  Required (ns):           4.903
+  Operating Conditions:    WORST
+
+Path 4
+  From: CAEN_LINK_instance/I_conet_interf/tl_rd:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/tmonos:ALn
+  Delay (ns):              1.053
+  Slack (ns):             -1.633
+  Arrival (ns):            6.544
+  Required (ns):           4.911
+  Operating Conditions:    WORST
+
+Path 5
+  From: CAEN_LINK_instance/I_conet_interf/endpck:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/endpck_set:ALn
+  Delay (ns):              0.692
+  Slack (ns):             -1.200
+  Arrival (ns):            6.107
+  Required (ns):           4.907
+  Operating Conditions:    WORST
+
+Path 6
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/wptr_gray[3]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0_[3]:D
+  Delay (ns):              0.595
+  Slack (ns):             -1.015
+  Arrival (ns):            6.016
+  Required (ns):           5.001
+  Operating Conditions:    WORST
+
+Path 7
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/rptr_gray[2]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Rd_corefifo_NstagesSync/shift_array_0_[2]:D
+  Delay (ns):              0.476
+  Slack (ns):             -0.956
+  Arrival (ns):            5.953
+  Required (ns):           4.997
+  Operating Conditions:    WORST
+
+Path 8
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/rptr_gray[3]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Rd_corefifo_NstagesSync/shift_array_0_[3]:D
+  Delay (ns):              0.478
+  Slack (ns):             -0.948
+  Arrival (ns):            5.945
+  Required (ns):           4.997
+  Operating Conditions:    WORST
+
+Path 9
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/rptr_gray[1]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Rd_corefifo_NstagesSync/shift_array_0_[1]:D
+  Delay (ns):              0.467
+  Slack (ns):             -0.939
+  Arrival (ns):            5.946
+  Required (ns):           5.007
+  Operating Conditions:    WORST
+
+Path 10
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/rptr_gray[0]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Rd_corefifo_NstagesSync/shift_array_0_[0]:D
+  Delay (ns):              0.475
+  Slack (ns):             -0.935
+  Arrival (ns):            5.942
+  Required (ns):           5.007
+  Operating Conditions:    WORST
+
+Path 11
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/rptr_gray[4]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Rd_corefifo_NstagesSync/shift_array_0_[4]:D
+  Delay (ns):              0.464
+  Slack (ns):             -0.927
+  Arrival (ns):            5.930
+  Required (ns):           5.003
+  Operating Conditions:    WORST
+
+Path 12
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/wptr_gray[0]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0_[0]:D
+  Delay (ns):              0.467
+  Slack (ns):             -0.892
+  Arrival (ns):            5.888
+  Required (ns):           4.996
+  Operating Conditions:    WORST
+
+Path 13
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/wptr_gray[2]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0_[2]:D
+  Delay (ns):              0.476
+  Slack (ns):             -0.891
+  Arrival (ns):            5.897
+  Required (ns):           5.006
+  Operating Conditions:    WORST
+
+Path 14
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/wptr_gray[1]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0_[1]:D
+  Delay (ns):              0.464
+  Slack (ns):             -0.888
+  Arrival (ns):            5.884
+  Required (ns):           4.996
+  Operating Conditions:    WORST
+
+Path 15
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/wptr_gray[4]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0_[4]:D
+  Delay (ns):              0.464
+  Slack (ns):             -0.832
+  Arrival (ns):            5.853
+  Required (ns):           5.021
+  Operating Conditions:    WORST
+
+Path 16
+  From: CAEN_LINK_instance/I_EPCS_SERDES/epcs_tx_intf_0/txdout[3]:CLK
+  To:   CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/INST_SERDESIF_IP:M_RDATA_HRDATA[35]
+  Delay (ns):              1.106
+  Slack (ns):             -0.667
+  Arrival (ns):            6.589
+  Required (ns):           5.922
+  Operating Conditions:    WORST
+
+Path 17
+  From: CAEN_LINK_instance/I_EPCS_SERDES/epcs_tx_intf_0/txdout[0]:CLK
+  To:   CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/INST_SERDESIF_IP:M_RDATA_HRDATA[32]
+  Delay (ns):              1.001
+  Slack (ns):             -0.647
+  Arrival (ns):            6.496
+  Required (ns):           5.849
+  Operating Conditions:    WORST
+
+Path 18
+  From: CAEN_LINK_instance/I_EPCS_SERDES/epcs_tx_intf_0/txdout[4]:CLK
+  To:   CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/INST_SERDESIF_IP:M_RDATA_HRDATA[36]
+  Delay (ns):              1.095
+  Slack (ns):             -0.636
+  Arrival (ns):            6.602
+  Required (ns):           5.966
+  Operating Conditions:    WORST
+
+Path 19
+  From: CAEN_LINK_instance/I_EPCS_SERDES/epcs_tx_intf_0/txdout[2]:CLK
+  To:   CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/INST_SERDESIF_IP:M_RDATA_HRDATA[34]
+  Delay (ns):              1.004
+  Slack (ns):             -0.590
+  Arrival (ns):            6.499
+  Required (ns):           5.909
+  Operating Conditions:    WORST
+
+Path 20
+  From: CAEN_LINK_instance/I_EPCS_SERDES/epcs_tx_intf_0/txdout[9]:CLK
+  To:   CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/INST_SERDESIF_IP:M_RDATA_HRDATA[41]
+  Delay (ns):              1.089
+  Slack (ns):             -0.551
+  Arrival (ns):            6.581
+  Required (ns):           6.030
+  Operating Conditions:    WORST
+
+Path 21
+  From: CAEN_LINK_instance/I_EPCS_SERDES/epcs_tx_intf_0/txdout[6]:CLK
+  To:   CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/INST_SERDESIF_IP:M_RDATA_HRDATA[38]
+  Delay (ns):              0.946
+  Slack (ns):             -0.541
+  Arrival (ns):            6.441
+  Required (ns):           5.900
+  Operating Conditions:    WORST
+
+Path 22
+  From: CAEN_LINK_instance/I_EPCS_SERDES/epcs_tx_intf_0/txdout[8]:CLK
+  To:   CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/INST_SERDESIF_IP:M_RDATA_HRDATA[40]
+  Delay (ns):              1.127
+  Slack (ns):             -0.497
+  Arrival (ns):            6.596
+  Required (ns):           6.099
+  Operating Conditions:    WORST
+
+Path 23
+  From: CAEN_LINK_instance/I_EPCS_SERDES/epcs_tx_intf_0/txdout[7]:CLK
+  To:   CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/INST_SERDESIF_IP:M_RDATA_HRDATA[39]
+  Delay (ns):              0.931
+  Slack (ns):             -0.421
+  Arrival (ns):            6.438
+  Required (ns):           6.017
+  Operating Conditions:    WORST
+
+Path 24
+  From: CAEN_LINK_instance/I_EPCS_SERDES/epcs_tx_intf_0/txdout[1]:CLK
+  To:   CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/INST_SERDESIF_IP:M_RDATA_HRDATA[33]
+  Delay (ns):              0.851
+  Slack (ns):             -0.409
+  Arrival (ns):            6.346
+  Required (ns):           5.937
+  Operating Conditions:    WORST
+
+Path 25
+  From: CAEN_LINK_instance/I_EPCS_SERDES/epcs_tx_intf_0/txdout[5]:CLK
+  To:   CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/INST_SERDESIF_IP:M_RDATA_HRDATA[37]
+  Delay (ns):              0.840
+  Slack (ns):             -0.373
+  Arrival (ns):            6.347
+  Required (ns):           5.974
+  Operating Conditions:    WORST
+
+Path 26
+  From: CAEN_LINK_instance/I_EPCS_SERDES/epcs_tx_intf_2/txdout[0]:CLK
+  To:   CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_TXDATA[9]
+  Delay (ns):              0.988
+  Slack (ns):              0.358
+  Arrival (ns):            5.930
+  Required (ns):           6.288
+  Operating Conditions:    WORST
+
+Path 27
+  From: CAEN_LINK_instance/I_EPCS_SERDES/epcs_tx_intf_2/txdout[0]:CLK
+  To:   CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_TXDATA[1]
+  Delay (ns):              0.963
+  Slack (ns):              0.395
+  Arrival (ns):            5.905
+  Required (ns):           6.300
+  Operating Conditions:    WORST
+
+Path 28
+  From: CAEN_LINK_instance/I_EPCS_SERDES/epcs_tx_intf_2/txdout[0]:CLK
+  To:   CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_TXDATA[0]
+  Delay (ns):              0.958
+  Slack (ns):              0.411
+  Arrival (ns):            5.900
+  Required (ns):           6.311
+  Operating Conditions:    WORST
+
+Path 29
+  From: CAEN_LINK_instance/I_EPCS_SERDES/epcs_tx_intf_2/txdout[0]:CLK
+  To:   CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_TXDATA[7]
+  Delay (ns):              0.988
+  Slack (ns):              0.417
+  Arrival (ns):            5.930
+  Required (ns):           6.347
+  Operating Conditions:    WORST
+
+Path 30
+  From: CAEN_LINK_instance/I_conet_interf/pckw:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/inc[0]:D
+  Delay (ns):              1.074
+  Slack (ns):              0.851
+  Arrival (ns):            5.366
+  Required (ns):           6.217
+  Operating Conditions:    WORST
+
+Path 31
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/wptr_gray[1]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0_[1]:D
+  Delay (ns):              0.536
+  Slack (ns):              1.114
+  Arrival (ns):            3.458
+  Required (ns):           4.572
+  Operating Conditions:     BEST
+
+Path 32
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/rptr_gray[3]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/Rd_corefifo_NstagesSync/shift_array_0_[3]:D
+  Delay (ns):              0.412
+  Slack (ns):              1.175
+  Arrival (ns):            3.331
+  Required (ns):           4.506
+  Operating Conditions:     BEST
+
+Path 33
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/wptr_gray[4]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0_[4]:D
+  Delay (ns):              0.417
+  Slack (ns):              1.239
+  Arrival (ns):            3.333
+  Required (ns):           4.572
+  Operating Conditions:     BEST
+
+Path 34
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/wptr_gray[2]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0_[2]:D
+  Delay (ns):              0.410
+  Slack (ns):              1.246
+  Arrival (ns):            3.326
+  Required (ns):           4.572
+  Operating Conditions:     BEST
+
+Path 35
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/rptr_gray[2]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/Rd_corefifo_NstagesSync/shift_array_0_[2]:D
+  Delay (ns):              0.323
+  Slack (ns):              1.260
+  Arrival (ns):            3.249
+  Required (ns):           4.509
+  Operating Conditions:     BEST
+
+Path 36
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/rptr_gray[1]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/Rd_corefifo_NstagesSync/shift_array_0_[1]:D
+  Delay (ns):              0.329
+  Slack (ns):              1.264
+  Arrival (ns):            3.241
+  Required (ns):           4.505
+  Operating Conditions:     BEST
+
+Path 37
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/rptr_gray[0]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/Rd_corefifo_NstagesSync/shift_array_0_[0]:D
+  Delay (ns):              0.320
+  Slack (ns):              1.267
+  Arrival (ns):            3.238
+  Required (ns):           4.505
+  Operating Conditions:     BEST
+
+Path 38
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/rptr_gray[4]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/Rd_corefifo_NstagesSync/shift_array_0_[4]:D
+  Delay (ns):              0.320
+  Slack (ns):              1.287
+  Arrival (ns):            3.226
+  Required (ns):           4.513
+  Operating Conditions:     BEST
+
+Path 39
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/wptr_gray[3]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0_[3]:D
+  Delay (ns):              0.323
+  Slack (ns):              1.311
+  Arrival (ns):            3.246
+  Required (ns):           4.557
+  Operating Conditions:     BEST
+
+Path 40
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/wptr_gray[0]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0_[0]:D
+  Delay (ns):              0.327
+  Slack (ns):              1.313
+  Arrival (ns):            3.243
+  Required (ns):           4.556
+  Operating Conditions:     BEST
+
+Path 41
+  From: din_outbuf_instance.1.DDR_OUT_inst:CLK
+  To:   DI_N[1]
+  Delay (ns):              3.268
+  Slack (ns):              1.456
+  Arrival (ns):            7.044
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 42
+  From: din_outbuf_instance.1.DDR_OUT_inst:CLK
+  To:   DI_P[1]
+  Delay (ns):              3.266
+  Slack (ns):              1.458
+  Arrival (ns):            7.042
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 43
+  From: EPCS_Demo_instance/EPCS_Demo_sb_HPMS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:   EPCS_Demo_instance/CORECONFIGP_0/FIC_2_APB_M_PREADY_0:EN
+  Delay (ns):              2.072
+  Slack (ns):              1.476
+  Arrival (ns):            2.072
+  Required (ns):           3.548
+  Operating Conditions:     BEST
+
+Path 44
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/L31.U_corefifo_async/full_r:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/RW1.UI_ram_wrapper_1/U2_asyncnonpipe/trigger_fifo_trigger_fifo_0_USRAM_top_R0C0/INST_RAM64x18_IP:C_WEN
+  Delay (ns):              1.180
+  Slack (ns):              1.634
+  Arrival (ns):            6.602
+  Required (ns):           8.236
+  Operating Conditions:    WORST
+
+Path 45
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/empty_r:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/RW1.UI_ram_wrapper_1/U2_asyncnonpipe/trigger_fifo_trigger_fifo_0_USRAM_top_R0C0/INST_RAM64x18_IP:A_BLK[1]
+  Delay (ns):              1.206
+  Slack (ns):              1.668
+  Arrival (ns):            6.659
+  Required (ns):           8.327
+  Operating Conditions:    WORST
+
+Path 46
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/empty_r:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/RW1.UI_ram_wrapper_1/U2_asyncnonpipe/trigger_fifo_trigger_fifo_0_USRAM_top_R0C0/INST_RAM64x18_IP:A_ADDR_EN
+  Delay (ns):              1.204
+  Slack (ns):              1.706
+  Arrival (ns):            6.657
+  Required (ns):           8.363
+  Operating Conditions:    WORST
+
+Path 47
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/empty_r:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/RW1.UI_ram_wrapper_1/U2_asyncnonpipe/trigger_fifo_trigger_fifo_0_USRAM_top_R0C0/INST_RAM64x18_IP:B_BLK[1]
+  Delay (ns):              1.035
+  Slack (ns):              1.746
+  Arrival (ns):            6.488
+  Required (ns):           8.234
+  Operating Conditions:    WORST
+
+Path 48
+  From: din_outbuf_instance.11.DDR_OUT_inst:CLK
+  To:   DI_N[11]
+  Delay (ns):              2.971
+  Slack (ns):              1.761
+  Arrival (ns):            6.739
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 49
+  From: din_outbuf_instance.11.DDR_OUT_inst:CLK
+  To:   DI_P[11]
+  Delay (ns):              2.969
+  Slack (ns):              1.763
+  Arrival (ns):            6.737
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 50
+  From: din_outbuf_instance.22.DDR_OUT_inst:CLK
+  To:   DI_N[22]
+  Delay (ns):              2.915
+  Slack (ns):              1.811
+  Arrival (ns):            6.689
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 51
+  From: din_outbuf_instance.22.DDR_OUT_inst:CLK
+  To:   DI_P[22]
+  Delay (ns):              2.913
+  Slack (ns):              1.813
+  Arrival (ns):            6.687
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 52
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/memraddr_r[1]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/RW1.UI_ram_wrapper_1/U2_asyncnonpipe/trigger_fifo_trigger_fifo_0_USRAM_top_R0C0/INST_RAM64x18_IP:B_ADDR[1]
+  Delay (ns):              1.148
+  Slack (ns):              1.833
+  Arrival (ns):            6.605
+  Required (ns):           8.438
+  Operating Conditions:    WORST
+
+Path 53
+  From: CAEN_LINK_instance/I_conet_interf/linkres_i_n:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_linkres_instance/trigger_fifo_0/RW1.UI_ram_wrapper_1/U2_asyncnonpipe/trigger_fifo_trigger_fifo_0_USRAM_top_R0C0/INST_RAM64x18_IP:C_DIN[0]
+  Delay (ns):              1.360
+  Slack (ns):              1.870
+  Arrival (ns):            6.760
+  Required (ns):           8.630
+  Operating Conditions:    WORST
+
+Path 54
+  From: din_outbuf_instance.14.DDR_OUT_inst:CLK
+  To:   DI_N[14]
+  Delay (ns):              2.848
+  Slack (ns):              1.878
+  Arrival (ns):            6.622
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 55
+  From: din_outbuf_instance.14.DDR_OUT_inst:CLK
+  To:   DI_P[14]
+  Delay (ns):              2.846
+  Slack (ns):              1.880
+  Arrival (ns):            6.620
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 56
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/memraddr_r[1]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/RW1.UI_ram_wrapper_1/U2_asyncnonpipe/trigger_fifo_trigger_fifo_0_USRAM_top_R0C0/INST_RAM64x18_IP:A_ADDR[1]
+  Delay (ns):              1.131
+  Slack (ns):              1.888
+  Arrival (ns):            6.588
+  Required (ns):           8.476
+  Operating Conditions:    WORST
+
+Path 57
+  From: din_outbuf_instance.3.DDR_OUT_inst:CLK
+  To:   DI_N[3]
+  Delay (ns):              2.845
+  Slack (ns):              1.892
+  Arrival (ns):            6.608
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 58
+  From: din_outbuf_instance.3.DDR_OUT_inst:CLK
+  To:   DI_P[3]
+  Delay (ns):              2.843
+  Slack (ns):              1.894
+  Arrival (ns):            6.606
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 59
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/empty_r:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/RW1.UI_ram_wrapper_1/U2_asyncnonpipe/trigger_fifo_trigger_fifo_0_USRAM_top_R0C0/INST_RAM64x18_IP:B_ADDR_EN
+  Delay (ns):              1.041
+  Slack (ns):              1.903
+  Arrival (ns):            6.494
+  Required (ns):           8.397
+  Operating Conditions:    WORST
+
+Path 60
+  From: din_outbuf_instance.15.DDR_OUT_inst:CLK
+  To:   DI_N[15]
+  Delay (ns):              2.802
+  Slack (ns):              1.929
+  Arrival (ns):            6.571
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 61
+  From: din_outbuf_instance.15.DDR_OUT_inst:CLK
+  To:   DI_P[15]
+  Delay (ns):              2.800
+  Slack (ns):              1.931
+  Arrival (ns):            6.569
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 62
+  From: din_outbuf_instance.10.DDR_OUT_inst:CLK
+  To:   DI_N[10]
+  Delay (ns):              2.787
+  Slack (ns):              1.944
+  Arrival (ns):            6.556
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 63
+  From: din_outbuf_instance.10.DDR_OUT_inst:CLK
+  To:   DI_P[10]
+  Delay (ns):              2.785
+  Slack (ns):              1.946
+  Arrival (ns):            6.554
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 64
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/memraddr_r[3]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/RW1.UI_ram_wrapper_1/U2_asyncnonpipe/trigger_fifo_trigger_fifo_0_USRAM_top_R0C0/INST_RAM64x18_IP:A_ADDR[3]
+  Delay (ns):              1.030
+  Slack (ns):              1.951
+  Arrival (ns):            6.487
+  Required (ns):           8.438
+  Operating Conditions:    WORST
+
+Path 65
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/memraddr_r[2]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/RW1.UI_ram_wrapper_1/U2_asyncnonpipe/trigger_fifo_trigger_fifo_0_USRAM_top_R0C0/INST_RAM64x18_IP:A_ADDR[2]
+  Delay (ns):              0.980
+  Slack (ns):              1.956
+  Arrival (ns):            6.446
+  Required (ns):           8.402
+  Operating Conditions:    WORST
+
+Path 66
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/memraddr_r[3]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/RW1.UI_ram_wrapper_1/U2_asyncnonpipe/trigger_fifo_trigger_fifo_0_USRAM_top_R0C0/INST_RAM64x18_IP:B_ADDR[3]
+  Delay (ns):              1.044
+  Slack (ns):              1.961
+  Arrival (ns):            6.501
+  Required (ns):           8.462
+  Operating Conditions:    WORST
+
+Path 67
+  From: din_outbuf_instance.30.DDR_OUT_inst:CLK
+  To:   DI_N[30]
+  Delay (ns):              2.760
+  Slack (ns):              1.967
+  Arrival (ns):            6.533
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 68
+  From: din_outbuf_instance.30.DDR_OUT_inst:CLK
+  To:   DI_P[30]
+  Delay (ns):              2.758
+  Slack (ns):              1.969
+  Arrival (ns):            6.531
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 69
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/memraddr_r[0]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/RW1.UI_ram_wrapper_1/U2_asyncnonpipe/trigger_fifo_trigger_fifo_0_USRAM_top_R0C0/INST_RAM64x18_IP:B_ADDR[0]
+  Delay (ns):              0.997
+  Slack (ns):              1.986
+  Arrival (ns):            6.463
+  Required (ns):           8.449
+  Operating Conditions:    WORST
+
+Path 70
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/memraddr_r[0]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/RW1.UI_ram_wrapper_1/U2_asyncnonpipe/trigger_fifo_trigger_fifo_0_USRAM_top_R0C0/INST_RAM64x18_IP:A_ADDR[0]
+  Delay (ns):              1.004
+  Slack (ns):              1.995
+  Arrival (ns):            6.470
+  Required (ns):           8.465
+  Operating Conditions:    WORST
+
+Path 71
+  From: din_outbuf_instance.8.DDR_OUT_inst:CLK
+  To:   DI_N[8]
+  Delay (ns):              2.725
+  Slack (ns):              2.006
+  Arrival (ns):            6.494
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 72
+  From: din_outbuf_instance.8.DDR_OUT_inst:CLK
+  To:   DI_P[8]
+  Delay (ns):              2.723
+  Slack (ns):              2.008
+  Arrival (ns):            6.492
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 73
+  From: din_outbuf_instance.23.DDR_OUT_inst:CLK
+  To:   DI_N[23]
+  Delay (ns):              2.718
+  Slack (ns):              2.010
+  Arrival (ns):            6.490
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 74
+  From: din_outbuf_instance.23.DDR_OUT_inst:CLK
+  To:   DI_P[23]
+  Delay (ns):              2.716
+  Slack (ns):              2.012
+  Arrival (ns):            6.488
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 75
+  From: EPCS_Demo_instance/EPCS_Demo_sb_HPMS_0/MSS_ADLIB_INST/INST_MSS_075_IP:CLK_CONFIG_APB
+  To:   EPCS_Demo_instance/CORECONFIGP_0/state[0]:D
+  Delay (ns):              1.587
+  Slack (ns):              2.012
+  Arrival (ns):            1.587
+  Required (ns):           3.599
+  Operating Conditions:     BEST
+
+Path 76
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/memraddr_r[2]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/RW1.UI_ram_wrapper_1/U2_asyncnonpipe/trigger_fifo_trigger_fifo_0_USRAM_top_R0C0/INST_RAM64x18_IP:B_ADDR[2]
+  Delay (ns):              0.970
+  Slack (ns):              2.018
+  Arrival (ns):            6.436
+  Required (ns):           8.454
+  Operating Conditions:    WORST
+
+Path 77
+  From: din_outbuf_instance.37.DDR_OUT_inst:CLK
+  To:   DI_N[37]
+  Delay (ns):              2.711
+  Slack (ns):              2.021
+  Arrival (ns):            6.479
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 78
+  From: din_outbuf_instance.37.DDR_OUT_inst:CLK
+  To:   DI_P[37]
+  Delay (ns):              2.709
+  Slack (ns):              2.023
+  Arrival (ns):            6.477
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 79
+  From: din_outbuf_instance.31.DDR_OUT_inst:CLK
+  To:   DI_N[31]
+  Delay (ns):              2.678
+  Slack (ns):              2.046
+  Arrival (ns):            6.454
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 80
+  From: din_outbuf_instance.2.DDR_OUT_inst:CLK
+  To:   DI_N[2]
+  Delay (ns):              2.686
+  Slack (ns):              2.047
+  Arrival (ns):            6.453
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 81
+  From: din_outbuf_instance.31.DDR_OUT_inst:CLK
+  To:   DI_P[31]
+  Delay (ns):              2.676
+  Slack (ns):              2.048
+  Arrival (ns):            6.452
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 82
+  From: din_outbuf_instance.2.DDR_OUT_inst:CLK
+  To:   DI_P[2]
+  Delay (ns):              2.684
+  Slack (ns):              2.049
+  Arrival (ns):            6.451
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 83
+  From: din_outbuf_instance.28.DDR_OUT_inst:CLK
+  To:   DI_N[28]
+  Delay (ns):              2.675
+  Slack (ns):              2.057
+  Arrival (ns):            6.443
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 84
+  From: din_outbuf_instance.28.DDR_OUT_inst:CLK
+  To:   DI_P[28]
+  Delay (ns):              2.673
+  Slack (ns):              2.059
+  Arrival (ns):            6.441
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 85
+  From: din_outbuf_instance.4.DDR_OUT_inst:CLK
+  To:   DI_N[4]
+  Delay (ns):              2.666
+  Slack (ns):              2.064
+  Arrival (ns):            6.436
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 86
+  From: din_outbuf_instance.4.DDR_OUT_inst:CLK
+  To:   DI_P[4]
+  Delay (ns):              2.664
+  Slack (ns):              2.066
+  Arrival (ns):            6.434
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 87
+  From: din_outbuf_instance.0.DDR_OUT_inst:CLK
+  To:   DI_N[0]
+  Delay (ns):              2.668
+  Slack (ns):              2.070
+  Arrival (ns):            6.430
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 88
+  From: din_outbuf_instance.0.DDR_OUT_inst:CLK
+  To:   DI_P[0]
+  Delay (ns):              2.666
+  Slack (ns):              2.072
+  Arrival (ns):            6.428
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 89
+  From: din_outbuf_instance.34.DDR_OUT_inst:CLK
+  To:   DI_N[34]
+  Delay (ns):              2.660
+  Slack (ns):              2.078
+  Arrival (ns):            6.422
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 90
+  From: din_outbuf_instance.34.DDR_OUT_inst:CLK
+  To:   DI_P[34]
+  Delay (ns):              2.658
+  Slack (ns):              2.080
+  Arrival (ns):            6.420
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 91
+  From: din_outbuf_instance.6.DDR_OUT_inst:CLK
+  To:   DI_N[6]
+  Delay (ns):              2.657
+  Slack (ns):              2.083
+  Arrival (ns):            6.417
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 92
+  From: din_outbuf_instance.6.DDR_OUT_inst:CLK
+  To:   DI_P[6]
+  Delay (ns):              2.655
+  Slack (ns):              2.085
+  Arrival (ns):            6.415
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 93
+  From: din_outbuf_instance.27.DDR_OUT_inst:CLK
+  To:   DI_N[27]
+  Delay (ns):              2.624
+  Slack (ns):              2.093
+  Arrival (ns):            6.407
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 94
+  From: din_outbuf_instance.27.DDR_OUT_inst:CLK
+  To:   DI_P[27]
+  Delay (ns):              2.622
+  Slack (ns):              2.095
+  Arrival (ns):            6.405
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 95
+  From: din_outbuf_instance.5.DDR_OUT_inst:CLK
+  To:   DI_N[5]
+  Delay (ns):              2.616
+  Slack (ns):              2.101
+  Arrival (ns):            6.399
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 96
+  From: din_outbuf_instance.5.DDR_OUT_inst:CLK
+  To:   DI_P[5]
+  Delay (ns):              2.614
+  Slack (ns):              2.103
+  Arrival (ns):            6.397
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 97
+  From: din_outbuf_instance.35.DDR_OUT_inst:CLK
+  To:   DI_N[35]
+  Delay (ns):              2.630
+  Slack (ns):              2.121
+  Arrival (ns):            6.379
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 98
+  From: din_outbuf_instance.35.DDR_OUT_inst:CLK
+  To:   DI_P[35]
+  Delay (ns):              2.628
+  Slack (ns):              2.123
+  Arrival (ns):            6.377
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 99
+  From: din_outbuf_instance.17.DDR_OUT_inst:CLK
+  To:   DI_N[17]
+  Delay (ns):              2.592
+  Slack (ns):              2.163
+  Arrival (ns):            6.337
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+
+Path 100
+  From: din_outbuf_instance.17.DDR_OUT_inst:CLK
+  To:   DI_P[17]
+  Delay (ns):              2.590
+  Slack (ns):              2.165
+  Arrival (ns):            6.335
+  Required (ns):           8.500
+  Operating Conditions:    WORST
+

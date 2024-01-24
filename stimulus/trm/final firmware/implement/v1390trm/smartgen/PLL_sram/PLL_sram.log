@@ -1,0 +1,60 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Fri May 30 12:05:22 2008
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : PLL_sram
+Family                          : PA
+Output Format                   : VHDL
+Type                            : PLL_NEW
+CLOCKS                          : PRIMARY
+Input Freq(Mhz)                 : 40.000000
+Primary Freq(Mhz)               : 80.000000
+Primary Delay Value(ns)         : 0
+PrimaryDelay Sign               : +VE
+Primary PhaseShift              : 0
+Primary Bypass                  : NO
+Secondary Input Freq(Mhz)       : 0.000000
+Secondary Freq(Mhz)             : 0.000000
+Secondary Delay Value(ns)       : 0
+SecondaryDelay Sign             : +VE
+Secondary Bypass                : NO
+FeedBack                        : Internal
+Configuration                   : Static
+
+
+
+Configuration Bits:
+FINDIV   00000
+FBDIV    000001
+OBDIV    00
+OADIV    00
+OAMUX    00
+OBMUX    100
+FBSEL    01
+FBDLY    0000
+DLYA     00
+DLYB     00
+STATASEL 0
+STATBSEL 0
+XDLYSEL  0
+
+
+input clock divider = 1.
+feedback divider = 2.
+feedback select = internal
+primary clock divider = 1.
+primary clock select = 4.
+primary clock delay line = 0.
+
+
+Written VHDL netlist to
+C:/FrontEnd/Annalisa/work/v1390/FPGA/V1390LIB/v1390trm/smartgen\PLL_sram\PLL_\
+sram.vhd.
+
+ ** Log Ended:   Fri May 30 12:05:22 2008
+

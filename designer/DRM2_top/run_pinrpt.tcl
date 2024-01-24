@@ -1,0 +1,10 @@
+DESIGN=DRM2_top
+DESDIR=E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\designer\DRM2_top
+TARGET_DIR=E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\designer\DRM2_top
+FAM=IGLOO2
+DIE=PA4MGL7500
+PACKAGE=fg676
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

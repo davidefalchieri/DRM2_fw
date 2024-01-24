@@ -1,0 +1,919 @@
+Timing Violation Report Min Delay Analysis
+
+SmartTime Version v2021.2
+Microsemi Corporation - Microsemi Libero Software Release v2021.2 (Version 2021.2.0.11)
+Date: Fri Jan 21 20:58:30 2022
+
+
+Design: DRM2_top
+Family: IGLOO2
+Die: M2GL090T
+Package: 676 FBGA
+Temperature Range: 0 - 85 C
+Voltage Range: 1.14 - 1.26 V
+Speed Grade: -1
+Design State: Post-Layout
+Data source: Production
+Multi Corner Report Operating Conditions: BEST, TYPICAL, WORST
+
+
+Path 1
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0_[0]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_1_[0]:D
+  Delay (ns):              0.458
+  Slack (ns):             -4.367
+  Arrival (ns):            0.935
+  Required (ns):           5.302
+  Operating Conditions:    WORST
+
+Path 2
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[3]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[3]:D
+  Delay (ns):              0.642
+  Slack (ns):             -4.104
+  Arrival (ns):            1.162
+  Required (ns):           5.266
+  Operating Conditions:    WORST
+
+Path 3
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[10]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[10]:D
+  Delay (ns):              0.642
+  Slack (ns):             -4.104
+  Arrival (ns):            1.137
+  Required (ns):           5.241
+  Operating Conditions:    WORST
+
+Path 4
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[9]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[9]:D
+  Delay (ns):              0.643
+  Slack (ns):             -4.103
+  Arrival (ns):            1.163
+  Required (ns):           5.266
+  Operating Conditions:    WORST
+
+Path 5
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[11]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[11]:D
+  Delay (ns):              0.643
+  Slack (ns):             -4.103
+  Arrival (ns):            1.163
+  Required (ns):           5.266
+  Operating Conditions:    WORST
+
+Path 6
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[6]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[6]:D
+  Delay (ns):              0.643
+  Slack (ns):             -4.103
+  Arrival (ns):            1.155
+  Required (ns):           5.258
+  Operating Conditions:    WORST
+
+Path 7
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[7]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[7]:D
+  Delay (ns):              0.644
+  Slack (ns):             -4.102
+  Arrival (ns):            1.164
+  Required (ns):           5.266
+  Operating Conditions:    WORST
+
+Path 8
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[5]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[5]:D
+  Delay (ns):              0.645
+  Slack (ns):             -4.101
+  Arrival (ns):            1.165
+  Required (ns):           5.266
+  Operating Conditions:    WORST
+
+Path 9
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[1]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[1]:D
+  Delay (ns):              0.647
+  Slack (ns):             -4.099
+  Arrival (ns):            1.143
+  Required (ns):           5.242
+  Operating Conditions:    WORST
+
+Path 10
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[8]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[8]:D
+  Delay (ns):              0.647
+  Slack (ns):             -4.099
+  Arrival (ns):            1.159
+  Required (ns):           5.258
+  Operating Conditions:    WORST
+
+Path 11
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[4]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[4]:D
+  Delay (ns):              0.647
+  Slack (ns):             -4.099
+  Arrival (ns):            1.159
+  Required (ns):           5.258
+  Operating Conditions:    WORST
+
+Path 12
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[2]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[2]:D
+  Delay (ns):              0.647
+  Slack (ns):             -4.099
+  Arrival (ns):            1.159
+  Required (ns):           5.258
+  Operating Conditions:    WORST
+
+Path 13
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[4]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[4]:D
+  Delay (ns):              0.648
+  Slack (ns):             -4.098
+  Arrival (ns):            1.156
+  Required (ns):           5.254
+  Operating Conditions:    WORST
+
+Path 14
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[0]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[0]:D
+  Delay (ns):              0.648
+  Slack (ns):             -4.098
+  Arrival (ns):            1.132
+  Required (ns):           5.230
+  Operating Conditions:    WORST
+
+Path 15
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[7]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[7]:D
+  Delay (ns):              0.648
+  Slack (ns):             -4.098
+  Arrival (ns):            1.151
+  Required (ns):           5.249
+  Operating Conditions:    WORST
+
+Path 16
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[2]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[2]:D
+  Delay (ns):              0.649
+  Slack (ns):             -4.097
+  Arrival (ns):            1.157
+  Required (ns):           5.254
+  Operating Conditions:    WORST
+
+Path 17
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[10]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[10]:D
+  Delay (ns):              0.649
+  Slack (ns):             -4.097
+  Arrival (ns):            1.160
+  Required (ns):           5.257
+  Operating Conditions:    WORST
+
+Path 18
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[9]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[9]:D
+  Delay (ns):              0.649
+  Slack (ns):             -4.097
+  Arrival (ns):            1.133
+  Required (ns):           5.230
+  Operating Conditions:    WORST
+
+Path 19
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[11]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[11]:D
+  Delay (ns):              0.649
+  Slack (ns):             -4.097
+  Arrival (ns):            1.133
+  Required (ns):           5.230
+  Operating Conditions:    WORST
+
+Path 20
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[8]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[8]:D
+  Delay (ns):              0.650
+  Slack (ns):             -4.096
+  Arrival (ns):            1.158
+  Required (ns):           5.254
+  Operating Conditions:    WORST
+
+Path 21
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[6]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[6]:D
+  Delay (ns):              0.650
+  Slack (ns):             -4.096
+  Arrival (ns):            1.158
+  Required (ns):           5.254
+  Operating Conditions:    WORST
+
+Path 22
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0_[1]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_1_[1]:D
+  Delay (ns):              0.744
+  Slack (ns):             -4.095
+  Arrival (ns):            1.236
+  Required (ns):           5.331
+  Operating Conditions:    WORST
+
+Path 23
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[0]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[0]:D
+  Delay (ns):              0.651
+  Slack (ns):             -4.095
+  Arrival (ns):            1.163
+  Required (ns):           5.258
+  Operating Conditions:    WORST
+
+Path 24
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[5]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[5]:D
+  Delay (ns):              0.653
+  Slack (ns):             -4.093
+  Arrival (ns):            1.156
+  Required (ns):           5.249
+  Operating Conditions:    WORST
+
+Path 25
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[3]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[3]:D
+  Delay (ns):              0.654
+  Slack (ns):             -4.092
+  Arrival (ns):            1.157
+  Required (ns):           5.249
+  Operating Conditions:    WORST
+
+Path 26
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0_[3]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_1_[3]:D
+  Delay (ns):              0.767
+  Slack (ns):             -4.084
+  Arrival (ns):            1.260
+  Required (ns):           5.344
+  Operating Conditions:    WORST
+
+Path 27
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.DEC_10/USYNC/ERROR_CNT[2]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.DEC_10/USYNC/ERROR_CNT[2]:D
+  Delay (ns):              0.680
+  Slack (ns):             -4.066
+  Arrival (ns):            1.188
+  Required (ns):           5.254
+  Operating Conditions:    WORST
+
+Path 28
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0_[2]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_1_[2]:D
+  Delay (ns):              0.776
+  Slack (ns):             -4.063
+  Arrival (ns):            1.269
+  Required (ns):           5.332
+  Operating Conditions:    WORST
+
+Path 29
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.DEC_10/USYNC/ERROR_CNT[2]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.DEC_10/USYNC/ERROR_CNT[3]:D
+  Delay (ns):              0.777
+  Slack (ns):             -3.969
+  Arrival (ns):            1.285
+  Required (ns):           5.254
+  Operating Conditions:    WORST
+
+Path 30
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[9]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[10]:D
+  Delay (ns):              0.805
+  Slack (ns):             -3.948
+  Arrival (ns):            1.325
+  Required (ns):           5.273
+  Operating Conditions:    WORST
+
+Path 31
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[4]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[5]:D
+  Delay (ns):              0.809
+  Slack (ns):             -3.944
+  Arrival (ns):            1.321
+  Required (ns):           5.265
+  Operating Conditions:    WORST
+
+Path 32
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[2]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[3]:D
+  Delay (ns):              0.837
+  Slack (ns):             -3.937
+  Arrival (ns):            1.345
+  Required (ns):           5.282
+  Operating Conditions:    WORST
+
+Path 33
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[9]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[10]:D
+  Delay (ns):              0.837
+  Slack (ns):             -3.935
+  Arrival (ns):            1.321
+  Required (ns):           5.256
+  Operating Conditions:    WORST
+
+Path 34
+  From: CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_1_[0]:CLK
+  To:   CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/wptr_bin_sync2[0]:D
+  Delay (ns):              0.926
+  Slack (ns):             -3.933
+  Arrival (ns):            1.411
+  Required (ns):           5.344
+  Operating Conditions:    WORST
+
+Path 35
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[8]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[9]:D
+  Delay (ns):              0.843
+  Slack (ns):             -3.931
+  Arrival (ns):            1.351
+  Required (ns):           5.282
+  Operating Conditions:    WORST
+
+Path 36
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[3]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[4]:D
+  Delay (ns):              0.847
+  Slack (ns):             -3.924
+  Arrival (ns):            1.350
+  Required (ns):           5.274
+  Operating Conditions:    WORST
+
+Path 37
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[2]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[4]:D
+  Delay (ns):              0.884
+  Slack (ns):             -3.878
+  Arrival (ns):            1.392
+  Required (ns):           5.270
+  Operating Conditions:    WORST
+
+Path 38
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[9]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[11]:D
+  Delay (ns):              0.884
+  Slack (ns):             -3.877
+  Arrival (ns):            1.368
+  Required (ns):           5.245
+  Operating Conditions:    WORST
+
+Path 39
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[8]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[10]:D
+  Delay (ns):              0.889
+  Slack (ns):             -3.876
+  Arrival (ns):            1.397
+  Required (ns):           5.273
+  Operating Conditions:    WORST
+
+Path 40
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[3]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[5]:D
+  Delay (ns):              0.893
+  Slack (ns):             -3.869
+  Arrival (ns):            1.396
+  Required (ns):           5.265
+  Operating Conditions:    WORST
+
+Path 41
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[6]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[8]:D
+  Delay (ns):              0.900
+  Slack (ns):             -3.862
+  Arrival (ns):            1.412
+  Required (ns):           5.274
+  Operating Conditions:    WORST
+
+Path 42
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[8]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[11]:D
+  Delay (ns):              0.923
+  Slack (ns):             -3.851
+  Arrival (ns):            1.431
+  Required (ns):           5.282
+  Operating Conditions:    WORST
+
+Path 43
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[3]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[6]:D
+  Delay (ns):              0.927
+  Slack (ns):             -3.844
+  Arrival (ns):            1.430
+  Required (ns):           5.274
+  Operating Conditions:    WORST
+
+Path 44
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[2]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[5]:D
+  Delay (ns):              0.943
+  Slack (ns):             -3.831
+  Arrival (ns):            1.451
+  Required (ns):           5.282
+  Operating Conditions:    WORST
+
+Path 45
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[2]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[8]:D
+  Delay (ns):              0.956
+  Slack (ns):             -3.806
+  Arrival (ns):            1.464
+  Required (ns):           5.270
+  Operating Conditions:    WORST
+
+Path 46
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[5]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[8]:D
+  Delay (ns):              0.974
+  Slack (ns):             -3.776
+  Arrival (ns):            1.494
+  Required (ns):           5.270
+  Operating Conditions:    WORST
+
+Path 47
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[0]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[3]:D
+  Delay (ns):              0.980
+  Slack (ns):             -3.773
+  Arrival (ns):            1.492
+  Required (ns):           5.265
+  Operating Conditions:    WORST
+
+Path 48
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[3]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[7]:D
+  Delay (ns):              1.004
+  Slack (ns):             -3.758
+  Arrival (ns):            1.507
+  Required (ns):           5.265
+  Operating Conditions:    WORST
+
+Path 49
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[2]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[6]:D
+  Delay (ns):              1.007
+  Slack (ns):             -3.755
+  Arrival (ns):            1.515
+  Required (ns):           5.270
+  Operating Conditions:    WORST
+
+Path 50
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[3]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[9]:D
+  Delay (ns):              0.988
+  Slack (ns):             -3.754
+  Arrival (ns):            1.491
+  Required (ns):           5.245
+  Operating Conditions:    WORST
+
+Path 51
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[6]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[9]:D
+  Delay (ns):              0.985
+  Slack (ns):             -3.748
+  Arrival (ns):            1.497
+  Required (ns):           5.245
+  Operating Conditions:    WORST
+
+Path 52
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[2]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[11]:D
+  Delay (ns):              1.039
+  Slack (ns):             -3.735
+  Arrival (ns):            1.547
+  Required (ns):           5.282
+  Operating Conditions:    WORST
+
+Path 53
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[5]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[11]:D
+  Delay (ns):              1.030
+  Slack (ns):             -3.732
+  Arrival (ns):            1.550
+  Required (ns):           5.282
+  Operating Conditions:    WORST
+
+Path 54
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[0]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[6]:D
+  Delay (ns):              1.036
+  Slack (ns):             -3.726
+  Arrival (ns):            1.548
+  Required (ns):           5.274
+  Operating Conditions:    WORST
+
+Path 55
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[2]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[7]:D
+  Delay (ns):              1.053
+  Slack (ns):             -3.721
+  Arrival (ns):            1.561
+  Required (ns):           5.282
+  Operating Conditions:    WORST
+
+Path 56
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[3]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[8]:D
+  Delay (ns):              1.051
+  Slack (ns):             -3.720
+  Arrival (ns):            1.554
+  Required (ns):           5.274
+  Operating Conditions:    WORST
+
+Path 57
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[2]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[9]:D
+  Delay (ns):              1.065
+  Slack (ns):             -3.709
+  Arrival (ns):            1.573
+  Required (ns):           5.282
+  Operating Conditions:    WORST
+
+Path 58
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[5]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[9]:D
+  Delay (ns):              1.056
+  Slack (ns):             -3.706
+  Arrival (ns):            1.576
+  Required (ns):           5.282
+  Operating Conditions:    WORST
+
+Path 59
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[3]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[10]:D
+  Delay (ns):              1.053
+  Slack (ns):             -3.700
+  Arrival (ns):            1.556
+  Required (ns):           5.256
+  Operating Conditions:    WORST
+
+Path 60
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[0]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[4]:D
+  Delay (ns):              1.062
+  Slack (ns):             -3.700
+  Arrival (ns):            1.574
+  Required (ns):           5.274
+  Operating Conditions:    WORST
+
+Path 61
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[6]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[10]:D
+  Delay (ns):              1.050
+  Slack (ns):             -3.694
+  Arrival (ns):            1.562
+  Required (ns):           5.256
+  Operating Conditions:    WORST
+
+Path 62
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[5]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[9]:D
+  Delay (ns):              1.071
+  Slack (ns):             -3.671
+  Arrival (ns):            1.574
+  Required (ns):           5.245
+  Operating Conditions:    WORST
+
+Path 63
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[0]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[9]:D
+  Delay (ns):              1.074
+  Slack (ns):             -3.659
+  Arrival (ns):            1.586
+  Required (ns):           5.245
+  Operating Conditions:    WORST
+
+Path 64
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[2]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[10]:D
+  Delay (ns):              1.113
+  Slack (ns):             -3.652
+  Arrival (ns):            1.621
+  Required (ns):           5.273
+  Operating Conditions:    WORST
+
+Path 65
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[5]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[10]:D
+  Delay (ns):              1.104
+  Slack (ns):             -3.649
+  Arrival (ns):            1.624
+  Required (ns):           5.273
+  Operating Conditions:    WORST
+
+Path 66
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[4]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[11]:D
+  Delay (ns):              1.127
+  Slack (ns):             -3.647
+  Arrival (ns):            1.635
+  Required (ns):           5.282
+  Operating Conditions:    WORST
+
+Path 67
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[3]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[11]:D
+  Delay (ns):              1.097
+  Slack (ns):             -3.645
+  Arrival (ns):            1.600
+  Required (ns):           5.245
+  Operating Conditions:    WORST
+
+Path 68
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[0]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[5]:D
+  Delay (ns):              1.110
+  Slack (ns):             -3.643
+  Arrival (ns):            1.622
+  Required (ns):           5.265
+  Operating Conditions:    WORST
+
+Path 69
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[6]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[11]:D
+  Delay (ns):              1.094
+  Slack (ns):             -3.639
+  Arrival (ns):            1.606
+  Required (ns):           5.245
+  Operating Conditions:    WORST
+
+Path 70
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[0]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[7]:D
+  Delay (ns):              1.118
+  Slack (ns):             -3.635
+  Arrival (ns):            1.630
+  Required (ns):           5.265
+  Operating Conditions:    WORST
+
+Path 71
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[4]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[9]:D
+  Delay (ns):              1.153
+  Slack (ns):             -3.621
+  Arrival (ns):            1.661
+  Required (ns):           5.282
+  Operating Conditions:    WORST
+
+Path 72
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[5]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[10]:D
+  Delay (ns):              1.136
+  Slack (ns):             -3.617
+  Arrival (ns):            1.639
+  Required (ns):           5.256
+  Operating Conditions:    WORST
+
+Path 73
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[0]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[10]:D
+  Delay (ns):              1.139
+  Slack (ns):             -3.605
+  Arrival (ns):            1.651
+  Required (ns):           5.256
+  Operating Conditions:    WORST
+
+Path 74
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[0]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[8]:D
+  Delay (ns):              1.162
+  Slack (ns):             -3.600
+  Arrival (ns):            1.674
+  Required (ns):           5.274
+  Operating Conditions:    WORST
+
+Path 75
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[4]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[9]:D
+  Delay (ns):              1.148
+  Slack (ns):             -3.585
+  Arrival (ns):            1.660
+  Required (ns):           5.245
+  Operating Conditions:    WORST
+
+Path 76
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[3]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[8]:D
+  Delay (ns):              1.186
+  Slack (ns):             -3.564
+  Arrival (ns):            1.706
+  Required (ns):           5.270
+  Operating Conditions:    WORST
+
+Path 77
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[4]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[10]:D
+  Delay (ns):              1.202
+  Slack (ns):             -3.563
+  Arrival (ns):            1.710
+  Required (ns):           5.273
+  Operating Conditions:    WORST
+
+Path 78
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[5]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[11]:D
+  Delay (ns):              1.180
+  Slack (ns):             -3.562
+  Arrival (ns):            1.683
+  Required (ns):           5.245
+  Operating Conditions:    WORST
+
+Path 79
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[0]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[11]:D
+  Delay (ns):              1.183
+  Slack (ns):             -3.550
+  Arrival (ns):            1.695
+  Required (ns):           5.245
+  Operating Conditions:    WORST
+
+Path 80
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[3]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[11]:D
+  Delay (ns):              1.229
+  Slack (ns):             -3.533
+  Arrival (ns):            1.749
+  Required (ns):           5.282
+  Operating Conditions:    WORST
+
+Path 81
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[4]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[10]:D
+  Delay (ns):              1.213
+  Slack (ns):             -3.531
+  Arrival (ns):            1.725
+  Required (ns):           5.256
+  Operating Conditions:    WORST
+
+Path 82
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[3]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[9]:D
+  Delay (ns):              1.255
+  Slack (ns):             -3.507
+  Arrival (ns):            1.775
+  Required (ns):           5.282
+  Operating Conditions:    WORST
+
+Path 83
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[4]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[11]:D
+  Delay (ns):              1.257
+  Slack (ns):             -3.476
+  Arrival (ns):            1.769
+  Required (ns):           5.245
+  Operating Conditions:    WORST
+
+Path 84
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[3]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count4[10]:D
+  Delay (ns):              1.304
+  Slack (ns):             -3.449
+  Arrival (ns):            1.824
+  Required (ns):           5.273
+  Operating Conditions:    WORST
+
+Path 85
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[1]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[6]:D
+  Delay (ns):              1.354
+  Slack (ns):             -3.417
+  Arrival (ns):            1.857
+  Required (ns):           5.274
+  Operating Conditions:    WORST
+
+Path 86
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[1]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[2]:D
+  Delay (ns):              1.354
+  Slack (ns):             -3.417
+  Arrival (ns):            1.857
+  Required (ns):           5.274
+  Operating Conditions:    WORST
+
+Path 87
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[1]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[8]:D
+  Delay (ns):              1.355
+  Slack (ns):             -3.416
+  Arrival (ns):            1.858
+  Required (ns):           5.274
+  Operating Conditions:    WORST
+
+Path 88
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[1]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[4]:D
+  Delay (ns):              1.355
+  Slack (ns):             -3.416
+  Arrival (ns):            1.858
+  Required (ns):           5.274
+  Operating Conditions:    WORST
+
+Path 89
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[1]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[1]:D
+  Delay (ns):              1.336
+  Slack (ns):             -3.410
+  Arrival (ns):            1.839
+  Required (ns):           5.249
+  Operating Conditions:    WORST
+
+Path 90
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[1]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[7]:D
+  Delay (ns):              1.357
+  Slack (ns):             -3.405
+  Arrival (ns):            1.860
+  Required (ns):           5.265
+  Operating Conditions:    WORST
+
+Path 91
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[1]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[3]:D
+  Delay (ns):              1.357
+  Slack (ns):             -3.405
+  Arrival (ns):            1.860
+  Required (ns):           5.265
+  Operating Conditions:    WORST
+
+Path 92
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[1]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[5]:D
+  Delay (ns):              1.358
+  Slack (ns):             -3.404
+  Arrival (ns):            1.861
+  Required (ns):           5.265
+  Operating Conditions:    WORST
+
+Path 93
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.DEC_10/USYNC/ERROR_CNT[2]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.DEC_10/USYNC/WORD_SYNC_L:D
+  Delay (ns):              1.497
+  Slack (ns):             -3.270
+  Arrival (ns):            2.005
+  Required (ns):           5.275
+  Operating Conditions:    WORST
+
+Path 94
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.DEC_10/USYNC/ERROR_CNT[2]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.DEC_10/USYNC/COMMA_DETECT_ENABLE:D
+  Delay (ns):              1.498
+  Slack (ns):             -3.258
+  Arrival (ns):            2.006
+  Required (ns):           5.264
+  Operating Conditions:    WORST
+
+Path 95
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[1]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[9]:D
+  Delay (ns):              1.514
+  Slack (ns):             -3.228
+  Arrival (ns):            2.017
+  Required (ns):           5.245
+  Operating Conditions:    WORST
+
+Path 96
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[1]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[10]:D
+  Delay (ns):              1.528
+  Slack (ns):             -3.225
+  Arrival (ns):            2.031
+  Required (ns):           5.256
+  Operating Conditions:    WORST
+
+Path 97
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[1]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[11]:D
+  Delay (ns):              1.532
+  Slack (ns):             -3.210
+  Arrival (ns):            2.035
+  Required (ns):           5.245
+  Operating Conditions:    WORST
+
+Path 98
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[0]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.WORD_ALIGNER_10_0/Count1[2]:D
+  Delay (ns):              1.563
+  Slack (ns):             -3.199
+  Arrival (ns):            2.075
+  Required (ns):           5.274
+  Operating Conditions:    WORST
+
+Path 99
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.DEC_10/USYNC/ERROR_CNT[2]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.DEC_10/USYNC/SYNC_STATE[0]:D
+  Delay (ns):              1.567
+  Slack (ns):             -3.189
+  Arrival (ns):            2.075
+  Required (ns):           5.264
+  Operating Conditions:    WORST
+
+Path 100
+  From: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.DEC_10/USYNC/ERROR_CNT[2]:CLK
+  To:   CAEN_LINK_instance/I_CorePCS/Core_PCS_0/GEN_DEC_WA_10.DEC_10/USYNC/SYNC_STATE[4]:D
+  Delay (ns):              1.577
+  Slack (ns):             -3.188
+  Arrival (ns):            2.085
+  Required (ns):           5.273
+  Operating Conditions:    WORST
+

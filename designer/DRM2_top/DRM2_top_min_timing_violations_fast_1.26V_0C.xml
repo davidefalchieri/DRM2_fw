@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Timing Violation Report Min Delay Analysis
+</title>
+<text>SmartTime Version 2021.2.0.11</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release v2021.2 (Version 2021.2.0.11)</text>
+<text>Date: Wed Feb  9 10:57:47 2022
+</text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>DRM2_top</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>IGLOO2</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>M2GL090T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>676 FBGA</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 85 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>1.14 - 1.26 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Design State</cell>
+ <cell>Post-Layout</cell>
+</row>
+<row>
+ <cell>Data source</cell>
+ <cell>Production</cell>
+</row>
+<row>
+ <cell>Min Operating Conditions</cell>
+ <cell>BEST - 1.26 V - 0 C</cell>
+</row>
+<row>
+ <cell>Max Operating Conditions</cell>
+ <cell>WORST - 1.14 V - 85 C</cell>
+</row>
+</table>
+<text></text>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_TXCLK[0]</cell>
+ <cell>CAEN_LINK_instance/I_EPCS_SERDES/epcs_tx_intf_2/txdin_p[0]:ALn</cell>
+ <cell>1.131</cell>
+ <cell>-2.158</cell>
+ <cell>1.131</cell>
+ <cell>3.289</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_TXCLK[0]</cell>
+ <cell>CAEN_LINK_instance/I_EPCS_SERDES/epcs_tx_intf_2/txdout[0]:ALn</cell>
+ <cell>1.131</cell>
+ <cell>-2.153</cell>
+ <cell>1.131</cell>
+ <cell>3.284</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>vme_int_instance/regs.clocksel[1]:CLK</cell>
+ <cell>clock_selection[0]:D</cell>
+ <cell>1.055</cell>
+ <cell>-0.703</cell>
+ <cell>3.903</cell>
+ <cell>4.606</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>vme_int_instance/regs.clocksel[1]:CLK</cell>
+ <cell>clock_selection[1]:D</cell>
+ <cell>1.065</cell>
+ <cell>-0.693</cell>
+ <cell>3.913</cell>
+ <cell>4.606</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>vme_int_instance/regs.clocksel[2]:CLK</cell>
+ <cell>clock_selection[0]:D</cell>
+ <cell>1.118</cell>
+ <cell>-0.647</cell>
+ <cell>3.959</cell>
+ <cell>4.606</cell>
+</row>
+<row>
+ <cell>Path 6</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/wptr_gray[0]:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0[0]:D</cell>
+ <cell>0.317</cell>
+ <cell>-0.527</cell>
+ <cell>3.175</cell>
+ <cell>3.702</cell>
+</row>
+<row>
+ <cell>Path 7</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/wptr_gray[4]:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0[4]:D</cell>
+ <cell>0.314</cell>
+ <cell>-0.525</cell>
+ <cell>3.172</cell>
+ <cell>3.697</cell>
+</row>
+<row>
+ <cell>Path 8</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/I_TX/TL_0/L31.U_corefifo_async/wptr_gray[8]:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/I_TX/TL_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0[8]:D</cell>
+ <cell>0.413</cell>
+ <cell>-0.463</cell>
+ <cell>3.248</cell>
+ <cell>3.711</cell>
+</row>
+<row>
+ <cell>Path 9</cell>
+ <cell>vme_int_instance/regs.clocksel[0]:CLK</cell>
+ <cell>state_clock[0]:D</cell>
+ <cell>1.335</cell>
+ <cell>-0.430</cell>
+ <cell>4.176</cell>
+ <cell>4.606</cell>
+</row>
+<row>
+ <cell>Path 10</cell>
+ <cell>vme_int_instance/regs.clocksel[0]:CLK</cell>
+ <cell>state_clock[1]:D</cell>
+ <cell>1.405</cell>
+ <cell>-0.366</cell>
+ <cell>4.246</cell>
+ <cell>4.612</cell>
+</row>
+<row>
+ <cell>Path 11</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/wptr_gray[1]:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0[1]:D</cell>
+ <cell>0.518</cell>
+ <cell>-0.365</cell>
+ <cell>3.370</cell>
+ <cell>3.735</cell>
+</row>
+<row>
+ <cell>Path 12</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/I_TX/TL_0/L31.U_corefifo_async/wptr_gray[0]:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/I_TX/TL_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0[0]:D</cell>
+ <cell>0.517</cell>
+ <cell>-0.352</cell>
+ <cell>3.358</cell>
+ <cell>3.710</cell>
+</row>
+<row>
+ <cell>Path 13</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/wptr_gray[3]:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/trigger_fifo_irq_instance/trigger_fifo_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0[3]:D</cell>
+ <cell>0.517</cell>
+ <cell>-0.352</cell>
+ <cell>3.374</cell>
+ <cell>3.726</cell>
+</row>
+<row>
+ <cell>Path 14</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/I_TX/TL_0/L31.U_corefifo_async/wptr_gray[10]:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/I_TX/TL_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0[10]:D</cell>
+ <cell>0.540</cell>
+ <cell>-0.342</cell>
+ <cell>3.375</cell>
+ <cell>3.717</cell>
+</row>
+<row>
+ <cell>Path 15</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/I_TX/TL_0/L31.U_corefifo_async/wptr_gray[6]:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/I_TX/TL_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0[6]:D</cell>
+ <cell>0.537</cell>
+ <cell>-0.332</cell>
+ <cell>3.379</cell>
+ <cell>3.711</cell>
+</row>
+<row>
+ <cell>Path 16</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/I_TX/TL_0/L31.U_corefifo_async/wptr_gray[9]:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/I_TX/TL_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0[9]:D</cell>
+ <cell>0.555</cell>
+ <cell>-0.332</cell>
+ <cell>3.388</cell>
+ <cell>3.720</cell>
+</row>
+<row>
+ <cell>Path 17</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/I_TX/TL_0/L31.U_corefifo_async/wptr_gray[4]:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/I_TX/TL_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0[4]:D</cell>
+ <cell>0.557</cell>
+ <cell>-0.330</cell>
+ <cell>3.392</cell>
+ <cell>3.722</cell>
+</row>
+<row>
+ <cell>Path 18</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/I_TX/TL_0/L31.U_corefifo_async/wptr_gray[3]:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/I_TX/TL_0/L31.U_corefifo_async/Wr_corefifo_NstagesSync/shift_array_0[3]:D</cell>
+ <cell>0.555</cell>
+ <cell>-0.325</cell>
+ <cell>3.397</cell>
+ <cell>3.722</cell>
+</row>
+<row>
+ <cell>Path 19</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/I_RX/RL_0/L31.U_corefifo_async/rptr_gray[7]:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/I_RX/RL_0/L31.U_corefifo_async/Rd_corefifo_NstagesSync/shift_array_0[7]:D</cell>
+ <cell>0.517</cell>
+ <cell>-0.320</cell>
+ <cell>3.329</cell>
+ <cell>3.649</cell>
+</row>
+<row>
+ <cell>Path 20</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/I_RX/RL_0/L31.U_corefifo_async/rptr_gray[10]:CLK</cell>
+ <cell>CAEN_LINK_instance/I_conet_interf/I_RX/RL_0/L31.U_corefifo_async/Rd_corefifo_NstagesSync/shift_array_0[10]:D</cell>
+ <cell>0.517</cell>
+ <cell>-0.307</cell>
+ <cell>3.342</cell>
+ <cell>3.649</cell>
+</row>
+</table>
+<text></text>
+</doc>

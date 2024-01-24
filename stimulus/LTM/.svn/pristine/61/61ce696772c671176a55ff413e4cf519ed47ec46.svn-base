@@ -1,0 +1,157 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'DPCLK[0]'
+Slack : -7.132
+TNS   : -851.837
+
+Type  : Setup 'cttm_pll:I1|altpll:altpll_component|_clk0'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Setup 'DPCLK[1]'
+Slack : 19.357
+TNS   : 0.000
+
+Type  : Setup 'DPCLK[2]'
+Slack : 19.752
+TNS   : 0.000
+
+Type  : Setup 'DPCLK[3]'
+Slack : 20.974
+TNS   : 0.000
+
+Type  : Setup 'DPCLK[4]'
+Slack : 21.278
+TNS   : 0.000
+
+Type  : Setup 'DPCLK[5]'
+Slack : 21.386
+TNS   : 0.000
+
+Type  : Setup 'DPCLK[6]'
+Slack : 21.708
+TNS   : 0.000
+
+Type  : Setup 'DPCLK[7]'
+Slack : 21.883
+TNS   : 0.000
+
+Type  : Setup 'SCLK'
+Slack : 22.722
+TNS   : 0.000
+
+Type  : Hold 'DPCLK[0]'
+Slack : 0.633
+TNS   : 0.000
+
+Type  : Hold 'cttm_pll:I1|altpll:altpll_component|_clk0'
+Slack : 0.801
+TNS   : 0.000
+
+Type  : Hold 'DPCLK[2]'
+Slack : 0.804
+TNS   : 0.000
+
+Type  : Hold 'DPCLK[5]'
+Slack : 0.804
+TNS   : 0.000
+
+Type  : Hold 'DPCLK[1]'
+Slack : 0.804
+TNS   : 0.000
+
+Type  : Hold 'DPCLK[6]'
+Slack : 0.804
+TNS   : 0.000
+
+Type  : Hold 'DPCLK[7]'
+Slack : 0.804
+TNS   : 0.000
+
+Type  : Hold 'DPCLK[3]'
+Slack : 0.804
+TNS   : 0.000
+
+Type  : Hold 'DPCLK[4]'
+Slack : 0.804
+TNS   : 0.000
+
+Type  : Hold 'SCLK'
+Slack : 1.675
+TNS   : 0.000
+
+Type  : Recovery 'DPCLK[0]'
+Slack : 0.727
+TNS   : 0.000
+
+Type  : Recovery 'DPCLK[1]'
+Slack : 1.326
+TNS   : 0.000
+
+Type  : Recovery 'DPCLK[3]'
+Slack : 1.558
+TNS   : 0.000
+
+Type  : Recovery 'DPCLK[5]'
+Slack : 1.846
+TNS   : 0.000
+
+Type  : Recovery 'DPCLK[2]'
+Slack : 1.971
+TNS   : 0.000
+
+Type  : Recovery 'SCLK'
+Slack : 2.134
+TNS   : 0.000
+
+Type  : Recovery 'DPCLK[7]'
+Slack : 2.210
+TNS   : 0.000
+
+Type  : Recovery 'DPCLK[4]'
+Slack : 2.265
+TNS   : 0.000
+
+Type  : Recovery 'DPCLK[6]'
+Slack : 2.545
+TNS   : 0.000
+
+Type  : Removal 'DPCLK[0]'
+Slack : 21.484
+TNS   : 0.000
+
+Type  : Removal 'DPCLK[6]'
+Slack : 22.048
+TNS   : 0.000
+
+Type  : Removal 'DPCLK[4]'
+Slack : 22.332
+TNS   : 0.000
+
+Type  : Removal 'DPCLK[7]'
+Slack : 22.384
+TNS   : 0.000
+
+Type  : Removal 'SCLK'
+Slack : 22.420
+TNS   : 0.000
+
+Type  : Removal 'DPCLK[2]'
+Slack : 22.692
+TNS   : 0.000
+
+Type  : Removal 'DPCLK[5]'
+Slack : 22.962
+TNS   : 0.000
+
+Type  : Removal 'DPCLK[3]'
+Slack : 23.043
+TNS   : 0.000
+
+Type  : Removal 'DPCLK[1]'
+Slack : 23.059
+TNS   : 0.000
+
+------------------------------------------------------------

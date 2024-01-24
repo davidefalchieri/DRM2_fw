@@ -1,0 +1,563 @@
+Wed Dec 05 12.47.28 ora solare Europa occidentale 2007
+Trace back: window name "restart" already exists in parent
+    while executing
+"toplevel .restart"
+    (procedure "ConfirmRestart" line 29)
+    invoked from within
+"ConfirmRestart $args"
+    (procedure "restartCmd" line 14)
+    invoked from within
+"restartCmd"
+    ("eval" body line 1)
+    invoked from within
+"eval restartCmd $args"
+    (procedure "restart" line 14)
+    invoked from within
+"restart"
+    ("after" script)
+  2: ::tkerror {window name "restart" already exists in parent}
+  1: ::bgerror {window name "restart" already exists in parent}
+Thu Dec 06 17.54.23 ora solare Europa occidentale 2007
+Trace back: bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"
+    while executing
+"pack $cn.frame_$n.b -side top -expand 0 -fill both"
+    (procedure "WaveUneditCursorName" line 10)
+    invoked from within
+"WaveUneditCursorName $wid"
+    (procedure "WaveUneditCursorNameAndSet" line 9)
+    invoked from within
+"WaveUneditCursorNameAndSet $widget"
+    (procedure "WaveUneditCursor" line 3)
+    invoked from within
+"WaveUneditCursor $winname"
+    (procedure "WaveXView" line 6)
+    invoked from within
+"WaveXView .main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid scroll 1 units"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-command) scroll 1 units "
+    ("arrow2" arm line 1)
+    invoked from within
+"switch -- $element {
+		arrow1  { eval $itk_option(-command) scroll -1 units }
+		trough1 { eval $itk_option(-command) scroll -1 pages }
+		trough2 { eva..."
+    (object "::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar" method "::mtiwidgets::Mapscrollbar::_repeatEvent" body line 19)
+    invoked from within
+"::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-Press arrow2 again"
+    (in namespace inscope "::mtiwidgets::Mapscrollbar" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::Mapscrollbar {::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-P..."
+    ("after" script)
+  2: ::tkerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+  1: ::bgerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+Thu Dec 06 17.55.44 ora solare Europa occidentale 2007
+Trace back: bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"
+    while executing
+"pack $cn.frame_$n.b -side top -expand 0 -fill both"
+    (procedure "WaveUneditCursorName" line 10)
+    invoked from within
+"WaveUneditCursorName $wid"
+    (procedure "WaveUneditCursorNameAndSet" line 9)
+    invoked from within
+"WaveUneditCursorNameAndSet $widget"
+    (procedure "WaveUneditCursor" line 3)
+    invoked from within
+"WaveUneditCursor $winname"
+    (procedure "WaveXView" line 6)
+    invoked from within
+"WaveXView .main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid scroll 1 units"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-command) scroll 1 units "
+    ("arrow2" arm line 1)
+    invoked from within
+"switch -- $element {
+		arrow1  { eval $itk_option(-command) scroll -1 units }
+		trough1 { eval $itk_option(-command) scroll -1 pages }
+		trough2 { eva..."
+    (object "::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar" method "::mtiwidgets::Mapscrollbar::_repeatEvent" body line 19)
+    invoked from within
+"::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-Press arrow2 again"
+    (in namespace inscope "::mtiwidgets::Mapscrollbar" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::Mapscrollbar {::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-P..."
+    ("after" script)
+  2: ::tkerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+  1: ::bgerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+Thu Dec 06 17.56.19 ora solare Europa occidentale 2007
+Trace back: bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"
+    while executing
+"pack $cn.frame_$n.b -side top -expand 0 -fill both"
+    (procedure "WaveUneditCursorName" line 10)
+    invoked from within
+"WaveUneditCursorName $wid"
+    (procedure "WaveUneditCursorNameAndSet" line 9)
+    invoked from within
+"WaveUneditCursorNameAndSet $widget"
+    (procedure "WaveUneditCursor" line 3)
+    invoked from within
+"WaveUneditCursor $winname"
+    (procedure "WaveXView" line 6)
+    invoked from within
+"WaveXView .main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid scroll 1 units"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-command) scroll 1 units "
+    ("arrow2" arm line 1)
+    invoked from within
+"switch -- $element {
+		arrow1  { eval $itk_option(-command) scroll -1 units }
+		trough1 { eval $itk_option(-command) scroll -1 pages }
+		trough2 { eva..."
+    (object "::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar" method "::mtiwidgets::Mapscrollbar::_repeatEvent" body line 19)
+    invoked from within
+"::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-Press arrow2 again"
+    (in namespace inscope "::mtiwidgets::Mapscrollbar" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::Mapscrollbar {::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-P..."
+    ("after" script)
+  2: ::tkerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+  1: ::bgerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+Thu Dec 06 17.56.52 ora solare Europa occidentale 2007
+Trace back: bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"
+    while executing
+"pack $cn.frame_$n.b -side top -expand 0 -fill both"
+    (procedure "WaveUneditCursorName" line 10)
+    invoked from within
+"WaveUneditCursorName $wid"
+    (procedure "WaveUneditCursorNameAndSet" line 9)
+    invoked from within
+"WaveUneditCursorNameAndSet $widget"
+    (procedure "WaveUneditCursor" line 3)
+    invoked from within
+"WaveUneditCursor $winname"
+    (procedure "WaveXView" line 6)
+    invoked from within
+"WaveXView .main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid scroll 1 units"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-command) scroll 1 units "
+    ("arrow2" arm line 1)
+    invoked from within
+"switch -- $element {
+		arrow1  { eval $itk_option(-command) scroll -1 units }
+		trough1 { eval $itk_option(-command) scroll -1 pages }
+		trough2 { eva..."
+    (object "::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar" method "::mtiwidgets::Mapscrollbar::_repeatEvent" body line 19)
+    invoked from within
+"::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-Press arrow2 again"
+    (in namespace inscope "::mtiwidgets::Mapscrollbar" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::Mapscrollbar {::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-P..."
+    ("after" script)
+  2: ::tkerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+  1: ::bgerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+Thu Dec 06 17.57.26 ora solare Europa occidentale 2007
+Trace back: bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"
+    while executing
+"pack $cn.frame_$n.b -side top -expand 0 -fill both"
+    (procedure "WaveUneditCursorName" line 10)
+    invoked from within
+"WaveUneditCursorName $wid"
+    (procedure "WaveUneditCursorNameAndSet" line 9)
+    invoked from within
+"WaveUneditCursorNameAndSet $widget"
+    (procedure "WaveUneditCursor" line 3)
+    invoked from within
+"WaveUneditCursor $winname"
+    (procedure "WaveXView" line 6)
+    invoked from within
+"WaveXView .main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid scroll 1 units"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-command) scroll 1 units "
+    ("arrow2" arm line 1)
+    invoked from within
+"switch -- $element {
+		arrow1  { eval $itk_option(-command) scroll -1 units }
+		trough1 { eval $itk_option(-command) scroll -1 pages }
+		trough2 { eva..."
+    (object "::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar" method "::mtiwidgets::Mapscrollbar::_repeatEvent" body line 19)
+    invoked from within
+"::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-Press arrow2 again"
+    (in namespace inscope "::mtiwidgets::Mapscrollbar" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::Mapscrollbar {::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-P..."
+    ("after" script)
+  2: ::tkerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+  1: ::bgerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+Thu Dec 06 17.58.01 ora solare Europa occidentale 2007
+Trace back: bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"
+    while executing
+"pack $cn.frame_$n.b -side top -expand 0 -fill both"
+    (procedure "WaveUneditCursorName" line 10)
+    invoked from within
+"WaveUneditCursorName $wid"
+    (procedure "WaveUneditCursorNameAndSet" line 9)
+    invoked from within
+"WaveUneditCursorNameAndSet $widget"
+    (procedure "WaveUneditCursor" line 3)
+    invoked from within
+"WaveUneditCursor $winname"
+    (procedure "WaveXView" line 6)
+    invoked from within
+"WaveXView .main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid scroll 1 units"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-command) scroll 1 units "
+    ("arrow2" arm line 1)
+    invoked from within
+"switch -- $element {
+		arrow1  { eval $itk_option(-command) scroll -1 units }
+		trough1 { eval $itk_option(-command) scroll -1 pages }
+		trough2 { eva..."
+    (object "::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar" method "::mtiwidgets::Mapscrollbar::_repeatEvent" body line 19)
+    invoked from within
+"::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-Press arrow2 again"
+    (in namespace inscope "::mtiwidgets::Mapscrollbar" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::Mapscrollbar {::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-P..."
+    ("after" script)
+  2: ::tkerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+  1: ::bgerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+Thu Dec 06 17.58.33 ora solare Europa occidentale 2007
+Trace back: bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"
+    while executing
+"pack $cn.frame_$n.b -side top -expand 0 -fill both"
+    (procedure "WaveUneditCursorName" line 10)
+    invoked from within
+"WaveUneditCursorName $wid"
+    (procedure "WaveUneditCursorNameAndSet" line 9)
+    invoked from within
+"WaveUneditCursorNameAndSet $widget"
+    (procedure "WaveUneditCursor" line 3)
+    invoked from within
+"WaveUneditCursor $winname"
+    (procedure "WaveXView" line 6)
+    invoked from within
+"WaveXView .main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid scroll 1 units"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-command) scroll 1 units "
+    ("arrow2" arm line 1)
+    invoked from within
+"switch -- $element {
+		arrow1  { eval $itk_option(-command) scroll -1 units }
+		trough1 { eval $itk_option(-command) scroll -1 pages }
+		trough2 { eva..."
+    (object "::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar" method "::mtiwidgets::Mapscrollbar::_repeatEvent" body line 19)
+    invoked from within
+"::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-Press arrow2 again"
+    (in namespace inscope "::mtiwidgets::Mapscrollbar" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::Mapscrollbar {::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-P..."
+    ("after" script)
+  2: ::tkerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+  1: ::bgerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+Thu Dec 06 18.00.10 ora solare Europa occidentale 2007
+Trace back: bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"
+    while executing
+"pack $cn.frame_$n.b -side top -expand 0 -fill both"
+    (procedure "WaveUneditCursorName" line 10)
+    invoked from within
+"WaveUneditCursorName $wid"
+    (procedure "WaveUneditCursorNameAndSet" line 9)
+    invoked from within
+"WaveUneditCursorNameAndSet $widget"
+    (procedure "WaveUneditCursor" line 3)
+    invoked from within
+"WaveUneditCursor $winname"
+    (procedure "WaveXView" line 6)
+    invoked from within
+"WaveXView .main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid scroll 1 units"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-command) scroll 1 units "
+    ("arrow2" arm line 1)
+    invoked from within
+"switch -- $element {
+		arrow1  { eval $itk_option(-command) scroll -1 units }
+		trough1 { eval $itk_option(-command) scroll -1 pages }
+		trough2 { eva..."
+    (object "::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar" method "::mtiwidgets::Mapscrollbar::_repeatEvent" body line 19)
+    invoked from within
+"::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-Press arrow2 again"
+    (in namespace inscope "::mtiwidgets::Mapscrollbar" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::Mapscrollbar {::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-P..."
+    ("after" script)
+  2: ::tkerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+  1: ::bgerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+Thu Dec 06 18.01.17 ora solare Europa occidentale 2007
+Trace back: bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"
+    while executing
+"pack $cn.frame_$n.b -side top -expand 0 -fill both"
+    (procedure "WaveUneditCursorName" line 10)
+    invoked from within
+"WaveUneditCursorName $wid"
+    (procedure "WaveUneditCursorNameAndSet" line 9)
+    invoked from within
+"WaveUneditCursorNameAndSet $widget"
+    (procedure "WaveUneditCursor" line 3)
+    invoked from within
+"WaveUneditCursor $winname"
+    (procedure "WaveXView" line 6)
+    invoked from within
+"WaveXView .main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid scroll 1 units"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-command) scroll 1 units "
+    ("arrow2" arm line 1)
+    invoked from within
+"switch -- $element {
+		arrow1  { eval $itk_option(-command) scroll -1 units }
+		trough1 { eval $itk_option(-command) scroll -1 pages }
+		trough2 { eva..."
+    (object "::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar" method "::mtiwidgets::Mapscrollbar::_repeatEvent" body line 19)
+    invoked from within
+"::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-Press arrow2 again"
+    (in namespace inscope "::mtiwidgets::Mapscrollbar" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::Mapscrollbar {::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-P..."
+    ("after" script)
+  2: ::tkerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+  1: ::bgerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+Thu Dec 06 18.01.47 ora solare Europa occidentale 2007
+Trace back: bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"
+    while executing
+"pack $cn.frame_$n.b -side top -expand 0 -fill both"
+    (procedure "WaveUneditCursorName" line 10)
+    invoked from within
+"WaveUneditCursorName $wid"
+    (procedure "WaveUneditCursorNameAndSet" line 9)
+    invoked from within
+"WaveUneditCursorNameAndSet $widget"
+    (procedure "WaveUneditCursor" line 3)
+    invoked from within
+"WaveUneditCursor $winname"
+    (procedure "WaveXView" line 6)
+    invoked from within
+"WaveXView .main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid scroll 1 units"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-command) scroll 1 units "
+    ("arrow2" arm line 1)
+    invoked from within
+"switch -- $element {
+		arrow1  { eval $itk_option(-command) scroll -1 units }
+		trough1 { eval $itk_option(-command) scroll -1 pages }
+		trough2 { eva..."
+    (object "::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar" method "::mtiwidgets::Mapscrollbar::_repeatEvent" body line 19)
+    invoked from within
+"::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-Press arrow2 again"
+    (in namespace inscope "::mtiwidgets::Mapscrollbar" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::Mapscrollbar {::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-P..."
+    ("after" script)
+  2: ::tkerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+  1: ::bgerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+Thu Dec 06 18.02.30 ora solare Europa occidentale 2007
+Trace back: bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"
+    while executing
+"pack $cn.frame_$n.b -side top -expand 0 -fill both"
+    (procedure "WaveUneditCursorName" line 10)
+    invoked from within
+"WaveUneditCursorName $wid"
+    (procedure "WaveUneditCursorNameAndSet" line 9)
+    invoked from within
+"WaveUneditCursorNameAndSet $widget"
+    (procedure "WaveUneditCursor" line 3)
+    invoked from within
+"WaveUneditCursor $winname"
+    (procedure "WaveXView" line 6)
+    invoked from within
+"WaveXView .main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid scroll 1 units"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-command) scroll 1 units "
+    ("arrow2" arm line 1)
+    invoked from within
+"switch -- $element {
+		arrow1  { eval $itk_option(-command) scroll -1 units }
+		trough1 { eval $itk_option(-command) scroll -1 pages }
+		trough2 { eva..."
+    (object "::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar" method "::mtiwidgets::Mapscrollbar::_repeatEvent" body line 19)
+    invoked from within
+"::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-Press arrow2 again"
+    (in namespace inscope "::mtiwidgets::Mapscrollbar" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::Mapscrollbar {::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-P..."
+    ("after" script)
+  2: ::tkerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+  1: ::bgerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+Thu Dec 06 18.03.20 ora solare Europa occidentale 2007
+Trace back: bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"
+    while executing
+"pack $cn.frame_$n.b -side top -expand 0 -fill both"
+    (procedure "WaveUneditCursorName" line 10)
+    invoked from within
+"WaveUneditCursorName $wid"
+    (procedure "WaveUneditCursorNameAndSet" line 9)
+    invoked from within
+"WaveUneditCursorNameAndSet $widget"
+    (procedure "WaveUneditCursor" line 3)
+    invoked from within
+"WaveUneditCursor $winname"
+    (procedure "WaveXView" line 6)
+    invoked from within
+"WaveXView .main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid scroll 1 units"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-command) scroll 1 units "
+    ("arrow2" arm line 1)
+    invoked from within
+"switch -- $element {
+		arrow1  { eval $itk_option(-command) scroll -1 units }
+		trough1 { eval $itk_option(-command) scroll -1 pages }
+		trough2 { eva..."
+    (object "::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar" method "::mtiwidgets::Mapscrollbar::_repeatEvent" body line 19)
+    invoked from within
+"::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-Press arrow2 again"
+    (in namespace inscope "::mtiwidgets::Mapscrollbar" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::Mapscrollbar {::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-P..."
+    ("after" script)
+  2: ::tkerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+  1: ::bgerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+Thu Dec 06 18.04.42 ora solare Europa occidentale 2007
+Trace back: bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"
+    while executing
+"pack $cn.frame_$n.b -side top -expand 0 -fill both"
+    (procedure "WaveUneditCursorName" line 10)
+    invoked from within
+"WaveUneditCursorName $wid"
+    (procedure "WaveUneditCursorNameAndSet" line 9)
+    invoked from within
+"WaveUneditCursorNameAndSet $widget"
+    (procedure "WaveUneditCursor" line 3)
+    invoked from within
+"WaveUneditCursor $winname"
+    (procedure "WaveXView" line 6)
+    invoked from within
+"WaveXView .main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid scroll 1 units"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-command) scroll 1 units "
+    ("arrow2" arm line 1)
+    invoked from within
+"switch -- $element {
+		arrow1  { eval $itk_option(-command) scroll -1 units }
+		trough1 { eval $itk_option(-command) scroll -1 pages }
+		trough2 { eva..."
+    (object "::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar" method "::mtiwidgets::Mapscrollbar::_repeatEvent" body line 19)
+    invoked from within
+"::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-Press arrow2 again"
+    (in namespace inscope "::mtiwidgets::Mapscrollbar" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::Mapscrollbar {::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-P..."
+    ("after" script)
+  2: ::tkerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+  1: ::bgerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+Thu Dec 06 18.05.12 ora solare Europa occidentale 2007
+Trace back: bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"
+    while executing
+"pack $cn.frame_$n.b -side top -expand 0 -fill both"
+    (procedure "WaveUneditCursorName" line 10)
+    invoked from within
+"WaveUneditCursorName $wid"
+    (procedure "WaveUneditCursorNameAndSet" line 9)
+    invoked from within
+"WaveUneditCursorNameAndSet $widget"
+    (procedure "WaveUneditCursor" line 3)
+    invoked from within
+"WaveUneditCursor $winname"
+    (procedure "WaveXView" line 6)
+    invoked from within
+"WaveXView .main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid scroll 1 units"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-command) scroll 1 units "
+    ("arrow2" arm line 1)
+    invoked from within
+"switch -- $element {
+		arrow1  { eval $itk_option(-command) scroll -1 units }
+		trough1 { eval $itk_option(-command) scroll -1 pages }
+		trough2 { eva..."
+    (object "::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar" method "::mtiwidgets::Mapscrollbar::_repeatEvent" body line 19)
+    invoked from within
+"::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-Press arrow2 again"
+    (in namespace inscope "::mtiwidgets::Mapscrollbar" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::Mapscrollbar {::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-P..."
+    ("after" script)
+  2: ::tkerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+  1: ::bgerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+Thu Dec 06 18.05.45 ora solare Europa occidentale 2007
+Trace back: bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"
+    while executing
+"pack $cn.frame_$n.b -side top -expand 0 -fill both"
+    (procedure "WaveUneditCursorName" line 10)
+    invoked from within
+"WaveUneditCursorName $wid"
+    (procedure "WaveUneditCursorNameAndSet" line 9)
+    invoked from within
+"WaveUneditCursorNameAndSet $widget"
+    (procedure "WaveUneditCursor" line 3)
+    invoked from within
+"WaveUneditCursor $winname"
+    (procedure "WaveXView" line 6)
+    invoked from within
+"WaveXView .main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid scroll 1 units"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-command) scroll 1 units "
+    ("arrow2" arm line 1)
+    invoked from within
+"switch -- $element {
+		arrow1  { eval $itk_option(-command) scroll -1 units }
+		trough1 { eval $itk_option(-command) scroll -1 pages }
+		trough2 { eva..."
+    (object "::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar" method "::mtiwidgets::Mapscrollbar::_repeatEvent" body line 19)
+    invoked from within
+"::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-Press arrow2 again"
+    (in namespace inscope "::mtiwidgets::Mapscrollbar" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::Mapscrollbar {::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-P..."
+    ("after" script)
+  2: ::tkerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+  1: ::bgerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+Thu Dec 06 18.06.42 ora solare Europa occidentale 2007
+Trace back: bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"
+    while executing
+"pack $cn.frame_$n.b -side top -expand 0 -fill both"
+    (procedure "WaveUneditCursorName" line 10)
+    invoked from within
+"WaveUneditCursorName $wid"
+    (procedure "WaveUneditCursorNameAndSet" line 9)
+    invoked from within
+"WaveUneditCursorNameAndSet $widget"
+    (procedure "WaveUneditCursor" line 3)
+    invoked from within
+"WaveUneditCursor $winname"
+    (procedure "WaveXView" line 6)
+    invoked from within
+"WaveXView .main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid scroll 1 units"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-command) scroll 1 units "
+    ("arrow2" arm line 1)
+    invoked from within
+"switch -- $element {
+		arrow1  { eval $itk_option(-command) scroll -1 units }
+		trough1 { eval $itk_option(-command) scroll -1 pages }
+		trough2 { eva..."
+    (object "::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar" method "::mtiwidgets::Mapscrollbar::_repeatEvent" body line 19)
+    invoked from within
+"::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-Press arrow2 again"
+    (in namespace inscope "::mtiwidgets::Mapscrollbar" script line 1)
+    invoked from within
+"namespace inscope ::mtiwidgets::Mapscrollbar {::.main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.xsb,wave.scrollbar _repeatEvent B1-P..."
+    ("after" script)
+  2: ::tkerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}
+  1: ::bgerror {bad window path name ".main_pane.mdi.interior.cs.vm.paneset.cli_1.wf.clip.cs.pw.wf.grid.cursor,name.frame_3.b"}

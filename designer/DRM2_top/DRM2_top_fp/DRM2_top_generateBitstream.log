@@ -1,0 +1,14 @@
+Software Version: 2021.3.0.10
+Opened 'E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\designer\DRM2_top\DRM2_top_fp\DRM2_top.pro'
+PDB file 'E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\designer\DRM2_top\DRM2_top.pdb' has been loaded successfully.
+DESIGN : DRM2_top;  CHECKSUM : D060;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\designer\DRM2_top\DRM2_top.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\designer\DRM2_top\DRM2_top.ppd'; file programs Fabric and eNVM.
+Fabric component bitstream digest: fbb121e46c93aba8c372843eb5cdc3bf63161073401b276e38b2e3f19ad11fad
+eNVM_1 component bitstream digest: 296c881d92186288e0906c3444842867ef064ed0a7d2e214f935100d44c73798
+Entire bitstream digest: 7e9d83dd3feba53d4caae3b0c20061f33731f850d8156b0ace4980b47a140fdf
+Finished: Thu Apr 13 16:27:33 2023 (Elapsed time 00:00:49)
+
+Project saved.
+Project closed.

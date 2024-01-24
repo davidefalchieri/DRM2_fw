@@ -1,0 +1,417 @@
+[Library]
+std = $MODEL_TECH/../std
+ieee = $MODEL_TECH/../ieee
+verilog = $MODEL_TECH/../verilog
+std_developerskit = $MODEL_TECH/../std_developerskit
+synopsys = $MODEL_TECH/../synopsys
+modelsim_lib = $MODEL_TECH/../modelsim_lib
+
+work = work
+altera_mf = ../LIB/altera_mf
+apa = ../LIB/apa
+[vcom]
+; Turn on VHDL-1993 as the default. Default is off (VHDL-1987).
+; VHDL93 = 1
+
+; Show source line containing error. Default is off.
+; Show_source = 1
+
+; Turn off unbound-component warnings. Default is on.
+; Show_Warning1 = 0
+
+; Turn off process-without-a-wait-statement warnings. Default is on.
+; Show_Warning2 = 0
+
+; Turn off null-range warnings. Default is on.
+; Show_Warning3 = 0
+
+; Turn off no-space-in-time-literal warnings. Default is on.
+; Show_Warning4 = 0
+
+; Turn off multiple-drivers-on-unresolved-signal warnings. Default is on.
+; Show_Warning5 = 0
+
+; Turn off optimization for IEEE std_logic_1164 package. Default is on.
+; Optimize_1164 = 0
+
+; Turn on resolving of ambiguous function overloading in favor of the
+; "explicit" function declaration (not the one automatically created by
+; the compiler for each type declaration). Default is off.
+; The .ini file has Explict enabled so that std_logic_signed/unsigned
+; will match the behavior of synthesis tools.
+Explicit = 1
+
+; Turn off VITAL compliance checking. Default is checking on.
+; NoVitalCheck = 1
+
+; Ignore VITAL compliance checking errors. Default is to not ignore.
+; IgnoreVitalErrors = 1
+
+; Turn off VITAL compliance checking warnings. Default is to show warnings.
+; Show_VitalChecksWarnings = false
+
+; Change case statement static errors to warnings. Default is to give an error.
+; NoCaseStaticError = 1
+
+; Disable errors caused by aggregates that are not locally static.
+; Default is to give an error.
+; NoOthersStaticError = 1
+
+; Turn off acceleration of the VITAL packages. Default is to accelerate.
+; NoVital = 1
+
+; Turn off inclusion of debugging info within design units.
+; Default is to include debugging info.
+; NoDebug = 1
+
+; Turn off "loading..." messages. Default is messages on.
+; Quiet = 1
+
+; Turn on some limited synthesis rule compliance checking. Checks only:
+;    -- signals used (read) by a process must be in the sensitivity list
+; CheckSynthesis = 1
+
+; Activate optimizations on expressions that don't involve signals,
+; waits, or function/procedure/task invocations. Default is off.
+; ScalarOpts = 1
+
+; Require the user to specify a configuration for all bindings,
+; and do not generate a compile time default binding for the
+; component. This will result in an elaboration error of
+; 'component not bound' if the user fails to do so. Avoids the rare
+; issue of a false dependency upon the unused default binding.
+; RequireConfigForAllDefaultBinding = 1 
+
+; Inhibit range checking on subscripts of arrays. Range checking on
+; scalars defined with subtypes is inhibited by default.
+; NoIndexCheck = 1
+
+; Perform range checks on all (implicit and explicit) assignments to
+; scalar objects defined with subtypes.
+; RangeCheck = 1
+
+[vlog]
+
+; Turn off inclusion of debugging info within design units.
+; Default is to include debugging info.
+; NoDebug = 1
+
+; Turn off "loading..." messages. Default is messages on.
+; Quiet = 1
+
+; Turn on Verilog hazard checking (order-dependent accessing of global vars).
+; Default is off.
+; Hazard = 1
+
+; Turn on converting regular Verilog identifiers to uppercase. Allows case
+; insensitivity for module names. Default is no conversion.
+; UpCase = 1
+
+; Turn on incremental compilation of modules. Default is off.
+; Incremental = 1
+
+; Turns on lint-style checking.
+; Show_Lint = 1
+
+[vsim]
+; Simulator resolution
+; Set to fs, ps, ns, us, ms, or sec with optional prefix of 1, 10, or 100.
+resolution = 1ps
+
+; User time unit for run commands
+; Set to default, fs, ps, ns, us, ms, or sec. The default is to use the
+; unit specified for Resolution. For example, if Resolution is 100ps,
+; then UserTimeUnit defaults to ps.
+UserTimeUnit = default
+
+; Default run length
+RunLength = 3 ms
+
+; Maximum iterations that can be run without advancing simulation time
+IterationLimit = 1000
+
+; Directive to license manager:
+; vhdl          Immediately reserve a VHDL license
+; vlog          Immediately reserve a Verilog license
+; plus          Immediately reserve a VHDL and Verilog license
+; nomgc         Do not look for Mentor Graphics Licenses
+; nomti         Do not look for Model Technology Licenses
+; noqueue       Do not wait in the license queue when a license isn't available
+; viewsim	Try for viewer license but accept simulator license(s) instead
+;		of queuing for viewer license
+; License = plus
+
+; Stop the simulator after an assertion message
+; 0 = Note  1 = Warning  2 = Error  3 = Failure  4 = Fatal
+BreakOnAssertion = 3
+
+; Assertion Message Format
+; %S - Severity Level 
+; %R - Report Message
+; %T - Time of assertion
+; %D - Delta
+; %I - Instance or Region pathname (if available)
+; %% - print '%' character
+; AssertionFormat = "** %S: %R\n   Time: %T  Iteration: %D%I\n"
+
+; Assertion File - alternate file for storing assertion messages
+; AssertFile = assert.log
+
+; Default radix for all windows and commands...
+; Set to symbolic, ascii, binary, octal, decimal, hex, unsigned
+DefaultRadix = symbolic
+
+; VSIM Startup command
+; Startup = do startup.do
+
+; File for saving command transcript
+TranscriptFile = transcript
+
+; File for saving command history 
+; CommandHistory = cmdhist.log
+
+; Specify whether paths in simulator commands should be described 
+; in VHDL or Verilog format. For VHDL, PathSeparator = /
+; for Verilog, PathSeparator = .
+PathSeparator = /
+
+; Specify the dataset separator for fully rooted contexts.
+; The default is ':'. For example, sim:/top
+; Must not be the same character as PathSeparator.
+DatasetSeparator = :
+
+; Disable assertion messages
+; IgnoreNote = 1
+; IgnoreWarning = 1
+; IgnoreError = 1
+; IgnoreFailure = 1
+
+; Default force kind. May be freeze, drive, or deposit 
+; or in other terms, fixed, wired, or charged.
+; DefaultForceKind = freeze
+
+; If zero, open files when elaborated; otherwise, open files on
+; first read or write.  Default is 0.
+; DelayFileOpen = 1
+
+; Control VHDL files opened for write
+;   0 = Buffered, 1 = Unbuffered
+UnbufferedOutput = 0
+
+; Control number of VHDL files open concurrently
+;   This number should always be less than the
+;   current ulimit setting for max file descriptors.
+;   0 = unlimited
+ConcurrentFileLimit = 40
+
+; Controls the number of hierarchical regions displayed as
+; part of a signal name shown in the waveform window.  The default
+; value or a value of zero tells VSIM to display the full name.
+; WaveSignalNameWidth = 0
+
+; Turn off warnings from the std_logic_arith, std_logic_unsigned
+; and std_logic_signed packages.
+; StdArithNoWarnings = 1
+
+; Turn off warnings from the IEEE numeric_std and numeric_bit packages.
+; NumericStdNoWarnings = 1
+
+; Control the format of a generate statement label. Don't quote it.
+; GenerateFormat = %s__%d
+
+; Specify whether checkpoint files should be compressed.
+; The default is to be compressed.
+; CheckpointCompressMode = 0
+
+; List of dynamically loaded objects for Verilog PLI applications
+; Veriuser = veriuser.sl
+
+; Specify default options for the restart command. Options can be one
+; or more of: -force -nobreakpoint -nolist -nolog -nowave
+; DefaultRestartOptions = -force
+
+; HP-UX 10.20 ONLY - Enable memory locking to speed up large designs
+; (> 500 megabyte memory footprint). Default is disabled.
+; Specify number of megabytes to lock.
+; LockedMemory = 1000
+
+; Turn on (1) or off (0) WLF file compression.
+; The default is 1; compress WLF file.
+; WLFCompress = 0
+
+; Specify whether to save all design hierarchy (1) in WLF file
+; or only regions containing logged signals (0).
+; The default is 0; log only regions with logged signals.
+; WLFSaveAllRegions = 1
+
+; WLF file time limit.  Limit WLF file by time, as closely as possible,
+; to the specified amount of simulation time.  When the limit is exceeded
+; the earliest times get truncated from the file.
+; If both time and size limits are specified the most restrictive is used.
+; UserTimeUnits are used if time units are not specified.
+; The default is 0; no limit.  Example: WLFTimeLimit = {100 ms}
+; WLFTimeLimit = 0
+
+; WLF file size limit.  Limit WLF file size, as closely as possible,
+; to the specified number of megabytes.  If both time and size limits
+; are specified then the most restrictive is used.
+; The default is 0; no limit.
+; WLFSizeLimit = 1000
+
+; Specify whether or not a WLF file should be deleted when the 
+; simulation ends.  A value of 1 will cause the WLF file to be deleted.
+; The default is 0; don't delete WLF file when simulation ends.
+; WLFDeleteOnQuit = 1
+
+StdArithNoWarnings = 1
+[lmc]
+; ModelSim's interface to Logic Modeling's SmartModel SWIFT software
+libsm = $MODEL_TECH/libsm.sl
+; ModelSim's interface to Logic Modeling's SmartModel SWIFT software (Windows NT)
+; libsm = $MODEL_TECH/libsm.dll
+;  Logic Modeling's SmartModel SWIFT software (HP 9000 Series 700)
+; libswift = $LMC_HOME/lib/hp700.lib/libswift.sl
+;  Logic Modeling's SmartModel SWIFT software (IBM RISC System/6000)
+; libswift = $LMC_HOME/lib/ibmrs.lib/swift.o
+;  Logic Modeling's SmartModel SWIFT software (Sun4 Solaris)
+; libswift = $LMC_HOME/lib/sun4Solaris.lib/libswift.so
+;  Logic Modeling's SmartModel SWIFT software (Windows NT)
+; libswift = $LMC_HOME/lib/pcnt.lib/libswift.dll
+;  Logic Modeling's SmartModel SWIFT software (Linux)
+; libswift = $LMC_HOME/lib/x86_linux.lib/libswift.so
+
+; ModelSim's interface to Logic Modeling's hardware modeler SFI software
+libhm = $MODEL_TECH/libhm.sl
+; ModelSim's interface to Logic Modeling's hardware modeler SFI software (Windows NT)
+; libhm = $MODEL_TECH/libhm.dll
+;  Logic Modeling's hardware modeler SFI software (HP 9000 Series 700)
+; libsfi = <sfi_dir>/lib/hp700/libsfi.sl
+;  Logic Modeling's hardware modeler SFI software (IBM RISC System/6000)
+; libsfi = <sfi_dir>/lib/rs6000/libsfi.a
+;  Logic Modeling's hardware modeler SFI software (Sun4 Solaris)
+; libsfi = <sfi_dir>/lib/sun4.solaris/libsfi.so
+;  Logic Modeling's hardware modeler SFI software (Windows NT)
+; libsfi = <sfi_dir>/lib/pcnt/lm_sfi.dll
+[project]
+; Warning -- Do not edit the project properties directly.
+;            Property names are dynamic in nature and property
+;            values have special syntax.  Changing property data directly
+;            can result in a corrupt MPF file.  All project properties
+;            can be modified through project window dialogs.
+Project_Version = 6
+Project_DefaultLib = work
+Project_SortMethod = unused
+Project_Files_Count = 38
+Project_File_0 = D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/pdlmon.vhd
+Project_File_P_0 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 vhdl_disableopt 0 folder {Top Level} last_compile 1252923838 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 28 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_1 = D:/luca/Work/VX1392/FPGA/ACTEL/hdl/ctrl.vhd
+Project_File_P_1 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 1 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252924200 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 4 dont_compile 0 cover_nosub 0 vhdl_use93 1
+Project_File_2 = D:/luca/Work/VX1392/FPGA/ACTEL/hdl/I2C_interf.vhd
+Project_File_P_2 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 1 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252940586 vhdl_disableopt 0 vhdl_vital 0 cover_excludedefault 0 vhdl_vopt 0 vlog_disableopt 0 vhdl_warn1 1 vhdl_warn2 1 vhdl_explicit 1 vhdl_showsource 0 vhdl_warn3 1 cover_covercells 0 vhdl_0InOptions {} vhdl_warn4 1 voptflow 0 cover_optlevel 3 vhdl_options {} vhdl_warn5 1 toggle - ood 1 cover_noshort 0 compile_to work compile_order 6 cover_nosub 0 dont_compile 0 vhdl_use93 1
+Project_File_3 = D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/VME_Master.vhd
+Project_File_P_3 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252942275 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 31 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_4 = D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_trig/hdl/trigger_top.vhd
+Project_File_P_4 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 last_compile 1252934464 vhdl_disableopt 0 folder {Top Level} cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 33 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_5 = D:/luca/Work/VX1392/FPGA/ACTEL/hdl/vinterf.vhd
+Project_File_P_5 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 1 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252924201 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 10 dont_compile 0 cover_nosub 0 vhdl_use93 1
+Project_File_6 = D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_trig/hdl/cttm_pll.vhd
+Project_File_P_6 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 last_compile 1252934464 vhdl_disableopt 0 folder {Top Level} cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 34 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_7 = D:/luca/Work/VX1392/FPGA/ACTEL/hdl/pdl_interf.vhd
+Project_File_P_7 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 1 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252924200 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 7 dont_compile 0 cover_nosub 0 vhdl_use93 1
+Project_File_8 = D:/luca/Work/VX1392/FPGA/ACTEL/hdl/dac_interf.vhd
+Project_File_P_8 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 1 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252924201 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 5 dont_compile 0 cover_nosub 0 vhdl_use93 1
+Project_File_9 = D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/I2c_EEPROM.vhd
+Project_File_P_9 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252923838 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 23 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_10 = D:/luca/Work/VX1392/FPGA/LIB/src/altera_mf/altera_mf_components.vhd
+Project_File_P_10 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252924181 vhdl_disableopt 0 vhdl_vital 0 cover_excludedefault 0 vhdl_vopt 0 vlog_disableopt 0 vhdl_warn1 1 vhdl_warn2 1 vhdl_explicit 1 vhdl_showsource 0 vhdl_warn3 1 cover_covercells 0 vhdl_0InOptions {} vhdl_warn4 1 voptflow 0 cover_optlevel 3 vhdl_options {} vhdl_warn5 1 toggle - ood 1 cover_noshort 0 compile_to altera_mf compile_order 0 cover_nosub 0 dont_compile 0 vhdl_use93 2002
+Project_File_11 = D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/vx1392sim.vhd
+Project_File_P_11 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252923838 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 32 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_12 = D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/flash.vhd
+Project_File_P_12 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252923838 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 21 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_13 = D:/luca/Work/VX1392/FPGA/ACTEL/hdl/roc32.vhd
+Project_File_P_13 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1253003975 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 14 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_14 = D:/luca/Work/VX1392/FPGA/ACTEL/hdl/lbspare.vhd
+Project_File_P_14 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252924200 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 12 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_15 = D:/luca/Work/VX1392/FPGA/ACTEL/smartgen/CROM/CROM.vhd
+Project_File_P_15 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 vhdl_disableopt 0 folder {Top Level} last_compile 1252924195 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 15 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_16 = D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/io_utils.vhd
+Project_File_P_16 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 last_compile 1252923838 vhdl_disableopt 0 folder {Top Level} cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 24 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_17 = D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/fct1bit543.vhd
+Project_File_P_17 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252923838 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 19 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_18 = D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/vx1392sim_config.vhd
+Project_File_P_18 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 vhdl_disableopt 0 folder {Top Level} last_compile 1252940803 vhdl_vital 0 cover_excludedefault 0 vhdl_vopt 0 vlog_disableopt 0 vhdl_warn1 1 vhdl_warn2 1 vhdl_explicit 1 vhdl_showsource 0 vhdl_warn3 1 cover_covercells 0 vhdl_0InOptions {} vhdl_warn4 1 voptflow 0 cover_optlevel 3 vhdl_options {} vhdl_warn5 1 toggle - ood 1 cover_noshort 0 compile_to work compile_order 36 cover_nosub 0 dont_compile 0 vhdl_use93 2002
+Project_File_19 = D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/vbuf.vhd
+Project_File_P_19 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252923838 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 30 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_20 = D:/luca/Work/VX1392/FPGA/ACTEL/hdl/V1392pkg.vhd
+Project_File_P_20 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 1 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252934131 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 2 dont_compile 0 cover_nosub 0 vhdl_use93 1
+Project_File_21 = D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/I2C_ADC.vhd
+Project_File_P_21 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252923838 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 22 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_22 = D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/osc.vhd
+Project_File_P_22 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252923838 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 27 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_23 = D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_trig/hdl/test.vhd
+Project_File_P_23 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252934464 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 35 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_24 = D:/luca/Work/VX1392/FPGA/ACTEL/smartgen/PDLCFG/PDLCFG.vhd
+Project_File_P_24 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 vhdl_disableopt 0 folder {Top Level} last_compile 1252924195 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 18 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_25 = D:/luca/Work/VX1392/FPGA/ACTEL/smartgen/DACCFG/DACCFG.vhd
+Project_File_P_25 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 vhdl_disableopt 0 folder {Top Level} last_compile 1252924196 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 16 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_26 = D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/txt_util.vhd
+Project_File_P_26 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252923838 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 29 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_27 = D:/luca/Work/VX1392/FPGA/LIB/src/apa/apa.vhd
+Project_File_P_27 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252924174 vhdl_disableopt 0 vhdl_vital 0 cover_excludedefault 0 vhdl_vopt 0 vlog_disableopt 0 vhdl_warn1 1 vhdl_warn2 1 vhdl_explicit 1 vhdl_showsource 0 vhdl_warn3 1 cover_covercells 0 vhdl_0InOptions {} vhdl_warn4 1 voptflow 1 cover_optlevel 3 vhdl_options {} vhdl_warn5 1 toggle - ood 1 cover_noshort 0 compile_to apa compile_order 37 cover_nosub 0 dont_compile 0 vhdl_use93 2002
+Project_File_28 = D:/luca/Work/VX1392/FPGA/ACTEL/hdl/clk_interf.vhd
+Project_File_P_28 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 1 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252924200 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 3 dont_compile 0 cover_nosub 0 vhdl_use93 1
+Project_File_29 = D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/lvt125.vhd
+Project_File_P_29 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252923838 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 26 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_30 = D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/lvc16244.vhd
+Project_File_P_30 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252923838 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 25 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_31 = D:/luca/Work/VX1392/FPGA/ACTEL/smartgen/event_fifo/event_fifo.vhd
+Project_File_P_31 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252944101 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 17 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_32 = D:/luca/Work/VX1392/FPGA/ACTEL/hdl/reset_mod.vhd
+Project_File_P_32 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 1 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252924200 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 8 dont_compile 0 cover_nosub 0 vhdl_use93 1
+Project_File_33 = D:/luca/Work/VX1392/FPGA/ACTEL/hdl/v1392ltm.vhd
+Project_File_P_33 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 1 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252924200 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 11 dont_compile 0 cover_nosub 0 vhdl_use93 1
+Project_File_34 = D:/luca/Work/VX1392/FPGA/LIB/src/altera_mf/altera_mf.vhd
+Project_File_P_34 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252924182 vhdl_disableopt 0 vhdl_vital 0 cover_excludedefault 0 vhdl_vopt 0 vlog_disableopt 0 vhdl_warn1 1 vhdl_warn2 1 vhdl_explicit 1 vhdl_showsource 0 vhdl_warn3 1 cover_covercells 0 vhdl_0InOptions {} vhdl_warn4 1 voptflow 0 cover_optlevel 3 vhdl_options {} vhdl_warn5 1 toggle - ood 1 cover_noshort 0 compile_to altera_mf compile_order 1 cover_nosub 0 dont_compile 0 vhdl_use93 2002
+Project_File_35 = D:/luca/Work/VX1392/FPGA/ACTEL/hdl/spi_interf.vhd
+Project_File_P_35 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 1 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252924200 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 9 dont_compile 0 cover_nosub 0 vhdl_use93 1
+Project_File_36 = D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/fct16543p.vhd
+Project_File_P_36 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252923838 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 20 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_File_37 = D:/luca/Work/VX1392/FPGA/ACTEL/hdl/monostable.vhd
+Project_File_P_37 = vhdl_novitalcheck 0 file_type vhdl group_id 0 cover_nofec 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vlog_1995compat 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1252924200 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vlog_disableopt 0 vhdl_vopt 0 vhdl_showsource 0 vhdl_explicit 1 vhdl_warn2 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 3 voptflow 0 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work cover_noshort 0 compile_order 13 dont_compile 0 cover_nosub 0 vhdl_use93 2002
+Project_Sim_Count = 1
+Project_Sim_0 = START_SIM
+Project_Sim_P_0 = Generics {} timing default -std_output {} -nopsl 0 +notimingchecks 0 -L {} selected_du {} -hazards 0 -sdf {} +acc {} ok 1 -0in 0 -nosva 0 folder {Top Level} -absentisempty 0 +pulse_r {} OtherArgs {} -multisource_delay {} +pulse_e {} vopt_env 0 -coverage 0 -sdfnoerror 0 +plusarg {} -vital2.2b 0 -t ps -memprof 0 is_vopt_flow 0 additional_dus work.vx1392sim_config -nofileshare 0 -noglitch 0 -assertdebug 0 -wlf {} +no_pulse_msg 0 -0in_options {} -assertfile {} -sdfnowarn 0 -Lf {} -std_input {}
+Project_Folder_Count = 0
+Echo_Compile_Output = 0
+Save_Compile_Report = 1
+Project_Opt_Count = 0
+ForceSoftPaths = 0
+ProjectStatusDelay = 5000
+VERILOG_DoubleClick = Edit
+VERILOG_CustomDoubleClick = 
+SYSTEMVERILOG_DoubleClick = Edit
+SYSTEMVERILOG_CustomDoubleClick = 
+VHDL_DoubleClick = Edit
+VHDL_CustomDoubleClick = 
+PSL_DoubleClick = Edit
+PSL_CustomDoubleClick = 
+TEXT_DoubleClick = Edit
+TEXT_CustomDoubleClick = 
+SYSTEMC_DoubleClick = Edit
+SYSTEMC_CustomDoubleClick = 
+TCL_DoubleClick = Edit
+TCL_CustomDoubleClick = 
+MACRO_DoubleClick = Edit
+MACRO_CustomDoubleClick = 
+VCD_DoubleClick = Edit
+VCD_CustomDoubleClick = 
+SDF_DoubleClick = Edit
+SDF_CustomDoubleClick = 
+XML_DoubleClick = Edit
+XML_CustomDoubleClick = 
+LOGFILE_DoubleClick = Edit
+LOGFILE_CustomDoubleClick = 
+UCDB_DoubleClick = Edit
+UCDB_CustomDoubleClick = 
+Project_Major_Version = 6
+Project_Minor_Version = 5

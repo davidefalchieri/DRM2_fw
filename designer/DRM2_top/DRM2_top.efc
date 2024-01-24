@@ -1,0 +1,41 @@
+<Actel_Data_File>
+    <format name="NVM File" version="01.00.00"/>
+    <header>
+        <die>
+            M2GL090T
+        </die>
+        <family>
+            IGLOO2
+        </family>
+        <module>
+            
+        </module>
+        <package>
+            676 FBGA
+        </package>
+        <version>
+            2021.3.0.10
+        </version>
+    </header>
+    <nvm>
+        <region name="ACTEL_INIT_CONFIG_ENVM" address="0x0fa000" retrieveAddressFromFile="false" size="352" format="HEX" type="Data Storage" wordSize="32" numberWords="88" memFile="E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\designer\DRM2_top\DRM2_top.efc.init.mem" memType="BINARY" memFileTimeStamp="1681396261" clientType="private" program="true">
+            <fabric_accessible/>
+            <mss_accessible/>
+            0400240028a002400f010000040024009891024030000000100024000090
+            02408000000020000000f800000080000000080024001490024029000000
+            200000000800240024900240800000001500000008002400309002401000
+            000038000000040024003c9002407000000008002400d491024002000000
+            220000000400240098910240000000000400240000920240010000000400
+            240028a002400f0400000400240098990240300000001000240000980240
+            8000000020000000f8000000800000000800240014980240290000002000
+            000008002400249802408000000015000000080024003098024010000000
+            38000000040024003c9802407000000008002400d4990240020000002200
+            000004002400989902400000000004002400009a02400100000004002400
+            28a002400f0f000004002400002002400100000000000002042002400200
+            00000200000004002480002002400300000000000000
+            <crc>
+                02a5
+            </crc>
+        </region>
+    </nvm>
+</Actel_Data_File>

@@ -1,0 +1,28 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Thu Dec 20 12:10:04 2007
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : event_fifo
+Family                          : PA
+Output Format                   : VHDL
+Type                            : FIFO
+Variation                       : FIFO with static trigger level
+Depth                           : 256
+Width                           : 32
+Level                           : 1
+Read Access                     : Sync Transp
+Write Access                    : Sync
+Optimization                    : Area
+Parity                          : None
+
+
+Written VHDL netlist to
+C:/FrontEnd/Annalisa/work/vx1392/smartgen\event_fifo\event_fifo.vhd.
+
+ ** Log Ended:   Thu Dec 20 12:10:04 2007
+

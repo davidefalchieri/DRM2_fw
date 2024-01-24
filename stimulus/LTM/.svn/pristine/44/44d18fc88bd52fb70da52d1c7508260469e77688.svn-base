@@ -1,0 +1,272 @@
+vcom -work work -93 -explicit -no1164 -source -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/vx1392sim.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity vx1392sim
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package v1392pkg
+# -- Loading package vital_timing
+# -- Loading package vital_primitives
+# -- Compiling architecture struct of vx1392sim
+# -- Loading entity osc
+# -- Loading package io_utils
+# -- Loading entity vme_master
+# -- Loading entity lb_slave
+# -- Loading entity v1392ltm
+# -- Loading entity vbuf
+vcom -work work -87 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/buffers.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity buffers
+# -- Compiling architecture struct of buffers
+# -- Loading entity fct16543p
+# -- Loading entity fct1bit543
+vcom -work work -93 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/clk_interf.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package v1392pkg
+# -- Compiling entity clk_interf
+# -- Compiling architecture rtl of clk_interf
+vcom -work work -93 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/ctrl.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package v1392pkg
+# -- Compiling entity ctrl
+# -- Compiling architecture rtl of ctrl
+vcom -work work -93 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/dac_interf.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package v1392pkg
+# -- Compiling entity dac_interf
+# -- Compiling architecture rtl of dac_interf
+vcom -work work -87 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/event_fifo.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity mmshftneg4_event_fifo
+# -- Compiling architecture struct_mmshftneg4_event_fifo of mmshftneg4_event_fifo
+# -- Loading package vital_timing
+# -- Loading entity bfr
+# -- Loading entity bubble
+# -- Loading entity mux2h
+# -- Loading entity dfflc
+# -- Loading entity dffls
+# -- Compiling entity event_fifo
+# -- Compiling architecture struct_event_fifo of event_fifo
+# -- Loading entity pwr
+# -- Loading entity gnd
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package vital_primitives
+# -- Loading entity fifo256x9sst
+# -- Loading entity inv
+# -- Loading entity dffs
+# -- Loading entity or2
+# -- Loading entity mmshftneg4_event_fifo
+# -- Loading entity dff
+# -- Loading entity or3
+# -- Loading entity and3
+# -- Loading entity and2
+# -- Loading entity and2ft
+# -- Loading entity dmux
+# -- Loading entity ld
+vcom -work work -87 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/fct1bit543.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity fct1bit543
+# -- Compiling architecture behav of fct1bit543
+vcom -work work -87 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/fct16543.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity fct16543
+# -- Compiling architecture behav of fct16543
+vcom -work work -87 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/fct16543p.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity fct16543p
+# -- Compiling architecture behav of fct16543p
+vcom -work work -93 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/I2C_interf.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package v1392pkg
+# -- Compiling entity i2c_interf
+# -- Compiling architecture rtl of i2c_interf
+vcom -work work -93 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/lb_interf.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package v1392pkg
+# -- Compiling entity lb_interf
+# -- Compiling architecture rtl of lb_interf
+vcom -work work -87 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/lb_slave.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity lb_slave
+# -- Compiling architecture rtl of lb_slave
+vcom -work work -87 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/lvc16244.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity lvc16244
+# -- Compiling architecture behav of lvc16244
+vcom -work work -87 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/lvt125.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity lvt125
+# -- Compiling architecture behav of lvt125
+vcom -work work -93 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/osc.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity osc
+# -- Compiling architecture behav of osc
+vcom -work work -93 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/pdl_interf.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package v1392pkg
+# -- Compiling entity pdl_interf
+# -- Compiling architecture rtl of pdl_interf
+vcom -work work -87 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/PLL_aclk.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity pll_aclk
+# -- Compiling architecture def_arch of pll_aclk
+# -- Loading package vital_timing
+# -- Loading entity pwr
+# -- Loading entity gnd
+# -- Loading package vital_primitives
+# -- Loading package vtables
+# -- Loading entity pllcore
+vcom -work work -87 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/PLL_lclk.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity pll_lclk
+# -- Compiling architecture def_arch of pll_lclk
+# -- Loading package vital_timing
+# -- Loading entity pwr
+# -- Loading entity gnd
+# -- Loading package vital_primitives
+# -- Loading package vtables
+# -- Loading entity pllcore
+vcom -work work -93 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/reset_mod.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package v1392pkg
+# -- Compiling entity reset_mod
+# -- Compiling architecture rtl of reset_mod
+vcom -work work -93 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/roc32.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package v1392pkg
+# -- Compiling entity roc32
+# -- Compiling architecture rtl of roc32
+# -- Loading entity pll_aclk
+# -- Loading entity pll_lclk
+# -- Loading entity event_fifo
+vcom -work work -93 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/spi_interf.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package v1392pkg
+# -- Compiling entity spi_interf
+# -- Compiling architecture rtl of spi_interf
+vcom -work work -93 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/v1392ltm.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package v1392pkg
+# -- Compiling entity v1392ltm
+# -- Compiling architecture struct of v1392ltm
+# -- Loading entity clk_interf
+# -- Loading entity dac_interf
+# -- Loading entity i2c_interf
+# -- Loading entity reset_mod
+# -- Loading entity roc32
+# -- Loading entity spi_interf
+# -- Loading entity vinterf
+# -- Loading entity ctrl
+# -- Loading entity lb_interf
+# -- Loading entity pdl_interf
+vcom -work work -93 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/V1392pkg.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling package v1392pkg
+# -- Compiling package body v1392pkg
+# -- Loading package v1392pkg
+vcom -work work -87 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/vbuf.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity vbuf
+# -- Compiling architecture struct of vbuf
+# -- Loading entity fct16543p
+# -- Loading entity fct1bit543
+# -- Loading entity lvc16244
+# -- Loading entity lvt125
+vcom -work work -93 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/vinterf.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package v1392pkg
+# -- Compiling entity vinterf
+# -- Compiling architecture rtl of vinterf
+vcom -work work -87 -explicit -no1164 -nowarn 1 -nowarn 2 -nowarn 3 -nowarn 4 -nowarn 5 C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/VME_Master.vhd
+# Model Technology ModelSim SE vcom 5.5 Compiler 2001.03 Mar  9 2001
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Loading package io_utils
+# -- Compiling entity vme_master
+# -- Compiling architecture behav of vme_master

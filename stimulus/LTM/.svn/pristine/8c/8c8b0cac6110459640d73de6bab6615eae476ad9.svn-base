@@ -1,0 +1,281 @@
+DESIGN trigger_top
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 50,0 15 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 67,0 21 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 92,0 22 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 182,0 23 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 240,0 24 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 197,0 25 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 127,0 26 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 132,0 27 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 137,0 28 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 142,0 29 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 157,0 30 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 162,0 31 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 167,0 32 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 52,0 33 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 57,0 34 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 62,0 35 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 97,0 36 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 82,0 37 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 87,0 38 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 235,0 39 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 187,0 40 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 202,0 41 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 207,0 42 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 212,0 43 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 217,0 44 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 117,0 45 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 147,0 46 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 152,0 47 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 227,0 48 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 172,0 49 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 177,0 50 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 102,0 51 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 107,0 52 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 192,0 53 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 1,0 56 0 
+DESIGN trigger_top
+VIEW symbol.sb
+GRAPHIC 1,0 57 0 
+DESIGN trigger_top
+VIEW struct.bd
+NO_GRAPHIC 59
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 42,0 60 0 
+DESIGN trigger_top
+VIEW struct.bd
+NO_GRAPHIC 66
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 0,0 68 2 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 2193,0 73 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1542,0 74 0 
+DESIGN trigger_top
+VIEW struct.bd
+NO_GRAPHIC 75
+DESIGN trigger_top
+VIEW struct.bd
+NO_GRAPHIC 76
+LIBRARY vx1392_trig
+DESIGN cttm_pll
+VIEW @s@y@n
+GRAPHIC 1442,0 78 0 
+DESIGN trigger_top
+VIEW struct.bd
+NO_GRAPHIC 85
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 2184,0 87 0 
+DESIGN trigger_top
+VIEW struct.bd
+NO_GRAPHIC 122
+LIBRARY vx1392_trig
+DESIGN trigger_top
+VIEW struct.bd
+NO_GRAPHIC 124
+DESIGN trigger_top
+VIEW struct.bd
+NO_GRAPHIC 125
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1525,0 127 0 
+DESIGN trigger_top
+VIEW struct.bd
+NO_GRAPHIC 130
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1442,0 132 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1538,0 134 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1459,0 135 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1477,0 136 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1407,0 137 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 2184,0 140 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 2003,0 142 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1901,0 143 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 2421,0 144 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 2435,0 145 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 2449,0 146 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1677,0 147 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1895,0 148 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1985,0 149 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1991,0 150 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1725,0 151 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1719,0 152 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1659,0 153 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1731,0 154 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1695,0 155 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1713,0 156 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1707,0 157 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1737,0 158 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1701,0 159 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 2296,0 160 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 2274,0 161 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1961,0 162 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1955,0 163 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1949,0 164 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1979,0 165 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1973,0 166 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1967,0 167 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1997,0 168 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1743,0 169 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1689,0 170 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1683,0 171 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1671,0 172 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1665,0 173 0 
+DESIGN trigger_top
+VIEW struct.bd
+GRAPHIC 1749,0 174 0 
+DESIGN trigger_top
+VIEW struct.bd
+NO_GRAPHIC 177

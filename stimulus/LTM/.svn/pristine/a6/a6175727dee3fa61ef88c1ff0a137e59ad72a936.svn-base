@@ -1,0 +1,107 @@
+DESIGN pll1_test
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN pll1_test
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN pll1_test
+VIEW symbol.sb
+GRAPHIC 72,0 14 0 
+DESIGN pll1_test
+VIEW symbol.sb
+GRAPHIC 52,0 15 0 
+DESIGN pll1_test
+VIEW symbol.sb
+GRAPHIC 77,0 16 0 
+DESIGN pll1_test
+VIEW symbol.sb
+GRAPHIC 57,0 17 0 
+DESIGN pll1_test
+VIEW symbol.sb
+GRAPHIC 67,0 18 0 
+DESIGN pll1_test
+VIEW symbol.sb
+GRAPHIC 82,0 19 0 
+DESIGN pll1_test
+VIEW symbol.sb
+GRAPHIC 1,0 22 0 
+DESIGN pll1_test
+VIEW symbol.sb
+GRAPHIC 1,0 23 0 
+DESIGN pll1_test
+VIEW struct.bd
+NO_GRAPHIC 26
+DESIGN pll1_test
+VIEW struct.bd
+GRAPHIC 42,0 26 0 
+DESIGN pll1_test
+VIEW struct.bd
+NO_GRAPHIC 29
+DESIGN pll1_test
+VIEW struct.bd
+GRAPHIC 0,0 31 2 
+DESIGN pll1_test
+VIEW struct.bd
+GRAPHIC 79,0 36 0 
+DESIGN pll1_test
+VIEW struct.bd
+NO_GRAPHIC 37
+DESIGN pll1_test
+VIEW struct.bd
+NO_GRAPHIC 38
+LIBRARY vx1392_lib
+DESIGN pll1
+VIEW @d@e@f_@a@r@c@h
+GRAPHIC 70,0 40 0 
+DESIGN pll1_test
+VIEW struct.bd
+NO_GRAPHIC 46
+DESIGN pll1_test
+VIEW struct.bd
+GRAPHIC 152,0 48 0 
+DESIGN pll1_test
+VIEW struct.bd
+NO_GRAPHIC 54
+LIBRARY vx1392_lib
+DESIGN pll1_test
+VIEW struct.bd
+NO_GRAPHIC 56
+DESIGN pll1_test
+VIEW struct.bd
+NO_GRAPHIC 57
+DESIGN pll1_test
+VIEW struct.bd
+NO_GRAPHIC 59
+DESIGN pll1_test
+VIEW struct.bd
+GRAPHIC 70,0 61 0 
+DESIGN pll1_test
+VIEW struct.bd
+GRAPHIC 81,0 63 0 
+DESIGN pll1_test
+VIEW struct.bd
+GRAPHIC 89,0 64 0 
+DESIGN pll1_test
+VIEW struct.bd
+GRAPHIC 109,0 65 0 
+DESIGN pll1_test
+VIEW struct.bd
+GRAPHIC 117,0 66 0 
+DESIGN pll1_test
+VIEW struct.bd
+GRAPHIC 152,0 68 0 
+DESIGN pll1_test
+VIEW struct.bd
+GRAPHIC 177,0 70 0 
+DESIGN pll1_test
+VIEW struct.bd
+GRAPHIC 163,0 71 0 
+DESIGN pll1_test
+VIEW struct.bd
+GRAPHIC 81,0 72 0 
+DESIGN pll1_test
+VIEW struct.bd
+GRAPHIC 191,0 73 0 
+DESIGN pll1_test
+VIEW struct.bd
+NO_GRAPHIC 76

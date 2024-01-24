@@ -1,0 +1,237 @@
+
+PALACE(TM) v3.1 Build 3
+ 
+Info: Executable : C:\programmi\Libero70\PALACE\bin\palace_actel.exe
+Info: Options :  -overwrite -report C:/FrontEnd/Annalisa/work/vx1392/phy_synthesis/palace_v1392ltm.rpt -logic_effort 3 -physical_effort 1 -relax_delay 0 -max_cell_perc 100 -in_constraint C:\FrontEnd\Annalisa\work\vx1392\synthesis\v1392ltm_sdc.sdc -in_constraint C:\FrontEnd\Annalisa\work\vx1392\constraint\v1392ltm_rev1.gcf -family APA -die APA600 -package FG676 -in_design C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn -out_design C:/FrontEnd/Annalisa/work/vx1392/phy_synthesis/v1392ltm_palace.edn -designer_location C:/Programmi/Libero70/Designer/bin/designer.exe
+
+
+Info: Design file : C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1668) : removed one-pin net DPR_P_3!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1671) : removed one-pin net net00011!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1674) : removed one-pin net net00016!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1677) : removed one-pin net net00021!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1680) : removed one-pin net net00059!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1683) : removed one-pin net net00064!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1686) : removed one-pin net net00069!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1759) : removed one-pin net DPR_P_2!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1762) : removed one-pin net net00010!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1765) : removed one-pin net net00015!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1768) : removed one-pin net net00020!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1771) : removed one-pin net net00058!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1774) : removed one-pin net net00063!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1777) : removed one-pin net net00068!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1780) : removed one-pin net DPR_P_1!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1783) : removed one-pin net net00009!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1786) : removed one-pin net net00014!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1789) : removed one-pin net net00019!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1792) : removed one-pin net net00057!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1795) : removed one-pin net net00062!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1798) : removed one-pin net net00067!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1801) : removed one-pin net DPR_P_0!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1804) : removed one-pin net net00008!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1807) : removed one-pin net net00013!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1810) : removed one-pin net net00018!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1813) : removed one-pin net net00056!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1816) : removed one-pin net net00061!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1819) : removed one-pin net net00066!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1849) : removed one-pin net GLA_0!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1852) : removed one-pin net SDOUT_0!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1928) : removed one-pin net GLA!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(1931) : removed one-pin net SDOUT!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(4232) : removed one-pin net VCC!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(4235) : removed one-pin net GND!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(24912) : removed one-pin net GND!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(26313) : removed one-pin net VCC!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(26316) : removed one-pin net GND!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(35613) : removed one-pin net VCC!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(35616) : removed one-pin net GND!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(36380) : removed one-pin net VCC!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(36383) : removed one-pin net GND!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(39132) : removed one-pin net VCC!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(39135) : removed one-pin net GND!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(39876) : removed one-pin net VCC!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(39879) : removed one-pin net GND!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(40464) : removed one-pin net BERRVME!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(40479) : removed one-pin net EVRES!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(40506) : removed one-pin net IACKINB!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(40537) : removed one-pin net NLBPCKE!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(40540) : removed one-pin net NLBPCKR!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(40551) : removed one-pin net PSM_SP0!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(40554) : removed one-pin net PSM_SP1!
+Warning: EDF0066: C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn(40557) : removed one-pin net PSM_SP2!
+Info: Top cell : v1392ltm
+GEO: GEO file version = 0.13
+
+Option and Setting Summary
+==========================
+	Target device family:           ProASIC PLUS
+	Target device:                 APA600-FG676
+	Speed grade:                    STD
+	Design input file:              C:/FrontEnd/Annalisa/work/vx1392/synthesis/v1392ltm.edn
+	Number of constraint in-files:  2
+	Constraint input file(s):       C:\FrontEnd\Annalisa\work\vx1392\synthesis\v1392ltm_sdc.sdc
+	                                C:\FrontEnd\Annalisa\work\vx1392\constraint\v1392ltm_rev1.gcf
+	Design output file:             C:/FrontEnd/Annalisa/work/vx1392/phy_synthesis/v1392ltm_palace.edn
+	Constraint output files:        v1392ltm_palace.gcf
+	                                v1392ltm_palace.sdc
+	Logic effort level:             3
+	Physical effort level:          1
+	Mapping delay relaxation ratio: 1.000000
+	Maximum core cell percentage:   100
+	Keep design hierarchy:          0
+	PALACE report file:             C:/FrontEnd/Annalisa/work/vx1392/phy_synthesis/palace_v1392ltm.rpt
+	Overwrite:                      1
+	Sequential optim. level:        3
+	Area optimization:              off
+
+
+RSDC: Reading SDC from C:\FrontEnd\Annalisa\work\vx1392\synthesis\v1392ltm_sdc.sdc ...
+Warning: RSDC5002: can not find object(s): 
+    I10/REG_i_keep[17]:OUT[0]
+ in command:
+  set_false_path -through I10/REG_i_keep[17]:OUT[0]
+Warning: RSDC5020: Dropped the constraint below referring to non-existing or unsupported object(s) 
+  set_false_path -through I10/REG_i_keep[17]:OUT[0]
+RSDC: Read SDC from C:\FrontEnd\Annalisa\work\vx1392\synthesis\v1392ltm_sdc.sdc successfully.
+Info: Loading constraint input file C:\FrontEnd\Annalisa\work\vx1392\constraint\v1392ltm_rev1.gcf 
+LOC: done.
+Initial IOB ports: 365
+Initial IOB pads: 357
+Initial real IOB ports (connected to pads): 357
+Info: I/O pad number (357) != I/O port number (365)
+Info: Initial design statistics :
+	Number of DFFs:                    1147
+	Number of Core cells:              4869
+	Number of RAM/FIFOs:                  4
+	Number of PLLs:                       2
+	Number of combinational nodes:     3722
+	Number of literals (SOP):         11294
+
+
+Info: Start physical synthesis
+
+Phase 1
+
+Phase 1 elapsed time: 0.39 sec
+
+Phase 2
+.......... ........... ................
+Phase 2 elapsed time : 17.86 sec
+
+Phase 3
+...............................
+Phase 3 elapsed time : 0.98 sec
+
+Phase 4
+............
+Phase 4 elapsed time : 3.87 sec
+
+Phase 5
+..
+Phase 5 elapsed time : 3.87 sec
+
+Phase 6
+.........
+.... ..............
+Phase 6 elapsed time : 12.18 sec
+
+Phase 7
+.......
+Phase 7 elapsed time : 21.06 sec
+
+
+Info: Given core utilization percentage: 100%
+
+
+Info: Device information:
+Info: num_dev_io = 456
+Info: num_dev_ramb = 56
+Info: num_dev_corecell = 21504
+
+
+Info: Design information:
+Info: num_real_io     = 357
+Info: num_ramb = 4
+Info: num_corecell = 4667
+Info: num_corecell_considered = 4667
+
+Info: Design fits the original device. No need for device promotion.
+
+Info: Complete physical synthesis
+
+Info: Final design statistics :
+	Number of DFFs:                    1225
+	Number of Core cells:              4667
+	Number of RAM/FIFOs:                  4
+	Number of PLLs:                       2
+	Number of combinational nodes:     3442
+	Number of literals (SOP):         10793
+
+
+Result summary
+==============
+|| PALACE results are estimated and intended as guidelines.
+|| It is recommended to run vendor's place/route tools to obtain
+|| the final and the most accurate results.
+
+Table of Contents
+-----------------
+Section 1 - Device utilization summary
+Section 2 - Clock report
+Section 3 - Timing report
+
+Section 1: Device utilization summary
+-------------------------------------
+
+	Device name:  APA600-FG676
+	speed grade:  STD
+	Core cells:  4667 out of  21504     21%
+	RAM/FIFOs:      4 out of     56      7%
+	IOBs:         357 out of    456     78%
+	PLLs:           2 out of      2    100%
+
+
+Section 2: Clock report
+-----------------------
+
+-------------------------------------------------------------
+           clock name            | resource type | # fanouts 
+-------------------------------------------------------------
+               LCLK              |     Global    |        1
+-------------------------------------------------------------
+              ALICLK             |     Global    |      189
+-------------------------------------------------------------
+       UNCONSTRAINED_CLOCK       |     Global    |     1050
+-------------------------------------------------------------
+
+
+Section 3: Timing report
+------------------------
+
+* Minimum slack
+-------------------------------------------------------------------------
+       initial         |      post PALACE      |   slack improvement
+-------------------------------------------------------------------------
+         6.47 ns       |        11.75 ns       |        5.28 ns
+-------------------------------------------------------------------------
+ 
+* Clock period
+-------------------------------------------------------------------------
+        clock name       |    initial    |    required   |  post PALACE
+-------------------------------------------------------------------------
+   LCLK                  |      N/A      |    20.00 ns   |      N/A      
+-------------------------------------------------------------------------
+   ALICLK                |    13.53 ns   |    20.00 ns   |     8.25 ns   
+-------------------------------------------------------------------------
+ 
+PALACE(TM) Actel Edition - output files...
+Info: Output design file : C:/FrontEnd/Annalisa/work/vx1392/phy_synthesis/v1392ltm_palace.edn
+Info: SDC output file : v1392ltm_palace.sdc
+Info: Constraints output file : v1392ltm_palace.gcf
+Info: TCL script to run Designer : C:/FrontEnd/Annalisa/work/vx1392/phy_synthesis/v1392ltm_palace_compile.tcl
+Done output files.
+Info: Total elapsed time : 67.87 sec
+Info: Total memory consumption : 24 MB
+
+Palace has finished.
+

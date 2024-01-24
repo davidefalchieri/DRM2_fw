@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Resource Report</title>
+<text>Microsemi Corporation - Microsemi Libero Software Release v2021.3 (Version 2021.3.0.10)</text>
+<text>Date: Thu Apr 13 16:18:13 2023
+</text>
+<section><name>Device Selection</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Family</cell>
+ <cell>IGLOO2</cell>
+</row>
+<row>
+ <cell>Device</cell>
+ <cell>M2GL090T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>676 FBGA</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Temp</cell>
+ <cell>0:25:85</cell>
+</row>
+<row>
+ <cell>Voltage</cell>
+ <cell>1.26:1.20:1.14</cell>
+</row>
+<row>
+ <cell>Core Voltage</cell>
+ <cell>1.2V</cell>
+</row>
+<row>
+ <cell>Ramp Rate</cell>
+ <cell>100ms Minimum</cell>
+</row>
+<row>
+ <cell>System Controller Suspend Mode</cell>
+ <cell>No</cell>
+</row>
+<row>
+ <cell>PLL Supply Voltage</cell>
+ <cell>2.5V</cell>
+</row>
+<row>
+ <cell>Default I/O technology</cell>
+ <cell>LVCMOS 2.5V</cell>
+</row>
+<row>
+ <cell>Restrict Probe Pins</cell>
+ <cell>No</cell>
+</row>
+<row>
+ <cell>Restrict SPI Pins</cell>
+ <cell>No</cell>
+</row>
+</table>
+<section><name>Source Files</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Topcell</cell>
+ <cell>DRM2_top</cell>
+</row>
+<row>
+ <cell>Format</cell>
+ <cell>EDIF</cell>
+</row>
+<row>
+ <cell>Source</cell>
+ <cell>E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\synthesis\synthesis_idc\DRM2_top.edn</cell>
+</row>
+<row>
+ <cell>Source</cell>
+ <cell>E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\constraint\netlist_attrib.ndc</cell>
+</row>
+</table>
+<section><name>Options</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Enable Single Event Transient mitigation</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>Enable Design Separation Methodology</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>Limit the number of high fanout nets to display to</cell>
+ <cell>10</cell>
+</row>
+</table>
+<section><name>Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>4LUT</cell>
+ <cell>16777</cell>
+ <cell>86184</cell>
+ <cell>19.47</cell>
+</row>
+<row>
+ <cell>DFF</cell>
+ <cell>12493</cell>
+ <cell>86184</cell>
+ <cell>14.50</cell>
+</row>
+<row>
+ <cell>I/O Register</cell>
+ <cell>193</cell>
+ <cell>1275</cell>
+ <cell>15.14</cell>
+</row>
+<row>
+ <cell>User I/O</cell>
+ <cell>409</cell>
+ <cell>425</cell>
+ <cell>96.24</cell>
+</row>
+<row>
+ <cell>-- Single-ended I/O</cell>
+ <cell>239</cell>
+ <cell>425</cell>
+ <cell>56.24</cell>
+</row>
+<row>
+ <cell>-- Differential I/O Pairs</cell>
+ <cell>85</cell>
+ <cell>212</cell>
+ <cell>40.09</cell>
+</row>
+<row>
+ <cell>RAM64x18</cell>
+ <cell>55</cell>
+ <cell>112</cell>
+ <cell>49.11</cell>
+</row>
+<row>
+ <cell>RAM1K18</cell>
+ <cell>81</cell>
+ <cell>109</cell>
+ <cell>74.31</cell>
+</row>
+<row>
+ <cell>MACC</cell>
+ <cell>0</cell>
+ <cell>84</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Chip Globals</cell>
+ <cell>16</cell>
+ <cell>16</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>Row Global</cell>
+ <cell>1</cell>
+ <cell>1408</cell>
+ <cell>0.07</cell>
+</row>
+<row>
+ <cell>CCC</cell>
+ <cell>1</cell>
+ <cell>6</cell>
+ <cell>16.67</cell>
+</row>
+<row>
+ <cell>RCOSC_25_50MHZ</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>RCOSC_1MHZ</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>XTLOSC</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>SERDESIF Blocks</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>-- SERDESIF Lanes</cell>
+ <cell>2</cell>
+ <cell>4</cell>
+ <cell>50.00</cell>
+</row>
+<row>
+ <cell>HPMS</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+</table>
+<section><name>Detailed Logic Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>4LUT</cell>
+ <cell>DFF</cell>
+</header>
+<row>
+ <cell>Fabric Logic</cell>
+ <cell>11881</cell>
+ <cell>7597</cell>
+</row>
+<row>
+ <cell>RAM64x18 Interface Logic</cell>
+ <cell>1980</cell>
+ <cell>1980</cell>
+</row>
+<row>
+ <cell>RAM1K18 Interface Logic</cell>
+ <cell>2916</cell>
+ <cell>2916</cell>
+</row>
+<row>
+ <cell>MACC Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Total Used</cell>
+ <cell>16777</cell>
+ <cell>12493</cell>
+</row>
+</table>
+<section><name>HPMS Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>eNVM (512KB)*</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>eSRAM*</cell>
+ <cell>2</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>SPI</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>MDDR</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>HPDMA</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>PDMA</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text>* These resources are always marked as used when you are using the HPMS</text>
+<text></text>
+<section><name>SERDESIF Lanes Usage</name></section>
+<table>
+<header>
+ <cell>SERDESIF</cell>
+ <cell>Lane0</cell>
+ <cell>Lane1</cell>
+ <cell>Lane2</cell>
+ <cell>Lane3</cell>
+</header>
+<row>
+ <cell>SERDESIF_0</cell>
+ <cell>EPCS</cell>
+ <cell>----</cell>
+ <cell>EPCS</cell>
+ <cell>----</cell>
+</row>
+</table>
+<section><name>Detailed Carry Chains Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>177</cell>
+</row>
+<row>
+ <cell>5</cell>
+ <cell>22</cell>
+</row>
+<row>
+ <cell>6</cell>
+ <cell>8</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>13</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>19</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>27</cell>
+</row>
+<row>
+ <cell>10</cell>
+ <cell>14</cell>
+</row>
+<row>
+ <cell>11</cell>
+ <cell>23</cell>
+</row>
+<row>
+ <cell>12</cell>
+ <cell>18</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>5</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>15</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>16</cell>
+ <cell>9</cell>
+</row>
+<row>
+ <cell>17</cell>
+ <cell>11</cell>
+</row>
+<row>
+ <cell>18</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>20</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>25</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>29</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>30</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>33</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>358</cell>
+</row>
+</table>
+<section><name>I/O Function</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>w/o register</cell>
+ <cell>w/ register</cell>
+ <cell>w/ DDR register</cell>
+</header>
+<row>
+ <cell>Input I/O</cell>
+ <cell>24</cell>
+ <cell>8</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Output I/O</cell>
+ <cell>87</cell>
+ <cell>7</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Bidirectional I/O</cell>
+ <cell>48</cell>
+ <cell>65</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Input I/O Pairs</cell>
+ <cell>5</cell>
+ <cell>0</cell>
+ <cell>40</cell>
+</row>
+<row>
+ <cell>Differential Output I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>40</cell>
+</row>
+</table>
+<section><name>I/O Technology</name></section>
+<table>
+<header>
+ <cell>I/O Standard</cell>
+ <cell>Vddi</cell>
+ <cell>Vref</cell>
+ <cell>Input</cell>
+ <cell>Output</cell>
+ <cell>Bidirectional</cell>
+</header>
+<row>
+ <cell>LVCMOS25</cell>
+ <cell> 2.50v</cell>
+ <cell> N/A</cell>
+ <cell> 32</cell>
+ <cell> 94</cell>
+ <cell> 113</cell>
+</row>
+<row>
+ <cell>SSTL2I (Input/Bidirectional)</cell>
+ <cell> 2.50v</cell>
+ <cell> 1.25v</cell>
+ <cell> 88</cell>
+ <cell> 0</cell>
+ <cell> 0</cell>
+</row>
+<row>
+ <cell>SSTL2I (Output)</cell>
+ <cell> 2.50v</cell>
+ <cell> N/A</cell>
+ <cell> 0</cell>
+ <cell> 80</cell>
+ <cell> 0</cell>
+</row>
+<row>
+ <cell>LVDS</cell>
+ <cell> 2.50v</cell>
+ <cell> N/A</cell>
+ <cell> 2</cell>
+ <cell> 0</cell>
+ <cell> 0</cell>
+</row>
+</table>
+<section><name>Nets assigned to chip global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>5518</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : RAM_CLK_c</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: fpgack40_buf/U_GB_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>1267</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : rod_sniffer_instance.fifo_clear_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: rod_sniffer_instance/fifo_clear_RNIT6N3/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>1236</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : INIT_DONE_int_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: EPCS_Demo_instance/CORERESETP_0/INIT_DONE_int_keep_RNIHHS2/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>894</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : gbt_clk_40MHz</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: DCLK00_buf/U_GB_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>481</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : EPCS_Demo_instance/FAB_CCC_GL0</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: EPCS_Demo_instance/CCC_0/GL0_INST/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>457</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : ident_coreinst/IICE_comm2iice[11]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>418</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CAEN_LINK_instance/EPCS_SERDES_Lane0_RX_CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_0_RX_CLK_keep_RNI7K1B/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>295</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CAEN_LINK_instance/EPCS_SERDES_Lane0_TX_CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_0_TX_CLK_keep_RNI98SD/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>110</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : EPCS_Demo_INIT_APB_S_PCLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: EPCS_Demo_instance/EPCS_Demo_sb_HPMS_0/MSS_ADLIB_INST_RNIJ907/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>24</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : EPCS_Demo_instance/FABOSC_0_RCOSC_25_50MHZ_O2F</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: EPCS_Demo_instance/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>20</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : clk40</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: EPCS_Demo_instance/CCC_0/GL1_INST/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : ident_coreinst/IICE_comm2iice[8]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS3/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>10</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CPDMCK40</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CPDMCK40_buf/U_GB_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : ident_coreinst/comm_block_INST/hcr_update</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNIBCIE/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CAEN_LINK_instance/I_EPCS_SERDES/Lane2_TX_CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_2_TX_CLK_keep_RNIB01A/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>1</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : FPGACK80</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: FPGACK80_buf/U_GB_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+</table>
+<section><name>Nets assigned to row global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>439</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : EPCS_Demo_instance/MSS_HPMS_READY_int_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: EPCS_Demo_instance/CORERESETP_0/MSS_HPMS_READY_int_rep_RNIOB72/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+</table>
+<section><name>High fanout nets</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>698</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : vme_int_instance.N_614_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: vme_int_instance/WPULSE_RNIFHL8[2]</cell>
+</row>
+<row>
+ <cell>499</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : I2C_CORE_instance/I2CSFTTEMP_0/AND2_0_Y</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: I2C_CORE_instance/I2CSFTTEMP_0/AND2_0</cell>
+</row>
+<row>
+ <cell>360</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : vme_int_instance.N_906_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: vme_int_instance/regs.ctrl2_rep[8]</cell>
+</row>
+<row>
+ <cell>304</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CAEN_LINK_instance/EPCS_SERDES_Lane0_RX_RESET_N</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST</cell>
+</row>
+<row>
+ <cell>261</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CAEN_LINK_instance/I_CorePCS/Core_PCS_0/rx_rst_n_0</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/rx_rst_n</cell>
+</row>
+<row>
+ <cell>237</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : un5121</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: vme_int_instance/fsm_roc[21]</cell>
+</row>
+<row>
+ <cell>224</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GBTx_interface_instance/fifo_clear</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GBTx_interface_instance/fifo_clear</cell>
+</row>
+<row>
+ <cell>215</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.w_corefifo_resetSync/shift_reg[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.w_corefifo_resetSync/shift_reg[1]</cell>
+</row>
+<row>
+ <cell>188</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.r_corefifo_resetSync/shift_reg[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.r_corefifo_resetSync/shift_reg[1]</cell>
+</row>
+<row>
+ <cell>173</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GBTx_interface_instance/l1msg_gbtck_instance/l1msg_gbtck_0/sc_r_0</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GBTx_interface_instance/l1msg_gbtck_instance/l1msg_gbtck_0/L1.fifo_corefifo_sync_scntr/memre</cell>
+</row>
+</table>
+<section><name>High fanout nets (through buffer trees)</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>698</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : vme_int_instance.N_614_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: vme_int_instance/WPULSE_RNIFHL8[2]</cell>
+</row>
+<row>
+ <cell>499</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : I2C_CORE_instance/I2CSFTTEMP_0/AND2_0_Y</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: I2C_CORE_instance/I2CSFTTEMP_0/AND2_0</cell>
+</row>
+<row>
+ <cell>360</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : vme_int_instance.N_906_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: vme_int_instance/regs.ctrl2_rep[8]</cell>
+</row>
+<row>
+ <cell>304</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CAEN_LINK_instance/EPCS_SERDES_Lane0_RX_RESET_N</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST</cell>
+</row>
+<row>
+ <cell>261</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CAEN_LINK_instance/I_CorePCS/Core_PCS_0/rx_rst_n_0</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/rx_rst_n</cell>
+</row>
+<row>
+ <cell>237</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : un5121</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: vme_int_instance/fsm_roc[21]</cell>
+</row>
+<row>
+ <cell>224</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GBTx_interface_instance/fifo_clear</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GBTx_interface_instance/fifo_clear</cell>
+</row>
+<row>
+ <cell>215</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.w_corefifo_resetSync/shift_reg[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.w_corefifo_resetSync/shift_reg[1]</cell>
+</row>
+<row>
+ <cell>188</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.r_corefifo_resetSync/shift_reg[1]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.r_corefifo_resetSync/shift_reg[1]</cell>
+</row>
+<row>
+ <cell>173</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GBTx_interface_instance/l1msg_gbtck_instance/l1msg_gbtck_0/sc_r_0</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GBTx_interface_instance/l1msg_gbtck_instance/l1msg_gbtck_0/L1.fifo_corefifo_sync_scntr/memre</cell>
+</row>
+</table>
+</doc>

@@ -1,0 +1,471 @@
+----------------------------------------------------------------------
+Report for cell v1392ltm.struct
+                                          Cell usage:
+                               cell       count     area    count*area
+                            IOB33PH       154       0.0        0.0
+                             OB33PH       143       0.0        0.0
+                               IB33        32       0.0        0.0
+                            OTB33PH        27       0.0        0.0
+                                BFR        20       1.0       20.0
+                                INV         8       1.0        8.0
+                               GL33         3       0.0        0.0
+                              MUX2H         3       1.0        3.0
+                             NOR2FT         1       1.0        1.0
+                               CROM         1       3.0        3.0
+                             DACCFG         1       1.0        1.0
+                         DAC_INTERF         1     316.0      316.0
+                         I2C_INTERF         1     348.0      348.0
+                             PDLCFG         1       5.0        5.0
+                          RESET_MOD         1     489.0      489.0
+                              ROC32         1    1408.0     1408.0
+                         SPI_INTERF         1     564.0      564.0
+                            VINTERF         1    2963.0     2963.0
+                               ctrl         1      81.0       81.0
+                         PDL_INTERF         1    1029.0     1029.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL            404               7239.0
+----------------------------------------------------------------------
+Report for cell PDL_INTERF.netlist
+     Instance path:  I3
+                                          Cell usage:
+                               cell       count     area    count*area
+                              MUX2H       200       1.0      200.0
+                               DFFC       156       1.0      156.0
+                               NOR2        99       1.0       99.0
+                              NAND2        61       1.0       61.0
+                               AND2        49       1.0       49.0
+                            AND3FFT        48       1.0       48.0
+                             NOR2FT        47       1.0       47.0
+                              AOI21        43       1.0       43.0
+                              OR2FT        38       1.0       38.0
+                            OA21TTF        27       1.0       27.0
+                                OR2        26       1.0       26.0
+                           NAND3FTT        23       1.0       23.0
+                               AND3        23       1.0       23.0
+                             OR3FFT        22       1.0       22.0
+                               AO21        20       1.0       20.0
+                             AND2FT        16       1.0       16.0
+                           NAND3FFT        15       1.0       15.0
+                              NAND3        15       1.0       15.0
+                                INV        11       1.0       11.0
+                               DFFB        10       4.0       40.0
+                            NAND2FT         9       1.0        9.0
+                               XOR2         9       1.0        9.0
+                                OR3         7       1.0        7.0
+                            OA21FTF         5       1.0        5.0
+                               OA21         3       1.0        3.0
+                              OAI21         3       1.0        3.0
+                               NOR3         3       1.0        3.0
+                               DFFS         3       1.0        3.0
+                           OAI21FTF         2       1.0        2.0
+                             OR3FTT         2       1.0        2.0
+                           OAI21FTT         2       1.0        2.0
+                            NOR3FTT         1       1.0        1.0
+                           OAI21TTF         1       1.0        1.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL           1001               1029.0
+----------------------------------------------------------------------
+Report for cell ctrl.netlist
+     Instance path:  I7
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFFS         8       1.0        8.0
+                                OR2         8       1.0        8.0
+                              MUX2H         7       1.0        7.0
+                             NOR2FT         5       1.0        5.0
+                            OA21TTF         4       1.0        4.0
+                            OA21FTT         2       1.0        2.0
+                         MONOSTABLE         1      10.0       10.0
+                       MONOSTABLE_1         1      11.0       11.0
+                       MONOSTABLE_2         1       2.0        2.0
+                       MONOSTABLE_3         1       2.0        2.0
+                       MONOSTABLE_4         1      11.0       11.0
+                       MONOSTABLE_5         1      11.0       11.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL             42                 81.0
+----------------------------------------------------------------------
+Report for cell MONOSTABLE_5.netlist
+     Instance path:  I7.LED5_DRV
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFFB         2       4.0        8.0
+                                INV         1       1.0        1.0
+                            OA21FTT         1       1.0        1.0
+                             NOR2FT         1       1.0        1.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL              7                 11.0
+----------------------------------------------------------------------
+Report for cell MONOSTABLE_4.netlist
+     Instance path:  I7.LED4_DRV
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFFB         2       4.0        8.0
+                                INV         1       1.0        1.0
+                            OA21FTT         1       1.0        1.0
+                             NOR2FT         1       1.0        1.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL              7                 11.0
+----------------------------------------------------------------------
+Report for cell MONOSTABLE_3.netlist
+     Instance path:  I7.LED3_DRV
+                                          Cell usage:
+                               cell       count     area    count*area
+                            OA21FTT         1       1.0        1.0
+                               DFFC         1       1.0        1.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL              4                  2.0
+----------------------------------------------------------------------
+Report for cell MONOSTABLE_2.netlist
+     Instance path:  I7.LED2_DRV
+                                          Cell usage:
+                               cell       count     area    count*area
+                             NOR2FT         1       1.0        1.0
+                               DFFC         1       1.0        1.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL              4                  2.0
+----------------------------------------------------------------------
+Report for cell MONOSTABLE_1.netlist
+     Instance path:  I7.LED1_DRV
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFFB         2       4.0        8.0
+                                OR2         1       1.0        1.0
+                            OA21FTT         1       1.0        1.0
+                             NOR2FT         1       1.0        1.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL              7                 11.0
+----------------------------------------------------------------------
+Report for cell MONOSTABLE.netlist
+     Instance path:  I7.LED0_DRV
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFFB         2       4.0        8.0
+                            OA21FTT         1       1.0        1.0
+                             NOR2FT         1       1.0        1.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL              6                 10.0
+----------------------------------------------------------------------
+Report for cell VINTERF.netlist
+     Instance path:  I2
+                                          Cell usage:
+                               cell       count     area    count*area
+                              MUX2H       955       1.0      955.0
+                               DFFC       640       1.0      640.0
+                               AND2       200       1.0      200.0
+                              NAND2       149       1.0      149.0
+                                OR2        97       1.0       97.0
+                              OR2FT        86       1.0       86.0
+                           AOI21TTF        84       1.0       84.0
+                            AO21TTF        82       1.0       82.0
+                             NOR2FT        80       1.0       80.0
+                               DFFS        74       1.0       74.0
+                                DFF        56       1.0       56.0
+                                INV        53       1.0       53.0
+                               NOR2        51       1.0       51.0
+                                OR3        41       1.0       41.0
+                           OAI21FTT        37       1.0       37.0
+                               AND3        31       1.0       31.0
+                               XOR2        31       1.0       31.0
+                            OA21TTF        29       1.0       29.0
+                             AND2FT        23       1.0       23.0
+                               NOR3        17       1.0       17.0
+                               AO21        16       1.0       16.0
+                             XOR2FT        15       1.0       15.0
+                               OA21        13       1.0       13.0
+                            NOR3FFT        11       1.0       11.0
+                           OAI21FTF        10       1.0       10.0
+                            OA21FTT         8       1.0        8.0
+                              OAI21         8       1.0        8.0
+                           NAND3FTT         8       1.0        8.0
+                             OR3FFT         8       1.0        8.0
+                            NAND2FT         7       1.0        7.0
+                            NOR3FTT         7       1.0        7.0
+                             OR3FTT         7       1.0        7.0
+                           OAI21TTF         5       1.0        5.0
+                              NAND3         5       1.0        5.0
+                           NAND3FFT         5       1.0        5.0
+                            AND3FFT         4       1.0        4.0
+                            AND3FTT         4       1.0        4.0
+                            OA21FTF         2       1.0        2.0
+                           AOI21FTT         1       1.0        1.0
+                            AO21FTT         1       1.0        1.0
+                                 LD         1       1.0        1.0
+                              AOI21         1       1.0        1.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL           2965               2963.0
+----------------------------------------------------------------------
+Report for cell SPI_INTERF.netlist
+     Instance path:  I5
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFFC        99       1.0       99.0
+                               AND2        81       1.0       81.0
+                               XOR2        45       1.0       45.0
+                             NOR2FT        40       1.0       40.0
+                               NOR2        32       1.0       32.0
+                                OR2        30       1.0       30.0
+                              MUX2H        29       1.0       29.0
+                               NOR3        22       1.0       22.0
+                              OR2FT        20       1.0       20.0
+                               OA21        19       1.0       19.0
+                               DFFS        16       1.0       16.0
+                              NAND2        14       1.0       14.0
+                                OR3        12       1.0       12.0
+                              NAND3        11       1.0       11.0
+                            NOR3FFT        11       1.0       11.0
+                                INV         9       1.0        9.0
+                            OA21TTF         7       1.0        7.0
+                           OAI21FTT         7       1.0        7.0
+                            NAND2FT         7       1.0        7.0
+                           OAI21TTF         6       1.0        6.0
+                            NOR3FTT         6       1.0        6.0
+                               AND3         5       1.0        5.0
+                            AND3FFT         4       1.0        4.0
+                               AO21         4       1.0        4.0
+                           NAND3FFT         4       1.0        4.0
+                              OAI21         4       1.0        4.0
+                            OA21FTT         4       1.0        4.0
+                              AOI21         2       1.0        2.0
+                            OA21FTF         2       1.0        2.0
+                            AO21TTF         2       1.0        2.0
+                           NAND3FTT         2       1.0        2.0
+                             OR3FTT         2       1.0        2.0
+                           AOI21FTF         1       1.0        1.0
+                           OAI21FTF         1       1.0        1.0
+                           AOI21FTT         1       1.0        1.0
+                           AOI21TTF         1       1.0        1.0
+                             OR3FFT         1       1.0        1.0
+                             AND2FT         1       1.0        1.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL            566                564.0
+----------------------------------------------------------------------
+Report for cell ROC32.netlist
+     Instance path:  I10
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFFC       235       1.0      235.0
+                              MUX2H       161       1.0      161.0
+                               XOR2       123       1.0      123.0
+                               AND2       106       1.0      106.0
+                               NOR2        99       1.0       99.0
+                             NOR2FT        98       1.0       98.0
+                              OR2FT        66       1.0       66.0
+                             XOR2FT        60       1.0       60.0
+                               AND3        49       1.0       49.0
+                                OR2        42       1.0       42.0
+                           OAI21TTF        41       1.0       41.0
+                                OR3        40       1.0       40.0
+                            AND3FFT        37       1.0       37.0
+                               OA21        30       1.0       30.0
+                           OAI21FTT        28       1.0       28.0
+                              NAND2        20       1.0       20.0
+                           OAI21FTF        16       1.0       16.0
+                               NOR3        14       1.0       14.0
+                            NOR3FFT        14       1.0       14.0
+                            AO21TTF        13       1.0       13.0
+                              OAI21        11       1.0       11.0
+                             OR3FTT        10       1.0       10.0
+                           NAND3FTT        10       1.0       10.0
+                            OA21FTT         9       1.0        9.0
+                               AO21         9       1.0        9.0
+                                INV         9       1.0        9.0
+                             OR3FFT         8       1.0        8.0
+                               DFFS         8       1.0        8.0
+                           AOI21TTF         7       1.0        7.0
+                              NAND3         6       1.0        6.0
+                            OA21FTF         5       1.0        5.0
+                            NOR3FTT         5       1.0        5.0
+                            OA21TTF         4       1.0        4.0
+                           NAND3FFT         2       1.0        2.0
+                            AO21FTT         2       1.0        2.0
+                            AO21FTF         2       1.0        2.0
+                             AND2FT         2       1.0        2.0
+                            NAND2FT         1       1.0        1.0
+                            AND3FTT         1       1.0        1.0
+                              MUX2L         1       1.0        1.0
+                         event_fifo         1       4.0        4.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL           1407               1408.0
+----------------------------------------------------------------------
+Report for cell event_fifo.netlist
+     Instance path:  I10.event_meb
+                                          Cell usage:
+                               cell       count     area    count*area
+                       FIFO256x9SST         4       0.0        0.0
+                                OR2         2       1.0        2.0
+                                OR3         2       1.0        2.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL             10                  4.0
+----------------------------------------------------------------------
+Report for cell RESET_MOD.netlist
+     Instance path:  I0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                DFF        81       1.0       81.0
+                               XOR2        76       1.0       76.0
+                               AND3        68       1.0       68.0
+                              NAND3        58       1.0       58.0
+                               AND2        50       1.0       50.0
+                              MUX2H        37       1.0       37.0
+                             OR3FTT        30       1.0       30.0
+                               DFFC        26       1.0       26.0
+                                OR2        18       1.0       18.0
+                                OR3        13       1.0       13.0
+                                INV         8       1.0        8.0
+                             AND2FT         4       1.0        4.0
+                              NAND2         3       1.0        3.0
+                               NOR3         3       1.0        3.0
+                           NAND3FTT         3       1.0        3.0
+                               NOR2         2       1.0        2.0
+                             OR3FFT         2       1.0        2.0
+                              OR2FT         2       1.0        2.0
+                           NAND3FFT         1       1.0        1.0
+                            NAND2FT         1       1.0        1.0
+                           OAI21TTF         1       1.0        1.0
+                               DFFS         1       1.0        1.0
+                            AND3FTT         1       1.0        1.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL            491                489.0
+----------------------------------------------------------------------
+Report for cell PDLCFG.netlist
+     Instance path:  I11
+                                          Cell usage:
+                               cell       count     area    count*area
+                                BFR         5       1.0        5.0
+                       RAM256x9SSTP         1       0.0        0.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL              8                  5.0
+----------------------------------------------------------------------
+Report for cell I2C_INTERF.netlist
+     Instance path:  I1
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DFFC        85       1.0       85.0
+                              MUX2H        82       1.0       82.0
+                              NAND2        21       1.0       21.0
+                             NOR2FT        19       1.0       19.0
+                            OA21TTF        18       1.0       18.0
+                            AO21TTF        12       1.0       12.0
+                               NOR2        11       1.0       11.0
+                               DFFS         9       1.0        9.0
+                                OR2         9       1.0        9.0
+                               AND2         8       1.0        8.0
+                              OR2FT         8       1.0        8.0
+                           OAI21FTT         6       1.0        6.0
+                               OA21         5       1.0        5.0
+                            OA21FTT         4       1.0        4.0
+                              NAND3         4       1.0        4.0
+                                OR3         4       1.0        4.0
+                            OA21FTF         4       1.0        4.0
+                               AO21         4       1.0        4.0
+                           AOI21TTF         3       1.0        3.0
+                             OR3FTT         3       1.0        3.0
+                            NAND2FT         3       1.0        3.0
+                           OAI21TTF         3       1.0        3.0
+                            NOR3FFT         3       1.0        3.0
+                               XOR2         3       1.0        3.0
+                           NAND3FFT         3       1.0        3.0
+                           OAI21FTF         2       1.0        2.0
+                              OAI21         2       1.0        2.0
+                            AO21FTF         2       1.0        2.0
+                            NOR3FTT         2       1.0        2.0
+                                INV         1       1.0        1.0
+                            AND3FTT         1       1.0        1.0
+                           NAND3FTT         1       1.0        1.0
+                              AOI21         1       1.0        1.0
+                               AND3         1       1.0        1.0
+                           AOI21FTF         1       1.0        1.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL            350                348.0
+----------------------------------------------------------------------
+Report for cell DAC_INTERF.netlist
+     Instance path:  I8
+                                          Cell usage:
+                               cell       count     area    count*area
+                              MUX2H        84       1.0       84.0
+                               DFFC        38       1.0       38.0
+                               AND2        26       1.0       26.0
+                             NOR2FT        25       1.0       25.0
+                              OR2FT        21       1.0       21.0
+                              NAND2        18       1.0       18.0
+                               DFFB        16       4.0       64.0
+                               XOR2         8       1.0        8.0
+                               DFFS         4       1.0        4.0
+                               NOR2         4       1.0        4.0
+                            OA21FTT         4       1.0        4.0
+                                OR2         3       1.0        3.0
+                                INV         3       1.0        3.0
+                              OAI21         2       1.0        2.0
+                               AO21         1       1.0        1.0
+                            NAND2FT         1       1.0        1.0
+                           OAI21FTT         1       1.0        1.0
+                            AO21TTF         1       1.0        1.0
+                            AND3FTT         1       1.0        1.0
+                           OAI21TTF         1       1.0        1.0
+                               NOR3         1       1.0        1.0
+                             OR3FFT         1       1.0        1.0
+                              NAND3         1       1.0        1.0
+                               AND3         1       1.0        1.0
+                           AOI21TTF         1       1.0        1.0
+                             OR3FTT         1       1.0        1.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL            270                316.0
+----------------------------------------------------------------------
+Report for cell DACCFG.netlist
+     Instance path:  I14
+                                          Cell usage:
+                               cell       count     area    count*area
+                       RAM256x9SSTP         2       0.0        0.0
+                                INV         1       1.0        1.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL              5                  1.0
+----------------------------------------------------------------------
+Report for cell CROM.netlist
+     Instance path:  I6
+                                          Cell usage:
+                               cell       count     area    count*area
+                               DMUX        16       0.0        0.0
+                       RAM256x9SSTP         2       0.0        0.0
+                                INV         1       1.0        1.0
+                                DFF         1       1.0        1.0
+                              MUX2H         1       1.0        1.0
+                                PWR         1       0.0        0.0
+                                GND         1       0.0        0.0
+                            
+                         TOTAL             23                  3.0

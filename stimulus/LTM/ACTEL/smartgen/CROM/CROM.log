@@ -1,0 +1,26 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Fri Dec 07 12:41:37 2007
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : CROM
+Family                          : PA
+Output Format                   : VHDL
+Type                            : RAM
+Depth                           : 264
+Width                           : 8
+Read Access                     : Sync Transp
+Write Access                    : Sync
+Optimization                    : Speed
+Parity                          : Gen Even
+
+
+Written VHDL netlist to
+C:/FrontEnd/Annalisa/work/vx1392/smartgen\CROM\CROM.vhd.
+
+ ** Log Ended:   Fri Dec 07 12:41:38 2007
+

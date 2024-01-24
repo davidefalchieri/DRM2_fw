@@ -1,0 +1,19 @@
+KEY IDE_DES_TOOL "Designer"
+KEY IDE_DES_FAMILY "PA"
+KEY IDE_DES_DIE "600"
+KEY IDE_DES_PACKAGE "fg676"
+KEY IDE_DES_TOP_CELL_NAME "v1392ltm"
+KEY IDE_DES_KEEP_PHY_CONSTR "TRUE"
+KEY IDE_DES_KEEP_TIME_CONSTR "TRUE"
+KEY IDE_DES_LAYOUT_DONE "TRUE"
+KEY IDE_DES_BA_EXPORTED "FALSE"
+KEY IDE_DES_ERROR_FOUND "FALSE"
+KEY IDE_DES_ADB_PATH "C:\FrontEnd\Annalisa\work\vx1392\designer\impl4\v1392ltm.adb"
+LIST SOURCE_FILES
+VALUE "C:\FrontEnd\Annalisa\work\vx1392\synthesis\v1392ltm.edn;edn"
+VALUE "C:\FrontEnd\Annalisa\work\vx1392\synthesis\v1392ltm_sdc.sdc;sdc"
+VALUE "C:\FrontEnd\Annalisa\work\vx1392\constraint\v1392ltm_rev1.gcf;gcf"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\FrontEnd\Annalisa\work\vx1392\synthesis\v1392ltm_sdc.sdc;Used"
+ENDLIST

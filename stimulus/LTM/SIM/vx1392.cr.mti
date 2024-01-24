@@ -1,0 +1,3308 @@
+D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/vx1392sim_config.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/vx1392sim_config.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Compiling configuration vx1392sim_config
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading entity vx1392sim
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Loading package v1392pkg
+-- Loading architecture struct of vx1392sim
+-- Loading package io_utils
+-- Loading package txt_util
+-- Loading entity flash
+-- Loading entity i2c_adc
+-- Loading entity osc
+-- Loading entity vme_master
+-- Loading entity pdlmon
+-- Loading entity v1392ltm
+-- Loading entity vbuf
+-- Loading entity trigger_top
+-- Loading architecture struct of v1392ltm
+-- Loading entity clk_interf
+-- Loading entity crom
+-- Loading entity daccfg
+-- Loading entity dac_interf
+-- Loading entity i2c_interf
+-- Loading entity pdlcfg
+-- Loading entity reset_mod
+-- Loading entity roc32
+-- Loading entity spi_interf
+-- Loading entity vinterf
+-- Loading entity ctrl
+-- Loading entity lbspare
+-- Loading entity pdl_interf
+-- Loading architecture struct of vbuf
+-- Loading entity fct16543p
+-- Loading entity fct1bit543
+-- Loading entity lvc16244
+-- Loading entity lvt125
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ACTEL/hdl/vinterf.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/ACTEL/hdl/vinterf.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/monostable.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/monostable.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity monostable
+-- Compiling architecture rtl of monostable
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/vinterf.vhd {1 {vcom -work work -93 -explicit -quiet C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/vinterf.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/vx1392sim.vhd {1 {vcom -work work -93 -explicit -quiet -source D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/vx1392sim.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_trig/hdl/cttm_pll.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_trig/hdl/cttm_pll.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity cttm_pll
+-- Compiling architecture syn of cttm_pll
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/I2c_EEPROM.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/I2c_EEPROM.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity i2c_eeprom
+-- Compiling architecture sim of i2c_eeprom
+-- Compiling configuration cfg_i2c_eeprom
+-- Loading entity i2c_eeprom
+-- Loading architecture sim of i2c_eeprom
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/I2C_ADC.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/I2C_ADC.vhd
+Model Technology ModelSim PE vcom 6.5a Compiler 2009.03 Mar 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity i2c_adc
+-- Compiling architecture sim of i2c_adc
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/flash.vhd {2 {vcom -work work -2002 -explicit -novital D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/flash.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Loading package io_utils
+-- Loading package txt_util
+-- Compiling entity flash
+-- Compiling architecture behav of flash
+** Warning: D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/flash.vhd(41): (vcom-1194) FILE declaration was written using 1076-1987 syntax.
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/vinterf.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/vinterf.vhd
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/V1392pkg.vhd {1 {vcom -work work -93 -explicit -quiet C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/V1392pkg.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/vx1392sim.vhd {1 {vcom -work work -93 -explicit -quiet -source D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/vx1392sim.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ACTEL/hdl/roc32.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ACTEL/hdl/roc32.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package v1392pkg
+-- Compiling entity roc32
+-- Compiling architecture rtl of roc32
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/flash.vhd {2 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/flash.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Loading package io_utils
+-- Loading package txt_util
+-- Compiling entity flash
+-- Compiling architecture behav of flash
+** Warning: D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/flash.vhd(41): (vcom-1194) FILE declaration was written using 1076-1987 syntax.
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/roc32.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/roc32.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/PDLCFG.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/PDLCFG.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity pdlcfg
+-- Compiling architecture struct_pdlcfg of pdlcfg
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/fct1bit543.vhd {1 {vcom -work work -87 -explicit -quiet C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/fct1bit543.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/fct1bit543.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/fct1bit543.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity fct1bit543
+-- Compiling architecture behav of fct1bit543
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/vx1392sim_config.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/vx1392sim_config.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Compiling configuration vx1392sim_config
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading entity vx1392sim
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Loading package v1392pkg
+-- Loading architecture struct of vx1392sim
+-- Loading package io_utils
+-- Loading package txt_util
+-- Loading entity flash
+-- Loading entity i2c_adc
+-- Loading entity osc
+-- Loading entity vme_master
+-- Loading entity pdlmon
+-- Loading entity v1392ltm
+-- Loading entity vbuf
+-- Loading entity trigger_top
+-- Loading architecture struct of v1392ltm
+-- Loading entity clk_interf
+-- Loading entity crom
+-- Loading entity daccfg
+-- Loading entity dac_interf
+-- Loading entity i2c_interf
+-- Loading entity pdlcfg
+-- Loading entity reset_mod
+-- Loading entity roc32
+-- Loading entity spi_interf
+-- Loading entity vinterf
+-- Loading entity ctrl
+-- Loading entity lbspare
+-- Loading entity pdl_interf
+-- Loading architecture struct of vbuf
+-- Loading entity fct16543p
+-- Loading entity fct1bit543
+-- Loading entity lvc16244
+-- Loading entity lvt125
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/spi_interf.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/spi_interf.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/pdlmon.vhd {1 {vcom -work work -2002 -explicit -check_synthesis -novitalcheck -novital D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/pdlmon.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package textio
+-- Loading package txt_util
+-- Compiling entity pdlmon
+-- Compiling architecture behav of pdlmon
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/vbuf.vhd {1 {vcom -work work -87 -explicit -quiet C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/vbuf.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/pdlmon.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/pdlmon.vhd
+Model Technology ModelSim PE vcom 6.5a Compiler 2009.03 Mar 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package textio
+-- Loading package txt_util
+-- Compiling entity pdlmon
+-- Compiling architecture behav of pdlmon
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/I2C_ADC.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/I2C_ADC.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity i2c_adc
+-- Compiling architecture sim of i2c_adc
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/I2C_interf.vhd {1 {vcom -work work -93 -explicit -quiet C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/I2C_interf.vhd
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_trig/hdl/trigger_top.vhd {1 {vcom -work work -87 -explicit C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_trig/hdl/trigger_top.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity trigger_top
+-- Loading package altera_mf_components
+-- Loading package std_logic_unsigned
+-- Compiling architecture struct of trigger_top
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/osc.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/osc.vhd
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/lvc16244.vhd {1 {vcom -work work -87 -explicit -quiet C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/lvc16244.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/I2C_ADC.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/I2C_ADC.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity i2c_adc
+-- Compiling architecture sim of i2c_adc
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/pdl_interf.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/pdl_interf.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_trig/hdl/cttm_pll.vhd {1 {vcom -work work -87 -explicit D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_trig/hdl/cttm_pll.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity cttm_pll
+-- Compiling architecture syn of cttm_pll
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/dac_interf.vhd {1 {vcom -work work -93 -explicit -quiet C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/dac_interf.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/LIB/src/apa/apa.vhd {1 {vcom -work apa -2002 -explicit D:/luca/Work/VX1392/FPGA/LIB/src/apa/apa.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package vital_timing
+-- Compiling package components
+-- Loading package vital_primitives
+-- Compiling package vtables
+-- Compiling entity and2
+-- Loading package vtables
+-- Compiling architecture vital_act of and2
+-- Compiling configuration cfg_and2_vital
+-- Loading entity and2
+-- Loading architecture vital_act of and2
+-- Compiling entity and2ft
+-- Compiling architecture vital_act of and2ft
+-- Compiling configuration cfg_and2ft_vital
+-- Loading entity and2ft
+-- Loading architecture vital_act of and2ft
+-- Compiling entity and3
+-- Compiling architecture vital_act of and3
+-- Compiling configuration cfg_and3_vital
+-- Loading entity and3
+-- Loading architecture vital_act of and3
+-- Compiling entity and3fft
+-- Compiling architecture vital_act of and3fft
+-- Compiling configuration cfg_and3fft_vital
+-- Loading entity and3fft
+-- Loading architecture vital_act of and3fft
+-- Compiling entity and3ftt
+-- Compiling architecture vital_act of and3ftt
+-- Compiling configuration cfg_and3ftt_vital
+-- Loading entity and3ftt
+-- Loading architecture vital_act of and3ftt
+-- Compiling entity ao21
+-- Compiling architecture vital_act of ao21
+-- Compiling configuration cfg_ao21_vital
+-- Loading entity ao21
+-- Loading architecture vital_act of ao21
+-- Compiling entity ao21ftf
+-- Compiling architecture vital_act of ao21ftf
+-- Compiling configuration cfg_ao21ftf_vital
+-- Loading entity ao21ftf
+-- Loading architecture vital_act of ao21ftf
+-- Compiling entity ao21ftt
+-- Compiling architecture vital_act of ao21ftt
+-- Compiling configuration cfg_ao21ftt_vital
+-- Loading entity ao21ftt
+-- Loading architecture vital_act of ao21ftt
+-- Compiling entity ao21ttf
+-- Compiling architecture vital_act of ao21ttf
+-- Compiling configuration cfg_ao21ttf_vital
+-- Loading entity ao21ttf
+-- Loading architecture vital_act of ao21ttf
+-- Compiling entity aoi21
+-- Compiling architecture vital_act of aoi21
+-- Compiling configuration cfg_aoi21_vital
+-- Loading entity aoi21
+-- Loading architecture vital_act of aoi21
+-- Compiling entity aoi21ftf
+-- Compiling architecture vital_act of aoi21ftf
+-- Compiling configuration cfg_aoi21ftf_vital
+-- Loading entity aoi21ftf
+-- Loading architecture vital_act of aoi21ftf
+-- Compiling entity aoi21ftt
+-- Compiling architecture vital_act of aoi21ftt
+-- Compiling configuration cfg_aoi21ftt_vital
+-- Loading entity aoi21ftt
+-- Loading architecture vital_act of aoi21ftt
+-- Compiling entity aoi21ttf
+-- Compiling architecture vital_act of aoi21ttf
+-- Compiling configuration cfg_aoi21ttf_vital
+-- Loading entity aoi21ttf
+-- Loading architecture vital_act of aoi21ttf
+-- Compiling entity bfr
+-- Compiling architecture vital_act of bfr
+-- Compiling configuration cfg_bfr_vital
+-- Loading entity bfr
+-- Loading architecture vital_act of bfr
+-- Compiling entity bubble
+-- Compiling architecture vital_act of bubble
+-- Compiling configuration cfg_bubble_vital
+-- Loading entity bubble
+-- Loading architecture vital_act of bubble
+-- Compiling entity dmux
+-- Compiling architecture vital_act of dmux
+-- Compiling configuration cfg_dmux_vital
+-- Loading entity dmux
+-- Loading architecture vital_act of dmux
+-- Compiling entity gl25
+-- Compiling architecture vital_act of gl25
+-- Compiling configuration cfg_gl25_vital
+-- Loading entity gl25
+-- Loading architecture vital_act of gl25
+-- Compiling entity gl25lp
+-- Compiling architecture vital_act of gl25lp
+-- Compiling configuration cfg_gl25lp_vital
+-- Loading entity gl25lp
+-- Loading architecture vital_act of gl25lp
+-- Compiling entity gl25lps
+-- Compiling architecture vital_act of gl25lps
+-- Compiling configuration cfg_gl25lps_vital
+-- Loading entity gl25lps
+-- Loading architecture vital_act of gl25lps
+-- Compiling entity gl25lpu
+-- Compiling architecture vital_act of gl25lpu
+-- Compiling configuration cfg_gl25lpu_vital
+-- Loading entity gl25lpu
+-- Loading architecture vital_act of gl25lpu
+-- Compiling entity gl25lpus
+-- Compiling architecture vital_act of gl25lpus
+-- Compiling configuration cfg_gl25lpus_vital
+-- Loading entity gl25lpus
+-- Loading architecture vital_act of gl25lpus
+-- Compiling entity gl25s
+-- Compiling architecture vital_act of gl25s
+-- Compiling configuration cfg_gl25s_vital
+-- Loading entity gl25s
+-- Loading architecture vital_act of gl25s
+-- Compiling entity gl25u
+-- Compiling architecture vital_act of gl25u
+-- Compiling configuration cfg_gl25u_vital
+-- Loading entity gl25u
+-- Loading architecture vital_act of gl25u
+-- Compiling entity gl25us
+-- Compiling architecture vital_act of gl25us
+-- Compiling configuration cfg_gl25us_vital
+-- Loading entity gl25us
+-- Loading architecture vital_act of gl25us
+-- Compiling entity gl33
+-- Compiling architecture vital_act of gl33
+-- Compiling configuration cfg_gl33_vital
+-- Loading entity gl33
+-- Loading architecture vital_act of gl33
+-- Compiling entity gl33s
+-- Compiling architecture vital_act of gl33s
+-- Compiling configuration cfg_gl33s_vital
+-- Loading entity gl33s
+-- Loading architecture vital_act of gl33s
+-- Compiling entity gl33u
+-- Compiling architecture vital_act of gl33u
+-- Compiling configuration cfg_gl33u_vital
+-- Loading entity gl33u
+-- Loading architecture vital_act of gl33u
+-- Compiling entity gl33us
+-- Compiling architecture vital_act of gl33us
+-- Compiling configuration cfg_gl33us_vital
+-- Loading entity gl33us
+-- Loading architecture vital_act of gl33us
+-- Compiling entity glint
+-- Compiling architecture vital_act of glint
+-- Compiling configuration cfg_glint_vital
+-- Loading entity glint
+-- Loading architecture vital_act of glint
+-- Compiling entity gnd
+-- Compiling architecture vital_act of gnd
+-- Compiling configuration cfg_gnd_vital
+-- Loading entity gnd
+-- Loading architecture vital_act of gnd
+-- Compiling entity ib25
+-- Compiling architecture vital_act of ib25
+-- Compiling configuration cfg_ib25_vital
+-- Loading entity ib25
+-- Loading architecture vital_act of ib25
+-- Compiling entity ib25lp
+-- Compiling architecture vital_act of ib25lp
+-- Compiling configuration cfg_ib25lp_vital
+-- Loading entity ib25lp
+-- Loading architecture vital_act of ib25lp
+-- Compiling entity ib25lps
+-- Compiling architecture vital_act of ib25lps
+-- Compiling configuration cfg_ib25lps_vital
+-- Loading entity ib25lps
+-- Loading architecture vital_act of ib25lps
+-- Compiling entity ib25lpu
+-- Compiling architecture vital_act of ib25lpu
+-- Compiling configuration cfg_ib25lpu_vital
+-- Loading entity ib25lpu
+-- Loading architecture vital_act of ib25lpu
+-- Compiling entity ib25lpus
+-- Compiling architecture vital_act of ib25lpus
+-- Compiling configuration cfg_ib25lpus_vital
+-- Loading entity ib25lpus
+-- Loading architecture vital_act of ib25lpus
+-- Compiling entity ib25s
+-- Compiling architecture vital_act of ib25s
+-- Compiling configuration cfg_ib25s_vital
+-- Loading entity ib25s
+-- Loading architecture vital_act of ib25s
+-- Compiling entity ib25u
+-- Compiling architecture vital_act of ib25u
+-- Compiling configuration cfg_ib25u_vital
+-- Loading entity ib25u
+-- Loading architecture vital_act of ib25u
+-- Compiling entity ib25us
+-- Compiling architecture vital_act of ib25us
+-- Compiling configuration cfg_ib25us_vital
+-- Loading entity ib25us
+-- Loading architecture vital_act of ib25us
+-- Compiling entity ib33
+-- Compiling architecture vital_act of ib33
+-- Compiling configuration cfg_ib33_vital
+-- Loading entity ib33
+-- Loading architecture vital_act of ib33
+-- Compiling entity ib33s
+-- Compiling architecture vital_act of ib33s
+-- Compiling configuration cfg_ib33s_vital
+-- Loading entity ib33s
+-- Loading architecture vital_act of ib33s
+-- Compiling entity ib33u
+-- Compiling architecture vital_act of ib33u
+-- Compiling configuration cfg_ib33u_vital
+-- Loading entity ib33u
+-- Loading architecture vital_act of ib33u
+-- Compiling entity ib33us
+-- Compiling architecture vital_act of ib33us
+-- Compiling configuration cfg_ib33us_vital
+-- Loading entity ib33us
+-- Loading architecture vital_act of ib33us
+-- Compiling entity inv
+-- Compiling architecture vital_act of inv
+-- Compiling configuration cfg_inv_vital
+-- Loading entity inv
+-- Loading architecture vital_act of inv
+-- Compiling entity ld
+-- Compiling architecture vital_act of ld
+-- Compiling configuration cfg_ld_vital
+-- Loading entity ld
+-- Loading architecture vital_act of ld
+-- Compiling entity ldb
+-- Compiling architecture vital_act of ldb
+-- Compiling configuration cfg_ldb_vital
+-- Loading entity ldb
+-- Loading architecture vital_act of ldb
+-- Compiling entity ldbi
+-- Compiling architecture vital_act of ldbi
+-- Compiling configuration cfg_ldbi_vital
+-- Loading entity ldbi
+-- Loading architecture vital_act of ldbi
+-- Compiling entity ldc
+-- Compiling architecture vital_act of ldc
+-- Compiling configuration cfg_ldc_vital
+-- Loading entity ldc
+-- Loading architecture vital_act of ldc
+-- Compiling entity ldci
+-- Compiling architecture vital_act of ldci
+-- Compiling configuration cfg_ldci_vital
+-- Loading entity ldci
+-- Loading architecture vital_act of ldci
+-- Compiling entity ldi
+-- Compiling architecture vital_act of ldi
+-- Compiling configuration cfg_ldi_vital
+-- Loading entity ldi
+-- Loading architecture vital_act of ldi
+-- Compiling entity ldl
+-- Compiling architecture vital_act of ldl
+-- Compiling configuration cfg_ldl_vital
+-- Loading entity ldl
+-- Loading architecture vital_act of ldl
+-- Compiling entity ldlb
+-- Compiling architecture vital_act of ldlb
+-- Compiling configuration cfg_ldlb_vital
+-- Loading entity ldlb
+-- Loading architecture vital_act of ldlb
+-- Compiling entity ldlbi
+-- Compiling architecture vital_act of ldlbi
+-- Compiling configuration cfg_ldlbi_vital
+-- Loading entity ldlbi
+-- Loading architecture vital_act of ldlbi
+-- Compiling entity ldlc
+-- Compiling architecture vital_act of ldlc
+-- Compiling configuration cfg_ldlc_vital
+-- Loading entity ldlc
+-- Loading architecture vital_act of ldlc
+-- Compiling entity ldlci
+-- Compiling architecture vital_act of ldlci
+-- Compiling configuration cfg_ldlci_vital
+-- Loading entity ldlci
+-- Loading architecture vital_act of ldlci
+-- Compiling entity ldli
+-- Compiling architecture vital_act of ldli
+-- Compiling configuration cfg_ldli_vital
+-- Loading entity ldli
+-- Loading architecture vital_act of ldli
+-- Compiling entity ldls
+-- Compiling architecture vital_act of ldls
+-- Compiling configuration cfg_ldls_vital
+-- Loading entity ldls
+-- Loading architecture vital_act of ldls
+-- Compiling entity ldlsi
+-- Compiling architecture vital_act of ldlsi
+-- Compiling configuration cfg_ldlsi_vital
+-- Loading entity ldlsi
+-- Loading architecture vital_act of ldlsi
+-- Compiling entity lds
+-- Compiling architecture vital_act of lds
+-- Compiling configuration cfg_lds_vital
+-- Loading entity lds
+-- Loading architecture vital_act of lds
+-- Compiling entity ldsi
+-- Compiling architecture vital_act of ldsi
+-- Compiling configuration cfg_ldsi_vital
+-- Loading entity ldsi
+-- Loading architecture vital_act of ldsi
+-- Compiling entity mux2h
+-- Compiling architecture vital_act of mux2h
+-- Compiling configuration cfg_mux2h_vital
+-- Loading entity mux2h
+-- Loading architecture vital_act of mux2h
+-- Compiling entity mux2l
+-- Compiling architecture vital_act of mux2l
+-- Compiling configuration cfg_mux2l_vital
+-- Loading entity mux2l
+-- Loading architecture vital_act of mux2l
+-- Compiling entity nand2
+-- Compiling architecture vital_act of nand2
+-- Compiling configuration cfg_nand2_vital
+-- Loading entity nand2
+-- Loading architecture vital_act of nand2
+-- Compiling entity nand2ft
+-- Compiling architecture vital_act of nand2ft
+-- Compiling configuration cfg_nand2ft_vital
+-- Loading entity nand2ft
+-- Loading architecture vital_act of nand2ft
+-- Compiling entity nand3
+-- Compiling architecture vital_act of nand3
+-- Compiling configuration cfg_nand3_vital
+-- Loading entity nand3
+-- Loading architecture vital_act of nand3
+-- Compiling entity nand3fft
+-- Compiling architecture vital_act of nand3fft
+-- Compiling configuration cfg_nand3fft_vital
+-- Loading entity nand3fft
+-- Loading architecture vital_act of nand3fft
+-- Compiling entity nand3ftt
+-- Compiling architecture vital_act of nand3ftt
+-- Compiling configuration cfg_nand3ftt_vital
+-- Loading entity nand3ftt
+-- Loading architecture vital_act of nand3ftt
+-- Compiling entity nor2
+-- Compiling architecture vital_act of nor2
+-- Compiling configuration cfg_nor2_vital
+-- Loading entity nor2
+-- Loading architecture vital_act of nor2
+-- Compiling entity nor2ft
+-- Compiling architecture vital_act of nor2ft
+-- Compiling configuration cfg_nor2ft_vital
+-- Loading entity nor2ft
+-- Loading architecture vital_act of nor2ft
+-- Compiling entity nor3
+-- Compiling architecture vital_act of nor3
+-- Compiling configuration cfg_nor3_vital
+-- Loading entity nor3
+-- Loading architecture vital_act of nor3
+-- Compiling entity nor3fft
+-- Compiling architecture vital_act of nor3fft
+-- Compiling configuration cfg_nor3fft_vital
+-- Loading entity nor3fft
+-- Loading architecture vital_act of nor3fft
+-- Compiling entity nor3ftt
+-- Compiling architecture vital_act of nor3ftt
+-- Compiling configuration cfg_nor3ftt_vital
+-- Loading entity nor3ftt
+-- Loading architecture vital_act of nor3ftt
+-- Compiling entity nubble
+-- Compiling architecture vital_act of nubble
+-- Compiling configuration cfg_nubble_vital
+-- Loading entity nubble
+-- Loading architecture vital_act of nubble
+-- Compiling entity oa21
+-- Compiling architecture vital_act of oa21
+-- Compiling configuration cfg_oa21_vital
+-- Loading entity oa21
+-- Loading architecture vital_act of oa21
+-- Compiling entity oa21ftf
+-- Compiling architecture vital_act of oa21ftf
+-- Compiling configuration cfg_oa21ftf_vital
+-- Loading entity oa21ftf
+-- Loading architecture vital_act of oa21ftf
+-- Compiling entity oa21ftt
+-- Compiling architecture vital_act of oa21ftt
+-- Compiling configuration cfg_oa21ftt_vital
+-- Loading entity oa21ftt
+-- Loading architecture vital_act of oa21ftt
+-- Compiling entity oa21ttf
+-- Compiling architecture vital_act of oa21ttf
+-- Compiling configuration cfg_oa21ttf_vital
+-- Loading entity oa21ttf
+-- Loading architecture vital_act of oa21ttf
+-- Compiling entity oai21
+-- Compiling architecture vital_act of oai21
+-- Compiling configuration cfg_oai21_vital
+-- Loading entity oai21
+-- Loading architecture vital_act of oai21
+-- Compiling entity oai21ftf
+-- Compiling architecture vital_act of oai21ftf
+-- Compiling configuration cfg_oai21ftf_vital
+-- Loading entity oai21ftf
+-- Loading architecture vital_act of oai21ftf
+-- Compiling entity oai21ftt
+-- Compiling architecture vital_act of oai21ftt
+-- Compiling configuration cfg_oai21ftt_vital
+-- Loading entity oai21ftt
+-- Loading architecture vital_act of oai21ftt
+-- Compiling entity oai21ttf
+-- Compiling architecture vital_act of oai21ttf
+-- Compiling configuration cfg_oai21ttf_vital
+-- Loading entity oai21ttf
+-- Loading architecture vital_act of oai21ttf
+-- Compiling entity ob25hh
+-- Compiling architecture vital_act of ob25hh
+-- Compiling configuration cfg_ob25hh_vital
+-- Loading entity ob25hh
+-- Loading architecture vital_act of ob25hh
+-- Compiling entity ob25hl
+-- Compiling architecture vital_act of ob25hl
+-- Compiling configuration cfg_ob25hl_vital
+-- Loading entity ob25hl
+-- Loading architecture vital_act of ob25hl
+-- Compiling entity ob25hn
+-- Compiling architecture vital_act of ob25hn
+-- Compiling configuration cfg_ob25hn_vital
+-- Loading entity ob25hn
+-- Loading architecture vital_act of ob25hn
+-- Compiling entity ob25lh
+-- Compiling architecture vital_act of ob25lh
+-- Compiling configuration cfg_ob25lh_vital
+-- Loading entity ob25lh
+-- Loading architecture vital_act of ob25lh
+-- Compiling entity ob25ll
+-- Compiling architecture vital_act of ob25ll
+-- Compiling configuration cfg_ob25ll_vital
+-- Loading entity ob25ll
+-- Loading architecture vital_act of ob25ll
+-- Compiling entity ob25ln
+-- Compiling architecture vital_act of ob25ln
+-- Compiling configuration cfg_ob25ln_vital
+-- Loading entity ob25ln
+-- Loading architecture vital_act of ob25ln
+-- Compiling entity ob25lphh
+-- Compiling architecture vital_act of ob25lphh
+-- Compiling configuration cfg_ob25lphh_vital
+-- Loading entity ob25lphh
+-- Loading architecture vital_act of ob25lphh
+-- Compiling entity ob25lphl
+-- Compiling architecture vital_act of ob25lphl
+-- Compiling configuration cfg_ob25lphl_vital
+-- Loading entity ob25lphl
+-- Loading architecture vital_act of ob25lphl
+-- Compiling entity ob25lphn
+-- Compiling architecture vital_act of ob25lphn
+-- Compiling configuration cfg_ob25lphn_vital
+-- Loading entity ob25lphn
+-- Loading architecture vital_act of ob25lphn
+-- Compiling entity ob25lplh
+-- Compiling architecture vital_act of ob25lplh
+-- Compiling configuration cfg_ob25lplh_vital
+-- Loading entity ob25lplh
+-- Loading architecture vital_act of ob25lplh
+-- Compiling entity ob25lpll
+-- Compiling architecture vital_act of ob25lpll
+-- Compiling configuration cfg_ob25lpll_vital
+-- Loading entity ob25lpll
+-- Loading architecture vital_act of ob25lpll
+-- Compiling entity ob25lpln
+-- Compiling architecture vital_act of ob25lpln
+-- Compiling configuration cfg_ob25lpln_vital
+-- Loading entity ob25lpln
+-- Loading architecture vital_act of ob25lpln
+-- Compiling entity ob33lh
+-- Compiling architecture vital_act of ob33lh
+-- Compiling configuration cfg_ob33lh_vital
+-- Loading entity ob33lh
+-- Loading architecture vital_act of ob33lh
+-- Compiling entity ob33ll
+-- Compiling architecture vital_act of ob33ll
+-- Compiling configuration cfg_ob33ll_vital
+-- Loading entity ob33ll
+-- Loading architecture vital_act of ob33ll
+-- Compiling entity ob33ln
+-- Compiling architecture vital_act of ob33ln
+-- Compiling configuration cfg_ob33ln_vital
+-- Loading entity ob33ln
+-- Loading architecture vital_act of ob33ln
+-- Compiling entity ob33ph
+-- Compiling architecture vital_act of ob33ph
+-- Compiling configuration cfg_ob33ph_vital
+-- Loading entity ob33ph
+-- Loading architecture vital_act of ob33ph
+-- Compiling entity ob33pl
+-- Compiling architecture vital_act of ob33pl
+-- Compiling configuration cfg_ob33pl_vital
+-- Loading entity ob33pl
+-- Loading architecture vital_act of ob33pl
+-- Compiling entity ob33pn
+-- Compiling architecture vital_act of ob33pn
+-- Compiling configuration cfg_ob33pn_vital
+-- Loading entity ob33pn
+-- Loading architecture vital_act of ob33pn
+-- Compiling entity or2
+-- Compiling architecture vital_act of or2
+-- Compiling configuration cfg_or2_vital
+-- Loading entity or2
+-- Loading architecture vital_act of or2
+-- Compiling entity or2ft
+-- Compiling architecture vital_act of or2ft
+-- Compiling configuration cfg_or2ft_vital
+-- Loading entity or2ft
+-- Loading architecture vital_act of or2ft
+-- Compiling entity or3
+-- Compiling architecture vital_act of or3
+-- Compiling configuration cfg_or3_vital
+-- Loading entity or3
+-- Loading architecture vital_act of or3
+-- Compiling entity or3fft
+-- Compiling architecture vital_act of or3fft
+-- Compiling configuration cfg_or3fft_vital
+-- Loading entity or3fft
+-- Loading architecture vital_act of or3fft
+-- Compiling entity or3ftt
+-- Compiling architecture vital_act of or3ftt
+-- Compiling configuration cfg_or3ftt_vital
+-- Loading entity or3ftt
+-- Loading architecture vital_act of or3ftt
+-- Compiling entity pwr
+-- Compiling architecture vital_act of pwr
+-- Compiling configuration cfg_pwr_vital
+-- Loading entity pwr
+-- Loading architecture vital_act of pwr
+-- Compiling entity xnor2
+-- Compiling architecture vital_act of xnor2
+-- Compiling configuration cfg_xnor2_vital
+-- Loading entity xnor2
+-- Loading architecture vital_act of xnor2
+-- Compiling entity xnor2ft
+-- Compiling architecture vital_act of xnor2ft
+-- Compiling configuration cfg_xnor2ft_vital
+-- Loading entity xnor2ft
+-- Loading architecture vital_act of xnor2ft
+-- Compiling entity xor2
+-- Compiling architecture vital_act of xor2
+-- Compiling configuration cfg_xor2_vital
+-- Loading entity xor2
+-- Loading architecture vital_act of xor2
+-- Compiling entity xor2ft
+-- Compiling architecture vital_act of xor2ft
+-- Compiling configuration cfg_xor2ft_vital
+-- Loading entity xor2ft
+-- Loading architecture vital_act of xor2ft
+-- Compiling entity dff
+-- Compiling architecture vital_act of dff
+-- Compiling configuration cfg_dff_vital
+-- Loading entity dff
+-- Loading architecture vital_act of dff
+-- Compiling entity dffb
+-- Compiling architecture vital_act of dffb
+-- Compiling configuration cfg_dffb_vital
+-- Loading entity dffb
+-- Loading architecture vital_act of dffb
+-- Compiling entity dffbi
+-- Compiling architecture vital_act of dffbi
+-- Compiling configuration cfg_dffbi_vital
+-- Loading entity dffbi
+-- Loading architecture vital_act of dffbi
+-- Compiling entity dffc
+-- Compiling architecture vital_act of dffc
+-- Compiling configuration cfg_dffc_vital
+-- Loading entity dffc
+-- Loading architecture vital_act of dffc
+-- Compiling entity dffci
+-- Compiling architecture vital_act of dffci
+-- Compiling configuration cfg_dffci_vital
+-- Loading entity dffci
+-- Loading architecture vital_act of dffci
+-- Compiling entity dffi
+-- Compiling architecture vital_act of dffi
+-- Compiling configuration cfg_dffi_vital
+-- Loading entity dffi
+-- Loading architecture vital_act of dffi
+-- Compiling entity dffl
+-- Compiling architecture vital_act of dffl
+-- Compiling configuration cfg_dffl_vital
+-- Loading entity dffl
+-- Loading architecture vital_act of dffl
+-- Compiling entity dfflb
+-- Compiling architecture vital_act of dfflb
+-- Compiling configuration cfg_dfflb_vital
+-- Loading entity dfflb
+-- Loading architecture vital_act of dfflb
+-- Compiling entity dfflbi
+-- Compiling architecture vital_act of dfflbi
+-- Compiling configuration cfg_dfflbi_vital
+-- Loading entity dfflbi
+-- Loading architecture vital_act of dfflbi
+-- Compiling entity dfflc
+-- Compiling architecture vital_act of dfflc
+-- Compiling configuration cfg_dfflc_vital
+-- Loading entity dfflc
+-- Loading architecture vital_act of dfflc
+-- Compiling entity dfflci
+-- Compiling architecture vital_act of dfflci
+-- Compiling configuration cfg_dfflci_vital
+-- Loading entity dfflci
+-- Loading architecture vital_act of dfflci
+-- Compiling entity dffli
+-- Compiling architecture vital_act of dffli
+-- Compiling configuration cfg_dffli_vital
+-- Loading entity dffli
+-- Loading architecture vital_act of dffli
+-- Compiling entity dffls
+-- Compiling architecture vital_act of dffls
+-- Compiling configuration cfg_dffls_vital
+-- Loading entity dffls
+-- Loading architecture vital_act of dffls
+-- Compiling entity dfflsi
+-- Compiling architecture vital_act of dfflsi
+-- Compiling configuration cfg_dfflsi_vital
+-- Loading entity dfflsi
+-- Loading architecture vital_act of dfflsi
+-- Compiling entity dffs
+-- Compiling architecture vital_act of dffs
+-- Compiling configuration cfg_dffs_vital
+-- Loading entity dffs
+-- Loading architecture vital_act of dffs
+-- Compiling entity dffsi
+-- Compiling architecture vital_act of dffsi
+-- Compiling configuration cfg_dffsi_vital
+-- Loading entity dffsi
+-- Loading architecture vital_act of dffsi
+-- Compiling entity glib25
+-- Compiling architecture vital_act of glib25
+-- Compiling configuration cfg_glib25_vital
+-- Loading entity glib25
+-- Loading architecture vital_act of glib25
+-- Compiling entity glib25lp
+-- Compiling architecture vital_act of glib25lp
+-- Compiling configuration cfg_glib25lp_vital
+-- Loading entity glib25lp
+-- Loading architecture vital_act of glib25lp
+-- Compiling entity glib25lps
+-- Compiling architecture vital_act of glib25lps
+-- Compiling configuration cfg_glib25lps_vital
+-- Loading entity glib25lps
+-- Loading architecture vital_act of glib25lps
+-- Compiling entity glib25lpu
+-- Compiling architecture vital_act of glib25lpu
+-- Compiling configuration cfg_glib25lpu_vital
+-- Loading entity glib25lpu
+-- Loading architecture vital_act of glib25lpu
+-- Compiling entity glib25lpus
+-- Compiling architecture vital_act of glib25lpus
+-- Compiling configuration cfg_glib25lpus_vital
+-- Loading entity glib25lpus
+-- Loading architecture vital_act of glib25lpus
+-- Compiling entity glib25s
+-- Compiling architecture vital_act of glib25s
+-- Compiling configuration cfg_glib25s_vital
+-- Loading entity glib25s
+-- Loading architecture vital_act of glib25s
+-- Compiling entity glib25u
+-- Compiling architecture vital_act of glib25u
+-- Compiling configuration cfg_glib25u_vital
+-- Loading entity glib25u
+-- Loading architecture vital_act of glib25u
+-- Compiling entity glib25us
+-- Compiling architecture vital_act of glib25us
+-- Compiling configuration cfg_glib25us_vital
+-- Loading entity glib25us
+-- Loading architecture vital_act of glib25us
+-- Compiling entity glib33
+-- Compiling architecture vital_act of glib33
+-- Compiling configuration cfg_glib33_vital
+-- Loading entity glib33
+-- Loading architecture vital_act of glib33
+-- Compiling entity glib33s
+-- Compiling architecture vital_act of glib33s
+-- Compiling configuration cfg_glib33s_vital
+-- Loading entity glib33s
+-- Loading architecture vital_act of glib33s
+-- Compiling entity glib33u
+-- Compiling architecture vital_act of glib33u
+-- Compiling configuration cfg_glib33u_vital
+-- Loading entity glib33u
+-- Loading architecture vital_act of glib33u
+-- Compiling entity glib33us
+-- Compiling architecture vital_act of glib33us
+-- Compiling configuration cfg_glib33us_vital
+-- Loading entity glib33us
+-- Loading architecture vital_act of glib33us
+-- Compiling entity glmib25
+-- Compiling architecture vital_act of glmib25
+-- Compiling configuration cfg_glmib25_vital
+-- Loading entity glmib25
+-- Loading architecture vital_act of glmib25
+-- Compiling entity glmib33
+-- Compiling architecture vital_act of glmib33
+-- Compiling configuration cfg_glmib33_vital
+-- Loading entity glmib33
+-- Loading architecture vital_act of glmib33
+-- Compiling entity glmib25lp
+-- Compiling architecture vital_act of glmib25lp
+-- Compiling configuration cfg_glmib25lp_vital
+-- Loading entity glmib25lp
+-- Loading architecture vital_act of glmib25lp
+-- Compiling entity glmib25s
+-- Compiling architecture vital_act of glmib25s
+-- Compiling configuration cfg_glmib25s_vital
+-- Loading entity glmib25s
+-- Loading architecture vital_act of glmib25s
+-- Compiling entity glmib33s
+-- Compiling architecture vital_act of glmib33s
+-- Compiling configuration cfg_glmib33s_vital
+-- Loading entity glmib33s
+-- Loading architecture vital_act of glmib33s
+-- Compiling entity glmib25lps
+-- Compiling architecture vital_act of glmib25lps
+-- Compiling configuration cfg_glmib25lps_vital
+-- Loading entity glmib25lps
+-- Loading architecture vital_act of glmib25lps
+-- Compiling entity glmib25u
+-- Compiling architecture vital_act of glmib25u
+-- Compiling configuration cfg_glmib25u_vital
+-- Loading entity glmib25u
+-- Loading architecture vital_act of glmib25u
+-- Compiling entity glmib33u
+-- Compiling architecture vital_act of glmib33u
+-- Compiling configuration cfg_glmib33u_vital
+-- Loading entity glmib33u
+-- Loading architecture vital_act of glmib33u
+-- Compiling entity glmib25lpu
+-- Compiling architecture vital_act of glmib25lpu
+-- Compiling configuration cfg_glmib25lpu_vital
+-- Loading entity glmib25lpu
+-- Loading architecture vital_act of glmib25lpu
+-- Compiling entity glmib25us
+-- Compiling architecture vital_act of glmib25us
+-- Compiling configuration cfg_glmib25us_vital
+-- Loading entity glmib25us
+-- Loading architecture vital_act of glmib25us
+-- Compiling entity glmib33us
+-- Compiling architecture vital_act of glmib33us
+-- Compiling configuration cfg_glmib33us_vital
+-- Loading entity glmib33us
+-- Loading architecture vital_act of glmib33us
+-- Compiling entity glmib25lpus
+-- Compiling architecture vital_act of glmib25lpus
+-- Compiling configuration cfg_glmib25lpus_vital
+-- Loading entity glmib25lpus
+-- Loading architecture vital_act of glmib25lpus
+-- Compiling entity glmibl25
+-- Compiling architecture vital_act of glmibl25
+-- Compiling configuration cfg_glmibl25_vital
+-- Loading entity glmibl25
+-- Loading architecture vital_act of glmibl25
+-- Compiling entity glmibl33
+-- Compiling architecture vital_act of glmibl33
+-- Compiling configuration cfg_glmibl33_vital
+-- Loading entity glmibl33
+-- Loading architecture vital_act of glmibl33
+-- Compiling entity glmibl25lp
+-- Compiling architecture vital_act of glmibl25lp
+-- Compiling configuration cfg_glmibl25lp_vital
+-- Loading entity glmibl25lp
+-- Loading architecture vital_act of glmibl25lp
+-- Compiling entity glmibl25s
+-- Compiling architecture vital_act of glmibl25s
+-- Compiling configuration cfg_glmibl25s_vital
+-- Loading entity glmibl25s
+-- Loading architecture vital_act of glmibl25s
+-- Compiling entity glmibl33s
+-- Compiling architecture vital_act of glmibl33s
+-- Compiling configuration cfg_glmibl33s_vital
+-- Loading entity glmibl33s
+-- Loading architecture vital_act of glmibl33s
+-- Compiling entity glmibl25lps
+-- Compiling architecture vital_act of glmibl25lps
+-- Compiling configuration cfg_glmibl25lps_vital
+-- Loading entity glmibl25lps
+-- Loading architecture vital_act of glmibl25lps
+-- Compiling entity glmibl33us
+-- Compiling architecture vital_act of glmibl33us
+-- Compiling configuration cfg_glmibl33us_vital
+-- Loading entity glmibl33us
+-- Loading architecture vital_act of glmibl33us
+-- Compiling entity glmibl25lpus
+-- Compiling architecture vital_act of glmibl25lpus
+-- Compiling configuration cfg_glmibl25lpus_vital
+-- Loading entity glmibl25lpus
+-- Loading architecture vital_act of glmibl25lpus
+-- Compiling entity glmibl25us
+-- Compiling architecture vital_act of glmibl25us
+-- Compiling configuration cfg_glmibl25us_vital
+-- Loading entity glmibl25us
+-- Loading architecture vital_act of glmibl25us
+-- Compiling entity glmibl25lpu
+-- Compiling architecture vital_act of glmibl25lpu
+-- Compiling configuration cfg_glmibl25lpu_vital
+-- Loading entity glmibl25lpu
+-- Loading architecture vital_act of glmibl25lpu
+-- Compiling entity glmibl33u
+-- Compiling architecture vital_act of glmibl33u
+-- Compiling configuration cfg_glmibl33u_vital
+-- Loading entity glmibl33u
+-- Loading architecture vital_act of glmibl33u
+-- Compiling entity glmibl25u
+-- Compiling architecture vital_act of glmibl25u
+-- Compiling configuration cfg_glmibl25u_vital
+-- Loading entity glmibl25u
+-- Loading architecture vital_act of glmibl25u
+-- Compiling entity iob25hh
+-- Compiling architecture vital_act of iob25hh
+-- Compiling configuration cfg_iob25hh_vital
+-- Loading entity iob25hh
+-- Loading architecture vital_act of iob25hh
+-- Compiling entity iob25hl
+-- Compiling architecture vital_act of iob25hl
+-- Compiling configuration cfg_iob25hl_vital
+-- Loading entity iob25hl
+-- Loading architecture vital_act of iob25hl
+-- Compiling entity iob25hn
+-- Compiling architecture vital_act of iob25hn
+-- Compiling configuration cfg_iob25hn_vital
+-- Loading entity iob25hn
+-- Loading architecture vital_act of iob25hn
+-- Compiling entity iob25lh
+-- Compiling architecture vital_act of iob25lh
+-- Compiling configuration cfg_iob25lh_vital
+-- Loading entity iob25lh
+-- Loading architecture vital_act of iob25lh
+-- Compiling entity iob25ll
+-- Compiling architecture vital_act of iob25ll
+-- Compiling configuration cfg_iob25ll_vital
+-- Loading entity iob25ll
+-- Loading architecture vital_act of iob25ll
+-- Compiling entity iob25ln
+-- Compiling architecture vital_act of iob25ln
+-- Compiling configuration cfg_iob25ln_vital
+-- Loading entity iob25ln
+-- Loading architecture vital_act of iob25ln
+-- Compiling entity iob25hhu
+-- Compiling architecture vital_act of iob25hhu
+-- Compiling configuration cfg_iob25hhu_vital
+-- Loading entity iob25hhu
+-- Loading architecture vital_act of iob25hhu
+-- Compiling entity iob25hlu
+-- Compiling architecture vital_act of iob25hlu
+-- Compiling configuration cfg_iob25hlu_vital
+-- Loading entity iob25hlu
+-- Loading architecture vital_act of iob25hlu
+-- Compiling entity iob25hnu
+-- Compiling architecture vital_act of iob25hnu
+-- Compiling configuration cfg_iob25hnu_vital
+-- Loading entity iob25hnu
+-- Loading architecture vital_act of iob25hnu
+-- Compiling entity iob25lhu
+-- Compiling architecture vital_act of iob25lhu
+-- Compiling configuration cfg_iob25lhu_vital
+-- Loading entity iob25lhu
+-- Loading architecture vital_act of iob25lhu
+-- Compiling entity iob25llu
+-- Compiling architecture vital_act of iob25llu
+-- Compiling configuration cfg_iob25llu_vital
+-- Loading entity iob25llu
+-- Loading architecture vital_act of iob25llu
+-- Compiling entity iob25lnu
+-- Compiling architecture vital_act of iob25lnu
+-- Compiling configuration cfg_iob25lnu_vital
+-- Loading entity iob25lnu
+-- Loading architecture vital_act of iob25lnu
+-- Compiling entity iob25lphh
+-- Compiling architecture vital_act of iob25lphh
+-- Compiling configuration cfg_iob25lphh_vital
+-- Loading entity iob25lphh
+-- Loading architecture vital_act of iob25lphh
+-- Compiling entity iob25lphl
+-- Compiling architecture vital_act of iob25lphl
+-- Compiling configuration cfg_iob25lphl_vital
+-- Loading entity iob25lphl
+-- Loading architecture vital_act of iob25lphl
+-- Compiling entity iob25lphn
+-- Compiling architecture vital_act of iob25lphn
+-- Compiling configuration cfg_iob25lphn_vital
+-- Loading entity iob25lphn
+-- Loading architecture vital_act of iob25lphn
+-- Compiling entity iob25lplh
+-- Compiling architecture vital_act of iob25lplh
+-- Compiling configuration cfg_iob25lplh_vital
+-- Loading entity iob25lplh
+-- Loading architecture vital_act of iob25lplh
+-- Compiling entity iob25lpll
+-- Compiling architecture vital_act of iob25lpll
+-- Compiling configuration cfg_iob25lpll_vital
+-- Loading entity iob25lpll
+-- Loading architecture vital_act of iob25lpll
+-- Compiling entity iob25lpln
+-- Compiling architecture vital_act of iob25lpln
+-- Compiling configuration cfg_iob25lpln_vital
+-- Loading entity iob25lpln
+-- Loading architecture vital_act of iob25lpln
+-- Compiling entity iob25lphhu
+-- Compiling architecture vital_act of iob25lphhu
+-- Compiling configuration cfg_iob25lphhu_vital
+-- Loading entity iob25lphhu
+-- Loading architecture vital_act of iob25lphhu
+-- Compiling entity iob25lphlu
+-- Compiling architecture vital_act of iob25lphlu
+-- Compiling configuration cfg_iob25lphlu_vital
+-- Loading entity iob25lphlu
+-- Loading architecture vital_act of iob25lphlu
+-- Compiling entity iob25lphnu
+-- Compiling architecture vital_act of iob25lphnu
+-- Compiling configuration cfg_iob25lphnu_vital
+-- Loading entity iob25lphnu
+-- Loading architecture vital_act of iob25lphnu
+-- Compiling entity iob25lplhu
+-- Compiling architecture vital_act of iob25lplhu
+-- Compiling configuration cfg_iob25lplhu_vital
+-- Loading entity iob25lplhu
+-- Loading architecture vital_act of iob25lplhu
+-- Compiling entity iob25lpllu
+-- Compiling architecture vital_act of iob25lpllu
+-- Compiling configuration cfg_iob25lpllu_vital
+-- Loading entity iob25lpllu
+-- Loading architecture vital_act of iob25lpllu
+-- Compiling entity iob25lplnu
+-- Compiling architecture vital_act of iob25lplnu
+-- Compiling configuration cfg_iob25lplnu_vital
+-- Loading entity iob25lplnu
+-- Loading architecture vital_act of iob25lplnu
+-- Compiling entity iob33lh
+-- Compiling architecture vital_act of iob33lh
+-- Compiling configuration cfg_iob33lh_vital
+-- Loading entity iob33lh
+-- Loading architecture vital_act of iob33lh
+-- Compiling entity iob33ll
+-- Compiling architecture vital_act of iob33ll
+-- Compiling configuration cfg_iob33ll_vital
+-- Loading entity iob33ll
+-- Loading architecture vital_act of iob33ll
+-- Compiling entity iob33ln
+-- Compiling architecture vital_act of iob33ln
+-- Compiling configuration cfg_iob33ln_vital
+-- Loading entity iob33ln
+-- Loading architecture vital_act of iob33ln
+-- Compiling entity iob33ph
+-- Compiling architecture vital_act of iob33ph
+-- Compiling configuration cfg_iob33ph_vital
+-- Loading entity iob33ph
+-- Loading architecture vital_act of iob33ph
+-- Compiling entity iob33pl
+-- Compiling architecture vital_act of iob33pl
+-- Compiling configuration cfg_iob33pl_vital
+-- Loading entity iob33pl
+-- Loading architecture vital_act of iob33pl
+-- Compiling entity iob33pn
+-- Compiling architecture vital_act of iob33pn
+-- Compiling configuration cfg_iob33pn_vital
+-- Loading entity iob33pn
+-- Loading architecture vital_act of iob33pn
+-- Compiling entity iob33lhu
+-- Compiling architecture vital_act of iob33lhu
+-- Compiling configuration cfg_iob33lhu_vital
+-- Loading entity iob33lhu
+-- Loading architecture vital_act of iob33lhu
+-- Compiling entity iob33llu
+-- Compiling architecture vital_act of iob33llu
+-- Compiling configuration cfg_iob33llu_vital
+-- Loading entity iob33llu
+-- Loading architecture vital_act of iob33llu
+-- Compiling entity iob33lnu
+-- Compiling architecture vital_act of iob33lnu
+-- Compiling configuration cfg_iob33lnu_vital
+-- Loading entity iob33lnu
+-- Loading architecture vital_act of iob33lnu
+-- Compiling entity iob33phu
+-- Compiling architecture vital_act of iob33phu
+-- Compiling configuration cfg_iob33phu_vital
+-- Loading entity iob33phu
+-- Loading architecture vital_act of iob33phu
+-- Compiling entity iob33plu
+-- Compiling architecture vital_act of iob33plu
+-- Compiling configuration cfg_iob33plu_vital
+-- Loading entity iob33plu
+-- Loading architecture vital_act of iob33plu
+-- Compiling entity iob33pnu
+-- Compiling architecture vital_act of iob33pnu
+-- Compiling configuration cfg_iob33pnu_vital
+-- Loading entity iob33pnu
+-- Loading architecture vital_act of iob33pnu
+-- Compiling entity iobl25hh
+-- Compiling architecture vital_act of iobl25hh
+-- Compiling configuration cfg_iobl25hh_vital
+-- Loading entity iobl25hh
+-- Loading architecture vital_act of iobl25hh
+-- Compiling entity iobl25hl
+-- Compiling architecture vital_act of iobl25hl
+-- Compiling configuration cfg_iobl25hl_vital
+-- Loading entity iobl25hl
+-- Loading architecture vital_act of iobl25hl
+-- Compiling entity iobl25hn
+-- Compiling architecture vital_act of iobl25hn
+-- Compiling configuration cfg_iobl25hn_vital
+-- Loading entity iobl25hn
+-- Loading architecture vital_act of iobl25hn
+-- Compiling entity iobl25lh
+-- Compiling architecture vital_act of iobl25lh
+-- Compiling configuration cfg_iobl25lh_vital
+-- Loading entity iobl25lh
+-- Loading architecture vital_act of iobl25lh
+-- Compiling entity iobl25ll
+-- Compiling architecture vital_act of iobl25ll
+-- Compiling configuration cfg_iobl25ll_vital
+-- Loading entity iobl25ll
+-- Loading architecture vital_act of iobl25ll
+-- Compiling entity iobl25ln
+-- Compiling architecture vital_act of iobl25ln
+-- Compiling configuration cfg_iobl25ln_vital
+-- Loading entity iobl25ln
+-- Loading architecture vital_act of iobl25ln
+-- Compiling entity iobl25hhu
+-- Compiling architecture vital_act of iobl25hhu
+-- Compiling configuration cfg_iobl25hhu_vital
+-- Loading entity iobl25hhu
+-- Loading architecture vital_act of iobl25hhu
+-- Compiling entity iobl25hlu
+-- Compiling architecture vital_act of iobl25hlu
+-- Compiling configuration cfg_iobl25hlu_vital
+-- Loading entity iobl25hlu
+-- Loading architecture vital_act of iobl25hlu
+-- Compiling entity iobl25hnu
+-- Compiling architecture vital_act of iobl25hnu
+-- Compiling configuration cfg_iobl25hnu_vital
+-- Loading entity iobl25hnu
+-- Loading architecture vital_act of iobl25hnu
+-- Compiling entity iobl25lhu
+-- Compiling architecture vital_act of iobl25lhu
+-- Compiling configuration cfg_iobl25lhu_vital
+-- Loading entity iobl25lhu
+-- Loading architecture vital_act of iobl25lhu
+-- Compiling entity iobl25llu
+-- Compiling architecture vital_act of iobl25llu
+-- Compiling configuration cfg_iobl25llu_vital
+-- Loading entity iobl25llu
+-- Loading architecture vital_act of iobl25llu
+-- Compiling entity iobl25lnu
+-- Compiling architecture vital_act of iobl25lnu
+-- Compiling configuration cfg_iobl25lnu_vital
+-- Loading entity iobl25lnu
+-- Loading architecture vital_act of iobl25lnu
+-- Compiling entity iobl25lphh
+-- Compiling architecture vital_act of iobl25lphh
+-- Compiling configuration cfg_iobl25lphh_vital
+-- Loading entity iobl25lphh
+-- Loading architecture vital_act of iobl25lphh
+-- Compiling entity iobl25lphl
+-- Compiling architecture vital_act of iobl25lphl
+-- Compiling configuration cfg_iobl25lphl_vital
+-- Loading entity iobl25lphl
+-- Loading architecture vital_act of iobl25lphl
+-- Compiling entity iobl25lphn
+-- Compiling architecture vital_act of iobl25lphn
+-- Compiling configuration cfg_iobl25lphn_vital
+-- Loading entity iobl25lphn
+-- Loading architecture vital_act of iobl25lphn
+-- Compiling entity iobl25lplh
+-- Compiling architecture vital_act of iobl25lplh
+-- Compiling configuration cfg_iobl25lplh_vital
+-- Loading entity iobl25lplh
+-- Loading architecture vital_act of iobl25lplh
+-- Compiling entity iobl25lpll
+-- Compiling architecture vital_act of iobl25lpll
+-- Compiling configuration cfg_iobl25lpll_vital
+-- Loading entity iobl25lpll
+-- Loading architecture vital_act of iobl25lpll
+-- Compiling entity iobl25lpln
+-- Compiling architecture vital_act of iobl25lpln
+-- Compiling configuration cfg_iobl25lpln_vital
+-- Loading entity iobl25lpln
+-- Loading architecture vital_act of iobl25lpln
+-- Compiling entity iobl25lphhu
+-- Compiling architecture vital_act of iobl25lphhu
+-- Compiling configuration cfg_iobl25lphhu_vital
+-- Loading entity iobl25lphhu
+-- Loading architecture vital_act of iobl25lphhu
+-- Compiling entity iobl25lphlu
+-- Compiling architecture vital_act of iobl25lphlu
+-- Compiling configuration cfg_iobl25lphlu_vital
+-- Loading entity iobl25lphlu
+-- Loading architecture vital_act of iobl25lphlu
+-- Compiling entity iobl25lphnu
+-- Compiling architecture vital_act of iobl25lphnu
+-- Compiling configuration cfg_iobl25lphnu_vital
+-- Loading entity iobl25lphnu
+-- Loading architecture vital_act of iobl25lphnu
+-- Compiling entity iobl25lplhu
+-- Compiling architecture vital_act of iobl25lplhu
+-- Compiling configuration cfg_iobl25lplhu_vital
+-- Loading entity iobl25lplhu
+-- Loading architecture vital_act of iobl25lplhu
+-- Compiling entity iobl25lpllu
+-- Compiling architecture vital_act of iobl25lpllu
+-- Compiling configuration cfg_iobl25lpllu_vital
+-- Loading entity iobl25lpllu
+-- Loading architecture vital_act of iobl25lpllu
+-- Compiling entity iobl25lplnu
+-- Compiling architecture vital_act of iobl25lplnu
+-- Compiling configuration cfg_iobl25lplnu_vital
+-- Loading entity iobl25lplnu
+-- Loading architecture vital_act of iobl25lplnu
+-- Compiling entity iobl33lh
+-- Compiling architecture vital_act of iobl33lh
+-- Compiling configuration cfg_iobl33lh_vital
+-- Loading entity iobl33lh
+-- Loading architecture vital_act of iobl33lh
+-- Compiling entity iobl33ll
+-- Compiling architecture vital_act of iobl33ll
+-- Compiling configuration cfg_iobl33ll_vital
+-- Loading entity iobl33ll
+-- Loading architecture vital_act of iobl33ll
+-- Compiling entity iobl33ln
+-- Compiling architecture vital_act of iobl33ln
+-- Compiling configuration cfg_iobl33ln_vital
+-- Loading entity iobl33ln
+-- Loading architecture vital_act of iobl33ln
+-- Compiling entity iobl33ph
+-- Compiling architecture vital_act of iobl33ph
+-- Compiling configuration cfg_iobl33ph_vital
+-- Loading entity iobl33ph
+-- Loading architecture vital_act of iobl33ph
+-- Compiling entity iobl33pl
+-- Compiling architecture vital_act of iobl33pl
+-- Compiling configuration cfg_iobl33pl_vital
+-- Loading entity iobl33pl
+-- Loading architecture vital_act of iobl33pl
+-- Compiling entity iobl33pn
+-- Compiling architecture vital_act of iobl33pn
+-- Compiling configuration cfg_iobl33pn_vital
+-- Loading entity iobl33pn
+-- Loading architecture vital_act of iobl33pn
+-- Compiling entity iobl33lhu
+-- Compiling architecture vital_act of iobl33lhu
+-- Compiling configuration cfg_iobl33lhu_vital
+-- Loading entity iobl33lhu
+-- Loading architecture vital_act of iobl33lhu
+-- Compiling entity iobl33llu
+-- Compiling architecture vital_act of iobl33llu
+-- Compiling configuration cfg_iobl33llu_vital
+-- Loading entity iobl33llu
+-- Loading architecture vital_act of iobl33llu
+-- Compiling entity iobl33lnu
+-- Compiling architecture vital_act of iobl33lnu
+-- Compiling configuration cfg_iobl33lnu_vital
+-- Loading entity iobl33lnu
+-- Loading architecture vital_act of iobl33lnu
+-- Compiling entity iobl33phu
+-- Compiling architecture vital_act of iobl33phu
+-- Compiling configuration cfg_iobl33phu_vital
+-- Loading entity iobl33phu
+-- Loading architecture vital_act of iobl33phu
+-- Compiling entity iobl33plu
+-- Compiling architecture vital_act of iobl33plu
+-- Compiling configuration cfg_iobl33plu_vital
+-- Loading entity iobl33plu
+-- Loading architecture vital_act of iobl33plu
+-- Compiling entity iobl33pnu
+-- Compiling architecture vital_act of iobl33pnu
+-- Compiling configuration cfg_iobl33pnu_vital
+-- Loading entity iobl33pnu
+-- Loading architecture vital_act of iobl33pnu
+-- Compiling entity otb25hh
+-- Compiling architecture vital_act of otb25hh
+-- Compiling configuration cfg_otb25hh_vital
+-- Loading entity otb25hh
+-- Loading architecture vital_act of otb25hh
+-- Compiling entity otb25hl
+-- Compiling architecture vital_act of otb25hl
+-- Compiling configuration cfg_otb25hl_vital
+-- Loading entity otb25hl
+-- Loading architecture vital_act of otb25hl
+-- Compiling entity otb25hn
+-- Compiling architecture vital_act of otb25hn
+-- Compiling configuration cfg_otb25hn_vital
+-- Loading entity otb25hn
+-- Loading architecture vital_act of otb25hn
+-- Compiling entity otb25lh
+-- Compiling architecture vital_act of otb25lh
+-- Compiling configuration cfg_otb25lh_vital
+-- Loading entity otb25lh
+-- Loading architecture vital_act of otb25lh
+-- Compiling entity otb25ll
+-- Compiling architecture vital_act of otb25ll
+-- Compiling configuration cfg_otb25ll_vital
+-- Loading entity otb25ll
+-- Loading architecture vital_act of otb25ll
+-- Compiling entity otb25ln
+-- Compiling architecture vital_act of otb25ln
+-- Compiling configuration cfg_otb25ln_vital
+-- Loading entity otb25ln
+-- Loading architecture vital_act of otb25ln
+-- Compiling entity otb25lplh
+-- Compiling architecture vital_act of otb25lplh
+-- Compiling configuration cfg_otb25lplh_vital
+-- Loading entity otb25lplh
+-- Loading architecture vital_act of otb25lplh
+-- Compiling entity otb25lpll
+-- Compiling architecture vital_act of otb25lpll
+-- Compiling configuration cfg_otb25lpll_vital
+-- Loading entity otb25lpll
+-- Loading architecture vital_act of otb25lpll
+-- Compiling entity otb25lpln
+-- Compiling architecture vital_act of otb25lpln
+-- Compiling configuration cfg_otb25lpln_vital
+-- Loading entity otb25lpln
+-- Loading architecture vital_act of otb25lpln
+-- Compiling entity otb25lphh
+-- Compiling architecture vital_act of otb25lphh
+-- Compiling configuration cfg_otb25lphh_vital
+-- Loading entity otb25lphh
+-- Loading architecture vital_act of otb25lphh
+-- Compiling entity otb25lphl
+-- Compiling architecture vital_act of otb25lphl
+-- Compiling configuration cfg_otb25lphl_vital
+-- Loading entity otb25lphl
+-- Loading architecture vital_act of otb25lphl
+-- Compiling entity otb25lphn
+-- Compiling architecture vital_act of otb25lphn
+-- Compiling configuration cfg_otb25lphn_vital
+-- Loading entity otb25lphn
+-- Loading architecture vital_act of otb25lphn
+-- Compiling entity otb33lh
+-- Compiling architecture vital_act of otb33lh
+-- Compiling configuration cfg_otb33lh_vital
+-- Loading entity otb33lh
+-- Loading architecture vital_act of otb33lh
+-- Compiling entity otb33ll
+-- Compiling architecture vital_act of otb33ll
+-- Compiling configuration cfg_otb33ll_vital
+-- Loading entity otb33ll
+-- Loading architecture vital_act of otb33ll
+-- Compiling entity otb33ln
+-- Compiling architecture vital_act of otb33ln
+-- Compiling configuration cfg_otb33ln_vital
+-- Loading entity otb33ln
+-- Loading architecture vital_act of otb33ln
+-- Compiling entity otb33ph
+-- Compiling architecture vital_act of otb33ph
+-- Compiling configuration cfg_otb33ph_vital
+-- Loading entity otb33ph
+-- Loading architecture vital_act of otb33ph
+-- Compiling entity otb33pl
+-- Compiling architecture vital_act of otb33pl
+-- Compiling configuration cfg_otb33pl_vital
+-- Loading entity otb33pl
+-- Loading architecture vital_act of otb33pl
+-- Compiling entity otb33pn
+-- Compiling architecture vital_act of otb33pn
+-- Compiling configuration cfg_otb33pn_vital
+-- Loading entity otb33pn
+-- Loading architecture vital_act of otb33pn
+-- Compiling entity otbl25hh
+-- Compiling architecture vital_act of otbl25hh
+-- Compiling configuration cfg_otbl25hh_vital
+-- Loading entity otbl25hh
+-- Loading architecture vital_act of otbl25hh
+-- Compiling entity otbl25hl
+-- Compiling architecture vital_act of otbl25hl
+-- Compiling configuration cfg_otbl25hl_vital
+-- Loading entity otbl25hl
+-- Loading architecture vital_act of otbl25hl
+-- Compiling entity otbl25hn
+-- Compiling architecture vital_act of otbl25hn
+-- Compiling configuration cfg_otbl25hn_vital
+-- Loading entity otbl25hn
+-- Loading architecture vital_act of otbl25hn
+-- Compiling entity otbl25lh
+-- Compiling architecture vital_act of otbl25lh
+-- Compiling configuration cfg_otbl25lh_vital
+-- Loading entity otbl25lh
+-- Loading architecture vital_act of otbl25lh
+-- Compiling entity otbl25ll
+-- Compiling architecture vital_act of otbl25ll
+-- Compiling configuration cfg_otbl25ll_vital
+-- Loading entity otbl25ll
+-- Loading architecture vital_act of otbl25ll
+-- Compiling entity otbl25ln
+-- Compiling architecture vital_act of otbl25ln
+-- Compiling configuration cfg_otbl25ln_vital
+-- Loading entity otbl25ln
+-- Loading architecture vital_act of otbl25ln
+-- Compiling entity otbl25lplh
+-- Compiling architecture vital_act of otbl25lplh
+-- Compiling configuration cfg_otbl25lplh_vital
+-- Loading entity otbl25lplh
+-- Loading architecture vital_act of otbl25lplh
+-- Compiling entity otbl25lpll
+-- Compiling architecture vital_act of otbl25lpll
+-- Compiling configuration cfg_otbl25lpll_vital
+-- Loading entity otbl25lpll
+-- Loading architecture vital_act of otbl25lpll
+-- Compiling entity otbl25lpln
+-- Compiling architecture vital_act of otbl25lpln
+-- Compiling configuration cfg_otbl25lpln_vital
+-- Loading entity otbl25lpln
+-- Loading architecture vital_act of otbl25lpln
+-- Compiling entity otbl25lphh
+-- Compiling architecture vital_act of otbl25lphh
+-- Compiling configuration cfg_otbl25lphh_vital
+-- Loading entity otbl25lphh
+-- Loading architecture vital_act of otbl25lphh
+-- Compiling entity otbl25lphl
+-- Compiling architecture vital_act of otbl25lphl
+-- Compiling configuration cfg_otbl25lphl_vital
+-- Loading entity otbl25lphl
+-- Loading architecture vital_act of otbl25lphl
+-- Compiling entity otbl25lphn
+-- Compiling architecture vital_act of otbl25lphn
+-- Compiling configuration cfg_otbl25lphn_vital
+-- Loading entity otbl25lphn
+-- Loading architecture vital_act of otbl25lphn
+-- Compiling entity otbl33lh
+-- Compiling architecture vital_act of otbl33lh
+-- Compiling configuration cfg_otbl33lh_vital
+-- Loading entity otbl33lh
+-- Loading architecture vital_act of otbl33lh
+-- Compiling entity otbl33ll
+-- Compiling architecture vital_act of otbl33ll
+-- Compiling configuration cfg_otbl33ll_vital
+-- Loading entity otbl33ll
+-- Loading architecture vital_act of otbl33ll
+-- Compiling entity otbl33ln
+-- Compiling architecture vital_act of otbl33ln
+-- Compiling configuration cfg_otbl33ln_vital
+-- Loading entity otbl33ln
+-- Loading architecture vital_act of otbl33ln
+-- Compiling entity otbl33ph
+-- Compiling architecture vital_act of otbl33ph
+-- Compiling configuration cfg_otbl33ph_vital
+-- Loading entity otbl33ph
+-- Loading architecture vital_act of otbl33ph
+-- Compiling entity otbl33pl
+-- Compiling architecture vital_act of otbl33pl
+-- Compiling configuration cfg_otbl33pl_vital
+-- Loading entity otbl33pl
+-- Loading architecture vital_act of otbl33pl
+-- Compiling entity otbl33pn
+-- Compiling architecture vital_act of otbl33pn
+-- Compiling configuration cfg_otbl33pn_vital
+-- Loading entity otbl33pn
+-- Loading architecture vital_act of otbl33pn
+-- Compiling entity glmiob25llu
+-- Compiling architecture vital_act of glmiob25llu
+-- Compiling configuration cfg_glmiob25llu_vital
+-- Loading entity glmiob25llu
+-- Loading architecture vital_act of glmiob25llu
+-- Compiling entity glmiob25ll
+-- Compiling architecture vital_act of glmiob25ll
+-- Compiling configuration cfg_glmiob25ll_vital
+-- Loading entity glmiob25ll
+-- Loading architecture vital_act of glmiob25ll
+-- Compiling entity glmiob25lnu
+-- Compiling architecture vital_act of glmiob25lnu
+-- Compiling configuration cfg_glmiob25lnu_vital
+-- Loading entity glmiob25lnu
+-- Loading architecture vital_act of glmiob25lnu
+-- Compiling entity glmiob25ln
+-- Compiling architecture vital_act of glmiob25ln
+-- Compiling configuration cfg_glmiob25ln_vital
+-- Loading entity glmiob25ln
+-- Loading architecture vital_act of glmiob25ln
+-- Compiling entity glmiob25lhu
+-- Compiling architecture vital_act of glmiob25lhu
+-- Compiling configuration cfg_glmiob25lhu_vital
+-- Loading entity glmiob25lhu
+-- Loading architecture vital_act of glmiob25lhu
+-- Compiling entity glmiob25lh
+-- Compiling architecture vital_act of glmiob25lh
+-- Compiling configuration cfg_glmiob25lh_vital
+-- Loading entity glmiob25lh
+-- Loading architecture vital_act of glmiob25lh
+-- Compiling entity glmiob25hlu
+-- Compiling architecture vital_act of glmiob25hlu
+-- Compiling configuration cfg_glmiob25hlu_vital
+-- Loading entity glmiob25hlu
+-- Loading architecture vital_act of glmiob25hlu
+-- Compiling entity glmiob25hl
+-- Compiling architecture vital_act of glmiob25hl
+-- Compiling configuration cfg_glmiob25hl_vital
+-- Loading entity glmiob25hl
+-- Loading architecture vital_act of glmiob25hl
+-- Compiling entity glmiob25hnu
+-- Compiling architecture vital_act of glmiob25hnu
+-- Compiling configuration cfg_glmiob25hnu_vital
+-- Loading entity glmiob25hnu
+-- Loading architecture vital_act of glmiob25hnu
+-- Compiling entity glmiob25hn
+-- Compiling architecture vital_act of glmiob25hn
+-- Compiling configuration cfg_glmiob25hn_vital
+-- Loading entity glmiob25hn
+-- Loading architecture vital_act of glmiob25hn
+-- Compiling entity glmiob25hhu
+-- Compiling architecture vital_act of glmiob25hhu
+-- Compiling configuration cfg_glmiob25hhu_vital
+-- Loading entity glmiob25hhu
+-- Loading architecture vital_act of glmiob25hhu
+-- Compiling entity glmiob25hh
+-- Compiling architecture vital_act of glmiob25hh
+-- Compiling configuration cfg_glmiob25hh_vital
+-- Loading entity glmiob25hh
+-- Loading architecture vital_act of glmiob25hh
+-- Compiling entity glmiob25lpllu
+-- Compiling architecture vital_act of glmiob25lpllu
+-- Compiling configuration cfg_glmiob25lpllu_vital
+-- Loading entity glmiob25lpllu
+-- Loading architecture vital_act of glmiob25lpllu
+-- Compiling entity glmiob25lpll
+-- Compiling architecture vital_act of glmiob25lpll
+-- Compiling configuration cfg_glmiob25lpll_vital
+-- Loading entity glmiob25lpll
+-- Loading architecture vital_act of glmiob25lpll
+-- Compiling entity glmiob25lplnu
+-- Compiling architecture vital_act of glmiob25lplnu
+-- Compiling configuration cfg_glmiob25lplnu_vital
+-- Loading entity glmiob25lplnu
+-- Loading architecture vital_act of glmiob25lplnu
+-- Compiling entity glmiob25lpln
+-- Compiling architecture vital_act of glmiob25lpln
+-- Compiling configuration cfg_glmiob25lpln_vital
+-- Loading entity glmiob25lpln
+-- Loading architecture vital_act of glmiob25lpln
+-- Compiling entity glmiob25lplhu
+-- Compiling architecture vital_act of glmiob25lplhu
+-- Compiling configuration cfg_glmiob25lplhu_vital
+-- Loading entity glmiob25lplhu
+-- Loading architecture vital_act of glmiob25lplhu
+-- Compiling entity glmiob25lplh
+-- Compiling architecture vital_act of glmiob25lplh
+-- Compiling configuration cfg_glmiob25lplh_vital
+-- Loading entity glmiob25lplh
+-- Loading architecture vital_act of glmiob25lplh
+-- Compiling entity glmiob25lphlu
+-- Compiling architecture vital_act of glmiob25lphlu
+-- Compiling configuration cfg_glmiob25lphlu_vital
+-- Loading entity glmiob25lphlu
+-- Loading architecture vital_act of glmiob25lphlu
+-- Compiling entity glmiob25lphl
+-- Compiling architecture vital_act of glmiob25lphl
+-- Compiling configuration cfg_glmiob25lphl_vital
+-- Loading entity glmiob25lphl
+-- Loading architecture vital_act of glmiob25lphl
+-- Compiling entity glmiob25lphn
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package vital_timing
+-- Loading package vital_primitives
+-- Loading package vtables
+-- Compiling architecture vital_act of glmiob25lphn
+-- Loading entity glmiob25lphn
+-- Compiling configuration cfg_glmiob25lphn_vital
+-- Loading entity glmiob25lphn
+-- Loading architecture vital_act of glmiob25lphn
+-- Compiling entity glmiob25lphnu
+-- Compiling architecture vital_act of glmiob25lphnu
+-- Compiling configuration cfg_glmiob25lphnu_vital
+-- Loading entity glmiob25lphnu
+-- Loading architecture vital_act of glmiob25lphnu
+-- Compiling entity glmiob25lphhu
+-- Compiling architecture vital_act of glmiob25lphhu
+-- Compiling configuration cfg_glmiob25lphhu_vital
+-- Loading entity glmiob25lphhu
+-- Loading architecture vital_act of glmiob25lphhu
+-- Compiling entity glmiob25lphh
+-- Compiling architecture vital_act of glmiob25lphh
+-- Compiling configuration cfg_glmiob25lphh_vital
+-- Loading entity glmiob25lphh
+-- Loading architecture vital_act of glmiob25lphh
+-- Compiling entity glmiob33llu
+-- Compiling architecture vital_act of glmiob33llu
+-- Compiling configuration cfg_glmiob33llu_vital
+-- Loading entity glmiob33llu
+-- Loading architecture vital_act of glmiob33llu
+-- Compiling entity glmiob33ll
+-- Compiling architecture vital_act of glmiob33ll
+-- Compiling configuration cfg_glmiob33ll_vital
+-- Loading entity glmiob33ll
+-- Loading architecture vital_act of glmiob33ll
+-- Compiling entity glmiob33lnu
+-- Compiling architecture vital_act of glmiob33lnu
+-- Compiling configuration cfg_glmiob33lnu_vital
+-- Loading entity glmiob33lnu
+-- Loading architecture vital_act of glmiob33lnu
+-- Compiling entity glmiob33ln
+-- Compiling architecture vital_act of glmiob33ln
+-- Compiling configuration cfg_glmiob33ln_vital
+-- Loading entity glmiob33ln
+-- Loading architecture vital_act of glmiob33ln
+-- Compiling entity glmiob33lhu
+-- Compiling architecture vital_act of glmiob33lhu
+-- Compiling configuration cfg_glmiob33lhu_vital
+-- Loading entity glmiob33lhu
+-- Loading architecture vital_act of glmiob33lhu
+-- Compiling entity glmiob33lh
+-- Compiling architecture vital_act of glmiob33lh
+-- Compiling configuration cfg_glmiob33lh_vital
+-- Loading entity glmiob33lh
+-- Loading architecture vital_act of glmiob33lh
+-- Compiling entity glmiob33plu
+-- Compiling architecture vital_act of glmiob33plu
+-- Compiling configuration cfg_glmiob33plu_vital
+-- Loading entity glmiob33plu
+-- Loading architecture vital_act of glmiob33plu
+-- Compiling entity glmiob33pl
+-- Compiling architecture vital_act of glmiob33pl
+-- Compiling configuration cfg_glmiob33pl_vital
+-- Loading entity glmiob33pl
+-- Loading architecture vital_act of glmiob33pl
+-- Compiling entity glmiob33pnu
+-- Compiling architecture vital_act of glmiob33pnu
+-- Compiling configuration cfg_glmiob33pnu_vital
+-- Loading entity glmiob33pnu
+-- Loading architecture vital_act of glmiob33pnu
+-- Compiling entity glmiob33pn
+-- Compiling architecture vital_act of glmiob33pn
+-- Compiling configuration cfg_glmiob33pn_vital
+-- Loading entity glmiob33pn
+-- Loading architecture vital_act of glmiob33pn
+-- Compiling entity glmiob33phu
+-- Compiling architecture vital_act of glmiob33phu
+-- Compiling configuration cfg_glmiob33phu_vital
+-- Loading entity glmiob33phu
+-- Loading architecture vital_act of glmiob33phu
+-- Compiling entity glmiob33ph
+-- Compiling architecture vital_act of glmiob33ph
+-- Compiling configuration cfg_glmiob33ph_vital
+-- Loading entity glmiob33ph
+-- Loading architecture vital_act of glmiob33ph
+-- Compiling entity glmiobl25llu
+-- Compiling architecture vital_act of glmiobl25llu
+-- Compiling configuration cfg_glmiobl25llu_vital
+-- Loading entity glmiobl25llu
+-- Loading architecture vital_act of glmiobl25llu
+-- Compiling entity glmiobl25ll
+-- Compiling architecture vital_act of glmiobl25ll
+-- Compiling configuration cfg_glmiobl25ll_vital
+-- Loading entity glmiobl25ll
+-- Loading architecture vital_act of glmiobl25ll
+-- Compiling entity glmiobl25lnu
+-- Compiling architecture vital_act of glmiobl25lnu
+-- Compiling configuration cfg_glmiobl25lnu_vital
+-- Loading entity glmiobl25lnu
+-- Loading architecture vital_act of glmiobl25lnu
+-- Compiling entity glmiobl25ln
+-- Compiling architecture vital_act of glmiobl25ln
+-- Compiling configuration cfg_glmiobl25ln_vital
+-- Loading entity glmiobl25ln
+-- Loading architecture vital_act of glmiobl25ln
+-- Compiling entity glmiobl25lhu
+-- Compiling architecture vital_act of glmiobl25lhu
+-- Compiling configuration cfg_glmiobl25lhu_vital
+-- Loading entity glmiobl25lhu
+-- Loading architecture vital_act of glmiobl25lhu
+-- Compiling entity glmiobl25lh
+-- Compiling architecture vital_act of glmiobl25lh
+-- Compiling configuration cfg_glmiobl25lh_vital
+-- Loading entity glmiobl25lh
+-- Loading architecture vital_act of glmiobl25lh
+-- Compiling entity glmiobl25hlu
+-- Compiling architecture vital_act of glmiobl25hlu
+-- Compiling configuration cfg_glmiobl25hlu_vital
+-- Loading entity glmiobl25hlu
+-- Loading architecture vital_act of glmiobl25hlu
+-- Compiling entity glmiobl25hl
+-- Compiling architecture vital_act of glmiobl25hl
+-- Compiling configuration cfg_glmiobl25hl_vital
+-- Loading entity glmiobl25hl
+-- Loading architecture vital_act of glmiobl25hl
+-- Compiling entity glmiobl25hnu
+-- Compiling architecture vital_act of glmiobl25hnu
+-- Compiling configuration cfg_glmiobl25hnu_vital
+-- Loading entity glmiobl25hnu
+-- Loading architecture vital_act of glmiobl25hnu
+-- Compiling entity glmiobl25hn
+-- Compiling architecture vital_act of glmiobl25hn
+-- Compiling configuration cfg_glmiobl25hn_vital
+-- Loading entity glmiobl25hn
+-- Loading architecture vital_act of glmiobl25hn
+-- Compiling entity glmiobl25hhu
+-- Compiling architecture vital_act of glmiobl25hhu
+-- Compiling configuration cfg_glmiobl25hhu_vital
+-- Loading entity glmiobl25hhu
+-- Loading architecture vital_act of glmiobl25hhu
+-- Compiling entity glmiobl25hh
+-- Compiling architecture vital_act of glmiobl25hh
+-- Compiling configuration cfg_glmiobl25hh_vital
+-- Loading entity glmiobl25hh
+-- Loading architecture vital_act of glmiobl25hh
+-- Compiling entity glmiobl25lpllu
+-- Compiling architecture vital_act of glmiobl25lpllu
+-- Compiling configuration cfg_glmiobl25lpllu_vital
+-- Loading entity glmiobl25lpllu
+-- Loading architecture vital_act of glmiobl25lpllu
+-- Compiling entity glmiobl25lpll
+-- Compiling architecture vital_act of glmiobl25lpll
+-- Compiling configuration cfg_glmiobl25lpll_vital
+-- Loading entity glmiobl25lpll
+-- Loading architecture vital_act of glmiobl25lpll
+-- Compiling entity glmiobl25lplnu
+-- Compiling architecture vital_act of glmiobl25lplnu
+-- Compiling configuration cfg_glmiobl25lplnu_vital
+-- Loading entity glmiobl25lplnu
+-- Loading architecture vital_act of glmiobl25lplnu
+-- Compiling entity glmiobl25lpln
+-- Compiling architecture vital_act of glmiobl25lpln
+-- Compiling configuration cfg_glmiobl25lpln_vital
+-- Loading entity glmiobl25lpln
+-- Loading architecture vital_act of glmiobl25lpln
+-- Compiling entity glmiobl25lplhu
+-- Compiling architecture vital_act of glmiobl25lplhu
+-- Compiling configuration cfg_glmiobl25lplhu_vital
+-- Loading entity glmiobl25lplhu
+-- Loading architecture vital_act of glmiobl25lplhu
+-- Compiling entity glmiobl25lplh
+-- Compiling architecture vital_act of glmiobl25lplh
+-- Compiling configuration cfg_glmiobl25lplh_vital
+-- Loading entity glmiobl25lplh
+-- Loading architecture vital_act of glmiobl25lplh
+-- Compiling entity glmiobl25lphlu
+-- Compiling architecture vital_act of glmiobl25lphlu
+-- Compiling configuration cfg_glmiobl25lphlu_vital
+-- Loading entity glmiobl25lphlu
+-- Loading architecture vital_act of glmiobl25lphlu
+-- Compiling entity glmiobl25lphl
+-- Compiling architecture vital_act of glmiobl25lphl
+-- Compiling configuration cfg_glmiobl25lphl_vital
+-- Loading entity glmiobl25lphl
+-- Loading architecture vital_act of glmiobl25lphl
+-- Compiling entity glmiobl25lphn
+-- Compiling architecture vital_act of glmiobl25lphn
+-- Compiling configuration cfg_glmiobl25lphn_vital
+-- Loading entity glmiobl25lphn
+-- Loading architecture vital_act of glmiobl25lphn
+-- Compiling entity glmiobl25lphnu
+-- Compiling architecture vital_act of glmiobl25lphnu
+-- Compiling configuration cfg_glmiobl25lphnu_vital
+-- Loading entity glmiobl25lphnu
+-- Loading architecture vital_act of glmiobl25lphnu
+-- Compiling entity glmiobl25lphhu
+-- Compiling architecture vital_act of glmiobl25lphhu
+-- Compiling configuration cfg_glmiobl25lphhu_vital
+-- Loading entity glmiobl25lphhu
+-- Loading architecture vital_act of glmiobl25lphhu
+-- Compiling entity glmiobl25lphh
+-- Compiling architecture vital_act of glmiobl25lphh
+-- Compiling configuration cfg_glmiobl25lphh_vital
+-- Loading entity glmiobl25lphh
+-- Loading architecture vital_act of glmiobl25lphh
+-- Compiling entity glmiobl33llu
+-- Compiling architecture vital_act of glmiobl33llu
+-- Compiling configuration cfg_glmiobl33llu_vital
+-- Loading entity glmiobl33llu
+-- Loading architecture vital_act of glmiobl33llu
+-- Compiling entity glmiobl33ll
+-- Compiling architecture vital_act of glmiobl33ll
+-- Compiling configuration cfg_glmiobl33ll_vital
+-- Loading entity glmiobl33ll
+-- Loading architecture vital_act of glmiobl33ll
+-- Compiling entity glmiobl33lnu
+-- Compiling architecture vital_act of glmiobl33lnu
+-- Compiling configuration cfg_glmiobl33lnu_vital
+-- Loading entity glmiobl33lnu
+-- Loading architecture vital_act of glmiobl33lnu
+-- Compiling entity glmiobl33ln
+-- Compiling architecture vital_act of glmiobl33ln
+-- Compiling configuration cfg_glmiobl33ln_vital
+-- Loading entity glmiobl33ln
+-- Loading architecture vital_act of glmiobl33ln
+-- Compiling entity glmiobl33lhu
+-- Compiling architecture vital_act of glmiobl33lhu
+-- Compiling configuration cfg_glmiobl33lhu_vital
+-- Loading entity glmiobl33lhu
+-- Loading architecture vital_act of glmiobl33lhu
+-- Compiling entity glmiobl33lh
+-- Compiling architecture vital_act of glmiobl33lh
+-- Compiling configuration cfg_glmiobl33lh_vital
+-- Loading entity glmiobl33lh
+-- Loading architecture vital_act of glmiobl33lh
+-- Compiling entity glmiobl33plu
+-- Compiling architecture vital_act of glmiobl33plu
+-- Compiling configuration cfg_glmiobl33plu_vital
+-- Loading entity glmiobl33plu
+-- Loading architecture vital_act of glmiobl33plu
+-- Compiling entity glmiobl33pl
+-- Compiling architecture vital_act of glmiobl33pl
+-- Compiling configuration cfg_glmiobl33pl_vital
+-- Loading entity glmiobl33pl
+-- Loading architecture vital_act of glmiobl33pl
+-- Compiling entity glmiobl33pnu
+-- Compiling architecture vital_act of glmiobl33pnu
+-- Compiling configuration cfg_glmiobl33pnu_vital
+-- Loading entity glmiobl33pnu
+-- Loading architecture vital_act of glmiobl33pnu
+-- Compiling entity glmiobl33pn
+-- Compiling architecture vital_act of glmiobl33pn
+-- Compiling configuration cfg_glmiobl33pn_vital
+-- Loading entity glmiobl33pn
+-- Loading architecture vital_act of glmiobl33pn
+-- Compiling entity glmiobl33phu
+-- Compiling architecture vital_act of glmiobl33phu
+-- Compiling configuration cfg_glmiobl33phu_vital
+-- Loading entity glmiobl33phu
+-- Loading architecture vital_act of glmiobl33phu
+-- Compiling entity glmiobl33ph
+-- Compiling architecture vital_act of glmiobl33ph
+-- Compiling configuration cfg_glmiobl33ph_vital
+-- Loading entity glmiobl33ph
+-- Loading architecture vital_act of glmiobl33ph
+-- Compiling entity glmx25llu
+-- Compiling architecture vital_act of glmx25llu
+-- Compiling configuration cfg_glmx25llu_vital
+-- Loading entity glmx25llu
+-- Loading architecture vital_act of glmx25llu
+-- Compiling entity glmx25ll
+-- Compiling architecture vital_act of glmx25ll
+-- Compiling configuration cfg_glmx25ll_vital
+-- Loading entity glmx25ll
+-- Loading architecture vital_act of glmx25ll
+-- Compiling entity glmx25lnu
+-- Compiling architecture vital_act of glmx25lnu
+-- Compiling configuration cfg_glmx25lnu_vital
+-- Loading entity glmx25lnu
+-- Loading architecture vital_act of glmx25lnu
+-- Compiling entity glmx25ln
+-- Compiling architecture vital_act of glmx25ln
+-- Compiling configuration cfg_glmx25ln_vital
+-- Loading entity glmx25ln
+-- Loading architecture vital_act of glmx25ln
+-- Compiling entity glmx25lhu
+-- Compiling architecture vital_act of glmx25lhu
+-- Compiling configuration cfg_glmx25lhu_vital
+-- Loading entity glmx25lhu
+-- Loading architecture vital_act of glmx25lhu
+-- Compiling entity glmx25lh
+-- Compiling architecture vital_act of glmx25lh
+-- Compiling configuration cfg_glmx25lh_vital
+-- Loading entity glmx25lh
+-- Loading architecture vital_act of glmx25lh
+-- Compiling entity glmx25hlu
+-- Compiling architecture vital_act of glmx25hlu
+-- Compiling configuration cfg_glmx25hlu_vital
+-- Loading entity glmx25hlu
+-- Loading architecture vital_act of glmx25hlu
+-- Compiling entity glmx25hl
+-- Compiling architecture vital_act of glmx25hl
+-- Compiling configuration cfg_glmx25hl_vital
+-- Loading entity glmx25hl
+-- Loading architecture vital_act of glmx25hl
+-- Compiling entity glmx25hnu
+-- Compiling architecture vital_act of glmx25hnu
+-- Compiling configuration cfg_glmx25hnu_vital
+-- Loading entity glmx25hnu
+-- Loading architecture vital_act of glmx25hnu
+-- Compiling entity glmx25hn
+-- Compiling architecture vital_act of glmx25hn
+-- Compiling configuration cfg_glmx25hn_vital
+-- Loading entity glmx25hn
+-- Loading architecture vital_act of glmx25hn
+-- Compiling entity glmx25hhu
+-- Compiling architecture vital_act of glmx25hhu
+-- Compiling configuration cfg_glmx25hhu_vital
+-- Loading entity glmx25hhu
+-- Loading architecture vital_act of glmx25hhu
+-- Compiling entity glmx25hh
+-- Compiling architecture vital_act of glmx25hh
+-- Compiling configuration cfg_glmx25hh_vital
+-- Loading entity glmx25hh
+-- Loading architecture vital_act of glmx25hh
+-- Compiling entity glmx25lpllu
+-- Compiling architecture vital_act of glmx25lpllu
+-- Compiling configuration cfg_glmx25lpllu_vital
+-- Loading entity glmx25lpllu
+-- Loading architecture vital_act of glmx25lpllu
+-- Compiling entity glmx25lpll
+-- Compiling architecture vital_act of glmx25lpll
+-- Compiling configuration cfg_glmx25lpll_vital
+-- Loading entity glmx25lpll
+-- Loading architecture vital_act of glmx25lpll
+-- Compiling entity glmx25lplnu
+-- Compiling architecture vital_act of glmx25lplnu
+-- Compiling configuration cfg_glmx25lplnu_vital
+-- Loading entity glmx25lplnu
+-- Loading architecture vital_act of glmx25lplnu
+-- Compiling entity glmx25lpln
+-- Compiling architecture vital_act of glmx25lpln
+-- Compiling configuration cfg_glmx25lpln_vital
+-- Loading entity glmx25lpln
+-- Loading architecture vital_act of glmx25lpln
+-- Compiling entity glmx25lplhu
+-- Compiling architecture vital_act of glmx25lplhu
+-- Compiling configuration cfg_glmx25lplhu_vital
+-- Loading entity glmx25lplhu
+-- Loading architecture vital_act of glmx25lplhu
+-- Compiling entity glmx25lplh
+-- Compiling architecture vital_act of glmx25lplh
+-- Compiling configuration cfg_glmx25lplh_vital
+-- Loading entity glmx25lplh
+-- Loading architecture vital_act of glmx25lplh
+-- Compiling entity glmx25lphlu
+-- Compiling architecture vital_act of glmx25lphlu
+-- Compiling configuration cfg_glmx25lphlu_vital
+-- Loading entity glmx25lphlu
+-- Loading architecture vital_act of glmx25lphlu
+-- Compiling entity glmx25lphl
+-- Compiling architecture vital_act of glmx25lphl
+-- Compiling configuration cfg_glmx25lphl_vital
+-- Loading entity glmx25lphl
+-- Loading architecture vital_act of glmx25lphl
+-- Compiling entity glmx25lphnu
+-- Compiling architecture vital_act of glmx25lphnu
+-- Compiling configuration cfg_glmx25lphnu_vital
+-- Loading entity glmx25lphnu
+-- Loading architecture vital_act of glmx25lphnu
+-- Compiling entity glmx25lphn
+-- Compiling architecture vital_act of glmx25lphn
+-- Compiling configuration cfg_glmx25lphn_vital
+-- Loading entity glmx25lphn
+-- Loading architecture vital_act of glmx25lphn
+-- Compiling entity glmx25lphhu
+-- Compiling architecture vital_act of glmx25lphhu
+-- Compiling configuration cfg_glmx25lphhu_vital
+-- Loading entity glmx25lphhu
+-- Loading architecture vital_act of glmx25lphhu
+-- Compiling entity glmx25lphh
+-- Compiling architecture vital_act of glmx25lphh
+-- Compiling configuration cfg_glmx25lphh_vital
+-- Loading entity glmx25lphh
+-- Loading architecture vital_act of glmx25lphh
+-- Compiling entity glmx33llu
+-- Compiling architecture vital_act of glmx33llu
+-- Compiling configuration cfg_glmx33llu_vital
+-- Loading entity glmx33llu
+-- Loading architecture vital_act of glmx33llu
+-- Compiling entity glmx33ll
+-- Compiling architecture vital_act of glmx33ll
+-- Compiling configuration cfg_glmx33ll_vital
+-- Loading entity glmx33ll
+-- Loading architecture vital_act of glmx33ll
+-- Compiling entity glmx33lnu
+-- Compiling architecture vital_act of glmx33lnu
+-- Compiling configuration cfg_glmx33lnu_vital
+-- Loading entity glmx33lnu
+-- Loading architecture vital_act of glmx33lnu
+-- Compiling entity glmx33ln
+-- Compiling architecture vital_act of glmx33ln
+-- Compiling configuration cfg_glmx33ln_vital
+-- Loading entity glmx33ln
+-- Loading architecture vital_act of glmx33ln
+-- Compiling entity glmx33lhu
+-- Compiling architecture vital_act of glmx33lhu
+-- Compiling configuration cfg_glmx33lhu_vital
+-- Loading entity glmx33lhu
+-- Loading architecture vital_act of glmx33lhu
+-- Compiling entity glmx33lh
+-- Compiling architecture vital_act of glmx33lh
+-- Compiling configuration cfg_glmx33lh_vital
+-- Loading entity glmx33lh
+-- Loading architecture vital_act of glmx33lh
+-- Compiling entity glmx33plu
+-- Compiling architecture vital_act of glmx33plu
+-- Compiling configuration cfg_glmx33plu_vital
+-- Loading entity glmx33plu
+-- Loading architecture vital_act of glmx33plu
+-- Compiling entity glmx33pl
+-- Compiling architecture vital_act of glmx33pl
+-- Compiling configuration cfg_glmx33pl_vital
+-- Loading entity glmx33pl
+-- Loading architecture vital_act of glmx33pl
+-- Compiling entity glmx33pnu
+-- Compiling architecture vital_act of glmx33pnu
+-- Compiling configuration cfg_glmx33pnu_vital
+-- Loading entity glmx33pnu
+-- Loading architecture vital_act of glmx33pnu
+-- Compiling entity glmx33pn
+-- Compiling architecture vital_act of glmx33pn
+-- Compiling configuration cfg_glmx33pn_vital
+-- Loading entity glmx33pn
+-- Loading architecture vital_act of glmx33pn
+-- Compiling entity glmx33phu
+-- Compiling architecture vital_act of glmx33phu
+-- Compiling configuration cfg_glmx33phu_vital
+-- Loading entity glmx33phu
+-- Loading architecture vital_act of glmx33phu
+-- Compiling entity glmx33ph
+-- Compiling architecture vital_act of glmx33ph
+-- Compiling configuration cfg_glmx33ph_vital
+-- Loading entity glmx33ph
+-- Loading architecture vital_act of glmx33ph
+-- Compiling entity glmxl25llu
+-- Compiling architecture vital_act of glmxl25llu
+-- Compiling configuration cfg_glmxl25llu_vital
+-- Loading entity glmxl25llu
+-- Loading architecture vital_act of glmxl25llu
+-- Compiling entity glmxl25ll
+-- Compiling architecture vital_act of glmxl25ll
+-- Compiling configuration cfg_glmxl25ll_vital
+-- Loading entity glmxl25ll
+-- Loading architecture vital_act of glmxl25ll
+-- Compiling entity glmxl25lnu
+-- Compiling architecture vital_act of glmxl25lnu
+-- Compiling configuration cfg_glmxl25lnu_vital
+-- Loading entity glmxl25lnu
+-- Loading architecture vital_act of glmxl25lnu
+-- Compiling entity glmxl25ln
+-- Compiling architecture vital_act of glmxl25ln
+-- Compiling configuration cfg_glmxl25ln_vital
+-- Loading entity glmxl25ln
+-- Loading architecture vital_act of glmxl25ln
+-- Compiling entity glmxl25lhu
+-- Compiling architecture vital_act of glmxl25lhu
+-- Compiling configuration cfg_glmxl25lhu_vital
+-- Loading entity glmxl25lhu
+-- Loading architecture vital_act of glmxl25lhu
+-- Compiling entity glmxl25lh
+-- Compiling architecture vital_act of glmxl25lh
+-- Compiling configuration cfg_glmxl25lh_vital
+-- Loading entity glmxl25lh
+-- Loading architecture vital_act of glmxl25lh
+-- Compiling entity glmxl25hlu
+-- Compiling architecture vital_act of glmxl25hlu
+-- Compiling configuration cfg_glmxl25hlu_vital
+-- Loading entity glmxl25hlu
+-- Loading architecture vital_act of glmxl25hlu
+-- Compiling entity glmxl25hl
+-- Compiling architecture vital_act of glmxl25hl
+-- Compiling configuration cfg_glmxl25hl_vital
+-- Loading entity glmxl25hl
+-- Loading architecture vital_act of glmxl25hl
+-- Compiling entity glmxl25hnu
+-- Compiling architecture vital_act of glmxl25hnu
+-- Compiling configuration cfg_glmxl25hnu_vital
+-- Loading entity glmxl25hnu
+-- Loading architecture vital_act of glmxl25hnu
+-- Compiling entity glmxl25hn
+-- Compiling architecture vital_act of glmxl25hn
+-- Compiling configuration cfg_glmxl25hn_vital
+-- Loading entity glmxl25hn
+-- Loading architecture vital_act of glmxl25hn
+-- Compiling entity glmxl25hhu
+-- Compiling architecture vital_act of glmxl25hhu
+-- Compiling configuration cfg_glmxl25hhu_vital
+-- Loading entity glmxl25hhu
+-- Loading architecture vital_act of glmxl25hhu
+-- Compiling entity glmxl25hh
+-- Compiling architecture vital_act of glmxl25hh
+-- Compiling configuration cfg_glmxl25hh_vital
+-- Loading entity glmxl25hh
+-- Loading architecture vital_act of glmxl25hh
+-- Compiling entity glmxl25lpllu
+-- Compiling architecture vital_act of glmxl25lpllu
+-- Compiling configuration cfg_glmxl25lpllu_vital
+-- Loading entity glmxl25lpllu
+-- Loading architecture vital_act of glmxl25lpllu
+-- Compiling entity glmxl25lpll
+-- Compiling architecture vital_act of glmxl25lpll
+-- Compiling configuration cfg_glmxl25lpll_vital
+-- Loading entity glmxl25lpll
+-- Loading architecture vital_act of glmxl25lpll
+-- Compiling entity glmxl25lplnu
+-- Compiling architecture vital_act of glmxl25lplnu
+-- Compiling configuration cfg_glmxl25lplnu_vital
+-- Loading entity glmxl25lplnu
+-- Loading architecture vital_act of glmxl25lplnu
+-- Compiling entity glmxl25lpln
+-- Compiling architecture vital_act of glmxl25lpln
+-- Compiling configuration cfg_glmxl25lpln_vital
+-- Loading entity glmxl25lpln
+-- Loading architecture vital_act of glmxl25lpln
+-- Compiling entity glmxl25lplhu
+-- Compiling architecture vital_act of glmxl25lplhu
+-- Compiling configuration cfg_glmxl25lplhu_vital
+-- Loading entity glmxl25lplhu
+-- Loading architecture vital_act of glmxl25lplhu
+-- Compiling entity glmxl25lplh
+-- Compiling architecture vital_act of glmxl25lplh
+-- Compiling configuration cfg_glmxl25lplh_vital
+-- Loading entity glmxl25lplh
+-- Loading architecture vital_act of glmxl25lplh
+-- Compiling entity glmxl25lphlu
+-- Compiling architecture vital_act of glmxl25lphlu
+-- Compiling configuration cfg_glmxl25lphlu_vital
+-- Loading entity glmxl25lphlu
+-- Loading architecture vital_act of glmxl25lphlu
+-- Compiling entity glmxl25lphl
+-- Compiling architecture vital_act of glmxl25lphl
+-- Compiling configuration cfg_glmxl25lphl_vital
+-- Loading entity glmxl25lphl
+-- Loading architecture vital_act of glmxl25lphl
+-- Compiling entity glmxl25lphnu
+-- Compiling architecture vital_act of glmxl25lphnu
+-- Compiling configuration cfg_glmxl25lphnu_vital
+-- Loading entity glmxl25lphnu
+-- Loading architecture vital_act of glmxl25lphnu
+-- Compiling entity glmxl25lphn
+-- Compiling architecture vital_act of glmxl25lphn
+-- Compiling configuration cfg_glmxl25lphn_vital
+-- Loading entity glmxl25lphn
+-- Loading architecture vital_act of glmxl25lphn
+-- Compiling entity glmxl25lphhu
+-- Compiling architecture vital_act of glmxl25lphhu
+-- Compiling configuration cfg_glmxl25lphhu_vital
+-- Loading entity glmxl25lphhu
+-- Loading architecture vital_act of glmxl25lphhu
+-- Compiling entity glmxl25lphh
+-- Compiling architecture vital_act of glmxl25lphh
+-- Compiling configuration cfg_glmxl25lphh_vital
+-- Loading entity glmxl25lphh
+-- Loading architecture vital_act of glmxl25lphh
+-- Compiling entity glmxl33llu
+-- Compiling architecture vital_act of glmxl33llu
+-- Compiling configuration cfg_glmxl33llu_vital
+-- Loading entity glmxl33llu
+-- Loading architecture vital_act of glmxl33llu
+-- Compiling entity glmxl33ll
+-- Compiling architecture vital_act of glmxl33ll
+-- Compiling configuration cfg_glmxl33ll_vital
+-- Loading entity glmxl33ll
+-- Loading architecture vital_act of glmxl33ll
+-- Compiling entity glmxl33lnu
+-- Compiling architecture vital_act of glmxl33lnu
+-- Compiling configuration cfg_glmxl33lnu_vital
+-- Loading entity glmxl33lnu
+-- Loading architecture vital_act of glmxl33lnu
+-- Compiling entity glmxl33ln
+-- Compiling architecture vital_act of glmxl33ln
+-- Compiling configuration cfg_glmxl33ln_vital
+-- Loading entity glmxl33ln
+-- Loading architecture vital_act of glmxl33ln
+-- Compiling entity glmxl33lhu
+-- Compiling architecture vital_act of glmxl33lhu
+-- Compiling configuration cfg_glmxl33lhu_vital
+-- Loading entity glmxl33lhu
+-- Loading architecture vital_act of glmxl33lhu
+-- Compiling entity glmxl33lh
+-- Compiling architecture vital_act of glmxl33lh
+-- Compiling configuration cfg_glmxl33lh_vital
+-- Loading entity glmxl33lh
+-- Loading architecture vital_act of glmxl33lh
+-- Compiling entity glmxl33plu
+-- Compiling architecture vital_act of glmxl33plu
+-- Compiling configuration cfg_glmxl33plu_vital
+-- Loading entity glmxl33plu
+-- Loading architecture vital_act of glmxl33plu
+-- Compiling entity glmxl33pl
+-- Compiling architecture vital_act of glmxl33pl
+-- Compiling configuration cfg_glmxl33pl_vital
+-- Loading entity glmxl33pl
+-- Loading architecture vital_act of glmxl33pl
+-- Compiling entity glmxl33pnu
+-- Compiling architecture vital_act of glmxl33pnu
+-- Compiling configuration cfg_glmxl33pnu_vital
+-- Loading entity glmxl33pnu
+-- Loading architecture vital_act of glmxl33pnu
+-- Compiling entity glmxl33pn
+-- Compiling architecture vital_act of glmxl33pn
+-- Compiling configuration cfg_glmxl33pn_vital
+-- Loading entity glmxl33pn
+-- Loading architecture vital_act of glmxl33pn
+-- Compiling entity glmxl33phu
+-- Compiling architecture vital_act of glmxl33phu
+-- Compiling configuration cfg_glmxl33phu_vital
+-- Loading entity glmxl33phu
+-- Loading architecture vital_act of glmxl33phu
+-- Compiling entity glmxl33ph
+-- Compiling architecture vital_act of glmxl33ph
+-- Compiling configuration cfg_glmxl33ph_vital
+-- Loading entity glmxl33ph
+-- Loading architecture vital_act of glmxl33ph
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Loading package std_logic_textio
+-- Compiling entity ram256x9aa
+-- Compiling architecture vital_act of ram256x9aa
+-- Compiling configuration cfg_ram256x9aa_vital
+-- Loading entity ram256x9aa
+-- Loading architecture vital_act of ram256x9aa
+-- Compiling entity ram256x9aap
+-- Compiling architecture vital_act of ram256x9aap
+-- Compiling configuration cfg_ram256x9aa_vital
+-- Loading entity ram256x9aa
+-- Loading architecture vital_act of ram256x9aa
+-- Compiling entity ram256x9ast
+-- Compiling architecture vital_act of ram256x9ast
+-- Compiling entity ram256x9astp
+-- Compiling architecture vital_act of ram256x9astp
+-- Compiling entity ram256x9asr
+-- Compiling architecture vital_act of ram256x9asr
+-- Compiling entity ram256x9asrp
+-- Compiling architecture vital_act of ram256x9asrp
+-- Compiling entity ram256x9sa
+-- Compiling architecture vital_act of ram256x9sa
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package vital_timing
+-- Loading package vital_primitives
+-- Loading package textio
+-- Loading package std_logic_textio
+-- Compiling entity ram256x9sap
+-- Compiling architecture vital_act of ram256x9sap
+-- Compiling entity ram256x9sst
+-- Compiling architecture vital_act of ram256x9sst
+-- Compiling entity ram256x9sstp
+-- Compiling architecture vital_act of ram256x9sstp
+-- Compiling entity ram256x9ssr
+-- Compiling architecture vital_act of ram256x9ssr
+-- Compiling entity ram256x9ssrp
+-- Compiling architecture vital_act of ram256x9ssrp
+-- Compiling entity fifo256x9aa
+-- Compiling architecture vital_act of fifo256x9aa
+-- Compiling entity fifo256x9aap
+-- Compiling architecture vital_act of fifo256x9aap
+-- Compiling entity fifo256x9asr
+-- Compiling architecture vital_act of fifo256x9asr
+-- Compiling entity fifo256x9asrp
+-- Compiling architecture vital_act of fifo256x9asrp
+-- Compiling entity fifo256x9ast
+-- Compiling architecture vital_act of fifo256x9ast
+-- Compiling entity fifo256x9astp
+-- Compiling architecture vital_act of fifo256x9astp
+-- Compiling entity fifo256x9sa
+-- Compiling architecture vital_act of fifo256x9sa
+-- Compiling entity fifo256x9sap
+-- Compiling architecture vital_act of fifo256x9sap
+-- Compiling entity fifo256x9sst
+-- Compiling architecture vital_act of fifo256x9sst
+-- Compiling entity fifo256x9sstp
+-- Compiling architecture vital_act of fifo256x9sstp
+-- Compiling entity fifo256x9ssr
+-- Compiling architecture vital_act of fifo256x9ssr
+-- Compiling entity fifo256x9ssrp
+-- Compiling architecture vital_act of fifo256x9ssrp
+-- Compiling entity glpe
+-- Loading package vtables
+-- Compiling architecture vital of glpe
+-- Compiling configuration cfg_glpe_vital
+-- Loading entity glpe
+-- Loading architecture vital of glpe
+-- Compiling entity glpemib
+-- Compiling architecture vital of glpemib
+-- Compiling configuration cfg_glpemib_vital
+-- Loading entity glpemib
+-- Loading architecture vital of glpemib
+-- Compiling entity pll
+-- Compiling architecture vital_act of pll
+-- Compiling configuration cfg_pll_vital
+-- Loading entity pll
+-- Loading architecture vital_act of pll
+-- Compiling entity shreg
+-- Compiling architecture vital_act of shreg
+-- Compiling configuration cfg_shreg_vital
+-- Loading entity shreg
+-- Loading architecture vital_act of shreg
+-- Compiling entity pllcore
+-- Compiling architecture vital_act of pllcore
+-- Compiling configuration cfg_pllcore_vital
+-- Loading entity pllcore
+-- Loading architecture vital_act of pllcore
+-- Loading entity pll
+-- Loading entity shreg
+-- Compiling entity ujtag
+-- Compiling architecture vital_act of ujtag
+-- Compiling configuration cfg_ujtag_vital
+-- Loading entity ujtag
+-- Loading architecture vital_act of ujtag
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/PDLCFG.vhd {1 {vcom -work work -2002 -explicit C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/PDLCFG.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity pdlcfg
+-- Compiling architecture struct_pdlcfg of pdlcfg
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/fct16543p.vhd {1 {vcom -work work -87 -explicit -quiet C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/fct16543p.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/V1392pkg.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/V1392pkg.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ACTEL/hdl/v1392ltm.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/ACTEL/hdl/v1392ltm.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ACTEL/hdl/reset_mod.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/ACTEL/hdl/reset_mod.vhd
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/CROM.vhd {1 {vcom -work work -2002 -explicit C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/CROM.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity crom
+-- Compiling architecture struct_crom of crom
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ACTEL/hdl/monostable.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ACTEL/hdl/monostable.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity monostable
+-- Compiling architecture rtl of monostable
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/pdlmon.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/pdlmon.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package textio
+-- Loading package txt_util
+-- Compiling entity pdlmon
+-- Compiling architecture behav of pdlmon
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_trig/hdl/trigger_top.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_trig/hdl/trigger_top.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity trigger_top
+-- Loading package altera_mf_components
+-- Loading package std_logic_unsigned
+-- Compiling architecture struct of trigger_top
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/event_fifo.vhd {1 {vcom -work work -87 -explicit -quiet C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/event_fifo.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/vinterf.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/vinterf.vhd
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/flash.vhd {1 {vcom -work work -2002 -explicit C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/flash.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity flash
+-- Compiling architecture behav of flash
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/V1392pkg.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/V1392pkg.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/lvc16244.vhd {1 {vcom -work work -87 -explicit -quiet D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/lvc16244.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ACTEL/hdl/lbspare.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ACTEL/hdl/lbspare.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package v1392pkg
+-- Compiling entity lbspare
+-- Compiling architecture rtl of lbspare
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/pdl_interf.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/pdl_interf.vhd
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/io_utils.vhd {1 {vcom -work work -93 -explicit C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/io_utils.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Compiling package io_utils
+-- Compiling package body io_utils
+-- Loading package io_utils
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/lbspare.vhd {1 {vcom -work work -2002 -explicit C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/lbspare.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package v1392pkg
+-- Compiling entity lbspare
+-- Compiling architecture rtl of lbspare
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/fct1bit543.vhd {1 {vcom -work work -87 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/fct1bit543.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/DACCFG.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/DACCFG.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity daccfg
+-- Compiling architecture struct_daccfg of daccfg
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/clk_interf.vhd {1 {vcom -work work -93 -explicit -quiet C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/clk_interf.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/lbspare.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/lbspare.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package v1392pkg
+-- Compiling entity lbspare
+-- Compiling architecture rtl of lbspare
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/vbuf.vhd {1 {vcom -work work -87 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/vbuf.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/vx1392sim_config.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/vx1392sim_config.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Compiling configuration vx1392sim_config
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading entity vx1392sim
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Loading package v1392pkg
+-- Loading architecture struct of vx1392sim
+-- Loading package io_utils
+-- Loading package txt_util
+-- Loading entity flash
+-- Loading entity i2c_adc
+-- Loading entity osc
+-- Loading entity vme_master
+-- Loading entity pdlmon
+-- Loading entity v1392ltm
+-- Loading entity vbuf
+-- Loading entity trigger_top
+-- Loading architecture struct of v1392ltm
+-- Loading entity clk_interf
+-- Loading entity crom
+-- Loading entity daccfg
+-- Loading entity dac_interf
+-- Loading entity i2c_interf
+-- Loading entity pdlcfg
+-- Loading entity reset_mod
+-- Loading entity roc32
+-- Loading entity spi_interf
+-- Loading entity vinterf
+-- Loading entity ctrl
+-- Loading entity lbspare
+-- Loading entity pdl_interf
+-- Loading architecture struct of vbuf
+-- Loading entity fct16543p
+-- Loading entity fct1bit543
+-- Loading entity lvc16244
+-- Loading entity lvt125
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/I2C_interf.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/I2C_interf.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/ctrl.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/ctrl.vhd
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/PLL_lclk.vhd {1 {vcom -work work -87 -explicit -quiet C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/PLL_lclk.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/lvc16244.vhd {1 {vcom -work work -87 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/lvc16244.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ACTEL/smartgen/DACCFG/DACCFG.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ACTEL/smartgen/DACCFG/DACCFG.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity daccfg
+-- Compiling architecture struct_daccfg of daccfg
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/dac_interf.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/dac_interf.vhd
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/DACCFG.vhd {1 {vcom -work work -2002 -explicit C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/DACCFG.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity daccfg
+-- Compiling architecture struct_daccfg of daccfg
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/fct16543p.vhd {1 {vcom -work work -87 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/fct16543p.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/PDLCFG.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/PDLCFG.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity pdlcfg
+-- Compiling architecture struct_pdlcfg of pdlcfg
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ACTEL/smartgen/event_fifo/event_fifo.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ACTEL/smartgen/event_fifo/event_fifo.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity event_fifo
+-- Compiling architecture struct_event_fifo of event_fifo
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/fct16543p.vhd {1 {vcom -work work -87 -explicit -quiet D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/fct16543p.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/io_utils.vhd {1 {vcom -work work -93 -explicit D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/io_utils.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Compiling package io_utils
+-- Compiling package body io_utils
+-- Loading package io_utils
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/CROM.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/CROM.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity crom
+-- Compiling architecture struct_crom of crom
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ACTEL/hdl/spi_interf.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/ACTEL/hdl/spi_interf.vhd
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/reset_mod.vhd {1 {vcom -work work -93 -explicit -quiet C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/reset_mod.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/fct1bit543.vhd {1 {vcom -work work -87 -explicit -quiet D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/fct1bit543.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/pdlmon.vhd {1 {vcom -work work -2002 -explicit -check_synthesis -novitalcheck -novital D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/pdlmon.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package textio
+-- Loading package txt_util
+-- Compiling entity pdlmon
+-- Compiling architecture behav of pdlmon
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/v1392ltm.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/v1392ltm.vhd
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/VME_Master.vhd {1 {vcom -work work -87 -explicit -quiet C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/VME_Master.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ACTEL/hdl/ctrl.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/ACTEL/hdl/ctrl.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/VME_Master.vhd {2 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/VME_Master.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Loading package io_utils
+-- Compiling entity vme_master
+-- Compiling architecture behav of vme_master
+** Warning: D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/VME_Master.vhd(54): (vcom-1194) FILE declaration was written using 1076-1987 syntax.
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/event_fifo.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/event_fifo.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity event_fifo
+-- Compiling architecture struct_event_fifo of event_fifo
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ACTEL/hdl/pdl_interf.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/ACTEL/hdl/pdl_interf.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/I2C_interf.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/I2C_interf.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/PLL_lclk.vhd {1 {vcom -work work -87 -explicit -quiet D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/PLL_lclk.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/txt_util.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/txt_util.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package textio
+-- Compiling package txt_util
+-- Compiling package body txt_util
+-- Loading package txt_util
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/flash.vhd {2 {vcom -work work -2002 -explicit -novital D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/flash.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Loading package io_utils
+-- Loading package txt_util
+-- Compiling entity flash
+-- Compiling architecture behav of flash
+** Warning: D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/flash.vhd(41): (vcom-1194) FILE declaration was written using 1076-1987 syntax.
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/lvt125.vhd {1 {vcom -work work -87 -explicit -quiet D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/lvt125.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/vx1392sim.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/vx1392sim.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity vx1392sim
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Loading package v1392pkg
+-- Compiling architecture struct of vx1392sim
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/lvt125.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/lvt125.vhd
+Model Technology ModelSim PE vcom 6.5a Compiler 2009.03 Mar 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity lvt125
+-- Compiling architecture behav of lvt125
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/lvc16244.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/lvc16244.vhd
+Model Technology ModelSim PE vcom 6.5a Compiler 2009.03 Mar 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity lvc16244
+-- Compiling architecture behav of lvc16244
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/dac_interf.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/dac_interf.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_trig/hdl/test.vhd {1 {vcom -work work -93 -explicit D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_trig/hdl/test.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity test
+-- Compiling architecture rtl of test
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/io_utils.vhd {1 {vcom -work work -93 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/io_utils.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Compiling package io_utils
+-- Compiling package body io_utils
+-- Loading package io_utils
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/clk_interf.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/clk_interf.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/lbspare.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/lbspare.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package v1392pkg
+-- Compiling entity lbspare
+-- Compiling architecture rtl of lbspare
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/PLL_aclk.vhd {1 {vcom -work work -87 -explicit -quiet C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/PLL_aclk.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/roc32.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/roc32.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/v1392ltm.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/v1392ltm.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/vbuf.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/vbuf.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity vbuf
+-- Compiling architecture struct of vbuf
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/osc.vhd {1 {vcom -work work -93 -explicit -quiet C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/osc.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/PLL_lclk.vhd {1 {vcom -work work -87 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/PLL_lclk.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/txt_util.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/txt_util.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package textio
+-- Compiling package txt_util
+-- Compiling package body txt_util
+-- Loading package txt_util
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/event_fifo.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/event_fifo.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity mmshftneg3_event_fifo
+-- Compiling architecture struct_mmshftneg3_event_fifo of mmshftneg3_event_fifo
+-- Compiling entity event_fifo
+-- Compiling architecture struct_event_fifo of event_fifo
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/lvt125.vhd {1 {vcom -work work -87 -explicit -quiet C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/lvt125.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/lvt125.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/lvt125.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity lvt125
+-- Compiling architecture behav of lvt125
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/lvc16244.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/lvc16244.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity lvc16244
+-- Compiling architecture behav of lvc16244
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/DACCFG.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/DACCFG.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity daccfg
+-- Compiling architecture struct_daccfg of daccfg
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/io_utils.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/io_utils.vhd
+Model Technology ModelSim PE vcom 6.5a Compiler 2009.03 Mar 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Compiling package io_utils
+-- Compiling package body io_utils
+-- Loading package io_utils
+
+} {} {}} D:/luca/Work/VX1392/FPGA/LIB/src/altera_mf/altera_mf.vhd {1 {vcom -work altera_mf -2002 -explicit D:/luca/Work/VX1392/FPGA/LIB/src/altera_mf/altera_mf.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity lcell
+-- Compiling architecture behavior of lcell
+-- Loading package textio
+-- Compiling package altera_common_conversion
+-- Compiling package body altera_common_conversion
+-- Loading package altera_common_conversion
+-- Compiling package altera_mf_hint_evaluation
+-- Compiling package body altera_mf_hint_evaluation
+-- Loading package altera_mf_hint_evaluation
+-- Compiling package altera_device_families
+-- Compiling package body altera_device_families
+-- Loading package altera_device_families
+-- Compiling package mf_pllpack
+-- Compiling package body mf_pllpack
+-- Loading package mf_pllpack
+-- Compiling entity dffp
+-- Compiling architecture behave of dffp
+-- Compiling entity pll_iobuf
+-- Compiling architecture behavior of pll_iobuf
+-- Compiling entity mf_m_cntr
+-- Compiling architecture behave of mf_m_cntr
+-- Compiling entity mf_n_cntr
+-- Compiling architecture behave of mf_n_cntr
+-- Compiling entity stx_scale_cntr
+-- Compiling architecture behave of stx_scale_cntr
+-- Compiling entity mf_pll_reg
+-- Compiling architecture behave of mf_pll_reg
+-- Loading package mf_pllpack
+-- Loading entity mf_m_cntr
+-- Loading entity mf_n_cntr
+-- Loading entity stx_scale_cntr
+-- Loading entity dffp
+-- Loading entity mf_pll_reg
+-- Compiling entity mf_stratix_pll
+-- Compiling architecture vital_pll of mf_stratix_pll
+-- Compiling entity arm_m_cntr
+-- Compiling architecture behave of arm_m_cntr
+-- Compiling entity arm_n_cntr
+-- Compiling architecture behave of arm_n_cntr
+-- Compiling entity arm_scale_cntr
+-- Compiling architecture behave of arm_scale_cntr
+-- Loading entity arm_m_cntr
+-- Loading entity arm_n_cntr
+-- Loading entity arm_scale_cntr
+-- Compiling entity mf_stratixii_pll
+-- Compiling architecture vital_pll of mf_stratixii_pll
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity mf_ttn_mn_cntr
+-- Compiling architecture behave of mf_ttn_mn_cntr
+-- Compiling entity mf_ttn_scale_cntr
+-- Compiling architecture behave of mf_ttn_scale_cntr
+-- Loading entity mf_ttn_mn_cntr
+-- Loading entity mf_ttn_scale_cntr
+-- Compiling entity mf_stratixiii_pll
+-- Compiling architecture vital_pll of mf_stratixiii_pll
+-- Compiling entity mf_cda_mn_cntr
+-- Compiling architecture behave of mf_cda_mn_cntr
+-- Compiling entity mf_cda_scale_cntr
+-- Compiling architecture behave of mf_cda_scale_cntr
+-- Loading entity mf_cda_mn_cntr
+-- Loading entity mf_cda_scale_cntr
+-- Compiling entity mf_cycloneiii_pll
+-- Compiling architecture vital_pll of mf_cycloneiii_pll
+-- Loading package altera_device_families
+-- Loading entity mf_stratix_pll
+-- Loading entity mf_stratixii_pll
+-- Loading entity mf_stratixiii_pll
+-- Loading entity mf_cycloneiii_pll
+-- Loading entity pll_iobuf
+-- Compiling entity altpll
+-- Compiling architecture behavior of altpll
+-- Compiling entity altaccumulate
+-- Compiling architecture behaviour of altaccumulate
+-- Compiling entity altmult_accum
+-- Compiling architecture behaviour of altmult_accum
+-- Compiling entity altmult_add
+-- Compiling architecture behaviour of altmult_add
+-- Loading package altera_common_conversion
+-- Compiling entity altfp_mult
+-- Compiling architecture behavior of altfp_mult
+-- Compiling entity altsqrt
+-- Compiling architecture behavior of altsqrt
+-- Compiling entity altclklock
+-- Compiling architecture behavior of altclklock
+-- Compiling entity altddio_in
+-- Compiling architecture behave of altddio_in
+-- Compiling entity altddio_out
+-- Compiling architecture behave of altddio_out
+-- Loading entity altddio_in
+-- Loading entity altddio_out
+-- Compiling entity altddio_bidir
+-- Compiling architecture struct of altddio_bidir
+-- Compiling entity stratixii_lvds_rx
+-- Compiling architecture behavior of stratixii_lvds_rx
+-- Compiling entity flexible_lvds_rx
+-- Compiling architecture behavior of flexible_lvds_rx
+-- Compiling entity stratixiii_lvds_rx_dpa
+-- Compiling architecture behavior of stratixiii_lvds_rx_dpa
+-- Loading entity stratixiii_lvds_rx_dpa
+-- Compiling entity stratixiii_lvds_rx_channel
+-- Compiling architecture behavior of stratixiii_lvds_rx_channel
+-- Loading entity stratixiii_lvds_rx_channel
+-- Compiling entity stratixiii_lvds_rx
+-- Compiling architecture behavior of stratixiii_lvds_rx
+-- Loading entity altclklock
+-- Loading entity stratixii_lvds_rx
+-- Loading entity flexible_lvds_rx
+-- Loading entity stratixiii_lvds_rx
+-- Compiling entity altlvds_rx
+-- Compiling architecture behavior of altlvds_rx
+-- Compiling entity stratix_tx_outclk
+-- Compiling architecture behavior of stratix_tx_outclk
+-- Compiling entity stratixii_tx_outclk
+-- Compiling architecture behavior of stratixii_tx_outclk
+-- Compiling entity flexible_lvds_tx
+-- Compiling architecture behavior of flexible_lvds_tx
+-- Loading entity stratix_tx_outclk
+-- Loading entity stratixii_tx_outclk
+-- Loading entity flexible_lvds_tx
+-- Compiling entity altlvds_tx
+-- Compiling architecture behavior of altlvds_tx
+-- Compiling entity altcam
+-- Compiling architecture behave of altcam
+-- Compiling entity altdpram
+-- Compiling architecture behavior of altdpram
+-- Compiling entity altsyncram
+-- Compiling architecture translated of altsyncram
+-- Loading entity altsyncram
+-- Loading package altera_mf_hint_evaluation
+-- Compiling entity alt3pram
+-- Compiling architecture behavior of alt3pram
+-- Compiling entity altqpram
+-- Compiling architecture behavior of altqpram
+-- Loading package altera_mf_components
+-- Compiling entity parallel_add
+-- Compiling architecture behaviour of parallel_add
+-- Compiling entity scfifo
+-- Compiling architecture behavior of scfifo
+-- Compiling package dcfifo_pack
+-- Compiling package body dcfifo_pack
+-- Loading package dcfifo_pack
+-- Compiling entity dcfifo_dffpipe
+-- Compiling architecture behavior of dcfifo_dffpipe
+-- Compiling entity dcfifo_fefifo
+-- Compiling architecture behavior of dcfifo_fefifo
+-- Loading entity dcfifo_fefifo
+-- Loading entity dcfifo_dffpipe
+-- Compiling entity dcfifo_async
+-- Compiling architecture behavior of dcfifo_async
+-- Compiling entity dcfifo_sync
+-- Compiling architecture behavior of dcfifo_sync
+-- Compiling entity dcfifo_low_latency
+-- Compiling architecture behavior of dcfifo_low_latency
+-- Loading entity dcfifo_async
+-- Loading entity dcfifo_sync
+-- Loading entity dcfifo_low_latency
+-- Loading package dcfifo_pack
+-- Compiling entity dcfifo_mixed_widths
+-- Compiling architecture behavior of dcfifo_mixed_widths
+-- Loading entity dcfifo_mixed_widths
+-- Compiling entity dcfifo
+-- Compiling architecture behavior of dcfifo
+-- Compiling entity altshift_taps
+-- Compiling architecture behavioural of altshift_taps
+-- Compiling entity a_graycounter
+-- Compiling architecture behavior of a_graycounter
+-- Compiling entity altsquare
+-- Compiling architecture altsquare_syn of altsquare
+-- Compiling package sld_node
+-- Compiling package body sld_node
+-- Loading package sld_node
+-- Loading package sld_node
+-- Compiling entity signal_gen
+-- Compiling architecture simmodel of signal_gen
+-- Compiling entity jtag_tap_controller
+-- Compiling architecture fsm of jtag_tap_controller
+-- Compiling entity dummy_hub
+-- Compiling architecture behavior of dummy_hub
+-- Loading entity signal_gen
+-- Loading entity jtag_tap_controller
+-- Loading entity dummy_hub
+-- Compiling entity sld_virtual_jtag
+-- Compiling architecture structural of sld_virtual_jtag
+-- Compiling entity sld_signaltap
+-- Compiling architecture sim_sld_signaltap of sld_signaltap
+-- Compiling entity altstratixii_oct
+-- Compiling architecture sim_altstratixii_oct of altstratixii_oct
+-- Compiling entity altparallel_flash_loader
+-- Compiling architecture sim_altparallel_flash_loader of altparallel_flash_loader
+-- Compiling entity altserial_flash_loader
+-- Compiling architecture sim_altserial_flash_loader of altserial_flash_loader
+-- Compiling entity altsource_probe
+-- Compiling architecture sim_altsource_probe of altsource_probe
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/clk_interf.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/clk_interf.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/reset_mod.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/reset_mod.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/PLL_aclk.vhd {1 {vcom -work work -87 -explicit -quiet D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/PLL_aclk.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/reset_mod.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/reset_mod.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/VME_Master.vhd {1 {vcom -work work -87 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/VME_Master.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ACTEL/hdl/I2C_interf.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/ACTEL/hdl/I2C_interf.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/vbuf.vhd {1 {vcom -work work -87 -explicit -quiet D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/vbuf.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ACTEL/hdl/dac_interf.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/ACTEL/hdl/dac_interf.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/ctrl.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/ctrl.vhd
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/vx1392sim.vhd {1 {vcom -work work -93 -explicit -quiet -source C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/vx1392sim.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_trig/hdl/trigger_top.vhd {1 {vcom -work work -87 -explicit D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_trig/hdl/trigger_top.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity trigger_top
+-- Loading package altera_mf_components
+-- Loading package std_logic_unsigned
+-- Compiling architecture struct of trigger_top
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/osc.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/osc.vhd
+Model Technology ModelSim PE vcom 6.5a Compiler 2009.03 Mar 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity osc
+-- Compiling architecture behav of osc
+
+} {} {}} D:/luca/Work/VX1392/FPGA/LIB/src/altera_mf/altera_mf_components.vhd {1 {vcom -work altera_mf -2002 -explicit D:/luca/Work/VX1392/FPGA/LIB/src/altera_mf/altera_mf_components.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling package altera_mf_components
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_trig/hdl/test.vhd {1 {vcom -work work -93 -explicit C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_trig/hdl/test.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity test
+-- Compiling architecture rtl of test
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ACTEL/smartgen/CROM/CROM.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ACTEL/smartgen/CROM/CROM.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity crom
+-- Compiling architecture struct_crom of crom
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/io_utils.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/io_utils.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Compiling package io_utils
+-- Compiling package body io_utils
+-- Loading package io_utils
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/fct16543p.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/fct16543p.vhd
+Model Technology ModelSim PE vcom 6.5a Compiler 2009.03 Mar 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity fct16543p
+-- Compiling architecture behav of fct16543p
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/CROM.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/CROM.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity crom
+-- Compiling architecture struct_crom of crom
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/PLL_aclk.vhd {1 {vcom -work work -87 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/PLL_aclk.vhd
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/vx1392sim_config.vhd {1 {vcom -work work -2002 -explicit C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/vx1392sim_config.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Compiling configuration vx1392sim_config
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading entity vx1392sim
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Loading package v1392pkg
+-- Loading architecture struct of vx1392sim
+-- Loading entity flash
+-- Loading entity i2c_adc
+-- Loading entity osc
+-- Loading package io_utils
+-- Loading entity vme_master
+-- Loading entity v1392ltm
+-- Loading entity vbuf
+-- Loading entity trigger_top
+-- Loading architecture struct of v1392ltm
+-- Loading entity clk_interf
+-- Loading entity crom
+-- Loading entity daccfg
+-- Loading entity dac_interf
+-- Loading entity i2c_interf
+-- Loading entity pdlcfg
+-- Loading entity reset_mod
+-- Loading entity roc32
+-- Loading entity spi_interf
+-- Loading entity vinterf
+-- Loading entity ctrl
+-- Loading entity lbspare
+-- Loading entity pdl_interf
+-- Loading architecture struct of vbuf
+-- Loading entity fct16543p
+-- Loading entity fct1bit543
+-- Loading entity lvc16244
+-- Loading entity lvt125
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/spi_interf.vhd {1 {vcom -work work -93 -explicit -quiet C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/spi_interf.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/VME_Master.vhd {1 {vcom -work work -87 -explicit -quiet D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/VME_Master.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/monostable.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/monostable.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity monostable
+-- Compiling architecture rtl of monostable
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/I2C_ADC.vhd {1 {vcom -work work -2002 -explicit C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/I2C_ADC.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity i2c_adc
+-- Compiling architecture sim of i2c_adc
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/osc.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/osc.vhd
+
+} {} {}} D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/I2C_ADC.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_lib/hdl/I2C_ADC.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity i2c_adc
+-- Compiling architecture sim of i2c_adc
+
+} {} {}} C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_trig/hdl/cttm_pll.vhd {1 {vcom -work work -87 -explicit C:/luca/Work/VX1392_LTM_ALICE/FPGA/SRC/vx1392_trig/hdl/cttm_pll.vhd
+Model Technology ModelSim PE vcom 6.1b Compiler 2005.09 Sep  8 2005
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity cttm_pll
+-- Compiling architecture syn of cttm_pll
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/lvt125.vhd {1 {vcom -work work -87 -explicit -quiet D:/luca/Work/VX1392/FPGA/SRC/vx1392_lib/hdl/lvt125.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ACTEL/hdl/V1392pkg.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/ACTEL/hdl/V1392pkg.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/txt_util.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/txt_util.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package textio
+-- Compiling package txt_util
+-- Compiling package body txt_util
+-- Loading package txt_util
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/osc.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/osc.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity osc
+-- Compiling architecture behav of osc
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/I2c_EEPROM.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/I2c_EEPROM.vhd
+Model Technology ModelSim PE vcom 6.5a Compiler 2009.03 Mar 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity i2c_eeprom
+-- Compiling architecture sim of i2c_eeprom
+-- Compiling configuration cfg_i2c_eeprom
+-- Loading entity i2c_eeprom
+-- Loading architecture sim of i2c_eeprom
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ACTEL/smartgen/PDLCFG/PDLCFG.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ACTEL/smartgen/PDLCFG/PDLCFG.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity pdlcfg
+-- Compiling architecture struct_pdlcfg of pdlcfg
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_trig/hdl/test.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_trig/hdl/test.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity test
+-- Compiling architecture rtl of test
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/flash.vhd {2 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/flash.vhd
+Model Technology ModelSim PE vcom 6.5a Compiler 2009.03 Mar 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Loading package textio
+-- Loading package io_utils
+-- Loading package txt_util
+-- Compiling entity flash
+-- Compiling architecture behav of flash
+** Warning: D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/flash.vhd(41): (vcom-1194) FILE declaration was written using VHDL 1987 syntax.
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ACTEL/hdl/clk_interf.vhd {1 {vcom -work work -93 -explicit -quiet D:/luca/Work/VX1392/FPGA/ACTEL/hdl/clk_interf.vhd
+
+} {} {}} D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/fct16543p.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/SRC/vx1392_sim/hdl/fct16543p.vhd
+Model Technology ModelSim ALTERA vcom 6.1g Compiler 2006.08 Aug 12 2006
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity fct16543p
+-- Compiling architecture behav of fct16543p
+
+} {} {}} D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/fct1bit543.vhd {1 {vcom -work work -2002 -explicit D:/luca/Work/VX1392/FPGA/ALTERA/SRC/vx1392_sim/hdl/fct1bit543.vhd
+Model Technology ModelSim PE vcom 6.5a Compiler 2009.03 Mar 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity fct1bit543
+-- Compiling architecture behav of fct1bit543
+
+} {} {}}

@@ -1,0 +1,719 @@
+DESIGN top_sim
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN top_sim
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN top_sim
+VIEW symbol.sb
+GRAPHIC 1,0 13 0 
+DESIGN top_sim
+VIEW symbol.sb
+GRAPHIC 1,0 14 0 
+DESIGN top_sim
+VIEW struct.bd
+NO_GRAPHIC 17
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 42,0 17 0 
+DESIGN top_sim
+VIEW struct.bd
+NO_GRAPHIC 25
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 0,0 27 2 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 661,0 32 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 813,0 33 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 669,0 34 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1005,0 35 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 701,0 36 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1013,0 37 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 773,0 38 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 781,0 39 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 709,0 40 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1021,0 41 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 805,0 42 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 765,0 43 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 757,0 44 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1029,0 45 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 677,0 46 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 685,0 47 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1037,0 48 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 693,0 49 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1045,0 50 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 789,0 51 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1053,0 52 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 733,0 53 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1061,0 54 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 797,0 55 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1069,0 56 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 741,0 57 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 821,0 58 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 829,0 59 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 837,0 60 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1517,0 61 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1525,0 62 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 845,0 63 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 717,0 64 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 853,0 65 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 861,0 66 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 869,0 67 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 877,0 68 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 885,0 69 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 893,0 70 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 901,0 71 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 909,0 72 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 917,0 73 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 925,0 74 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 933,0 75 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1085,0 76 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 941,0 77 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 973,0 78 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 981,0 79 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 989,0 80 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 997,0 81 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1661,0 82 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1459,0 83 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1467,0 84 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1669,0 85 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1677,0 86 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1475,0 87 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1685,0 88 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1483,0 89 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1693,0 90 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1491,0 91 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 949,0 92 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 749,0 93 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1093,0 94 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 4099,0 95 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 957,0 96 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 965,0 97 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 725,0 98 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1077,0 99 0 
+DESIGN top_sim
+VIEW struct.bd
+NO_GRAPHIC 100
+DESIGN top_sim
+VIEW struct.bd
+NO_GRAPHIC 101
+LIBRARY vx1392_lib
+DESIGN @o@s@c
+VIEW @b@e@h@a@v
+GRAPHIC 4068,0 103 0 
+DESIGN top_sim
+VIEW struct.bd
+NO_GRAPHIC 108
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 130,0 110 0 
+DESIGN top_sim
+VIEW struct.bd
+NO_GRAPHIC 131
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 284,0 133 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 57,0 135 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 62,0 136 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 67,0 137 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 77,0 138 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 97,0 139 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 102,0 140 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 137,0 141 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 152,0 142 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 157,0 143 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 302,0 144 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 327,0 145 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 297,0 146 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 52,0 147 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 162,0 148 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 167,0 149 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 172,0 150 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 187,0 151 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 192,0 152 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 197,0 153 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 202,0 154 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 207,0 155 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 212,0 156 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 217,0 157 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 222,0 158 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 227,0 159 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 232,0 160 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 237,0 161 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 307,0 162 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 312,0 163 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 272,0 164 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 177,0 165 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 182,0 166 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 317,0 167 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 322,0 168 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 282,0 169 0 
+DESIGN v1392ltm
+VIEW symbol.sb
+GRAPHIC 287,0 170 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1408,0 173 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 102,0 175 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 122,0 176 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 132,0 177 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 147,0 178 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 157,0 179 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 172,0 180 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 187,0 181 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 272,0 182 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 277,0 183 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 292,0 184 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 192,0 185 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 62,0 186 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 67,0 187 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 72,0 188 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 77,0 189 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 82,0 190 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 310,0 191 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 297,0 192 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 197,0 193 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 212,0 194 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 217,0 195 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 227,0 196 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 237,0 197 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 247,0 198 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 257,0 199 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 127,0 200 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 137,0 201 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 267,0 202 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 142,0 203 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 152,0 204 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 162,0 205 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 167,0 206 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 177,0 207 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 182,0 208 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 282,0 209 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 287,0 210 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 202,0 211 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 207,0 212 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 222,0 213 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 232,0 214 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 242,0 215 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 252,0 216 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 262,0 217 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 97,0 218 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 87,0 219 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 112,0 220 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 117,0 221 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 107,0 222 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 92,0 223 0 
+LIBRARY vx1392_lib
+DESIGN top_sim
+VIEW struct.bd
+NO_GRAPHIC 226
+DESIGN top_sim
+VIEW struct.bd
+NO_GRAPHIC 227
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 4123,0 230 0 
+DESIGN top_sim
+VIEW struct.bd
+NO_GRAPHIC 234
+DESIGN top_sim
+VIEW struct.bd
+NO_GRAPHIC 235
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 4068,0 237 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 4093,0 239 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 4077,0 240 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 4085,0 241 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 130,0 243 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 663,0 245 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 671,0 246 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 679,0 247 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 687,0 248 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 695,0 249 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 703,0 250 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 791,0 251 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 711,0 252 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 719,0 253 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 727,0 254 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 735,0 255 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 799,0 256 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 743,0 257 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 751,0 258 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 759,0 259 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 807,0 260 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 767,0 261 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 775,0 262 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 783,0 263 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 284,0 265 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1007,0 267 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1015,0 268 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1023,0 269 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1031,0 270 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1039,0 271 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1047,0 272 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1055,0 273 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1063,0 274 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1071,0 275 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1087,0 276 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1095,0 277 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1079,0 278 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 815,0 279 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 823,0 280 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 831,0 281 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 839,0 282 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 863,0 283 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 871,0 284 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 879,0 285 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 887,0 286 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 895,0 287 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 903,0 288 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 911,0 289 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 919,0 290 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 927,0 291 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 935,0 292 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 943,0 293 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 975,0 294 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 983,0 295 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 951,0 296 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 847,0 297 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 855,0 298 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 991,0 299 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 999,0 300 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 959,0 301 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 967,0 302 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 1408,0 304 0 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 3429,0 306 49 
+DESIGN top_sim
+VIEW struct.bd
+GRAPHIC 3430,0 355 0 
+DESIGN top_sim
+VIEW struct.bd
+NO_GRAPHIC 357

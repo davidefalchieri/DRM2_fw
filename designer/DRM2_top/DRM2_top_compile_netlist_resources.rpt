@@ -1,0 +1,255 @@
+Resource Report
+Microsemi Corporation - Microsemi Libero Software Release v2021.3 (Version 2021.3.0.10)
+Date: Thu Apr 13 16:18:13 2023
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | IGLOO2         |
+| Device                         | M2GL090T       |
+| Package                        | 676 FBGA       |
+| Speed Grade                    | -1             |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | No             |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+-----------------------------------------------------------------------------------------+
+| Topcell | DRM2_top                                                                                |
+| Format  | EDIF                                                                                    |
+| Source  | E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\synthesis\synthesis_idc\DRM2_top.edn |
+| Source  | E:\alicetof\firmware\DRM2_rev2.0\DRM2_Zvtwelfth_fw\constraint\netlist_attrib.ndc        |
++---------+-----------------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+-------+-------+------------+
+| Type                      | Used  | Total | Percentage |
++---------------------------+-------+-------+------------+
+| 4LUT                      | 16777 | 86184 | 19.47      |
+| DFF                       | 12493 | 86184 | 14.50      |
+| I/O Register              | 193   | 1275  | 15.14      |
+| User I/O                  | 409   | 425   | 96.24      |
+| -- Single-ended I/O       | 239   | 425   | 56.24      |
+| -- Differential I/O Pairs | 85    | 212   | 40.09      |
+| RAM64x18                  | 55    | 112   | 49.11      |
+| RAM1K18                   | 81    | 109   | 74.31      |
+| MACC                      | 0     | 84    | 0.00       |
+| Chip Globals              | 16    | 16    | 100.00     |
+| Row Global                | 1     | 1408  | 0.07       |
+| CCC                       | 1     | 6     | 16.67      |
+| RCOSC_25_50MHZ            | 1     | 1     | 100.00     |
+| RCOSC_1MHZ                | 0     | 1     | 0.00       |
+| XTLOSC                    | 0     | 1     | 0.00       |
+| SERDESIF Blocks           | 1     | 1     | 100.00     |
+| -- SERDESIF Lanes         | 2     | 4     | 50.00      |
+| HPMS                      | 1     | 1     | 100.00     |
++---------------------------+-------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+-------+-------+
+| Type                     | 4LUT  | DFF   |
++--------------------------+-------+-------+
+| Fabric Logic             | 11881 | 7597  |
+| RAM64x18 Interface Logic | 1980  | 1980  |
+| RAM1K18 Interface Logic  | 2916  | 2916  |
+| MACC Interface Logic     | 0     | 0     |
+| Total Used               | 16777 | 12493 |
++--------------------------+-------+-------+
+
+HPMS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| eNVM (512KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| SPI           | 0    | 1     |
+| MDDR          | 0    | 1     |
+| HPDMA         | 1    | 1     |
+| PDMA          | 1    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the HPMS
+
+SERDESIF Lanes Usage
++------------+-------+-------+-------+-------+
+| SERDESIF   | Lane0 | Lane1 | Lane2 | Lane3 |
++------------+-------+-------+-------+-------+
+| SERDESIF_0 | EPCS  | ----  | EPCS  | ----  |
++------------+-------+-------+-------+-------+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 177  |
+| 5      | 22   |
+| 6      | 8    |
+| 7      | 13   |
+| 8      | 19   |
+| 9      | 27   |
+| 10     | 14   |
+| 11     | 23   |
+| 12     | 18   |
+| 13     | 5    |
+| 14     | 1    |
+| 15     | 2    |
+| 16     | 9    |
+| 17     | 11   |
+| 18     | 2    |
+| 20     | 2    |
+| 25     | 1    |
+| 29     | 1    |
+| 30     | 1    |
+| 32     | 1    |
+| 33     | 1    |
+| Total  | 358  |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 24           | 8           | 0               |
+| Output I/O                    | 87           | 7           | 0               |
+| Bidirectional I/O             | 48           | 65          | 0               |
+| Differential Input I/O Pairs  | 5            | 0           | 40              |
+| Differential Output I/O Pairs | 0            | 0           | 40              |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++------------------------------+--------+--------+-------+--------+---------------+
+| I/O Standard                 | Vddi   | Vref   | Input | Output | Bidirectional |
++------------------------------+--------+--------+-------+--------+---------------+
+| LVCMOS25                     |  2.50v |  N/A   |  32   |  94    |  113          |
+| SSTL2I (Input/Bidirectional) |  2.50v |  1.25v |  88   |  0     |  0            |
+| SSTL2I (Output)              |  2.50v |  N/A   |  0    |  80    |  0            |
+| LVDS                         |  2.50v |  N/A   |  2    |  0     |  0            |
++------------------------------+--------+--------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+----------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                         |
++--------+---------+----------------------------------------------------------------------------------------------+
+| 5518   | INT_NET | Net   : RAM_CLK_c                                                                            |
+|        |         | Driver: fpgack40_buf/U_GB_RGB1                                                               |
+|        |         | Source: NETLIST                                                                              |
+| 1267   | INT_NET | Net   : rod_sniffer_instance.fifo_clear_arst                                                 |
+|        |         | Driver: rod_sniffer_instance/fifo_clear_RNIT6N3/U0_RGB1                                      |
+|        |         | Source: NETLIST                                                                              |
+| 1236   | INT_NET | Net   : INIT_DONE_int_arst                                                                   |
+|        |         | Driver: EPCS_Demo_instance/CORERESETP_0/INIT_DONE_int_keep_RNIHHS2/U0_RGB1                   |
+|        |         | Source: NETLIST                                                                              |
+| 894    | INT_NET | Net   : gbt_clk_40MHz                                                                        |
+|        |         | Driver: DCLK00_buf/U_GB_RGB1                                                                 |
+|        |         | Source: NETLIST                                                                              |
+| 481    | INT_NET | Net   : EPCS_Demo_instance/FAB_CCC_GL0                                                       |
+|        |         | Driver: EPCS_Demo_instance/CCC_0/GL0_INST/U0_RGB1                                            |
+|        |         | Source: NETLIST                                                                              |
+| 457    | INT_NET | Net   : ident_coreinst/IICE_comm2iice[11]                                                    |
+|        |         | Driver: ident_coreinst/comm_block_INST/jtagi/jtag_clkint_prim/U0_RGB1                        |
+|        |         | Source: NETLIST                                                                              |
+| 418    | INT_NET | Net   : CAEN_LINK_instance/EPCS_SERDES_Lane0_RX_CLK                                          |
+|        |         | Driver: CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_0_RX_CLK_keep_RNI7K1B/U0_RGB1 |
+|        |         | Source: NETLIST                                                                              |
+| 295    | INT_NET | Net   : CAEN_LINK_instance/EPCS_SERDES_Lane0_TX_CLK                                          |
+|        |         | Driver: CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_0_TX_CLK_keep_RNI98SD/U0_RGB1 |
+|        |         | Source: NETLIST                                                                              |
+| 110    | INT_NET | Net   : EPCS_Demo_INIT_APB_S_PCLK                                                            |
+|        |         | Driver: EPCS_Demo_instance/EPCS_Demo_sb_HPMS_0/MSS_ADLIB_INST_RNIJ907/U0_RGB1                |
+|        |         | Source: NETLIST                                                                              |
+| 24     | INT_NET | Net   : EPCS_Demo_instance/FABOSC_0_RCOSC_25_50MHZ_O2F                                       |
+|        |         | Driver: EPCS_Demo_instance/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1                      |
+|        |         | Source: NETLIST                                                                              |
+| 20     | INT_NET | Net   : clk40                                                                                |
+|        |         | Driver: EPCS_Demo_instance/CCC_0/GL1_INST/U0_RGB1                                            |
+|        |         | Source: NETLIST                                                                              |
+| 14     | INT_NET | Net   : ident_coreinst/IICE_comm2iice[8]                                                     |
+|        |         | Driver: ident_coreinst/comm_block_INST/jtagi/b9_nv_oQwfYF_RNIVIS3/U0_RGB1                    |
+|        |         | Source: NETLIST                                                                              |
+| 10     | INT_NET | Net   : CPDMCK40                                                                             |
+|        |         | Driver: CPDMCK40_buf/U_GB_RGB1                                                               |
+|        |         | Source: NETLIST                                                                              |
+| 8      | INT_NET | Net   : ident_coreinst/comm_block_INST/hcr_update                                            |
+|        |         | Driver: ident_coreinst/comm_block_INST/jtagi/b10_8Kz_rKlrtX_RNIBCIE/U0_RGB1                  |
+|        |         | Source: NETLIST                                                                              |
+| 2      | INT_NET | Net   : CAEN_LINK_instance/I_EPCS_SERDES/Lane2_TX_CLK                                        |
+|        |         | Driver: CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_2_TX_CLK_keep_RNIB01A/U0_RGB1 |
+|        |         | Source: NETLIST                                                                              |
+| 1      | INT_NET | Net   : FPGACK80                                                                             |
+|        |         | Driver: FPGACK80_buf/U_GB_RGB1                                                               |
+|        |         | Source: NETLIST                                                                              |
++--------+---------+----------------------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+---------+--------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                           |
++--------+---------+--------------------------------------------------------------------------------+
+| 439    | INT_NET | Net   : EPCS_Demo_instance/MSS_HPMS_READY_int_arst                             |
+|        |         | Driver: EPCS_Demo_instance/CORERESETP_0/MSS_HPMS_READY_int_rep_RNIOB72/U0_RGB1 |
+|        |         | Source: NETLIST                                                                |
++--------+---------+--------------------------------------------------------------------------------+
+
+High fanout nets
++--------+---------+---------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                          |
++--------+---------+---------------------------------------------------------------------------------------------------------------+
+| 698    | INT_NET | Net   : vme_int_instance.N_614_i                                                                              |
+|        |         | Driver: vme_int_instance/WPULSE_RNIFHL8[2]                                                                    |
+| 499    | INT_NET | Net   : I2C_CORE_instance/I2CSFTTEMP_0/AND2_0_Y                                                               |
+|        |         | Driver: I2C_CORE_instance/I2CSFTTEMP_0/AND2_0                                                                 |
+| 360    | INT_NET | Net   : vme_int_instance.N_906_i                                                                              |
+|        |         | Driver: vme_int_instance/regs.ctrl2_rep[8]                                                                    |
+| 304    | INT_NET | Net   : CAEN_LINK_instance/EPCS_SERDES_Lane0_RX_RESET_N                                                       |
+|        |         | Driver: CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST                      |
+| 261    | INT_NET | Net   : CAEN_LINK_instance/I_CorePCS/Core_PCS_0/rx_rst_n_0                                                    |
+|        |         | Driver: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/rx_rst_n                                                      |
+| 237    | INT_NET | Net   : un5121                                                                                                |
+|        |         | Driver: vme_int_instance/fsm_roc[21]                                                                          |
+| 224    | INT_NET | Net   : GBTx_interface_instance/fifo_clear                                                                    |
+|        |         | Driver: GBTx_interface_instance/fifo_clear                                                                    |
+| 215    | INT_NET | Net   : GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.w_corefifo_resetSync/shift_reg[1] |
+|        |         | Driver: GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.w_corefifo_resetSync/shift_reg[1] |
+| 188    | INT_NET | Net   : GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.r_corefifo_resetSync/shift_reg[1] |
+|        |         | Driver: GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.r_corefifo_resetSync/shift_reg[1] |
+| 173    | INT_NET | Net   : GBTx_interface_instance/l1msg_gbtck_instance/l1msg_gbtck_0/sc_r_0                                     |
+|        |         | Driver: GBTx_interface_instance/l1msg_gbtck_instance/l1msg_gbtck_0/L1.fifo_corefifo_sync_scntr/memre          |
++--------+---------+---------------------------------------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+---------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                          |
++--------+---------+---------------------------------------------------------------------------------------------------------------+
+| 698    | INT_NET | Net   : vme_int_instance.N_614_i                                                                              |
+|        |         | Driver: vme_int_instance/WPULSE_RNIFHL8[2]                                                                    |
+| 499    | INT_NET | Net   : I2C_CORE_instance/I2CSFTTEMP_0/AND2_0_Y                                                               |
+|        |         | Driver: I2C_CORE_instance/I2CSFTTEMP_0/AND2_0                                                                 |
+| 360    | INT_NET | Net   : vme_int_instance.N_906_i                                                                              |
+|        |         | Driver: vme_int_instance/regs.ctrl2_rep[8]                                                                    |
+| 304    | INT_NET | Net   : CAEN_LINK_instance/EPCS_SERDES_Lane0_RX_RESET_N                                                       |
+|        |         | Driver: CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST                      |
+| 261    | INT_NET | Net   : CAEN_LINK_instance/I_CorePCS/Core_PCS_0/rx_rst_n_0                                                    |
+|        |         | Driver: CAEN_LINK_instance/I_CorePCS/Core_PCS_0/rx_rst_n                                                      |
+| 237    | INT_NET | Net   : un5121                                                                                                |
+|        |         | Driver: vme_int_instance/fsm_roc[21]                                                                          |
+| 224    | INT_NET | Net   : GBTx_interface_instance/fifo_clear                                                                    |
+|        |         | Driver: GBTx_interface_instance/fifo_clear                                                                    |
+| 215    | INT_NET | Net   : GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.w_corefifo_resetSync/shift_reg[1] |
+|        |         | Driver: GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.w_corefifo_resetSync/shift_reg[1] |
+| 188    | INT_NET | Net   : GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.r_corefifo_resetSync/shift_reg[1] |
+|        |         | Driver: GBTx_interface_instance/GBTx_data_fifo_instance/GBTx_data_fifo_0/R1.r_corefifo_resetSync/shift_reg[1] |
+| 173    | INT_NET | Net   : GBTx_interface_instance/l1msg_gbtck_instance/l1msg_gbtck_0/sc_r_0                                     |
+|        |         | Driver: GBTx_interface_instance/l1msg_gbtck_instance/l1msg_gbtck_0/L1.fifo_corefifo_sync_scntr/memre          |
++--------+---------+---------------------------------------------------------------------------------------------------------------+
+

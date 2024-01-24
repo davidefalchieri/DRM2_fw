@@ -1,0 +1,60 @@
+********************************************************************
+I/O Bank Report - Date: Thu Apr 13 16:24:25 2023
+Product: Designer
+Release: v2021.3
+Version: 2021.3.0.10
+Design Name: DRM2_top
+Family: IGLOO2
+Die: M2GL090T
+Package: 676 FBGA
+********************************************************************
+
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 23            | 9            | 0
+    Output I/O                            | 87            | 7            | 0
+    Bidirectional I/O                     | 48            | 65           | 0
+    Differential Input I/O Pairs          | 5             | 0            | 40
+    Differential Output I/O Pairs         | 0             | 0            | 40
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os              
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vddi  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVCMOS33                        | 3.30v | N/A   | 24    | 41     | 76           
+    LVCMOS15                        | 1.50v | N/A   | 8     | 16     | 4            
+    LVCMOS25                        | 2.50v | N/A   | 0     | 37     | 33           
+    LVDS                            | 2.50v | N/A   | 84    | 80     | 0            
+    LVDS33                          | 3.30v | N/A   | 6     | 0      | 0            
+
+I/O Bank Resource Usage:
+
+          |   Voltages    | Single I/Os  | Diff I/O Pairs |        Vref I/Os        |  Type   
+          |-------|-------|------|-------|-------|--------|------|-------|----------|---------
+          | Vddi  | Vref  | Used | Total | Used  | Total  | Used | Total | Vref Pins|         
+    ------|-------|-------|------|-------|-------|--------|------|-------|----------|---------
+    Bank0 | 3.30v | N/A   | 30   | 30    | 0     | 15     | N/A  | N/A   | N/A      | MSIO    
+    Bank1 | 2.50v | N/A   | 70   | 76    | 0     | 38     | N/A  | N/A   | N/A      | DDRIO   
+    Bank2 | 3.30v | N/A   | 17   | 21    | 2     | 10     | N/A  | N/A   | N/A      | MSIO    
+    Bank3 | 3.30v | N/A   | 94   | 96    | 1     | 48     | N/A  | N/A   | N/A      | MSIO    
+    Bank4 | 3.30v | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | JTAG    
+    Bank5 | 2.50v | N/A   | 0    | 82    | 41    | 41     | N/A  | N/A   | N/A      | MSIO    
+    Bank6 | 2.50v | N/A   | 0    | 4     | 1     | 2      | N/A  | N/A   | N/A      | MSIOD   
+    Bank7 | 1.50v | N/A   | 28   | 36    | 0     | 18     | N/A  | N/A   | N/A      | MSIOD   
+    Bank8 | 2.50v | N/A   | 0    | 80    | 40    | 40     | N/A  | N/A   | N/A      | MSIO    
+
+I/O Voltage Usage:
+
+       Voltages    |     I/Os     
+    -------|-------|------|-------
+     Vddi  | Vref  | Used | Total 
+    -------|-------|------|-------
+     1.50v | N/A   | 28   | 36    
+     2.50v | N/A   | 234  | 242   
+     3.30v | N/A   | 147  | 147   
+

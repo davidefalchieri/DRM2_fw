@@ -1,0 +1,653 @@
+DESIGN vbuf
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 102,0 14 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 122,0 15 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 132,0 16 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 147,0 17 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 157,0 18 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 320,0 19 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 172,0 20 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 187,0 21 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 272,0 22 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 277,0 23 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 292,0 24 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 192,0 25 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 62,0 26 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 67,0 27 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 72,0 28 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 77,0 29 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 82,0 30 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 310,0 31 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 297,0 32 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 197,0 33 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 212,0 34 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 217,0 35 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 227,0 36 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 237,0 37 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 247,0 38 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 257,0 39 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 127,0 40 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 137,0 41 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 267,0 42 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 142,0 43 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 152,0 44 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 162,0 45 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 167,0 46 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 315,0 47 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 177,0 48 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 182,0 49 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 282,0 50 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 287,0 51 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 202,0 52 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 207,0 53 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 222,0 54 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 232,0 55 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 242,0 56 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 252,0 57 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 262,0 58 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 97,0 59 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 87,0 60 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 112,0 61 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 117,0 62 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 107,0 63 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 92,0 64 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 1,0 67 0 
+DESIGN vbuf
+VIEW symbol.sb
+GRAPHIC 1,0 68 0 
+DESIGN vbuf
+VIEW struct.bd
+NO_GRAPHIC 71
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 42,0 71 0 
+DESIGN vbuf
+VIEW struct.bd
+NO_GRAPHIC 74
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 0,0 76 2 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1993,0 81 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 331,0 82 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 341,0 83 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3333,0 84 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3335,0 85 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3339,0 86 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1987,0 87 0 
+DESIGN vbuf
+VIEW struct.bd
+NO_GRAPHIC 88
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3901,0 90 0 
+DESIGN vbuf
+VIEW struct.bd
+NO_GRAPHIC 95
+LIBRARY vx1392_lib
+DESIGN @f@c@t16543@p
+VIEW @b@e@h@a@v
+GRAPHIC 1407,0 97 0 
+DESIGN @f@c@t16543@p
+VIEW @b@e@h@a@v
+GRAPHIC 72,0 99 0 
+DESIGN @f@c@t16543@p
+VIEW @b@e@h@a@v
+GRAPHIC 77,0 100 0 
+DESIGN @f@c@t16543@p
+VIEW @b@e@h@a@v
+GRAPHIC 82,0 101 0 
+DESIGN @f@c@t16543@p
+VIEW @b@e@h@a@v
+GRAPHIC 87,0 102 0 
+DESIGN @f@c@t16543@p
+VIEW @b@e@h@a@v
+GRAPHIC 62,0 103 0 
+DESIGN @f@c@t16543@p
+VIEW @b@e@h@a@v
+GRAPHIC 67,0 104 0 
+DESIGN @f@c@t16543@p
+VIEW @b@e@h@a@v
+GRAPHIC 52,0 105 0 
+DESIGN @f@c@t16543@p
+VIEW @b@e@h@a@v
+GRAPHIC 57,0 106 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1696,0 109 0 
+DESIGN @f@c@t1@b@i@t543
+VIEW @b@e@h@a@v
+GRAPHIC 72,0 111 0 
+DESIGN @f@c@t1@b@i@t543
+VIEW @b@e@h@a@v
+GRAPHIC 77,0 112 0 
+DESIGN @f@c@t1@b@i@t543
+VIEW @b@e@h@a@v
+GRAPHIC 82,0 113 0 
+DESIGN @f@c@t1@b@i@t543
+VIEW @b@e@h@a@v
+GRAPHIC 87,0 114 0 
+DESIGN @f@c@t1@b@i@t543
+VIEW @b@e@h@a@v
+GRAPHIC 62,0 115 0 
+DESIGN @f@c@t1@b@i@t543
+VIEW @b@e@h@a@v
+GRAPHIC 67,0 116 0 
+DESIGN @f@c@t1@b@i@t543
+VIEW @b@e@h@a@v
+GRAPHIC 52,0 117 0 
+DESIGN @f@c@t1@b@i@t543
+VIEW @b@e@h@a@v
+GRAPHIC 57,0 118 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2587,0 121 0 
+DESIGN @l@v@c16244
+VIEW @b@e@h@a@v
+GRAPHIC 59,0 123 0 
+DESIGN @l@v@c16244
+VIEW @b@e@h@a@v
+GRAPHIC 64,0 124 0 
+DESIGN @l@v@c16244
+VIEW @b@e@h@a@v
+GRAPHIC 69,0 125 0 
+DESIGN @l@v@c16244
+VIEW @b@e@h@a@v
+GRAPHIC 74,0 126 0 
+DESIGN @l@v@c16244
+VIEW @b@e@h@a@v
+GRAPHIC 79,0 127 0 
+DESIGN @l@v@c16244
+VIEW @b@e@h@a@v
+GRAPHIC 84,0 128 0 
+DESIGN @l@v@c16244
+VIEW @b@e@h@a@v
+GRAPHIC 89,0 129 0 
+DESIGN @l@v@c16244
+VIEW @b@e@h@a@v
+GRAPHIC 94,0 130 0 
+DESIGN @l@v@c16244
+VIEW @b@e@h@a@v
+GRAPHIC 99,0 131 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3746,0 134 0 
+DESIGN @l@v@t125
+VIEW @b@e@h@a@v
+GRAPHIC 52,0 136 0 
+DESIGN @l@v@t125
+VIEW @b@e@h@a@v
+GRAPHIC 57,0 137 0 
+DESIGN @l@v@t125
+VIEW @b@e@h@a@v
+GRAPHIC 62,0 138 0 
+DESIGN @l@v@t125
+VIEW @b@e@h@a@v
+GRAPHIC 67,0 139 0 
+DESIGN @l@v@t125
+VIEW @b@e@h@a@v
+GRAPHIC 72,0 140 0 
+DESIGN @l@v@t125
+VIEW @b@e@h@a@v
+GRAPHIC 77,0 141 0 
+DESIGN @l@v@t125
+VIEW @b@e@h@a@v
+GRAPHIC 82,0 142 0 
+DESIGN @l@v@t125
+VIEW @b@e@h@a@v
+GRAPHIC 87,0 143 0 
+DESIGN @l@v@t125
+VIEW @b@e@h@a@v
+GRAPHIC 92,0 144 0 
+DESIGN @l@v@t125
+VIEW @b@e@h@a@v
+GRAPHIC 97,0 145 0 
+DESIGN @l@v@t125
+VIEW @b@e@h@a@v
+GRAPHIC 102,0 146 0 
+DESIGN @l@v@t125
+VIEW @b@e@h@a@v
+GRAPHIC 107,0 147 0 
+LIBRARY vx1392_lib
+DESIGN vbuf
+VIEW struct.bd
+NO_GRAPHIC 150
+DESIGN vbuf
+VIEW struct.bd
+NO_GRAPHIC 151
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 292,0 153 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1835,0 156 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1932,0 159 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 313,0 174 0 
+DESIGN vbuf
+VIEW struct.bd
+NO_GRAPHIC 177
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1407,0 179 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 947,0 181 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 929,0 182 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 956,0 183 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 938,0 184 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 253,0 185 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 269,0 186 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1003,0 187 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1027,0 188 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1454,0 190 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1100,0 192 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1107,0 193 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1121,0 194 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1114,0 195 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 450,0 196 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 446,0 197 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1128,0 198 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1134,0 199 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1501,0 201 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1227,0 203 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1245,0 204 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1517,0 205 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1254,0 206 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 572,0 207 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 578,0 208 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1281,0 209 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1289,0 210 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1923,0 212 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2207,0 214 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2241,0 215 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2216,0 216 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2249,0 217 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2224,0 218 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2235,0 219 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1989,0 220 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1995,0 221 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1696,0 223 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1764,0 225 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1755,0 226 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1773,0 227 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1746,0 228 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1738,0 229 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1730,0 230 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1712,0 231 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 1722,0 232 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2587,0 234 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2447,0 236 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2459,0 237 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2471,0 238 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2483,0 239 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2543,0 240 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2495,0 241 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2507,0 242 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2519,0 243 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2531,0 244 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2620,0 246 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2691,0 248 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2695,0 249 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3901,0 250 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2715,0 251 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2723,0 252 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2703,0 253 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2707,0 254 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2719,0 255 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 2711,0 256 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3067,0 258 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3138,0 260 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3142,0 261 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3146,0 262 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3162,0 263 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3170,0 264 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3150,0 265 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3154,0 266 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3166,0 267 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3158,0 268 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3216,0 270 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3287,0 272 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3967,0 273 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 4573,0 274 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 4579,0 275 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3319,0 276 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3299,0 277 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3303,0 278 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3315,0 279 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3307,0 280 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3746,0 282 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 4017,0 284 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3785,0 285 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3791,0 286 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3797,0 287 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 4033,0 288 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 4049,0 289 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 4065,0 290 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 4081,0 291 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 4023,0 292 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 4097,0 293 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 4111,0 294 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 4127,0 295 0 
+DESIGN vbuf
+VIEW struct.bd
+GRAPHIC 3901,0 299 0 
+DESIGN vbuf
+VIEW struct.bd
+NO_GRAPHIC 301

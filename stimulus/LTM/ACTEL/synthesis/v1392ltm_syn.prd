@@ -1,0 +1,13 @@
+#-- Synplicity, Inc.
+#-- Version Synplify 8.6.2H
+#-- Project file C:\FrontEnd\Annalisa\work\vx1392\synthesis\v1392ltm_syn.prd
+#-- Written on Thu Jun 05 18:36:27 2008
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear {  ROC32|GEN_LCLK_PLL.PLL_lclk_del.CLKOUT_inferred_clock - Estimated Frequency }

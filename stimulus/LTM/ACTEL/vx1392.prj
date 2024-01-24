@@ -1,0 +1,342 @@
+KEY LIBERO "7.3"
+KEY CAPTURE "7.3.0.29"
+KEY DEFAULT_IMPORT_LOC "C:\FrontEnd\Annalisa\work\vx1392\hdl"
+KEY DEFAULT_OPEN_LOC "C:\FrontEnd\Annalisa\work\vx1392\package"
+KEY HDLTechnology "VHDL"
+KEY VendorTechnology_Family "PA"
+KEY VendorTechnology_Die "600"
+KEY VendorTechnology_Package "fg676"
+KEY ProjectLocation "C:\FrontEnd\Annalisa\work\vx1392"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "v1392ltm"
+LIST REVISIONS
+VALUE="Current",NUM=4
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\constraint\v1392ltm_rev1.gcf,gcf"
+STATE="utd"
+ENDFILE
+VALUE "<project>\designer\impl4\v1392ltm-am.sdf,sdf"
+STATE="utd"
+ENDFILE
+VALUE "<project>\designer\impl4\v1392ltm.adb,adb"
+STATE="ood"
+ENDFILE
+VALUE "<project>\designer\impl4\v1392ltm.stp,stp"
+STATE="ood"
+ENDFILE
+VALUE "<project>\designer\impl4\v1392ltm_rev3_build8225.stp,stp"
+STATE="utd"
+ENDFILE
+VALUE "<project>\designer\impl4\v1392ltm_rev4_build_8423.stp,stp"
+STATE="utd"
+ENDFILE
+VALUE "<project>\designer\impl4\v1392ltm_rev5_build_8605.stp,stp"
+STATE="utd"
+ENDFILE
+VALUE "<project>\designer\impl4\v1392ltm_rev5_build_8616.stp,stp"
+STATE="utd"
+ENDFILE
+VALUE "<project>\designer\impl4\v1392ltm_rev5_build_8623_spitest.stp,stp"
+STATE="utd"
+ENDFILE
+VALUE "<project>\designer\impl4\v1392ltm_rev6_build9326.stp,stp"
+STATE="utd"
+ENDFILE
+VALUE "<project>\hdl\I2C_interf.vhd,hdl"
+STATE="utd"
+ENDFILE
+VALUE "<project>\hdl\V1392pkg.vhd,hdl"
+STATE="utd"
+ENDFILE
+VALUE "<project>\hdl\clk_interf.vhd,hdl"
+STATE="utd"
+ENDFILE
+VALUE "<project>\hdl\ctrl.vhd,hdl"
+STATE="utd"
+ENDFILE
+VALUE "<project>\hdl\dac_interf.vhd,hdl"
+STATE="utd"
+ENDFILE
+VALUE "<project>\hdl\lbspare.vhd,hdl"
+STATE="utd"
+ENDFILE
+VALUE "<project>\hdl\monostable.vhd,hdl"
+STATE="utd"
+ENDFILE
+VALUE "<project>\hdl\pdl_interf.vhd,hdl"
+STATE="utd"
+ENDFILE
+VALUE "<project>\hdl\reset_mod.vhd,hdl"
+STATE="utd"
+ENDFILE
+VALUE "<project>\hdl\roc32.vhd,hdl"
+STATE="utd"
+ENDFILE
+VALUE "<project>\hdl\spi_interf.vhd,hdl"
+STATE="utd"
+ENDFILE
+VALUE "<project>\hdl\v1392ltm.vhd,hdl"
+STATE="ood"
+ENDFILE
+VALUE "<project>\hdl\vinterf.vhd,hdl"
+STATE="utd"
+ENDFILE
+VALUE "<project>\phy_synthesis\v1392ltm_palace.edn,palace_edn"
+STATE="ood"
+ENDFILE
+VALUE "<project>\phy_synthesis\v1392ltm_palace.gcf,palace_gcf"
+STATE="ood"
+ENDFILE
+VALUE "<project>\phy_synthesis\v1392ltm_palace.sdc,palace_sdc"
+STATE="ood"
+ENDFILE
+VALUE "<project>\phy_synthesis\v1392ltm_palace.vhd,palace_hdl"
+STATE="ood"
+ENDFILE
+VALUE "<project>\smartgen\CROM\CROM.cxf,actgen_cxf"
+STATE="utd"
+ENDFILE
+VALUE "<project>\smartgen\CROM\CROM.gen,gen"
+STATE="utd"
+PARENT="<project>\smartgen\CROM\CROM.cxf"
+ENDFILE
+VALUE "<project>\smartgen\CROM\CROM.log,log"
+STATE="utd"
+PARENT="<project>\smartgen\CROM\CROM.cxf"
+ENDFILE
+VALUE "<project>\smartgen\CROM\CROM.vhd,hdl"
+STATE="utd"
+PARENT="<project>\smartgen\CROM\CROM.cxf"
+ENDFILE
+VALUE "<project>\smartgen\CROM\CROM_M0.mem,sim"
+STATE="utd"
+PARENT="<project>\smartgen\CROM\CROM.cxf"
+ENDFILE
+VALUE "<project>\smartgen\DACCFG\DACCFG.cxf,actgen_cxf"
+STATE="utd"
+ENDFILE
+VALUE "<project>\smartgen\DACCFG\DACCFG.gen,gen"
+STATE="utd"
+PARENT="<project>\smartgen\DACCFG\DACCFG.cxf"
+ENDFILE
+VALUE "<project>\smartgen\DACCFG\DACCFG.log,log"
+STATE="utd"
+PARENT="<project>\smartgen\DACCFG\DACCFG.cxf"
+ENDFILE
+VALUE "<project>\smartgen\DACCFG\DACCFG.vhd,hdl"
+STATE="utd"
+PARENT="<project>\smartgen\DACCFG\DACCFG.cxf"
+ENDFILE
+VALUE "<project>\smartgen\DACCFG\DACCFG_M0.mem,sim"
+STATE="utd"
+PARENT="<project>\smartgen\DACCFG\DACCFG.cxf"
+ENDFILE
+VALUE "<project>\smartgen\PDLCFG\PDLCFG.cxf,actgen_cxf"
+STATE="utd"
+ENDFILE
+VALUE "<project>\smartgen\PDLCFG\PDLCFG.gen,gen"
+STATE="utd"
+PARENT="<project>\smartgen\PDLCFG\PDLCFG.cxf"
+ENDFILE
+VALUE "<project>\smartgen\PDLCFG\PDLCFG.log,log"
+STATE="utd"
+PARENT="<project>\smartgen\PDLCFG\PDLCFG.cxf"
+ENDFILE
+VALUE "<project>\smartgen\PDLCFG\PDLCFG.vhd,hdl"
+STATE="utd"
+PARENT="<project>\smartgen\PDLCFG\PDLCFG.cxf"
+ENDFILE
+VALUE "<project>\smartgen\PDLCFG\PDLCFG_M0.mem,sim"
+STATE="utd"
+PARENT="<project>\smartgen\PDLCFG\PDLCFG.cxf"
+ENDFILE
+VALUE "<project>\smartgen\PLL_aclk\PLL_aclk.cxf,actgen_cxf"
+STATE="utd"
+ENDFILE
+VALUE "<project>\smartgen\PLL_aclk\PLL_aclk.gen,gen"
+STATE="utd"
+PARENT="<project>\smartgen\PLL_aclk\PLL_aclk.cxf"
+ENDFILE
+VALUE "<project>\smartgen\PLL_aclk\PLL_aclk.log,log"
+STATE="utd"
+PARENT="<project>\smartgen\PLL_aclk\PLL_aclk.cxf"
+ENDFILE
+VALUE "<project>\smartgen\PLL_aclk\PLL_aclk.vhd,hdl"
+STATE="utd"
+PARENT="<project>\smartgen\PLL_aclk\PLL_aclk.cxf"
+ENDFILE
+VALUE "<project>\smartgen\PLL_lclk\PLL_lclk.cxf,actgen_cxf"
+STATE="utd"
+ENDFILE
+VALUE "<project>\smartgen\PLL_lclk\PLL_lclk.gen,gen"
+STATE="utd"
+PARENT="<project>\smartgen\PLL_lclk\PLL_lclk.cxf"
+ENDFILE
+VALUE "<project>\smartgen\PLL_lclk\PLL_lclk.log,log"
+STATE="utd"
+PARENT="<project>\smartgen\PLL_lclk\PLL_lclk.cxf"
+ENDFILE
+VALUE "<project>\smartgen\PLL_lclk\PLL_lclk.vhd,hdl"
+STATE="utd"
+PARENT="<project>\smartgen\PLL_lclk\PLL_lclk.cxf"
+ENDFILE
+VALUE "<project>\smartgen\SoftFIFO160x32\SoftFIFO160x32.cxf,actgen_cxf"
+STATE="utd"
+ENDFILE
+VALUE "<project>\smartgen\SoftFIFO160x32\SoftFIFO160x32.gen,gen"
+STATE="utd"
+PARENT="<project>\smartgen\SoftFIFO160x32\SoftFIFO160x32.cxf"
+ENDFILE
+VALUE "<project>\smartgen\SoftFIFO160x32\SoftFIFO160x32.log,log"
+STATE="utd"
+PARENT="<project>\smartgen\SoftFIFO160x32\SoftFIFO160x32.cxf"
+ENDFILE
+VALUE "<project>\smartgen\SoftFIFO160x32\SoftFIFO160x32.vhd,hdl"
+STATE="utd"
+PARENT="<project>\smartgen\SoftFIFO160x32\SoftFIFO160x32.cxf"
+ENDFILE
+VALUE "<project>\smartgen\event_fifo\event_fifo.cxf,actgen_cxf"
+STATE="utd"
+ENDFILE
+VALUE "<project>\smartgen\event_fifo\event_fifo.gen,gen"
+STATE="utd"
+PARENT="<project>\smartgen\event_fifo\event_fifo.cxf"
+ENDFILE
+VALUE "<project>\smartgen\event_fifo\event_fifo.log,log"
+STATE="utd"
+PARENT="<project>\smartgen\event_fifo\event_fifo.cxf"
+ENDFILE
+VALUE "<project>\smartgen\event_fifo\event_fifo.vhd,hdl"
+STATE="utd"
+PARENT="<project>\smartgen\event_fifo\event_fifo.cxf"
+ENDFILE
+VALUE "<project>\synthesis\v1392ltm.edn,syn_edn"
+STATE="ood"
+ENDFILE
+VALUE "<project>\synthesis\v1392ltm.vhd,syn_hdl"
+STATE="ood"
+ENDFILE
+VALUE "<project>\synthesis\v1392ltm_sdc.sdc,syn_sdc"
+STATE="ood"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+LIST DACCFG
+VALUE "<project>\smartgen\DACCFG\DACCFG_M0.mem,sim"
+ENDLIST
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+CompilePackage=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=TRUE
+GenerateHDLAfterPhySynthesis=TRUE
+RunDRCAfterSynthesis=FALSE
+UpdateViewDrawIni=TRUE
+NoIOMode=FALSE
+GenerateHDLFromSchematic=TRUE
+ENDLIST
+LIST PhySynthesisOptions
+LIST "v1392ltm"
+GenPinConstraints=FALSE
+UseSynplifySDC=TRUE
+LogSynthEffort=3
+PhySynthEffort=1
+RelaxDelay=0
+MaxCoreCell=100
+Constraints
+VALUE "<project>\synthesis\v1392ltm_sdc.sdc,syn_sdc"
+VALUE "<project>\constraint\v1392ltm_rev1.gcf,gcf"
+ENDConstraints
+ENDLIST
+ENDLIST
+LIST Profiles
+Type=Synthesis
+Profile=Synplify
+Tool=Synplify
+Location=C:\Programmi\libero73\Synplify\Synplify_862H\bin\synplify.exe
+AdditionalParameter=
+Batch=false
+EndProfile
+Type=Simulation
+Profile=ModelSim
+Tool=ModelSim
+Location=modelsim.exe
+AdditionalParameter=
+Batch=false
+EndProfile
+Type=Stimulus
+Profile=WFL
+Tool=WFL
+Location=syncad.exe
+AdditionalParameter=-pwflite
+Batch=false
+EndProfile
+Type=PhySynthesis
+Profile=PALACE
+Tool=PALACE
+Location=C:\Programmi\Libero70\PALACE\bin\palace_actel.exe
+AdditionalParameter=
+Batch=false
+EndProfile
+Type=Program
+Profile=FlashPro
+Tool=FlashPro
+Location=C:\Programmi\libero73\FlashPro\bin\FlashPro.exe
+AdditionalParameter=
+Batch=false
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "v1392ltm"
+LIST Current
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+VALUE "<project>\synthesis\v1392ltm.edn,syn_edn"
+VALUE "<project>\synthesis\v1392ltm_sdc.sdc,syn_sdc"
+VALUE "<project>\synthesis\v1392ltm.vhd,syn_hdl"
+VALUE "<project>\phy_synthesis\v1392ltm_palace.edn,palace_edn"
+VALUE "<project>\phy_synthesis\v1392ltm_palace.gcf,palace_gcf"
+VALUE "<project>\phy_synthesis\v1392ltm_palace.pdc,palace_pdc"
+VALUE "<project>\phy_synthesis\v1392ltm_palace.sdc,palace_sdc"
+VALUE "<project>\phy_synthesis\v1392ltm_palace.vhd,palace_hdl"
+VALUE "<project>\designer\impl4\v1392ltm.adb,adb"
+VALUE "<project>\designer\impl4\v1392ltm.prb,prb"
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST OODAdbs
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST

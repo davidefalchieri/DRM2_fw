@@ -1,0 +1,9 @@
+indata[0] = 3'b101 ; outdata[0] = 3'b100; 
+indata[1] = 3'b001 ; outdata[1] = 3'b001; 
+indata[2] = 3'b000 ; outdata[2] = 3'b001; 
+indata[3] = 3'b101 ; outdata[3] = 3'b100; 
+indata[4] = 3'b001 ; outdata[4] = 3'b001; 
+indata[5] = 3'b010 ; outdata[5] = 3'b010; 
+indata[6] = 3'b000 ; outdata[6] = 3'b100; 
+indata[7] = 3'b100 ; outdata[7] = 3'b100; 
+indata[8] = 3'b000 ; outdata[8] = 3'b100; 

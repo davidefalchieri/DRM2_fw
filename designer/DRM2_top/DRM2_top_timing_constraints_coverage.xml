@@ -1,0 +1,1742 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text>SmartTime Version 2021.2.0.11</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release v2021.2 (Version 2021.2.0.11)
+Date: Wed Feb  9 10:57:48 2022 </text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>DRM2_top</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>IGLOO2</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>M2GL090T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>676 FBGA</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 85 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>1.14 - 1.26 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<section>
+<name>Coverage Summary</name>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>        16482</cell>
+ <cell>           16</cell>
+ <cell>        16498</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>         5294</cell>
+ <cell>           12</cell>
+ <cell>         5306</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>          100</cell>
+ <cell>          395</cell>
+ <cell>          495</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>        21876</cell>
+ <cell>          423</cell>
+ <cell>        22299</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>        16482</cell>
+ <cell>           16</cell>
+ <cell>        16498</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>         5294</cell>
+ <cell>           12</cell>
+ <cell>         5306</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>          100</cell>
+ <cell>          395</cell>
+ <cell>          495</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>        21876</cell>
+ <cell>          423</cell>
+ <cell>        22299</cell>
+</row>
+</table>
+<section>
+<name>Clock domain: </name>
+<text>CAEN_LINK_instance/I_conet_interf/endpck:Q</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>CAEN_LINK_instance/I_conet_interf/token:Q</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>EPCS_Demo_instance/CCC_0/GL0</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>          946</cell>
+ <cell>            0</cell>
+ <cell>          946</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>          479</cell>
+ <cell>            2</cell>
+ <cell>          481</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>           10</cell>
+ <cell>          182</cell>
+ <cell>          192</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>         1435</cell>
+ <cell>          184</cell>
+ <cell>         1619</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>          946</cell>
+ <cell>            0</cell>
+ <cell>          946</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>          479</cell>
+ <cell>            2</cell>
+ <cell>          481</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>           10</cell>
+ <cell>          182</cell>
+ <cell>          192</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>         1435</cell>
+ <cell>          184</cell>
+ <cell>         1619</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>BERRL</item>
+ <item>BUNCH_RES</item>
+ <item>CLKLEDG</item>
+ <item>CLKLEDR</item>
+ <item>CLK_SEL1</item>
+ <item>CLK_SEL2</item>
+ <item>DS0L</item>
+ <item>DS1L</item>
+ <item>EVENT_RES</item>
+ <item>EXTSCL</item>
+ <item>EXTSDA</item>
+ <item>FPGADIR1</item>
+ <item>FPGADIR2</item>
+ <item>FPGALED1</item>
+ <item>FPGALED2</item>
+ <item>FPGALED3</item>
+ <item>FPGALED4</item>
+ <item>GBTX_TXDVALID</item>
+ <item>LWORDB</item>
+ <item>NOEADR</item>
+ <item>NOEADW</item>
+ <item>NOEDRDY</item>
+ <item>NOEDTR</item>
+ <item>NOEDTW</item>
+ <item>NOEFAULT</item>
+ <item>PROGL</item>
+ <item>PULSETGLL</item>
+ <item>PXL_D[0]</item>
+ <item>PXL_D[10]</item>
+ <item>PXL_D[11]</item>
+ <item>PXL_D[12]</item>
+ <item>PXL_D[13]</item>
+ <item>PXL_D[14]</item>
+ <item>PXL_D[15]</item>
+ <item>PXL_D[1]</item>
+ <item>PXL_D[2]</item>
+ <item>PXL_D[3]</item>
+ <item>PXL_D[4]</item>
+ <item>PXL_D[5]</item>
+ <item>PXL_D[6]</item>
+ <item>PXL_D[7]</item>
+ <item>PXL_D[8]</item>
+ <item>PXL_D[9]</item>
+ <item>PXL_IRQ</item>
+ <item>PXL_OFF</item>
+ <item>RAM_A[0]</item>
+ <item>RAM_A[10]</item>
+ <item>RAM_A[11]</item>
+ <item>RAM_A[12]</item>
+ <item>RAM_A[13]</item>
+ <item>RAM_A[14]</item>
+ <item>RAM_A[15]</item>
+ <item>RAM_A[16]</item>
+ <item>RAM_A[17]</item>
+ <item>RAM_A[18]</item>
+ <item>RAM_A[19]</item>
+ <item>RAM_A[1]</item>
+ <item>RAM_A[2]</item>
+ <item>RAM_A[3]</item>
+ <item>RAM_A[4]</item>
+ <item>RAM_A[5]</item>
+ <item>RAM_A[6]</item>
+ <item>RAM_A[7]</item>
+ <item>RAM_A[8]</item>
+ <item>RAM_A[9]</item>
+ <item>RAM_D[0]</item>
+ <item>RAM_D[10]</item>
+ <item>RAM_D[11]</item>
+ <item>RAM_D[12]</item>
+ <item>RAM_D[13]</item>
+ <item>RAM_D[14]</item>
+ <item>RAM_D[15]</item>
+ <item>RAM_D[16]</item>
+ <item>RAM_D[17]</item>
+ <item>RAM_D[18]</item>
+ <item>RAM_D[19]</item>
+ <item>RAM_D[1]</item>
+ <item>RAM_D[20]</item>
+ <item>RAM_D[21]</item>
+ <item>RAM_D[22]</item>
+ <item>RAM_D[23]</item>
+ <item>RAM_D[24]</item>
+ <item>RAM_D[25]</item>
+ <item>RAM_D[26]</item>
+ <item>RAM_D[27]</item>
+ <item>RAM_D[28]</item>
+ <item>RAM_D[29]</item>
+ <item>RAM_D[2]</item>
+ <item>RAM_D[30]</item>
+ <item>RAM_D[31]</item>
+ <item>RAM_D[32]</item>
+ <item>RAM_D[33]</item>
+ <item>RAM_D[34]</item>
+ <item>RAM_D[35]</item>
+ <item>RAM_D[3]</item>
+ <item>RAM_D[4]</item>
+ <item>RAM_D[5]</item>
+ <item>RAM_D[6]</item>
+ <item>RAM_D[7]</item>
+ <item>RAM_D[8]</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>BERRL</item>
+ <item>BUNCH_RES</item>
+ <item>CLKLEDG</item>
+ <item>CLKLEDR</item>
+ <item>CLK_SEL1</item>
+ <item>CLK_SEL2</item>
+ <item>DS0L</item>
+ <item>DS1L</item>
+ <item>EVENT_RES</item>
+ <item>EXTSCL</item>
+ <item>EXTSDA</item>
+ <item>FPGADIR1</item>
+ <item>FPGADIR2</item>
+ <item>FPGALED1</item>
+ <item>FPGALED2</item>
+ <item>FPGALED3</item>
+ <item>FPGALED4</item>
+ <item>GBTX_TXDVALID</item>
+ <item>LWORDB</item>
+ <item>NOEADR</item>
+ <item>NOEADW</item>
+ <item>NOEDRDY</item>
+ <item>NOEDTR</item>
+ <item>NOEDTW</item>
+ <item>NOEFAULT</item>
+ <item>PROGL</item>
+ <item>PULSETGLL</item>
+ <item>PXL_D[0]</item>
+ <item>PXL_D[10]</item>
+ <item>PXL_D[11]</item>
+ <item>PXL_D[12]</item>
+ <item>PXL_D[13]</item>
+ <item>PXL_D[14]</item>
+ <item>PXL_D[15]</item>
+ <item>PXL_D[1]</item>
+ <item>PXL_D[2]</item>
+ <item>PXL_D[3]</item>
+ <item>PXL_D[4]</item>
+ <item>PXL_D[5]</item>
+ <item>PXL_D[6]</item>
+ <item>PXL_D[7]</item>
+ <item>PXL_D[8]</item>
+ <item>PXL_D[9]</item>
+ <item>PXL_IRQ</item>
+ <item>PXL_OFF</item>
+ <item>RAM_A[0]</item>
+ <item>RAM_A[10]</item>
+ <item>RAM_A[11]</item>
+ <item>RAM_A[12]</item>
+ <item>RAM_A[13]</item>
+ <item>RAM_A[14]</item>
+ <item>RAM_A[15]</item>
+ <item>RAM_A[16]</item>
+ <item>RAM_A[17]</item>
+ <item>RAM_A[18]</item>
+ <item>RAM_A[19]</item>
+ <item>RAM_A[1]</item>
+ <item>RAM_A[2]</item>
+ <item>RAM_A[3]</item>
+ <item>RAM_A[4]</item>
+ <item>RAM_A[5]</item>
+ <item>RAM_A[6]</item>
+ <item>RAM_A[7]</item>
+ <item>RAM_A[8]</item>
+ <item>RAM_A[9]</item>
+ <item>RAM_D[0]</item>
+ <item>RAM_D[10]</item>
+ <item>RAM_D[11]</item>
+ <item>RAM_D[12]</item>
+ <item>RAM_D[13]</item>
+ <item>RAM_D[14]</item>
+ <item>RAM_D[15]</item>
+ <item>RAM_D[16]</item>
+ <item>RAM_D[17]</item>
+ <item>RAM_D[18]</item>
+ <item>RAM_D[19]</item>
+ <item>RAM_D[1]</item>
+ <item>RAM_D[20]</item>
+ <item>RAM_D[21]</item>
+ <item>RAM_D[22]</item>
+ <item>RAM_D[23]</item>
+ <item>RAM_D[24]</item>
+ <item>RAM_D[25]</item>
+ <item>RAM_D[26]</item>
+ <item>RAM_D[27]</item>
+ <item>RAM_D[28]</item>
+ <item>RAM_D[29]</item>
+ <item>RAM_D[2]</item>
+ <item>RAM_D[30]</item>
+ <item>RAM_D[31]</item>
+ <item>RAM_D[32]</item>
+ <item>RAM_D[33]</item>
+ <item>RAM_D[34]</item>
+ <item>RAM_D[35]</item>
+ <item>RAM_D[3]</item>
+ <item>RAM_D[4]</item>
+ <item>RAM_D[5]</item>
+ <item>RAM_D[6]</item>
+ <item>RAM_D[7]</item>
+ <item>RAM_D[8]</item>
+</list>
+<text></text>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>EPCS_Demo_instance/CORERESETP_0/RESET_N_M2F_clk_base:ALn</item>
+ <item>EPCS_Demo_instance/CORERESETP_0/RESET_N_M2F_q1:ALn</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>EPCS_Demo_instance/CORERESETP_0/RESET_N_M2F_clk_base:ALn</item>
+ <item>EPCS_Demo_instance/CORERESETP_0/RESET_N_M2F_q1:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>EPCS_Demo_instance/CCC_0/GL1</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>           22</cell>
+ <cell>            0</cell>
+ <cell>           22</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>           20</cell>
+ <cell>            0</cell>
+ <cell>           20</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>           42</cell>
+ <cell>            4</cell>
+ <cell>           46</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>           22</cell>
+ <cell>            0</cell>
+ <cell>           22</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>           20</cell>
+ <cell>            0</cell>
+ <cell>           20</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>           42</cell>
+ <cell>            4</cell>
+ <cell>           46</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>lvCLKLOS</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>lvCLKLOS</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>CLKLEDG</item>
+ <item>CLKLEDR</item>
+ <item>CLK_SEL1</item>
+ <item>CLK_SEL2</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>CLKLEDG</item>
+ <item>CLKLEDR</item>
+ <item>CLK_SEL1</item>
+ <item>CLK_SEL2</item>
+</list>
+<text></text>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>EPCS_Demo_instance/EPCS_Demo_sb_HPMS_0/CLK_CONFIG_APB</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>          291</cell>
+ <cell>            0</cell>
+ <cell>          291</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>          110</cell>
+ <cell>            0</cell>
+ <cell>          110</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>          401</cell>
+ <cell>            0</cell>
+ <cell>          401</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>          291</cell>
+ <cell>            0</cell>
+ <cell>          291</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>          110</cell>
+ <cell>            0</cell>
+ <cell>          110</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>          401</cell>
+ <cell>            0</cell>
+ <cell>          401</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>EPCS_Demo_instance/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>           31</cell>
+ <cell>            0</cell>
+ <cell>           31</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>           24</cell>
+ <cell>            0</cell>
+ <cell>           24</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>           55</cell>
+ <cell>            0</cell>
+ <cell>           55</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>           31</cell>
+ <cell>            0</cell>
+ <cell>           31</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>           24</cell>
+ <cell>            0</cell>
+ <cell>           24</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>           55</cell>
+ <cell>            0</cell>
+ <cell>           55</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>vme_int_instance/DS:Q</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            2</cell>
+ <cell>            2</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            2</cell>
+ <cell>            2</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>DS0L</item>
+ <item>DS1L</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>DS0L</item>
+ <item>DS1L</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>vme_int_instance/DSINHIB:EN</item>
+</list>
+<text></text>
+<text> - Recovery unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>vme_int_instance/DSINHIB:ALn</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>vme_int_instance/DSINHIB:EN</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>vme_int_instance/DSINHIB:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>FPGACK40</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>        12174</cell>
+ <cell>            4</cell>
+ <cell>        12178</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>         3472</cell>
+ <cell>            0</cell>
+ <cell>         3472</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>           10</cell>
+ <cell>          185</cell>
+ <cell>          195</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>        15656</cell>
+ <cell>          189</cell>
+ <cell>        15845</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>        12174</cell>
+ <cell>            4</cell>
+ <cell>        12178</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>         3472</cell>
+ <cell>            0</cell>
+ <cell>         3472</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>           10</cell>
+ <cell>          185</cell>
+ <cell>          195</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>        15656</cell>
+ <cell>          189</cell>
+ <cell>        15845</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>EXTSCL</item>
+ <item>EXTSDA</item>
+ <item>GBTX_SCL</item>
+ <item>GBTX_SDA</item>
+ <item>IRQB1</item>
+ <item>PSM_SCK</item>
+ <item>PSM_SO</item>
+ <item>PSM_SP0</item>
+ <item>PSM_SP1</item>
+ <item>SCL</item>
+ <item>SDA</item>
+ <item>SPSEIB</item>
+ <item>lvCLKLOS</item>
+ <item>lvCPDM_SCLKB</item>
+ <item>lvFPGAIO1</item>
+ <item>lvFPGAIO2</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>EXTSCL</item>
+ <item>EXTSDA</item>
+ <item>GBTX_SCL</item>
+ <item>GBTX_SDA</item>
+ <item>IRQB1</item>
+ <item>PSM_SCK</item>
+ <item>PSM_SO</item>
+ <item>PSM_SP0</item>
+ <item>PSM_SP1</item>
+ <item>SCL</item>
+ <item>SDA</item>
+ <item>SPSEIB</item>
+ <item>lvCLKLOS</item>
+ <item>lvCPDM_SCLKB</item>
+ <item>lvFPGAIO1</item>
+ <item>lvFPGAIO2</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>BERRL</item>
+ <item>BUNCH_RES</item>
+ <item>DS0L</item>
+ <item>DS1L</item>
+ <item>EFUSESYNC</item>
+ <item>EVENT_RES</item>
+ <item>EXTSCL</item>
+ <item>EXTSDA</item>
+ <item>FPGADIR1</item>
+ <item>FPGADIR2</item>
+ <item>FPGALED1</item>
+ <item>FPGALED2</item>
+ <item>FPGALED3</item>
+ <item>FPGALED4</item>
+ <item>GBTX_CONFIG</item>
+ <item>GBTX_SCL</item>
+ <item>GBTX_SDA</item>
+ <item>LWORDB</item>
+ <item>NOEADR</item>
+ <item>NOEADW</item>
+ <item>NOEDRDY</item>
+ <item>NOEDTR</item>
+ <item>NOEDTW</item>
+ <item>NOEFAULT</item>
+ <item>PROGL</item>
+ <item>PSM_SI</item>
+ <item>PULSETGLL</item>
+ <item>PXL_D[0]</item>
+ <item>PXL_D[10]</item>
+ <item>PXL_D[11]</item>
+ <item>PXL_D[12]</item>
+ <item>PXL_D[13]</item>
+ <item>PXL_D[14]</item>
+ <item>PXL_D[15]</item>
+ <item>PXL_D[1]</item>
+ <item>PXL_D[2]</item>
+ <item>PXL_D[3]</item>
+ <item>PXL_D[4]</item>
+ <item>PXL_D[5]</item>
+ <item>PXL_D[6]</item>
+ <item>PXL_D[7]</item>
+ <item>PXL_D[8]</item>
+ <item>PXL_D[9]</item>
+ <item>PXL_IRQ</item>
+ <item>PXL_OFF</item>
+ <item>RAM_A[0]</item>
+ <item>RAM_A[10]</item>
+ <item>RAM_A[11]</item>
+ <item>RAM_A[12]</item>
+ <item>RAM_A[13]</item>
+ <item>RAM_A[14]</item>
+ <item>RAM_A[15]</item>
+ <item>RAM_A[16]</item>
+ <item>RAM_A[17]</item>
+ <item>RAM_A[18]</item>
+ <item>RAM_A[19]</item>
+ <item>RAM_A[1]</item>
+ <item>RAM_A[2]</item>
+ <item>RAM_A[3]</item>
+ <item>RAM_A[4]</item>
+ <item>RAM_A[5]</item>
+ <item>RAM_A[6]</item>
+ <item>RAM_A[7]</item>
+ <item>RAM_A[8]</item>
+ <item>RAM_A[9]</item>
+ <item>RAM_D[0]</item>
+ <item>RAM_D[10]</item>
+ <item>RAM_D[11]</item>
+ <item>RAM_D[12]</item>
+ <item>RAM_D[13]</item>
+ <item>RAM_D[14]</item>
+ <item>RAM_D[15]</item>
+ <item>RAM_D[16]</item>
+ <item>RAM_D[17]</item>
+ <item>RAM_D[18]</item>
+ <item>RAM_D[19]</item>
+ <item>RAM_D[1]</item>
+ <item>RAM_D[20]</item>
+ <item>RAM_D[21]</item>
+ <item>RAM_D[22]</item>
+ <item>RAM_D[23]</item>
+ <item>RAM_D[24]</item>
+ <item>RAM_D[25]</item>
+ <item>RAM_D[26]</item>
+ <item>RAM_D[27]</item>
+ <item>RAM_D[28]</item>
+ <item>RAM_D[29]</item>
+ <item>RAM_D[2]</item>
+ <item>RAM_D[30]</item>
+ <item>RAM_D[31]</item>
+ <item>RAM_D[32]</item>
+ <item>RAM_D[33]</item>
+ <item>RAM_D[34]</item>
+ <item>RAM_D[35]</item>
+ <item>RAM_D[3]</item>
+ <item>RAM_D[4]</item>
+ <item>RAM_D[5]</item>
+ <item>RAM_D[6]</item>
+ <item>RAM_D[7]</item>
+ <item>RAM_D[8]</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>BERRL</item>
+ <item>BUNCH_RES</item>
+ <item>DS0L</item>
+ <item>DS1L</item>
+ <item>EFUSESYNC</item>
+ <item>EVENT_RES</item>
+ <item>EXTSCL</item>
+ <item>EXTSDA</item>
+ <item>FPGADIR1</item>
+ <item>FPGADIR2</item>
+ <item>FPGALED1</item>
+ <item>FPGALED2</item>
+ <item>FPGALED3</item>
+ <item>FPGALED4</item>
+ <item>GBTX_CONFIG</item>
+ <item>GBTX_SCL</item>
+ <item>GBTX_SDA</item>
+ <item>LWORDB</item>
+ <item>NOEADR</item>
+ <item>NOEADW</item>
+ <item>NOEDRDY</item>
+ <item>NOEDTR</item>
+ <item>NOEDTW</item>
+ <item>NOEFAULT</item>
+ <item>PROGL</item>
+ <item>PSM_SI</item>
+ <item>PULSETGLL</item>
+ <item>PXL_D[0]</item>
+ <item>PXL_D[10]</item>
+ <item>PXL_D[11]</item>
+ <item>PXL_D[12]</item>
+ <item>PXL_D[13]</item>
+ <item>PXL_D[14]</item>
+ <item>PXL_D[15]</item>
+ <item>PXL_D[1]</item>
+ <item>PXL_D[2]</item>
+ <item>PXL_D[3]</item>
+ <item>PXL_D[4]</item>
+ <item>PXL_D[5]</item>
+ <item>PXL_D[6]</item>
+ <item>PXL_D[7]</item>
+ <item>PXL_D[8]</item>
+ <item>PXL_D[9]</item>
+ <item>PXL_IRQ</item>
+ <item>PXL_OFF</item>
+ <item>RAM_A[0]</item>
+ <item>RAM_A[10]</item>
+ <item>RAM_A[11]</item>
+ <item>RAM_A[12]</item>
+ <item>RAM_A[13]</item>
+ <item>RAM_A[14]</item>
+ <item>RAM_A[15]</item>
+ <item>RAM_A[16]</item>
+ <item>RAM_A[17]</item>
+ <item>RAM_A[18]</item>
+ <item>RAM_A[19]</item>
+ <item>RAM_A[1]</item>
+ <item>RAM_A[2]</item>
+ <item>RAM_A[3]</item>
+ <item>RAM_A[4]</item>
+ <item>RAM_A[5]</item>
+ <item>RAM_A[6]</item>
+ <item>RAM_A[7]</item>
+ <item>RAM_A[8]</item>
+ <item>RAM_A[9]</item>
+ <item>RAM_D[0]</item>
+ <item>RAM_D[10]</item>
+ <item>RAM_D[11]</item>
+ <item>RAM_D[12]</item>
+ <item>RAM_D[13]</item>
+ <item>RAM_D[14]</item>
+ <item>RAM_D[15]</item>
+ <item>RAM_D[16]</item>
+ <item>RAM_D[17]</item>
+ <item>RAM_D[18]</item>
+ <item>RAM_D[19]</item>
+ <item>RAM_D[1]</item>
+ <item>RAM_D[20]</item>
+ <item>RAM_D[21]</item>
+ <item>RAM_D[22]</item>
+ <item>RAM_D[23]</item>
+ <item>RAM_D[24]</item>
+ <item>RAM_D[25]</item>
+ <item>RAM_D[26]</item>
+ <item>RAM_D[27]</item>
+ <item>RAM_D[28]</item>
+ <item>RAM_D[29]</item>
+ <item>RAM_D[2]</item>
+ <item>RAM_D[30]</item>
+ <item>RAM_D[31]</item>
+ <item>RAM_D[32]</item>
+ <item>RAM_D[33]</item>
+ <item>RAM_D[34]</item>
+ <item>RAM_D[35]</item>
+ <item>RAM_D[3]</item>
+ <item>RAM_D[4]</item>
+ <item>RAM_D[5]</item>
+ <item>RAM_D[6]</item>
+ <item>RAM_D[7]</item>
+ <item>RAM_D[8]</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>I2C_CORE_instance/GBTX_CTRL_0/ATMEGAdataIN[0]:D</item>
+ <item>I2C_CORE_instance/I2CSFTTEMP_0/I2CSFPTEMPctrl_0/dSCLin:D</item>
+ <item>I2C_CORE_instance/I2CSFTTEMP_0/I2CSFPTEMPctrl_0/dSDAin:D</item>
+ <item>vme_int_instance/DSINHIBS:D</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>I2C_CORE_instance/GBTX_CTRL_0/ATMEGAdataIN[0]:D</item>
+ <item>I2C_CORE_instance/I2CSFTTEMP_0/I2CSFPTEMPctrl_0/dSCLin:D</item>
+ <item>I2C_CORE_instance/I2CSFTTEMP_0/I2CSFPTEMPctrl_0/dSDAin:D</item>
+ <item>vme_int_instance/DSINHIBS:D</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>DCLK0</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>         2098</cell>
+ <cell>            1</cell>
+ <cell>         2099</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>          508</cell>
+ <cell>            0</cell>
+ <cell>          508</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>           80</cell>
+ <cell>            1</cell>
+ <cell>           81</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>         2686</cell>
+ <cell>            2</cell>
+ <cell>         2688</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>         2098</cell>
+ <cell>            1</cell>
+ <cell>         2099</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>          508</cell>
+ <cell>            0</cell>
+ <cell>          508</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>           80</cell>
+ <cell>            1</cell>
+ <cell>           81</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>         2686</cell>
+ <cell>            2</cell>
+ <cell>         2688</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>IRQB1</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>IRQB1</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>GBTX_TXDVALID</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>GBTX_TXDVALID</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>GBTx_interface_instance/busy_from_trm_d1:D</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>GBTx_interface_instance/busy_from_trm_d1:D</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/EPCS_RXCLK_0</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>          524</cell>
+ <cell>            0</cell>
+ <cell>          524</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>          417</cell>
+ <cell>            0</cell>
+ <cell>          417</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>          941</cell>
+ <cell>            1</cell>
+ <cell>          942</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>          524</cell>
+ <cell>            0</cell>
+ <cell>          524</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>          417</cell>
+ <cell>            0</cell>
+ <cell>          417</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>          941</cell>
+ <cell>            1</cell>
+ <cell>          942</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>SCLLED2</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>SCLLED2</item>
+</list>
+<text></text>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/EPCS_TXCLK_0</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>          391</cell>
+ <cell>            1</cell>
+ <cell>          392</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>          262</cell>
+ <cell>            0</cell>
+ <cell>          262</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>          653</cell>
+ <cell>            2</cell>
+ <cell>          655</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>          391</cell>
+ <cell>            1</cell>
+ <cell>          392</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>          262</cell>
+ <cell>            0</cell>
+ <cell>          262</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>          653</cell>
+ <cell>            2</cell>
+ <cell>          655</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>SCLLED2</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>SCLLED2</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>CAEN_LINK_instance/I_conet_interf/tok[0]:D</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>CAEN_LINK_instance/I_conet_interf/tok[0]:D</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/EPCS_TXCLK[0]</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            5</cell>
+ <cell>            0</cell>
+ <cell>            5</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            2</cell>
+ <cell>            0</cell>
+ <cell>            2</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            7</cell>
+ <cell>            0</cell>
+ <cell>            7</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            5</cell>
+ <cell>            0</cell>
+ <cell>            5</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            2</cell>
+ <cell>            0</cell>
+ <cell>            2</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            7</cell>
+ <cell>            0</cell>
+ <cell>            7</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>gated-clocks</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            9</cell>
+ <cell>            9</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            9</cell>
+ <cell>            9</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>           14</cell>
+ <cell>           14</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>           32</cell>
+ <cell>           32</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            9</cell>
+ <cell>            9</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            9</cell>
+ <cell>            9</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>           14</cell>
+ <cell>           14</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>           32</cell>
+ <cell>           32</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>count_ali[0]:D</item>
+ <item>count_ali[1]:D</item>
+ <item>count_ali[2]:D</item>
+ <item>count_ali[3]:D</item>
+ <item>count_ali[4]:D</item>
+ <item>count_ali[5]:D</item>
+ <item>count_ali[6]:D</item>
+ <item>count_ali[7]:D</item>
+ <item>regs.status[8]:D</item>
+</list>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>count_ali[0]:ALn</item>
+ <item>count_ali[1]:ALn</item>
+ <item>count_ali[2]:ALn</item>
+ <item>count_ali[3]:ALn</item>
+ <item>count_ali[4]:ALn</item>
+ <item>count_ali[5]:ALn</item>
+ <item>count_ali[6]:ALn</item>
+ <item>count_ali[7]:ALn</item>
+ <item>regs.status[8]:ALn</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>count_ali[0]:D</item>
+ <item>count_ali[1]:D</item>
+ <item>count_ali[2]:D</item>
+ <item>count_ali[3]:D</item>
+ <item>count_ali[4]:D</item>
+ <item>count_ali[5]:D</item>
+ <item>count_ali[6]:D</item>
+ <item>count_ali[7]:D</item>
+ <item>regs.status[8]:D</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>count_ali[0]:ALn</item>
+ <item>count_ali[1]:ALn</item>
+ <item>count_ali[2]:ALn</item>
+ <item>count_ali[3]:ALn</item>
+ <item>count_ali[4]:ALn</item>
+ <item>count_ali[5]:ALn</item>
+ <item>count_ali[6]:ALn</item>
+ <item>count_ali[7]:ALn</item>
+ <item>regs.status[8]:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Input to Output</name>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            5</cell>
+ <cell>            5</cell>
+</row>
+<separator/>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            5</cell>
+ <cell>            5</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max delay constraint missing on input ports:</text>
+<text>   </text>
+<list>
+ <item>CPDMCK40_N</item>
+ <item>CPDMCK40_P</item>
+ <item>DCLK00_N</item>
+ <item>DCLK00_P</item>
+ <item>FPGACK40_N</item>
+ <item>FPGACK40_P</item>
+ <item>FPGACK80_N</item>
+ <item>FPGACK80_P</item>
+ <item>GBTX_TESTOUT</item>
+ <item>IRQB1</item>
+ <item>PXL_IO[0]</item>
+ <item>PXL_IO[1]</item>
+ <item>lvCLKLOS</item>
+ <item>lvFPGAIO1</item>
+ <item>lvFPGAIO2</item>
+ <item>lvSFP_LOS</item>
+ <item>lvSFP_TXFAULT</item>
+</list>
+<text></text>
+<text> - Min delay constraint missing on input ports:</text>
+<text>   </text>
+<list>
+ <item>CPDMCK40_N</item>
+ <item>CPDMCK40_P</item>
+ <item>DCLK00_N</item>
+ <item>DCLK00_P</item>
+ <item>FPGACK40_N</item>
+ <item>FPGACK40_P</item>
+ <item>FPGACK80_N</item>
+ <item>FPGACK80_P</item>
+ <item>GBTX_TESTOUT</item>
+ <item>IRQB1</item>
+ <item>PXL_IO[0]</item>
+ <item>PXL_IO[1]</item>
+ <item>lvCLKLOS</item>
+ <item>lvFPGAIO1</item>
+ <item>lvFPGAIO2</item>
+ <item>lvSFP_LOS</item>
+ <item>lvSFP_TXFAULT</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max delay constraint missing on output ports:</text>
+<text>   </text>
+<list>
+ <item>FPGALED4</item>
+ <item>RAM_CLK</item>
+ <item>lvFPGAIO1</item>
+ <item>lvFPGAIO2</item>
+ <item>lvFPGA_SCOPE</item>
+</list>
+<text></text>
+<text> - Min delay constraint missing on output ports:</text>
+<text>   </text>
+<list>
+ <item>FPGALED4</item>
+ <item>RAM_CLK</item>
+ <item>lvFPGAIO1</item>
+ <item>lvFPGAIO2</item>
+ <item>lvFPGA_SCOPE</item>
+</list>
+<text></text>
+<text></text>
+</section>
+</section>
+</section>
+</doc>

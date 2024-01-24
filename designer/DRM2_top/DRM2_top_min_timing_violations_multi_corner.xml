@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Timing Violation Multi Corner Report Min Delay Analysis
+</title>
+<text>SmartTime Version 2021.2.0.11</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release v2021.2 (Version 2021.2.0.11)</text>
+<text>Date: Wed Feb  9 10:57:53 2022
+</text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>DRM2_top</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>IGLOO2</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>M2GL090T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>676 FBGA</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 85 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>1.14 - 1.26 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Design State</cell>
+ <cell>Post-Layout</cell>
+</row>
+<row>
+ <cell>Data source</cell>
+ <cell>Production</cell>
+</row>
+<row>
+ <cell>Multi Corner Report Operating Conditions</cell>
+ <cell>BEST, TYPICAL, WORST</cell>
+</row>
+</table>
+<text></text>
+<table>
+<header>
+ <cell/>
+ <cell>From</cell>
+ <cell>To</cell>
+ <cell>Delay (ns)</cell>
+ <cell>Slack (ns)</cell>
+ <cell>Arrival (ns)</cell>
+ <cell>Required (ns)</cell>
+ <cell>Operating Conditions</cell>
+</header>
+<row>
+ <cell>Path 1</cell>
+ <cell>CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_TXCLK[0]</cell>
+ <cell>CAEN_LINK_instance/I_EPCS_SERDES/epcs_tx_intf_2/txdin_p[0]:ALn</cell>
+ <cell>1.637</cell>
+ <cell>-3.128</cell>
+ <cell>1.637</cell>
+ <cell>4.765</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 2</cell>
+ <cell>CAEN_LINK_instance/I_EPCS_SERDES/EPCS_SERDES_IF_0/EPCS_SERDES_IF_0/SERDESIF_INST/INST_SERDESIF_IP:EPCS_TXCLK[0]</cell>
+ <cell>CAEN_LINK_instance/I_EPCS_SERDES/epcs_tx_intf_2/txdout[0]:ALn</cell>
+ <cell>1.637</cell>
+ <cell>-3.120</cell>
+ <cell>1.637</cell>
+ <cell>4.757</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 3</cell>
+ <cell>vme_int_instance/regs.clocksel[1]:CLK</cell>
+ <cell>clock_selection[0]:D</cell>
+ <cell>1.532</cell>
+ <cell>-0.952</cell>
+ <cell>5.717</cell>
+ <cell>6.669</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 4</cell>
+ <cell>vme_int_instance/regs.clocksel[1]:CLK</cell>
+ <cell>clock_selection[1]:D</cell>
+ <cell>1.546</cell>
+ <cell>-0.938</cell>
+ <cell>5.731</cell>
+ <cell>6.669</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 5</cell>
+ <cell>vme_int_instance/regs.clocksel[2]:CLK</cell>
+ <cell>clock_selection[0]:D</cell>
+ <cell>1.627</cell>
+ <cell>-0.866</cell>
+ <cell>5.803</cell>
+ <cell>6.669</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 6</cell>
+ <cell>RAM_D[30]</cell>
+ <cell>rod_sniffer_instance/ssram_Ds[30]:D</cell>
+ <cell>0.721</cell>
+ <cell>-0.735</cell>
+ <cell>3.721</cell>
+ <cell>4.456</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 7</cell>
+ <cell>RAM_D[27]</cell>
+ <cell>rod_sniffer_instance/ssram_Ds[27]:D</cell>
+ <cell>0.719</cell>
+ <cell>-0.733</cell>
+ <cell>3.719</cell>
+ <cell>4.452</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 8</cell>
+ <cell>RAM_D[26]</cell>
+ <cell>rod_sniffer_instance/ssram_Ds[26]:D</cell>
+ <cell>0.722</cell>
+ <cell>-0.733</cell>
+ <cell>3.722</cell>
+ <cell>4.455</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 9</cell>
+ <cell>RAM_D[31]</cell>
+ <cell>rod_sniffer_instance/ssram_Ds[31]:D</cell>
+ <cell>0.720</cell>
+ <cell>-0.732</cell>
+ <cell>3.720</cell>
+ <cell>4.452</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 10</cell>
+ <cell>RAM_D[23]</cell>
+ <cell>rod_sniffer_instance/ssram_Ds[23]:D</cell>
+ <cell>0.719</cell>
+ <cell>-0.731</cell>
+ <cell>3.719</cell>
+ <cell>4.450</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 11</cell>
+ <cell>RAM_D[29]</cell>
+ <cell>rod_sniffer_instance/ssram_Ds[29]:D</cell>
+ <cell>0.724</cell>
+ <cell>-0.726</cell>
+ <cell>3.724</cell>
+ <cell>4.450</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 12</cell>
+ <cell>RAM_D[28]</cell>
+ <cell>rod_sniffer_instance/ssram_Ds[28]:D</cell>
+ <cell>0.727</cell>
+ <cell>-0.726</cell>
+ <cell>3.727</cell>
+ <cell>4.453</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 13</cell>
+ <cell>RAM_D[25]</cell>
+ <cell>rod_sniffer_instance/ssram_Ds[25]:D</cell>
+ <cell>0.724</cell>
+ <cell>-0.726</cell>
+ <cell>3.724</cell>
+ <cell>4.450</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 14</cell>
+ <cell>RAM_D[18]</cell>
+ <cell>rod_sniffer_instance/ssram_Ds[18]:D</cell>
+ <cell>0.725</cell>
+ <cell>-0.726</cell>
+ <cell>3.725</cell>
+ <cell>4.451</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 15</cell>
+ <cell>RAM_D[19]</cell>
+ <cell>rod_sniffer_instance/ssram_Ds[19]:D</cell>
+ <cell>0.722</cell>
+ <cell>-0.725</cell>
+ <cell>3.722</cell>
+ <cell>4.447</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 16</cell>
+ <cell>RAM_D[15]</cell>
+ <cell>rod_sniffer_instance/ssram_Ds[15]:D</cell>
+ <cell>0.722</cell>
+ <cell>-0.723</cell>
+ <cell>3.722</cell>
+ <cell>4.445</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 17</cell>
+ <cell>RAM_D[14]</cell>
+ <cell>rod_sniffer_instance/ssram_Ds[14]:D</cell>
+ <cell>0.725</cell>
+ <cell>-0.723</cell>
+ <cell>3.725</cell>
+ <cell>4.448</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 18</cell>
+ <cell>RAM_D[11]</cell>
+ <cell>rod_sniffer_instance/ssram_Ds[11]:D</cell>
+ <cell>0.721</cell>
+ <cell>-0.721</cell>
+ <cell>3.721</cell>
+ <cell>4.442</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 19</cell>
+ <cell>RAM_D[10]</cell>
+ <cell>rod_sniffer_instance/ssram_Ds[10]:D</cell>
+ <cell>0.725</cell>
+ <cell>-0.720</cell>
+ <cell>3.725</cell>
+ <cell>4.445</cell>
+ <cell>WORST</cell>
+</row>
+<row>
+ <cell>Path 20</cell>
+ <cell>RAM_D[16]</cell>
+ <cell>rod_sniffer_instance/ssram_Ds[16]:D</cell>
+ <cell>0.729</cell>
+ <cell>-0.719</cell>
+ <cell>3.729</cell>
+ <cell>4.448</cell>
+ <cell>WORST</cell>
+</row>
+</table>
+<text></text>
+</doc>

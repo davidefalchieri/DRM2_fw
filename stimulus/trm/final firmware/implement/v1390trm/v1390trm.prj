@@ -1,0 +1,403 @@
+KEY LIBERO "8.3"
+KEY CAPTURE "8.3.0.22"
+KEY DEFAULT_IMPORT_LOC "C:\FrontEnd\Annalisa\work\v1390\FPGA\implement\v1390trm\smartgen\PLL_tdc"
+KEY DEFAULT_OPEN_LOC ""
+KEY HDLTechnology "VHDL"
+KEY VendorTechnology_Family "PA"
+KEY VendorTechnology_Die "750"
+KEY VendorTechnology_Package "fg676"
+KEY ProjectLocation "C:\FrontEnd\Annalisa\work\v1390\FPGA\implement\v1390trm"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "V1390trm::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\constraint\v1390pin.gcf,gcf"
+STATE="utd"
+TIME="1009851829"
+SIZE="10716"
+ENDFILE
+VALUE "<project>\constraint\V1390trm_des.sdc,sdc"
+STATE="utd"
+TIME="1009851829"
+SIZE="4185"
+ENDFILE
+VALUE "<project>\designer\impl1\V1390trm-am.sdf,sdf"
+STATE="utd"
+TIME="1462230331"
+SIZE="3120529"
+ENDFILE
+VALUE "<project>\designer\impl1\V1390trm.adb,adb"
+STATE="ood"
+TIME="1462235507"
+SIZE="10022912"
+ENDFILE
+VALUE "<project>\designer\impl1\V1390trm.stp,stp"
+STATE="ood"
+TIME="1462234896"
+SIZE="250135"
+ENDFILE
+VALUE "<project>\hdl\I2C_interf.vhd,hdl"
+STATE="utd"
+TIME="1009851830"
+SIZE="18108"
+ENDFILE
+VALUE "<project>\hdl\reset_mod.vhd,hdl"
+STATE="utd"
+TIME="1009851830"
+SIZE="11097"
+ENDFILE
+VALUE "<project>\hdl\roc32.vhd,hdl"
+STATE="utd"
+TIME="1462225115"
+SIZE="130056"
+ENDFILE
+VALUE "<project>\hdl\spi_interf.vhd,hdl"
+STATE="utd"
+TIME="1009851830"
+SIZE="18709"
+ENDFILE
+VALUE "<project>\hdl\V1390pkg.vhd,hdl"
+STATE="utd"
+TIME="1462225115"
+SIZE="16293"
+ENDFILE
+VALUE "<project>\hdl\v1390trm.vhd,hdl"
+STATE="utd"
+TIME="1009851830"
+SIZE="24344"
+ENDFILE
+VALUE "<project>\hdl\vinterf.vhd,hdl"
+STATE="utd"
+TIME="1009851830"
+SIZE="50411"
+ENDFILE
+VALUE "<project>\phy_synthesis\V1390trm_palace.edn,palace_edn"
+STATE="ood"
+TIME="1462227998"
+SIZE="3824562"
+ENDFILE
+VALUE "<project>\phy_synthesis\V1390trm_palace.gcf,palace_gcf"
+STATE="ood"
+TIME="1462228000"
+SIZE="388758"
+ENDFILE
+VALUE "<project>\phy_synthesis\V1390trm_palace.sdc,palace_sdc"
+STATE="ood"
+TIME="1462227999"
+SIZE="16426"
+ENDFILE
+VALUE "<project>\smartgen\PLL_sram\PLL_sram.cxf,actgen_cxf"
+STATE="utd"
+TIME="1009851828"
+SIZE="1355"
+ENDFILE
+VALUE "<project>\smartgen\PLL_sram\PLL_sram.gen,gen"
+STATE="utd"
+TIME="1009851828"
+SIZE="477"
+PARENT="<project>\smartgen\PLL_sram\PLL_sram.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\PLL_sram\PLL_sram.log,log"
+STATE="utd"
+TIME="1009851828"
+SIZE="1412"
+PARENT="<project>\smartgen\PLL_sram\PLL_sram.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\PLL_sram\PLL_sram.vhd,hdl"
+STATE="utd"
+TIME="1009851828"
+SIZE="3008"
+PARENT="<project>\smartgen\PLL_sram\PLL_sram.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\PLL_tdc\PLL_tdc.cxf,actgen_cxf"
+STATE="utd"
+TIME="1009851828"
+SIZE="778"
+ENDFILE
+VALUE "<project>\smartgen\PLL_tdc\PLL_tdc.gen,gen"
+STATE="utd"
+TIME="1009851828"
+SIZE="424"
+PARENT="<project>\smartgen\PLL_tdc\PLL_tdc.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\PLL_tdc\PLL_tdc.log,log"
+STATE="utd"
+TIME="1009851828"
+SIZE="1397"
+PARENT="<project>\smartgen\PLL_tdc\PLL_tdc.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\PLL_tdc\PLL_tdc.vhd,hdl"
+STATE="utd"
+TIME="1009851828"
+SIZE="2218"
+PARENT="<project>\smartgen\PLL_tdc\PLL_tdc.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\stimulus\atmega16.vhd,tb_hdl"
+STATE="utd"
+TIME="1009851830"
+SIZE="16633"
+ENDFILE
+VALUE "<project>\stimulus\fct16543.vhd,tb_hdl"
+STATE="utd"
+TIME="1009851829"
+SIZE="3221"
+ENDFILE
+VALUE "<project>\stimulus\fct244.vhd,tb_hdl"
+STATE="utd"
+TIME="1009851830"
+SIZE="1736"
+ENDFILE
+VALUE "<project>\stimulus\flash.vhd,tb_hdl"
+STATE="utd"
+TIME="1009851830"
+SIZE="14980"
+ENDFILE
+VALUE "<project>\stimulus\iopan.vhd,tb_hdl"
+STATE="utd"
+TIME="1009851830"
+SIZE="2203"
+ENDFILE
+VALUE "<project>\stimulus\io_utils.vhd,tb_hdl"
+STATE="utd"
+TIME="1009851830"
+SIZE="9203"
+ENDFILE
+VALUE "<project>\stimulus\master.vhd,tb_hdl"
+STATE="utd"
+TIME="1009851830"
+SIZE="31881"
+ENDFILE
+VALUE "<project>\stimulus\micro.vhd,tb_hdl"
+STATE="utd"
+TIME="1009851830"
+SIZE="4848"
+ENDFILE
+VALUE "<project>\stimulus\osc.vhd,tb_hdl"
+STATE="utd"
+TIME="1009851829"
+SIZE="1332"
+ENDFILE
+VALUE "<project>\stimulus\sram.vhd,tb_hdl"
+STATE="utd"
+TIME="1009851829"
+SIZE="2149"
+ENDFILE
+VALUE "<project>\stimulus\syncfifo.vhd,tb_hdl"
+STATE="utd"
+TIME="1009851829"
+SIZE="4714"
+ENDFILE
+VALUE "<project>\stimulus\tdc.vhd,tb_hdl"
+STATE="utd"
+TIME="1009851830"
+SIZE="12461"
+ENDFILE
+VALUE "<project>\stimulus\tdcchaines.vhd,tb_hdl"
+STATE="utd"
+TIME="1009851830"
+SIZE="8697"
+ENDFILE
+VALUE "<project>\stimulus\v1390sim.vhd,tb_hdl"
+STATE="utd"
+TIME="1009851830"
+SIZE="23501"
+ENDFILE
+VALUE "<project>\stimulus\vme.vhd,tb_hdl"
+STATE="utd"
+TIME="1009851830"
+SIZE="11293"
+ENDFILE
+VALUE "<project>\synthesis\V1390trm.edn,syn_edn"
+STATE="utd"
+TIME="1462225293"
+SIZE="3046206"
+ENDFILE
+VALUE "<project>\synthesis\V1390trm_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1462225293"
+SIZE="104439"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "V1390trm::work"
+FILE "<project>\hdl\v1390trm.vhd,hdl"
+LIST PhySynthesisOptions
+GenPinConstraints=FALSE
+UseSynplifySDC=TRUE
+LogSynthEffort=3
+PhySynthEffort=1
+RelaxDelay=0
+MaxCoreCell=100
+Constraints
+ENDConstraints
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\V1390trm.edn,syn_edn)=StateSuccess
+idePHYSYNTH(<project>\phy_synthesis\V1390trm_palace.edn,palace_edn)=StateFailure
+LIST FlowOptions
+UsePhySynth=TRUE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+VALUE "<project>\synthesis\V1390trm.edn,syn_edn"
+VALUE "<project>\synthesis\V1390trm_sdc.sdc,syn_sdc"
+VALUE "<project>\synthesis\V1390trm.vhd,syn_hdl"
+VALUE "<project>\phy_synthesis\V1390trm_palace.edn,palace_edn"
+VALUE "<project>\phy_synthesis\V1390trm_palace.gcf,palace_gcf"
+VALUE "<project>\phy_synthesis\V1390trm_palace.pdc,palace_pdc"
+VALUE "<project>\phy_synthesis\V1390trm_palace.sdc,palace_sdc"
+VALUE "<project>\phy_synthesis\V1390trm_palace.vhd,palace_hdl"
+VALUE "<project>\designer\impl1\V1390trm.adb,adb"
+VALUE "<project>\designer\impl1\V1390trm.prb,prb"
+VALUE "<project>\designer\impl1\V1390trm.pdb,pdb"
+VALUE "<project>\designer\impl1\V1390trm_fp\V1390trm.pro,pro"
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DumpVCD=false
+VCDFileName=power.vcd
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+UpdateViewDrawIni=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+GenerateHDLFromSchematic=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+LIST "V1390trm"
+GenPinConstraints=FALSE
+UseSynplifySDC=TRUE
+LogSynthEffort=3
+PhySynthEffort=1
+RelaxDelay=0
+MaxCoreCell=100
+Constraints
+ENDConstraints
+ENDLIST
+ENDLIST
+LIST Profiles
+Type=CoreConfigurator
+Profile=CoreConsole
+Tool=CoreConsole v1.3 or later
+Location=coreconsole
+AdditionalParameter=
+Batch=false
+EndProfile
+Type=Synthesis
+Profile=Synplify
+Tool=Synplify
+Location=C:\Programmi\Libero8.3\Synplify\synplify_902A2\bin\synplify_pro.exe
+AdditionalParameter=
+Batch=false
+EndProfile
+Type=Simulation
+Profile=ModelSim
+Tool=ModelSim
+Location=C:\Programmi\Libero8.3\Model\win32acoem\modelsim.exe
+AdditionalParameter=
+Batch=false
+EndProfile
+Type=Stimulus
+Profile=WFL
+Tool=WFL
+Location=C:\Programmi\Libero8.3\WFL\bin\syncad.exe
+AdditionalParameter=-pwflite
+Batch=false
+EndProfile
+Type=PhySynthesis
+Profile=Palace
+Tool=PALACE
+Location=C:\Programmi\Libero70\PALACE\bin\palace_actel.exe
+AdditionalParameter=
+Batch=false
+EndProfile
+Type=Program
+Profile=FlashPro
+Tool=FlashPro
+Location=C:\Programmi\Libero8.3\FlashPro\bin\FlashPro.exe
+AdditionalParameter=
+Batch=false
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "V1390trm::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\V1390trm.edn,syn_edn)=StateSuccess
+idePHYSYNTH(<project>\phy_synthesis\V1390trm_palace.edn,palace_edn)=StateFailure
+LIST FlowOptions
+UsePhySynth=TRUE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+VALUE "<project>\synthesis\V1390trm.edn,syn_edn"
+VALUE "<project>\synthesis\V1390trm_sdc.sdc,syn_sdc"
+VALUE "<project>\synthesis\V1390trm.vhd,syn_hdl"
+VALUE "<project>\phy_synthesis\V1390trm_palace.edn,palace_edn"
+VALUE "<project>\phy_synthesis\V1390trm_palace.gcf,palace_gcf"
+VALUE "<project>\phy_synthesis\V1390trm_palace.pdc,palace_pdc"
+VALUE "<project>\phy_synthesis\V1390trm_palace.sdc,palace_sdc"
+VALUE "<project>\phy_synthesis\V1390trm_palace.vhd,palace_hdl"
+VALUE "<project>\designer\impl1\V1390trm.adb,adb"
+VALUE "<project>\designer\impl1\V1390trm.prb,prb"
+VALUE "<project>\designer\impl1\V1390trm.pdb,pdb"
+VALUE "<project>\designer\impl1\V1390trm_fp\V1390trm.pro,pro"
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ENDLIST

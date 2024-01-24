@@ -1,0 +1,59 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Mon May 02 17:36:36 2005
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : PLL_tdc
+Family                          : PA
+Output Format                   : VHDL
+Type                            : PLL_NEW
+CLOCKS                          : PRIMARY
+Input Freq(Mhz)                 : 40.000000
+Primary Freq(Mhz)               : 40.000000
+Primary Delay Value(ns)         : 4.00
+PrimaryDelay Sign               : +VE
+Primary PhaseShift              : 0
+Primary Bypass                  : NO
+Secondary Input Freq(Mhz)       : 0.000000
+Secondary Freq(Mhz)             : 0.000000
+Secondary Delay Value(ns)       : 0
+SecondaryDelay Sign             : +VE
+Secondary Bypass                : NO
+FeedBack                        : Deskewed
+Configuration                   : Static
+
+
+
+input clock divider = 1.
+feedback divider = 1.
+feedback select = noskew
+primary clock divider = 1.
+primary clock select = 2.
+primary clock delay line = 0.
+
+
+
+Configuration Bits:
+FINDIV   00000
+FBDIV    000000
+OBDIV    00
+OADIV    00
+OAMUX    00
+OBMUX    010
+FBSEL    01
+FBDLY    1111
+DLYA     00
+DLYB     00
+STATASEL 0
+STATBSEL 0
+XDLYSEL  1
+
+Written VHDL netlist to
+C:\FrontEnd\Annalisa\work\v1390\FPGA\V1390LIB\v1390trm\actgen\PLL_tdc.vhd.
+
+ ** Log Ended:   Mon May 02 17:36:37 2005
+

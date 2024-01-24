@@ -1,0 +1,459 @@
+ -- Copyright (C) 1991-2007 Altera Corporation
+ -- Your use of Altera Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic 
+ -- functions, and any output files from any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Altera Program License 
+ -- Subscription Agreement, Altera MegaCore Function License 
+ -- Agreement, or other applicable license agreement, including, 
+ -- without limitation, that your use is for the sole purpose of 
+ -- programming logic devices manufactured by Altera and sold by 
+ -- Altera or its authorized distributors.  Please refer to the 
+ -- applicable agreement for further details.
+ -- 
+ -- This is a Quartus II output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus II input file. This file cannot be used
+ -- to make Quartus II pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus II help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (1.5V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --					Bank 1:		3.3V
+ --					Bank 2:		3.3V
+ --					Bank 3:		3.3V
+ --					Bank 4:		3.3V
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --					It can also be used to report unused dedicated pins. The connection
+ --					on the board for unused dedicated pins depends on whether this will
+ --					be used in a future design. One example is device migration. When
+ --					using device migration, refer to the device pin-tables. If it is a
+ --					GND pin in the pin table or if it will not be used in a future design
+ --					for another purpose the it MUST be connected to GND. If it is an unused
+ --					dedicated pin, then it can be connected to a valid signal on the board
+ --					(low, high, or toggling) if that signal is required for a different
+ --					revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --					This pin should be connected to GND. It may also be connected  to a
+ --					valid signal  on the board  (low, high, or toggling)  if that signal
+ --					is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin.   This pin can either be left unconnected or
+ --           	    connected to GND.  Connecting this pin to GND will improve the
+ --           	    device's immunity to noise.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- RESERVED_INPUT_WITH_BUS_HOLD       : Pin is tri-stated with bus-hold circuitry.
+ ---------------------------------------------------------------------------------
+
+Quartus II Version 7.0 Build 33 02/05/2007 SJ Full Version
+CHIP  "VX1392_TEST"  ASSIGNED TO AN: EP1C20F400C6
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+GND                          : A1        : gnd    :                   :         :           :                
+VCCINT                       : A2        : power  :                   : 1.5V    :           :                
+GND                          : A3        : gnd    :                   :         :           :                
+TRM[21]                      : A4        : output : 3.3-V LVTTL       :         : 2         : Y              
+VCCIO2                       : A5        : power  :                   : 3.3V    : 2         :                
+TRM[15]                      : A6        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRM[11]                      : A7        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRM[4]                       : A8        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRM[0]                       : A9        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRD[4]                       : A10       : output : 3.3-V LVTTL       :         : 2         : Y              
+RESERVED_INPUT               : A11       :        :                   :         : 2         :                
+CONFIG                       : A12       : output : 3.3-V LVTTL       :         : 2         : N              
+TST[4]                       : A13       : output : 3.3-V LVTTL       :         : 2         : Y              
+RAMDT[46]                    : A14       : bidir  : 3.3-V LVTTL       :         : 2         : Y              
+RAMDT[41]                    : A15       : bidir  : 3.3-V LVTTL       :         : 2         : Y              
+VCCIO2                       : A16       : power  :                   : 3.3V    : 2         :                
+RAMDT[35]                    : A17       : bidir  : 3.3-V LVTTL       :         : 2         : Y              
+GND                          : A18       : gnd    :                   :         :           :                
+VCCINT                       : A19       : power  :                   : 1.5V    :           :                
+GND                          : A20       : gnd    :                   :         :           :                
+VCCINT                       : B1        : power  :                   : 1.5V    :           :                
+GND                          : B2        : gnd    :                   :         :           :                
+TRM[23]                      : B3        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRM[20]                      : B4        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRM[17]                      : B5        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRM[14]                      : B6        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRM[10]                      : B7        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRM[3]                       : B8        : output : 3.3-V LVTTL       :         : 2         : Y              
+LBSP[3]                      : B9        : bidir  : 3.3-V LVTTL       :         : 2         : Y              
+TRD[3]                       : B10       : output : 3.3-V LVTTL       :         : 2         : Y              
+RESERVED_INPUT               : B11       :        :                   :         : 2         :                
+RESERVED_INPUT               : B12       :        :                   :         : 2         :                
+TST[3]                       : B13       : output : 3.3-V LVTTL       :         : 2         : Y              
+RAMDT[45]                    : B14       : bidir  : 3.3-V LVTTL       :         : 2         : Y              
+RAMDT[42]                    : B15       : bidir  : 3.3-V LVTTL       :         : 2         : Y              
+RAMDT[37]                    : B16       : bidir  : 3.3-V LVTTL       :         : 2         : Y              
+RAMDT[36]                    : B17       : bidir  : 3.3-V LVTTL       :         : 2         : Y              
+RAMDT[33]                    : B18       : bidir  : 3.3-V LVTTL       :         : 2         : Y              
+GND                          : B19       : gnd    :                   :         :           :                
+VCCINT                       : B20       : power  :                   : 1.5V    :           :                
+GND                          : C1        : gnd    :                   :         :           :                
+~CRC_ERROR~                  : C2        : output : 3.3-V LVTTL       :         : 1         : N              
+RESERVED_INPUT               : C3        :        :                   :         : 1         :                
+TRM[22]                      : C4        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRM[16]                      : C5        : output : 3.3-V LVTTL       :         : 2         : Y              
+DPCLK[2]                     : C6        : input  : 3.3-V LVTTL       :         : 2         : Y              
+TRM[8]                       : C7        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRM[2]                       : C8        : output : 3.3-V LVTTL       :         : 2         : Y              
+LBSP[2]                      : C9        : bidir  : 3.3-V LVTTL       :         : 2         : Y              
+TRD[1]                       : C10       : output : 3.3-V LVTTL       :         : 2         : Y              
+RESERVED_INPUT               : C11       :        :                   :         : 2         :                
+F_SI                         : C12       : output : 3.3-V LVTTL       :         : 2         : N              
+TST[6]                       : C13       : output : 3.3-V LVTTL       :         : 2         : Y              
+TST[2]                       : C14       : output : 3.3-V LVTTL       :         : 2         : Y              
+DPCLK[3]                     : C15       : input  : 3.3-V LVTTL       :         : 2         : Y              
+RAMDT[38]                    : C16       : bidir  : 3.3-V LVTTL       :         : 2         : Y              
+RAMDT[34]                    : C17       : bidir  : 3.3-V LVTTL       :         : 2         : Y              
+LBSP[14]                     : C18       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+LBSP[15]                     : C19       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+GND                          : C20       : gnd    :                   :         :           :                
+OR_DEL[37]                   : D1        : input  : 3.3-V LVTTL       :         : 1         : Y              
+D_CTTM[0]                    : D2        : output : 3.3-V LVTTL       :         : 1         : Y              
+SP_CTTM[0]                   : D3        : output : 3.3-V LVTTL       :         : 1         : Y              
+SP_CTTM[4]                   : D4        : output : 3.3-V LVTTL       :         : 1         : Y              
+TRM[18]                      : D5        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRM[19]                      : D6        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRM[7]                       : D7        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRM[1]                       : D8        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRD[7]                       : D9        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRD[2]                       : D10       : output : 3.3-V LVTTL       :         : 2         : Y              
+TRD[0]                       : D11       : output : 3.3-V LVTTL       :         : 2         : Y              
+FCS                          : D12       : output : 3.3-V LVTTL       :         : 2         : N              
+TST[5]                       : D13       : output : 3.3-V LVTTL       :         : 2         : Y              
+TST[1]                       : D14       : output : 3.3-V LVTTL       :         : 2         : Y              
+SP_CTTM[1]                   : D15       : output : 3.3-V LVTTL       :         : 2         : Y              
+RAMDT[40]                    : D16       : bidir  : 3.3-V LVTTL       :         : 2         : Y              
+LBSP[7]                      : D17       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+LBSP[12]                     : D18       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+LBSP[13]                     : D19       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RESERVED_INPUT               : D20       :        :                   :         : 3         :                
+VCCIO1                       : E1        : power  :                   : 3.3V    : 1         :                
+D_CTTM[4]                    : E2        : output : 3.3-V LVTTL       :         : 1         : Y              
+D_CTTM[3]                    : E3        : output : 3.3-V LVTTL       :         : 1         : Y              
+D_CTTM[1]                    : E4        : output : 3.3-V LVTTL       :         : 1         : Y              
+D_CTTM[2]                    : E5        : output : 3.3-V LVTTL       :         : 1         : Y              
+SP_CTTM[3]                   : E6        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRM[13]                      : E7        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRM[6]                       : E8        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRD[5]                       : E9        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRD[6]                       : E10       : output : 3.3-V LVTTL       :         : 2         : Y              
+TRM[9]                       : E11       : output : 3.3-V LVTTL       :         : 2         : Y              
+RESERVED_INPUT               : E12       :        :                   :         : 2         :                
+RAMDT[47]                    : E13       : bidir  : 3.3-V LVTTL       :         : 2         : Y              
+TST[0]                       : E14       : output : 3.3-V LVTTL       :         : 2         : Y              
+RAMDT[44]                    : E15       : bidir  : 3.3-V LVTTL       :         : 2         : Y              
+RAMDT[39]                    : E16       : bidir  : 3.3-V LVTTL       :         : 2         : Y              
+LBSP[10]                     : E17       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+LBSP[8]                      : E18       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+LBSP[9]                      : E19       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+VCCIO3                       : E20       : power  :                   : 3.3V    : 3         :                
+D_CTTM[8]                    : F1        : output : 3.3-V LVTTL       :         : 1         : Y              
+D_CTTM[7]                    : F2        : output : 3.3-V LVTTL       :         : 1         : Y              
+DPCLK[1]                     : F3        : input  : 3.3-V LVTTL       :         : 1         : Y              
+D_CTTM[5]                    : F4        : output : 3.3-V LVTTL       :         : 1         : Y              
+D_CTTM[6]                    : F5        : output : 3.3-V LVTTL       :         : 1         : Y              
+D_CTTM[9]                    : F6        : output : 3.3-V LVTTL       :         : 1         : Y              
+TRM[12]                      : F7        : output : 3.3-V LVTTL       :         : 2         : Y              
+TRM[5]                       : F8        : output : 3.3-V LVTTL       :         : 2         : Y              
+VCCIO2                       : F9        : power  :                   : 3.3V    : 2         :                
+SP_CTTM[2]                   : F10       : output : 3.3-V LVTTL       :         : 2         : Y              
+VCCIO2                       : F11       : power  :                   : 3.3V    : 2         :                
+TST[7]                       : F12       : output : 3.3-V LVTTL       :         : 2         : Y              
+VCCIO2                       : F13       : power  :                   : 3.3V    : 2         :                
+RAMDT[43]                    : F14       : bidir  : 3.3-V LVTTL       :         : 2         : Y              
+RAMDT[31]                    : F15       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[30]                    : F16       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+LBSP[11]                     : F17       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+DPCLK[4]                     : F18       : input  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[28]                    : F19       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[29]                    : F20       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+D_CTTM[11]                   : G1        : output : 3.3-V LVTTL       :         : 1         : Y              
+D_CTTM[12]                   : G2        : output : 3.3-V LVTTL       :         : 1         : Y              
+D_CTTM[15]                   : G3        : output : 3.3-V LVTTL       :         : 1         : Y              
+D_CTTM[16]                   : G4        : output : 3.3-V LVTTL       :         : 1         : Y              
+D_CTTM[10]                   : G5        : output : 3.3-V LVTTL       :         : 1         : Y              
+D_CTTM[13]                   : G6        : output : 3.3-V LVTTL       :         : 1         : Y              
+D_CTTM[14]                   : G7        : output : 3.3-V LVTTL       :         : 1         : Y              
+GND                          : G8        : gnd    :                   :         :           :                
+GND                          : G9        : gnd    :                   :         :           :                
+GND                          : G10       : gnd    :                   :         :           :                
+GND                          : G11       : gnd    :                   :         :           :                
+GND                          : G12       : gnd    :                   :         :           :                
+GND                          : G13       : gnd    :                   :         :           :                
+RAMDT[22]                    : G14       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[27]                    : G15       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[26]                    : G16       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[21]                    : G17       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[20]                    : G18       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[25]                    : G19       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[24]                    : G20       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+D_CTTM[17]                   : H1        : output : 3.3-V LVTTL       :         : 1         : Y              
+D_CTTM[18]                   : H2        : output : 3.3-V LVTTL       :         : 1         : Y              
+D_CTTM[19]                   : H3        : output : 3.3-V LVTTL       :         : 1         : Y              
+D_CTTM[20]                   : H4        : output : 3.3-V LVTTL       :         : 1         : Y              
+D_CTTM[23]                   : H5        : output : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[0]                    : H6        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[38]                   : H7        : input  : 3.3-V LVTTL       :         : 1         : Y              
+VCCIO1                       : H8        : power  :                   : 3.3V    : 1         :                
+GND                          : H9        : gnd    :                   :         :           :                
+VCCINT                       : H10       : power  :                   : 1.5V    :           :                
+GND                          : H11       : gnd    :                   :         :           :                
+VCCINT                       : H12       : power  :                   : 1.5V    :           :                
+VCCIO3                       : H13       : power  :                   : 3.3V    : 3         :                
+RAMDT[10]                    : H14       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[23]                    : H15       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+LBSP[1]                      : H16       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[19]                    : H17       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[18]                    : H18       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[16]                    : H19       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[17]                    : H20       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+D_CTTM[21]                   : J1        : output : 3.3-V LVTTL       :         : 1         : Y              
+D_CTTM[22]                   : J2        : output : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[1]                    : J3        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[2]                    : J4        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[3]                    : J5        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[4]                    : J6        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[39]                   : J7        : input  : 3.3-V LVTTL       :         : 1         : Y              
+SP_CTTM[5]                   : J8        : output : 3.3-V LVTTL       :         : 1         : Y              
+VCCINT                       : J9        : power  :                   : 1.5V    :           :                
+GND                          : J10       : gnd    :                   :         :           :                
+VCCINT                       : J11       : power  :                   : 1.5V    :           :                
+GND                          : J12       : gnd    :                   :         :           :                
+RESERVED_INPUT               : J13       :        :                   :         : 3         :                
+RAMDT[11]                    : J14       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[15]                    : J15       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[14]                    : J16       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[8]                     : J17       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[9]                     : J18       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[12]                    : J19       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[13]                    : J20       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+nCONFIG                      : K1        :        :                   :         : 1         :                
+RESERVED_INPUT               : K2        :        :                   :         : 1         :                
+DATA0                        : K3        : input  :                   :         : 1         :                
+VCCA_PLL1                    : K4        : power  :                   : 1.5V    :           :                
+SCLK                         : K5        : input  : 3.3-V LVTTL       :         : 1         : Y              
+GND+                         : K6        :        :                   :         : 1         :                
+GNDA_PLL1                    : K7        : gnd    :                   :         :           :                
+VCCIO1                       : K8        : power  :                   : 3.3V    : 1         :                
+GND                          : K9        : gnd    :                   :         :           :                
+VCCINT                       : K10       : power  :                   : 1.5V    :           :                
+GND                          : K11       : gnd    :                   :         :           :                
+VCCINT                       : K12       : power  :                   : 1.5V    :           :                
+VCCIO3                       : K13       : power  :                   : 3.3V    : 3         :                
+GND+                         : K14       :        :                   :         : 3         :                
+RAMDT[6]                     : K15       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[7]                     : K16       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+VCCA_PLL2                    : K17       : power  :                   : 1.5V    :           :                
+TDI                          : K18       : input  :                   :         : 3         :                
+LBSP[6]                      : K19       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+GNDA_PLL2                    : K20       : gnd    :                   :         :           :                
+MSEL0                        : L1        :        :                   :         : 1         :                
+nCEO                         : L2        :        :                   :         : 1         :                
+DCLK                         : L3        : bidir  :                   :         : 1         :                
+RESERVED_INPUT               : L4        :        :                   :         : 1         :                
+nCE                          : L5        :        :                   :         : 1         :                
+MSEL1                        : L6        :        :                   :         : 1         :                
+GNDG_PLL1                    : L7        : gnd    :                   :         :           :                
+CLK_CTTM                     : L8        : output : 3.3-V LVTTL       :         : 1         : Y              
+VCCINT                       : L9        : power  :                   : 1.5V    :           :                
+GND                          : L10       : gnd    :                   :         :           :                
+VCCINT                       : L11       : power  :                   : 1.5V    :           :                
+GND                          : L12       : gnd    :                   :         :           :                
+LBSP[5]                      : L13       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+GND+                         : L14       :        :                   :         : 3         :                
+GNDG_PLL2                    : L15       : gnd    :                   :         :           :                
+TMS                          : L16       : input  :                   :         : 3         :                
+nSTATUS                      : L17       :        :                   :         : 3         :                
+CONF_DONE                    : L18       :        :                   :         : 3         :                
+TCK                          : L19       : input  :                   :         : 3         :                
+TDO                          : L20       : output :                   :         : 3         :                
+OR_DEL[6]                    : M1        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[5]                    : M2        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[10]                   : M3        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[9]                    : M4        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[7]                    : M5        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[8]                    : M6        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[11]                   : M7        : input  : 3.3-V LVTTL       :         : 1         : Y              
+RESERVED_INPUT               : M8        :        :                   :         : 1         :                
+GND                          : M9        : gnd    :                   :         :           :                
+VCCINT                       : M10       : power  :                   : 1.5V    :           :                
+GND                          : M11       : gnd    :                   :         :           :                
+VCCINT                       : M12       : power  :                   : 1.5V    :           :                
+LBSP[4]                      : M13       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RESERVED_INPUT               : M14       :        :                   :         : 3         :                
+RAMDT[3]                     : M15       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[2]                     : M16       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[0]                     : M17       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[1]                     : M18       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[4]                     : M19       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+RAMDT[5]                     : M20       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+OR_DEL[13]                   : N1        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[14]                   : N2        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[16]                   : N3        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[15]                   : N4        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[40]                   : N5        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[12]                   : N6        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[17]                   : N7        : input  : 3.3-V LVTTL       :         : 1         : Y              
+VCCIO1                       : N8        : power  :                   : 3.3V    : 1         :                
+VCCINT                       : N9        : power  :                   : 1.5V    :           :                
+GND                          : N10       : gnd    :                   :         :           :                
+VCCINT                       : N11       : power  :                   : 1.5V    :           :                
+GND                          : N12       : gnd    :                   :         :           :                
+VCCIO3                       : N13       : power  :                   : 3.3V    : 3         :                
+F_SCK                        : N14       : output : 3.3-V LVTTL       :         : 3         : N              
+RAMAD[16]                    : N15       : output : 3.3-V LVTTL       :         : 3         : Y              
+RAMAD[17]                    : N16       : output : 3.3-V LVTTL       :         : 3         : Y              
+RAMAD[12]                    : N17       : output : 3.3-V LVTTL       :         : 3         : Y              
+RAMAD[13]                    : N18       : output : 3.3-V LVTTL       :         : 3         : Y              
+RAMAD[15]                    : N19       : output : 3.3-V LVTTL       :         : 3         : Y              
+RAMAD[14]                    : N20       : output : 3.3-V LVTTL       :         : 3         : Y              
+OR_DEL[20]                   : P1        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[19]                   : P2        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[23]                   : P3        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[24]                   : P4        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[22]                   : P5        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[21]                   : P6        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[18]                   : P7        : input  : 3.3-V LVTTL       :         : 1         : Y              
+GND                          : P8        : gnd    :                   :         :           :                
+GND                          : P9        : gnd    :                   :         :           :                
+GND                          : P10       : gnd    :                   :         :           :                
+GND                          : P11       : gnd    :                   :         :           :                
+GND                          : P12       : gnd    :                   :         :           :                
+GND                          : P13       : gnd    :                   :         :           :                
+RAMAD[4]                     : P14       : output : 3.3-V LVTTL       :         : 3         : Y              
+RAMAD[8]                     : P15       : output : 3.3-V LVTTL       :         : 3         : Y              
+RAMAD[9]                     : P16       : output : 3.3-V LVTTL       :         : 3         : Y              
+RAMAD[6]                     : P17       : output : 3.3-V LVTTL       :         : 3         : Y              
+RAMAD[7]                     : P18       : output : 3.3-V LVTTL       :         : 3         : Y              
+RAMAD[11]                    : P19       : output : 3.3-V LVTTL       :         : 3         : Y              
+RAMAD[10]                    : P20       : output : 3.3-V LVTTL       :         : 3         : Y              
+OR_DEL[25]                   : R1        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[26]                   : R2        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[29]                   : R3        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[30]                   : R4        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[28]                   : R5        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[27]                   : R6        : input  : 3.3-V LVTTL       :         : 1         : Y              
+nLBPCKE                      : R7        : output : 3.3-V LVTTL       :         : 4         : Y              
+VCCIO4                       : R8        : power  :                   : 3.3V    : 4         :                
+LB[23]                       : R9        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+VCCIO4                       : R10       : power  :                   : 3.3V    : 4         :                
+LBSP[16]                     : R11       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+VCCIO4                       : R12       : power  :                   : 3.3V    : 4         :                
+LB[5]                        : R13       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LBSP[17]                     : R14       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+RAMAD[5]                     : R15       : output : 3.3-V LVTTL       :         : 3         : Y              
+nWRRAM                       : R16       : output : 3.3-V LVTTL       :         : 3         : Y              
+RAMAD[3]                     : R17       : output : 3.3-V LVTTL       :         : 3         : Y              
+RAMAD[2]                     : R18       : output : 3.3-V LVTTL       :         : 3         : Y              
+RAMAD[1]                     : R19       : output : 3.3-V LVTTL       :         : 3         : Y              
+RAMAD[0]                     : R20       : output : 3.3-V LVTTL       :         : 3         : Y              
+VCCIO1                       : T1        : power  :                   : 3.3V    : 1         :                
+OR_DEL[36]                   : T2        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[35]                   : T3        : input  : 3.3-V LVTTL       :         : 1         : Y              
+DPCLK[0]                     : T4        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[46]                   : T5        : input  : 3.3-V LVTTL       :         : 4         : Y              
+DPCLK[7]                     : T6        : input  : 3.3-V LVTTL       :         : 4         : Y              
+RESERVED_INPUT               : T7        :        :                   :         : 4         :                
+nLBPCKR                      : T8        : output : 3.3-V LVTTL       :         : 4         : Y              
+LB[24]                       : T9        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[20]                       : T10       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[10]                       : T11       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[9]                        : T12       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[6]                        : T13       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LBSP[18]                     : T14       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LBSP[25]                     : T15       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LBSP[26]                     : T16       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+nOERAM                       : T17       : output : 3.3-V LVTTL       :         : 3         : Y              
+RESERVED_INPUT               : T18       :        :                   :         : 3         :                
+DPCLK[5]                     : T19       : input  : 3.3-V LVTTL       :         : 3         : Y              
+VCCIO3                       : T20       : power  :                   : 3.3V    : 3         :                
+SP_CTTM[6]                   : U1        : output : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[34]                   : U2        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[33]                   : U3        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[41]                   : U4        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[47]                   : U5        : input  : 3.3-V LVTTL       :         : 4         : Y              
+nLBWAIT                      : U6        : input  : 3.3-V LVTTL       :         : 4         : Y              
+LB[31]                       : U7        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[29]                       : U8        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[26]                       : U9        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[19]                       : U10       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[15]                       : U11       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[8]                        : U12       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[2]                        : U13       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LBSP[21]                     : U14       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LBSP[24]                     : U15       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LBSP[30]                     : U16       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+RAMDT[32]                    : U17       : bidir  : 3.3-V LVTTL       :         : 3         : Y              
+nCSRAM                       : U18       : output : 3.3-V LVTTL       :         : 3         : Y              
+RESERVED_INPUT               : U19       :        :                   :         : 3         :                
+RESERVED_INPUT               : U20       :        :                   :         : 3         :                
+GND                          : V1        : gnd    :                   :         :           :                
+OR_DEL[32]                   : V2        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[31]                   : V3        : input  : 3.3-V LVTTL       :         : 1         : Y              
+OR_DEL[44]                   : V4        : input  : 3.3-V LVTTL       :         : 4         : Y              
+nLBCS                        : V5        : input  : 3.3-V LVTTL       :         : 4         : Y              
+nLBRD                        : V6        : input  : 3.3-V LVTTL       :         : 4         : Y              
+LBSP[0]                      : V7        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[30]                       : V8        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[25]                       : V9        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+PULSE_TOGGLE                 : V10       : input  : 3.3-V LVTTL       :         : 4         : Y              
+LB[16]                       : V11       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[7]                        : V12       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[1]                        : V13       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LBSP[22]                     : V14       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LBSP[23]                     : V15       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LBSP[28]                     : V16       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LBSP[29]                     : V17       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+RESERVED_INPUT               : V18       :        :                   :         : 3         :                
+F_SO                         : V19       : input  : 3.3-V LVTTL       :         : 3         : N              
+GND                          : V20       : gnd    :                   :         :           :                
+VCCINT                       : W1        : power  :                   : 1.5V    :           :                
+GND                          : W2        : gnd    :                   :         :           :                
+OR_DEL[42]                   : W3        : input  : 3.3-V LVTTL       :         : 4         : Y              
+OR_DEL[45]                   : W4        : input  : 3.3-V LVTTL       :         : 4         : Y              
+nLBCLR                       : W5        : input  : 3.3-V LVTTL       :         : 4         : Y              
+nLBRES                       : W6        : input  : 3.3-V LVTTL       :         : 4         : Y              
+nLBAS                        : W7        : input  : 3.3-V LVTTL       :         : 4         : Y              
+LB[28]                       : W8        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[21]                       : W9        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[18]                       : W10       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[14]                       : W11       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[11]                       : W12       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[3]                        : W13       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LBSP[19]                     : W14       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+DPCLK[6]                     : W15       : input  : 3.3-V LVTTL       :         : 4         : Y              
+LBSP[27]                     : W16       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[0]                        : W17       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+RESERVED_INPUT               : W18       :        :                   :         : 3         :                
+GND                          : W19       : gnd    :                   :         :           :                
+VCCINT                       : W20       : power  :                   : 1.5V    :           :                
+GND                          : Y1        : gnd    :                   :         :           :                
+VCCINT                       : Y2        : power  :                   : 1.5V    :           :                
+GND                          : Y3        : gnd    :                   :         :           :                
+OR_DEL[43]                   : Y4        : input  : 3.3-V LVTTL       :         : 4         : Y              
+VCCIO4                       : Y5        : power  :                   : 3.3V    : 4         :                
+nLBLAST                      : Y6        : input  : 3.3-V LVTTL       :         : 4         : Y              
+nLBRDY                       : Y7        : output : 3.3-V LVTTL       :         : 4         : Y              
+LB[27]                       : Y8        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[22]                       : Y9        : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[17]                       : Y10       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[13]                       : Y11       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[12]                       : Y12       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LB[4]                        : Y13       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LBSP[20]                     : Y14       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+LTM_LOCAL_TRG                : Y15       : output : 3.3-V LVTTL       :         : 4         : Y              
+VCCIO4                       : Y16       : power  :                   : 3.3V    : 4         :                
+LBSP[31]                     : Y17       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
+GND                          : Y18       : gnd    :                   :         :           :                
+VCCINT                       : Y19       : power  :                   : 1.5V    :           :                
+GND                          : Y20       : gnd    :                   :         :           :                

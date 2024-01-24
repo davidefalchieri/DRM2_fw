@@ -1,0 +1,369 @@
+# Copyright (C) 1991-2004 Altera Corporation
+# Any  megafunction  design,  and related netlist (encrypted  or  decrypted),
+# support information,  device programming or simulation file,  and any other
+# associated  documentation or information  provided by  Altera  or a partner
+# under  Altera's   Megafunction   Partnership   Program  may  be  used  only
+# to program  PLD  devices (but not masked  PLD  devices) from  Altera.   Any
+# other  use  of such  megafunction  design,  netlist,  support  information,
+# device programming or simulation file,  or any other  related documentation
+# or information  is prohibited  for  any  other purpose,  including, but not
+# limited to  modification,  reverse engineering,  de-compiling, or use  with
+# any other  silicon devices,  unless such use is  explicitly  licensed under
+# a separate agreement with  Altera  or a megafunction partner.  Title to the
+# intellectual property,  including patents,  copyrights,  trademarks,  trade
+# secrets,  or maskworks,  embodied in any such megafunction design, netlist,
+# support  information,  device programming or simulation file,  or any other
+# related documentation or information provided by  Altera  or a megafunction
+# partner, remains with Altera, the megafunction partner, or their respective
+# licensors. No other licenses, including any licenses needed under any third
+# party's intellectual property, are provided herein.
+
+
+# The default values for assignments are stored in the file
+#		assignment_defaults.qdf
+
+# Altera recommends that you do not modify this file. This
+# file is updated automatically by the Quartus II software
+# and any changes you make may be lost or overwritten.
+
+
+# Project-Wide Assignments
+# ========================
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "5.1 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:50:06  JUNE 30, 2006"
+set_global_assignment -name LAST_QUARTUS_VERSION 8.0
+
+# Pin & Location Assignments
+# ==========================
+set_location_assignment PIN_D2 -to D_CTTM[0]
+set_location_assignment PIN_D3 -to SP_CTTM[0]
+set_location_assignment PIN_D4 -to SP_CTTM[4]
+set_location_assignment PIN_E2 -to D_CTTM[4]
+set_location_assignment PIN_E3 -to D_CTTM[3]
+set_location_assignment PIN_E4 -to D_CTTM[1]
+set_location_assignment PIN_E5 -to D_CTTM[2]
+set_location_assignment PIN_D1 -to OR_DEL[37]
+set_location_assignment PIN_F4 -to D_CTTM[5]
+set_location_assignment PIN_F5 -to D_CTTM[6]
+set_location_assignment PIN_F2 -to D_CTTM[7]
+set_location_assignment PIN_F1 -to D_CTTM[8]
+set_location_assignment PIN_G5 -to D_CTTM[10]
+set_location_assignment PIN_F6 -to D_CTTM[9]
+set_location_assignment PIN_G1 -to D_CTTM[11]
+set_location_assignment PIN_G2 -to D_CTTM[12]
+set_location_assignment PIN_G7 -to D_CTTM[14]
+set_location_assignment PIN_G6 -to D_CTTM[13]
+set_location_assignment PIN_G3 -to D_CTTM[15]
+set_location_assignment PIN_G4 -to D_CTTM[16]
+set_location_assignment PIN_H7 -to OR_DEL[38]
+set_location_assignment PIN_H1 -to D_CTTM[17]
+set_location_assignment PIN_H2 -to D_CTTM[18]
+set_location_assignment PIN_H3 -to D_CTTM[19]
+set_location_assignment PIN_H4 -to D_CTTM[20]
+set_location_assignment PIN_J1 -to D_CTTM[21]
+set_location_assignment PIN_J2 -to D_CTTM[22]
+set_location_assignment PIN_H6 -to OR_DEL[0]
+set_location_assignment PIN_H5 -to D_CTTM[23]
+set_location_assignment PIN_J3 -to OR_DEL[1]
+set_location_assignment PIN_J4 -to OR_DEL[2]
+set_location_assignment PIN_J5 -to OR_DEL[3]
+set_location_assignment PIN_J6 -to OR_DEL[4]
+set_location_assignment PIN_J7 -to OR_DEL[39]
+set_location_assignment PIN_J8 -to SP_CTTM[5]
+set_location_assignment PIN_K5 -to SCLK
+set_location_assignment PIN_D17 -to LBSP[7]
+set_location_assignment PIN_L8 -to CLK_CTTM
+set_location_assignment PIN_M2 -to OR_DEL[5]
+set_location_assignment PIN_M1 -to OR_DEL[6]
+set_location_assignment PIN_M6 -to OR_DEL[8]
+set_location_assignment PIN_M5 -to OR_DEL[7]
+set_location_assignment PIN_M4 -to OR_DEL[9]
+set_location_assignment PIN_M3 -to OR_DEL[10]
+set_location_assignment PIN_N6 -to OR_DEL[12]
+set_location_assignment PIN_M7 -to OR_DEL[11]
+set_location_assignment PIN_N1 -to OR_DEL[13]
+set_location_assignment PIN_N2 -to OR_DEL[14]
+set_location_assignment PIN_N4 -to OR_DEL[15]
+set_location_assignment PIN_N3 -to OR_DEL[16]
+set_location_assignment PIN_N5 -to OR_DEL[40]
+set_location_assignment PIN_N7 -to OR_DEL[17]
+set_location_assignment PIN_P7 -to OR_DEL[18]
+set_location_assignment PIN_P2 -to OR_DEL[19]
+set_location_assignment PIN_P1 -to OR_DEL[20]
+set_location_assignment PIN_P6 -to OR_DEL[21]
+set_location_assignment PIN_P5 -to OR_DEL[22]
+set_location_assignment PIN_P3 -to OR_DEL[23]
+set_location_assignment PIN_P4 -to OR_DEL[24]
+set_location_assignment PIN_R1 -to OR_DEL[25]
+set_location_assignment PIN_R2 -to OR_DEL[26]
+set_location_assignment PIN_R6 -to OR_DEL[27]
+set_location_assignment PIN_R5 -to OR_DEL[28]
+set_location_assignment PIN_R3 -to OR_DEL[29]
+set_location_assignment PIN_R4 -to OR_DEL[30]
+set_location_assignment PIN_T2 -to OR_DEL[36]
+set_location_assignment PIN_T3 -to OR_DEL[35]
+set_location_assignment PIN_U1 -to SP_CTTM[6]
+set_location_assignment PIN_U4 -to OR_DEL[41]
+set_location_assignment PIN_U2 -to OR_DEL[34]
+set_location_assignment PIN_U3 -to OR_DEL[33]
+set_location_assignment PIN_V2 -to OR_DEL[32]
+set_location_assignment PIN_V3 -to OR_DEL[31]
+set_location_assignment PIN_W3 -to OR_DEL[42]
+set_location_assignment PIN_Y4 -to OR_DEL[43]
+set_location_assignment PIN_V4 -to OR_DEL[44]
+set_location_assignment PIN_W4 -to OR_DEL[45]
+set_location_assignment PIN_T5 -to OR_DEL[46]
+set_location_assignment PIN_U5 -to OR_DEL[47]
+set_location_assignment PIN_V5 -to nLBCS
+set_location_assignment PIN_W5 -to nLBCLR
+set_location_assignment PIN_T6 -to DPCLK[7]
+set_location_assignment PIN_W6 -to nLBRES
+set_location_assignment PIN_Y6 -to nLBLAST
+set_location_assignment PIN_U6 -to nLBWAIT
+set_location_assignment PIN_V6 -to nLBRD
+set_location_assignment PIN_W7 -to nLBAS
+set_location_assignment PIN_Y7 -to nLBRDY
+set_location_assignment PIN_R7 -to nLBPCKE
+set_location_assignment PIN_T8 -to nLBPCKR
+set_location_assignment PIN_V7 -to LBSP[0]
+set_location_assignment PIN_U7 -to LB[31]
+set_location_assignment PIN_V8 -to LB[30]
+set_location_assignment PIN_U8 -to LB[29]
+set_location_assignment PIN_W8 -to LB[28]
+set_location_assignment PIN_Y8 -to LB[27]
+set_location_assignment PIN_U9 -to LB[26]
+set_location_assignment PIN_V9 -to LB[25]
+set_location_assignment PIN_T9 -to LB[24]
+set_location_assignment PIN_R9 -to LB[23]
+set_location_assignment PIN_Y9 -to LB[22]
+set_location_assignment PIN_W9 -to LB[21]
+set_location_assignment PIN_T10 -to LB[20]
+set_location_assignment PIN_U10 -to LB[19]
+set_location_assignment PIN_W10 -to LB[18]
+set_location_assignment PIN_Y10 -to LB[17]
+set_location_assignment PIN_V11 -to LB[16]
+set_location_assignment PIN_U11 -to LB[15]
+set_location_assignment PIN_W11 -to LB[14]
+set_location_assignment PIN_Y11 -to LB[13]
+set_location_assignment PIN_R11 -to LBSP[16]
+set_location_assignment PIN_Y12 -to LB[12]
+set_location_assignment PIN_W12 -to LB[11]
+set_location_assignment PIN_T11 -to LB[10]
+set_location_assignment PIN_T12 -to LB[9]
+set_location_assignment PIN_U12 -to LB[8]
+set_location_assignment PIN_V12 -to LB[7]
+set_location_assignment PIN_T13 -to LB[6]
+set_location_assignment PIN_R13 -to LB[5]
+set_location_assignment PIN_Y13 -to LB[4]
+set_location_assignment PIN_W13 -to LB[3]
+set_location_assignment PIN_U13 -to LB[2]
+set_location_assignment PIN_V13 -to LB[1]
+set_location_assignment PIN_R14 -to LBSP[17]
+set_location_assignment PIN_T14 -to LBSP[18]
+set_location_assignment PIN_W14 -to LBSP[19]
+set_location_assignment PIN_Y14 -to LBSP[20]
+set_location_assignment PIN_U14 -to LBSP[21]
+set_location_assignment PIN_V14 -to LBSP[22]
+set_location_assignment PIN_V15 -to LBSP[23]
+set_location_assignment PIN_U15 -to LBSP[24]
+set_location_assignment PIN_W15 -to DPCLK[6]
+set_location_assignment PIN_T15 -to LBSP[25]
+set_location_assignment PIN_T16 -to LBSP[26]
+set_location_assignment PIN_W16 -to LBSP[27]
+set_location_assignment PIN_V16 -to LBSP[28]
+set_location_assignment PIN_V17 -to LBSP[29]
+set_location_assignment PIN_U16 -to LBSP[30]
+set_location_assignment PIN_Y17 -to LBSP[31]
+set_location_assignment PIN_W17 -to LB[0]
+set_location_assignment PIN_U18 -to nCSRAM
+set_location_assignment PIN_U17 -to RAMDT[32]
+set_location_assignment PIN_T19 -to DPCLK[5]
+set_location_assignment PIN_T17 -to nOERAM
+set_location_assignment PIN_R16 -to nWRRAM
+set_location_assignment PIN_R19 -to RAMAD[1]
+set_location_assignment PIN_R20 -to RAMAD[0]
+set_location_assignment PIN_R17 -to RAMAD[3]
+set_location_assignment PIN_R18 -to RAMAD[2]
+set_location_assignment PIN_N19 -to RAMAD[15]
+set_location_assignment PIN_P14 -to RAMAD[4]
+set_location_assignment PIN_P18 -to RAMAD[7]
+set_location_assignment PIN_P17 -to RAMAD[6]
+set_location_assignment PIN_P15 -to RAMAD[8]
+set_location_assignment PIN_P16 -to RAMAD[9]
+set_location_assignment PIN_P19 -to RAMAD[11]
+set_location_assignment PIN_P20 -to RAMAD[10]
+set_location_assignment PIN_N18 -to RAMAD[13]
+set_location_assignment PIN_N17 -to RAMAD[12]
+set_location_assignment PIN_N20 -to RAMAD[14]
+set_location_assignment PIN_N15 -to RAMAD[16]
+set_location_assignment PIN_N16 -to RAMAD[17]
+set_location_assignment PIN_M18 -to RAMDT[1]
+set_location_assignment PIN_M17 -to RAMDT[0]
+set_location_assignment PIN_M16 -to RAMDT[2]
+set_location_assignment PIN_M15 -to RAMDT[3]
+set_location_assignment PIN_M20 -to RAMDT[5]
+set_location_assignment PIN_M19 -to RAMDT[4]
+set_location_assignment PIN_L13 -to LBSP[5]
+set_location_assignment PIN_M13 -to LBSP[4]
+set_location_assignment PIN_T4 -to DPCLK[0]
+set_location_assignment PIN_L14 -to LCLK
+set_location_assignment PIN_K19 -to LBSP[6]
+set_location_assignment PIN_K15 -to RAMDT[6]
+set_location_assignment PIN_K16 -to RAMDT[7]
+set_location_assignment PIN_J18 -to RAMDT[9]
+set_location_assignment PIN_J17 -to RAMDT[8]
+set_location_assignment PIN_J14 -to RAMDT[11]
+set_location_assignment PIN_H14 -to RAMDT[10]
+set_location_assignment PIN_J20 -to RAMDT[13]
+set_location_assignment PIN_J19 -to RAMDT[12]
+set_location_assignment PIN_J15 -to RAMDT[15]
+set_location_assignment PIN_J16 -to RAMDT[14]
+set_location_assignment PIN_H20 -to RAMDT[17]
+set_location_assignment PIN_H19 -to RAMDT[16]
+set_location_assignment PIN_H17 -to RAMDT[19]
+set_location_assignment PIN_H18 -to RAMDT[18]
+set_location_assignment PIN_H16 -to LBSP[1]
+set_location_assignment PIN_G17 -to RAMDT[21]
+set_location_assignment PIN_G18 -to RAMDT[20]
+set_location_assignment PIN_H15 -to RAMDT[23]
+set_location_assignment PIN_G14 -to RAMDT[22]
+set_location_assignment PIN_G19 -to RAMDT[25]
+set_location_assignment PIN_G20 -to RAMDT[24]
+set_location_assignment PIN_G15 -to RAMDT[27]
+set_location_assignment PIN_G16 -to RAMDT[26]
+set_location_assignment PIN_F19 -to RAMDT[28]
+set_location_assignment PIN_F20 -to RAMDT[29]
+set_location_assignment PIN_F16 -to RAMDT[30]
+set_location_assignment PIN_F15 -to RAMDT[31]
+set_location_assignment PIN_E19 -to LBSP[9]
+set_location_assignment PIN_E18 -to LBSP[8]
+set_location_assignment PIN_F18 -to DPCLK[4]
+set_location_assignment PIN_F17 -to LBSP[11]
+set_location_assignment PIN_E17 -to LBSP[10]
+set_location_assignment PIN_D19 -to LBSP[13]
+set_location_assignment PIN_D18 -to LBSP[12]
+set_location_assignment PIN_C19 -to LBSP[15]
+set_location_assignment PIN_C18 -to LBSP[14]
+set_location_assignment PIN_C17 -to RAMDT[34]
+set_location_assignment PIN_B18 -to RAMDT[33]
+set_location_assignment PIN_B17 -to RAMDT[36]
+set_location_assignment PIN_A17 -to RAMDT[35]
+set_location_assignment PIN_C16 -to RAMDT[38]
+set_location_assignment PIN_B16 -to RAMDT[37]
+set_location_assignment PIN_D16 -to RAMDT[40]
+set_location_assignment PIN_E16 -to RAMDT[39]
+set_location_assignment PIN_C15 -to DPCLK[3]
+set_location_assignment PIN_D15 -to SP_CTTM[1]
+set_location_assignment PIN_B15 -to RAMDT[42]
+set_location_assignment PIN_A15 -to RAMDT[41]
+set_location_assignment PIN_E15 -to RAMDT[44]
+set_location_assignment PIN_F14 -to RAMDT[43]
+set_location_assignment PIN_A14 -to RAMDT[46]
+set_location_assignment PIN_B14 -to RAMDT[45]
+set_location_assignment PIN_E14 -to TST[0]
+set_location_assignment PIN_E13 -to RAMDT[47]
+set_location_assignment PIN_C14 -to TST[2]
+set_location_assignment PIN_D14 -to TST[1]
+set_location_assignment PIN_A13 -to TST[4]
+set_location_assignment PIN_B13 -to TST[3]
+set_location_assignment PIN_C13 -to TST[6]
+set_location_assignment PIN_D13 -to TST[5]
+set_location_assignment PIN_F12 -to TST[7]
+set_location_assignment PIN_E11 -to TRM[9]
+set_location_assignment PIN_D11 -to TRD[0]
+set_location_assignment PIN_D10 -to TRD[2]
+set_location_assignment PIN_C10 -to TRD[1]
+set_location_assignment PIN_F10 -to SP_CTTM[2]
+set_location_assignment PIN_A10 -to TRD[4]
+set_location_assignment PIN_B10 -to TRD[3]
+set_location_assignment PIN_E10 -to TRD[6]
+set_location_assignment PIN_E9 -to TRD[5]
+set_location_assignment PIN_C9 -to LBSP[2]
+set_location_assignment PIN_D9 -to TRD[7]
+set_location_assignment PIN_A9 -to TRM[0]
+set_location_assignment PIN_B9 -to LBSP[3]
+set_location_assignment PIN_C8 -to TRM[2]
+set_location_assignment PIN_D8 -to TRM[1]
+set_location_assignment PIN_A8 -to TRM[4]
+set_location_assignment PIN_B8 -to TRM[3]
+set_location_assignment PIN_E8 -to TRM[6]
+set_location_assignment PIN_F8 -to TRM[5]
+set_location_assignment PIN_C7 -to TRM[8]
+set_location_assignment PIN_D7 -to TRM[7]
+set_location_assignment PIN_A7 -to TRM[11]
+set_location_assignment PIN_B7 -to TRM[10]
+set_location_assignment PIN_E7 -to TRM[13]
+set_location_assignment PIN_F7 -to TRM[12]
+set_location_assignment PIN_A6 -to TRM[15]
+set_location_assignment PIN_B6 -to TRM[14]
+set_location_assignment PIN_E6 -to SP_CTTM[3]
+set_location_assignment PIN_C6 -to DPCLK[2]
+set_location_assignment PIN_B5 -to TRM[17]
+set_location_assignment PIN_C5 -to TRM[16]
+set_location_assignment PIN_D6 -to TRM[19]
+set_location_assignment PIN_D5 -to TRM[18]
+set_location_assignment PIN_A4 -to TRM[21]
+set_location_assignment PIN_B4 -to TRM[20]
+set_location_assignment PIN_B3 -to TRM[23]
+set_location_assignment PIN_C4 -to TRM[22]
+
+# Timing Assignments
+# ==================
+set_global_assignment -name IGNORE_CLOCK_SETTINGS ON
+set_global_assignment -name INCLUDE_EXTERNAL_PIN_DELAYS_IN_FMAX_CALCULATIONS OFF
+set_global_assignment -name FMAX_REQUIREMENT "40 MHz"
+
+# Analysis & Synthesis Assignments
+# ================================
+set_global_assignment -name FAMILY Cyclone
+set_global_assignment -name TOP_LEVEL_ENTITY trigger_top
+
+# Fitter Assignments
+# ==================
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_global_assignment -name CYCLONE_CONFIGURATION_SCHEME "PASSIVE SERIAL"
+set_global_assignment -name DEVICE EP1C20F400C6
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD LVTTL
+set_instance_assignment -name IO_STANDARD LVTTL -to LBSP[7]
+set_instance_assignment -name IO_STANDARD LVTTL -to nLBCS
+
+# EDA Netlist Writer Assignments
+# ==============================
+set_global_assignment -name EDA_SIMULATION_TOOL "<None>"
+
+# Assembler Assignments
+# =====================
+set_global_assignment -name GENERATE_RBF_FILE ON
+
+# ---------------------------------------
+# start EDA_TOOL_SETTINGS(eda_simulation)
+
+# EDA Netlist Writer Assignments
+# ==============================
+set_global_assignment -name EDA_INCLUDE_VHDL_CONFIGURATION_DECLARATION OFF -section_id eda_simulation
+set_global_assignment -name EDA_MAP_ILLEGAL_CHARACTERS OFF -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT NONE -section_id eda_simulation
+
+# end EDA_TOOL_SETTINGS(eda_simulation)
+# -------------------------------------
+
+set_global_assignment -name CRC_ERROR_CHECKING ON
+set_location_assignment PIN_R15 -to RAMAD[5]
+set_global_assignment -name ENABLE_CLOCK_LATENCY ON
+set_location_assignment PIN_F3 -to DPCLK[1]
+set_instance_assignment -name CUT ON -from "test:I0|PDL_SEL_REG" -to *
+set_instance_assignment -name CUT ON -from "test:I0|TEST_CTRL_REG" -to *
+set_instance_assignment -name CUT ON -from "test:I0|TEST_STAT_REG" -to *
+set_instance_assignment -name CUT ON -from "test:I0|PDL_DELAY_REG" -to *
+set_location_assignment PIN_V10 -to PULSE_TOGGLE
+set_location_assignment PIN_Y15 -to LTM_LOCAL_TRG
+set_instance_assignment -name FAST_OUTPUT_ENABLE_REGISTER ON -to LB
+set_instance_assignment -name FAST_INPUT_REGISTER ON -to LB
+set_instance_assignment -name FAST_OUTPUT_REGISTER ON -to LB
+set_global_assignment -name USE_TIMEQUEST_TIMING_ANALYZER ON
+set_global_assignment -name GENERATE_TTF_FILE OFF
+set_global_assignment -name RESERVE_ASDO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+set_global_assignment -name VHDL_FILE ../../SRC/vx1392_trig/hdl/trigger_top.vhd
+set_global_assignment -name VHDL_FILE ../../SRC/vx1392_trig/hdl/cttm_pll.vhd
+set_global_assignment -name VHDL_FILE ../../SRC/vx1392_trig/hdl/test.vhd
